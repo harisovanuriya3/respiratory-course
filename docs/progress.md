@@ -17,3 +17,12 @@ User explicitly requested ALL pages WITHOUT learning content, the previously agr
 
 ## Next step
 Review the cover and structure with the user. Only after their instruction, start original educational content with authoritative sources, and implement/test the labs, patients, exam and audio. Do not treat placeholder page count as completed educational content.
+
+## Publication and observed verification
+
+- Vercel project: prj_MpAThsKhxPB5wKn0S6CbFWXbbFbx, team team_kLxQutTWfYYsnhcF7BqthuHY.
+- Production: https://respiratory-course.vercel.app/ — deployment dpl_6vzNmhCSGwMjvQiiHSaEsqWgAAWK reached READY, source commit 452a1c5d5a0a35aa088739bb86dcb672c41f0252.
+- Public root opened in the cloud browser without sign-in. Lung cover and author credit rendered correctly; screenshot saved as docs/title-preview.jpg.
+- Browser verified contents, title search (сурфактант), transition to module 5 and all 17 section links. Full mobile/browser sweep not completed; structural routes and syntax verified locally.
+- GitHub integration linking failed in Vercel. Published identical source files via the Vercel deployment API instead. Auto-deploy from GitHub is NOT configured. Future updates need explicit deployment or user setup of Vercel's GitHub integration. Reuse the existing project, do not create duplicates.
+- Daily automation changed to morning Asia/Almaty, starting 2026-10-16; actual execution depends on available quota.
