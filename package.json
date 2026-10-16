@@ -1,1 +1,18 @@
-{"name":"respiratory-course","version":"0.1.0","private":true,"type":"module","scripts":{"build":"node build.mjs","check":"node check.mjs", "acceptance":"node build.mjs && node check.mjs && node acceptance-check.mjs && node test-study-tools.mjs"}}
+{
+  "name": "respiratory-course",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "node check.mjs",
+    "acceptance": "node build.mjs && node check.mjs && node acceptance-check.mjs && node test-study-tools.mjs",
+    "test": "node run-tests.mjs",
+    "audit:content": "node audit-rendered.mjs",
+    "test:browser": "node browser-audit.mjs",
+    "verify": "npm run build && npm run check && npm test && npm run audit:content"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1"
+  }
+}

@@ -1,0 +1,58 @@
+// Localize labels in legacy investigation tables, retaining standard symbols.
+const labels={
+ 'End inspiration':['Конец вдоха','End inspiration','Дем алу соңы'],
+ 'After phrenic injury':['После повреждения диафрагмального нерва','After phrenic injury','Көкет жүйкесі зақымданғаннан кейін'],
+ 'No flow':['Поток отсутствует','No flow','Ағын жоқ'],
+ 'Open pneumothorax model':['Модель открытого пневмоторакса','Open pneumothorax model','Ашық пневмоторакс моделі'],
+ 'Fixed tension':['Постоянное натяжение','Fixed tension','Тұрақты керілу'],
+ 'Spherical model':['Модель сферы','Spherical model','Сфера моделі'],
+ 'Room air':['Комнатный воздух','Room air','Бөлме ауасы'],
+ 'Ambient air':['Окружающий воздух','Ambient air','Қоршаған ауа'],
+ 'Air':['Воздух','Air','Ауа'],
+ 'Measured':['Измерено','Measured','Өлшенген'],
+ 'Compare with LLN':['Сравните с нижней границей нормы','Compare with LLN','Қалыптың төменгі шегімен салыстырыңыз'],
+ 'Радиус бронха':['Радиус бронха','Bronchial radius','Бронх радиусы'],
+ 'Относительный радиус':['Относительный радиус','Relative radius','Салыстырмалы радиус'],
+ 'Quiet breathing':['Спокойное дыхание','Quiet breathing','Тыныш тыныс'],
+ 'Частота':['Частота','Rate','Жиілік'],
+ 'Example':['Пример','Example','Мысал'],
+ 'Assumed':['Принято в модели','Assumed','Модельде қабылданған'],
+ 'Площадь барьера':['Площадь барьера','Barrier area','Бөгет ауданы'],
+ 'Толщина':['Толщина','Thickness','Қалыңдық'],
+ 'Sea level':['Уровень моря','Sea level','Теңіз деңгейі'],
+ 'Sea level: 760':['Уровень моря: 760','Sea level: 760','Теңіз деңгейі: 760'],
+ 'Expected DLCO':['Ожидаемая DLCO','Expected DLCO','Күтілетін DLCO'],
+ 'Illustrative':['Учебный пример','Illustrative','Оқу мысалы'],
+ 'Альвеолярная вентиляция':['Альвеолярная вентиляция','Alveolar ventilation','Альвеолалық вентиляция'],
+ 'Regional':['Регионарный показатель','Regional','Аймақтық көрсеткіш'],
+ 'Кровоток':['Кровоток','Blood flow','Қан ағымы'],
+ 'Fraction':['Доля','Fraction','Үлес'],
+ 'High':['Повышено','High','Жоғары'],
+ 'Low':['Снижено','Low','Төмен'],
+ 'Large breath':['Глубокий вдох','Large breath','Терең дем алу'],
+ 'Афферентный путь':['Афферентный путь','Afferent pathway','Афференттік жол'],
+ 'Vagus':['Блуждающий нерв','Vagus nerve','Кезбе жүйке'],
+ 'Intact':['Сохранён','Intact','Сақталған'],
+ 'Exercise':['Нагрузка','Exercise','Жүктеме'],
+ 'Altitude':['Высота','Altitude','Биіктік'],
+ 'Апноэ + гипопноэ':['Апноэ + гипопноэ','Apneas + hypopneas','Апноэ + гипопноэ'],
+ 'Study':['Данные исследования','Study data','Зерттеу деректері'],
+ 'Время сна':['Время сна','Sleep time','Ұйқы уақыты'],
+ 'Глубина':['Глубина','Depth','Тереңдік'],
+ 'Seawater':['Морская вода','Seawater','Теңіз суы'],
+ 'Давление поверхности':['Давление на поверхности','Surface pressure','Беттегі қысым'],
+ 'Approximate':['Приблизительно','Approximate','Шамамен'],
+ 'FEV₁ до':['FEV₁ до','FEV₁ before','Бастапқы FEV₁'],
+ 'Pre':['До','Before','Дейін'],
+ 'FEV₁ после':['FEV₁ после','FEV₁ after','Кейінгі FEV₁'],
+ 'Post':['После','After','Кейін'],
+ '4 mm baseline':['Исходно 4 мм','4 mm baseline','Бастапқы 4 мм'],
+ 'At 37 °C':['При 37 °C','At 37 °C','37 °C кезінде'],
+ '12–16 g/dL (example)':['12–16 г/дл (пример)','12–16 g/dL (example)','12–16 г/дл (мысал)']
+};
+export function patientLabel(value,L){
+ if(labels[value])return labels[value][L];
+ if(L===1)return value;
+ const units=[['mmHg',['мм рт. ст.','mmHg','мм сын. бағ.']],['mmol/L',['ммоль/л','mmol/L','ммоль/л']],['g/dL',['г/дл','g/dL','г/дл']],['mL/min',['мл/мин','mL/min','мл/мин']],['L/min',['л/мин','L/min','л/мин']],['mL/dL',['мл/дл','mL/dL','мл/дл']],['mL',['мл','mL','мл']],[' L',[' л',' L',' л']],['mm',['мм','mm','мм']],['events',['событий','events','оқиға']],[' h',[' ч',' h',' сағ']]];
+ let result=value;for(const [key,translations] of units)result=result.replaceAll(key,translations[L]);return result;
+}

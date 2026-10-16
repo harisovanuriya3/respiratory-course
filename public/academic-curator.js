@@ -1,4 +1,5 @@
 import {targetedRemediation} from './targeted-academic-remediation.js';
+import {workedPractice} from './practice-workshops.js';
 import {scientificReviewV100} from './scientific-review-v100.js';
 import {academicV99} from './academic-v99.js';
 import {academicV98} from './academic-v98.js';
@@ -30,6 +31,16 @@ import {sectionDepthV70} from './section-depth-v70.js';
 // components are rendered separately and remain available.
 const revisions = [scientificReviewV100, academicV99, academicV98, focusedAcademicV97, substantiveLessonV95, scientificCorrectionsV81, academicV68, academicV67, academicV66, academicV65, academicV64, academicCasesV63, academicV58, academicV57, academicV56, academicDeepeningV55, academicRegulationV54, physiologyV53, physiologyV52, physiologyV51, advancedPhysiologyV50, extendedLesson, deepClinicalLesson];
 export function curatedAcademic(moduleId, subsection, language) {
+  const workshop=workedPractice(moduleId,subsection,language);
+  if(workshop){
+    const existing=priorAcademic(moduleId,subsection,language);
+    // Keep substantial existing explanations alongside the new worked task.
+    const length=existing.replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim().length;
+    return (length>=600?existing:'')+workshop;
+  }
+  return priorAcademic(moduleId,subsection,language);
+}
+function priorAcademic(moduleId, subsection, language) {
   // Reviewed topic-specific replacement for selected weak supplemental sections.
   const corrected = targetedRemediation(moduleId, subsection, language);
   if (corrected) {

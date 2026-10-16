@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-16",
+  "tests": {
+    "passed": 15,
+    "total": 15
+  },
+  "buildPages": 456,
+  "syntaxCheckedFiles": 87,
+  "contentVersions": 1275,
+  "emptyPlaceholders": 0,
+  "renderErrors": 0,
+  "missingSelfAssessmentControls": 0,
+  "mixedEnglishBlocks": 0,
+  "untranslatedProse": 0,
+  "browser": {
+    "fullRoutes": 1275,
+    "patientRuns": 75,
+    "laboratoryPages": 75,
+    "controls": 444,
+    "moduleExams": 75,
+    "mobilePages": 243,
+    "mobileOverflow": 0,
+    "localBrokenLinks": 0,
+    "duplicateIds": 0,
+    "errors": 0,
+    "finalRegressionRoutes": 99,
+    "finalRegressionErrors": 0,
+    "caseRoutes": 6,
+    "caseRouteErrors": 0
+  },
+  "academicSignoff": false,
+  "published": false
+}

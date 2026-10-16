@@ -1,0 +1,48 @@
+{
+  "routes": 6,
+  "patients": [],
+  "labs": [],
+  "exams": [
+    {
+      "module": "all",
+      "lang": "EN",
+      "questions": 50,
+      "mode": "perfect-score"
+    },
+    {
+      "module": "all",
+      "lang": "RU",
+      "questions": 50,
+      "mode": "perfect-score"
+    },
+    {
+      "module": "all",
+      "lang": "KZ",
+      "questions": 50,
+      "mode": "perfect-score"
+    },
+    {
+      "module": "all",
+      "lang": "RU",
+      "questions": 50,
+      "mode": "expired-unanswered"
+    },
+    {
+      "module": "all",
+      "lang": "KZ",
+      "questions": 50,
+      "mode": "expired-unanswered"
+    },
+    {
+      "module": "all",
+      "lang": "EN",
+      "questions": 50,
+      "mode": "expired-unanswered"
+    }
+  ],
+  "selfAssessments": [],
+  "mobile": [],
+  "errors": [],
+  "brokenLinks": [],
+  "duplicateIds": []
+}

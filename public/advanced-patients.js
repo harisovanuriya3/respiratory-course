@@ -1,3 +1,7 @@
+import {patientContext} from './patient-context.js';
+import {patientCases} from './patient-cases.js';
+import {repairPatientEvidence} from './patient-evidence.js';
+import {patientLabel} from './patient-localization.js';
 const cases = [
   {
     "title": [
@@ -3943,8 +3947,9 @@ const evidenceCases = [
 {"measure": [["CO", "4.5 L/min", "Measured"], ["CaO₂", "12 mL/dL", "Measured"]], "q": ["Какова доставка кислорода DO₂ в мл/мин?", "What is oxygen delivery DO₂ in mL/min?", "DO₂ оттегі жеткізілімі мл/мин қанша?"], "a": [["540 мл/мин", "54 мл/мин", "900 мл/мин"], ["540 mL/min", "54 mL/min", "900 mL/min"], ["540 мл/мин", "54 мл/мин", "900 мл/мин"]], "why": ["DO₂=CO×CaO₂×10=4,5×12×10=540 мл/мин.", "DO₂=CO×CaO₂×10=4.5×12×10=540 mL/min.", "DO₂=CO×CaO₂×10=4,5×12×10=540 мл/мин."]}
 ];
 function showEvidence(L,panel,c,done){
- panel.innerHTML=`<div class="patient-investigation"><h3>${txt(L,'Данные исследования и расчёт','Investigation data and calculation','Зерттеу деректері мен есеп')}</h3><p class="small-note">${txt(L,'Синтетические учебные данные, не реальный пациент.','Synthetic educational data, not a real patient.','Оқу мақсатындағы жасанды деректер, нақты пациент емес.')}</p><table class="evidence-table"><thead><tr><th>${txt(L,'Показатель','Parameter','Көрсеткіш')}</th><th>${txt(L,'Результат','Result','Нәтиже')}</th><th>${txt(L,'Ориентир','Reference','Бағдар')}</th></tr></thead><tbody>${c.measure.map(x=>`<tr><th>${esc(x[0])}</th><td>${esc(x[1])}</td><td>${esc(x[2])}</td></tr>`).join('')}</tbody></table><p><strong>${esc(c.q[L])}</strong></p><div class="patient-options">${c.a[L].map((x,i)=>`<button type="button" data-evidence="${i}">${esc(x)}</button>`).join('')}</div><p class="patient-feedback" role="status" aria-live="polite"></p><div class="advanced-next"></div></div>`;
+ panel.innerHTML=`<div class="patient-investigation"><h3>${txt(L,'Данные исследования и расчёт','Investigation data and calculation','Зерттеу деректері мен есеп')}</h3><p class="small-note">${txt(L,'Синтетические учебные данные, не реальный пациент.','Synthetic educational data, not a real patient.','Оқу мақсатындағы жасанды деректер, нақты пациент емес.')}</p><table class="evidence-table"><thead><tr><th>${txt(L,'Показатель','Parameter','Көрсеткіш')}</th><th>${txt(L,'Результат','Result','Нәтиже')}</th><th>${txt(L,'Ориентир','Reference','Бағдар')}</th></tr></thead><tbody>${c.measure.map(x=>`<tr><th>${esc(patientLabel(x[0],L))}</th><td>${esc(patientLabel(x[1],L))}</td><td>${esc(patientLabel(x[2],L))}</td></tr>`).join('')}</tbody></table><p><strong>${esc(c.q[L])}</strong></p><div class="patient-options">${shuffledEntries(c.a[L]).map(([x,i])=>`<button type="button" data-evidence="${i}">${esc(x)}</button>`).join('')}</div><p class="patient-feedback" role="status" aria-live="polite"></p><div class="advanced-next"></div></div>`;
  panel.querySelectorAll('[data-evidence]').forEach(b=>b.onclick=()=>{
+  if(b.disabled)return;
   const ok=Number(b.dataset.evidence)===0;
   panel.querySelectorAll('[data-evidence]').forEach(x=>{x.disabled=true;x.classList.toggle('correct',x.dataset.evidence==='0');x.classList.toggle('incorrect',x===b&&!ok)});
   panel.querySelector('.patient-feedback').textContent=c.why[L];
@@ -3952,10 +3957,15 @@ function showEvidence(L,panel,c,done){
  });
 }
 const allInvestigationCases = investigationCases.concat(additionalInvestigations);
-const investigate=(L,c)=>`<div class="patient-investigation"><h3>${esc(c.name[L])}</h3><p>${esc(c.question[L])}</p><div class="patient-options">${c.options[L].map((o,i)=>`<button type="button" data-investigation="${i}">${esc(o)}</button>`).join('')}</div><p class="patient-feedback" role="status" aria-live="polite"></p><div class="investigation-graph" aria-label="${txt(L,'Сравнение физиологических показателей','Comparison of physiological values','Физиологиялық көрсеткіштерді салыстыру')}"></div><div class="advanced-next"></div></div>`;
+for(const c of cases){const id=Number(c.title[0].match(/^Раздел (\d+):/)?.[1]);if(id)c.stages[0].why=[...patientCases[id-1].explanation];}
+const caseEvidenceIndices=repairPatientEvidence(cases,evidenceCases,allInvestigationCases);
+const evidenceFor=index=>evidenceCases[caseEvidenceIndices[index]];
+export const patientEvidenceData=cases.map((c,index)=>({caseIndex:index,evidenceIndex:caseEvidenceIndices[index],evidence:evidenceFor(index),investigation:allInvestigationCases[index]}));
+const investigate=(L,c)=>`<div class="patient-investigation"><h3>${esc(c.name[L])}</h3><p>${esc(c.question[L])}</p><div class="patient-options">${shuffledEntries(c.options[L]).map(([o,i])=>`<button type="button" data-investigation="${i}">${esc(o)}</button>`).join('')}</div><p class="patient-feedback" role="status" aria-live="polite"></p><div class="investigation-graph" aria-label="${txt(L,'Сравнение физиологических показателей','Comparison of physiological values','Физиологиялық көрсеткіштерді салыстыру')}"></div><div class="advanced-next"></div></div>`;
 function showInvestigation(L,panel,c,done){
  panel.innerHTML=investigate(L,c);
  panel.querySelectorAll('[data-investigation]').forEach(b=>b.onclick=()=>{
+  if(b.disabled)return;
   const j=Number(b.dataset.investigation),ok=j===c.correct;
   panel.querySelectorAll('[data-investigation]').forEach(x=>{x.disabled=true;x.classList.toggle('correct',Number(x.dataset.investigation)===c.correct);x.classList.toggle('incorrect',x===b&&!ok)});
   panel.querySelector('.patient-feedback').textContent=c.results[j][L];
@@ -3967,32 +3977,47 @@ function showInvestigation(L,panel,c,done){
 }
 function showBranch(L,panel,c,firstCorrect,done){
  const choices=firstCorrect
- ? [txt(L,'Результат выбранного исследования','Result of selected investigation','Таңдалған зерттеу нәтижесі'),txt(L,'Результат другого исследования','Result of another investigation','Басқа зерттеу нәтижесі')]
- : [txt(L,'Вернуться к исследованию, оценивающему нужный механизм','Reassess with a test measuring the relevant mechanism','Қажетті механизмді бағалайтын зерттеуге оралу'),txt(L,'Сделать заключение без дополнительных данных','Conclude without further evidence','Қосымша дерексіз қорытынды жасау')];
+ ? [c.results[c.correct][L],txt(L,'Использовать только: ','Use only: ','Тек мынаны пайдалану: ')+c.options[L][(c.correct+1)%c.options[L].length]]
+ : [txt(L,'Получить данные: ','Obtain data from: ','Деректерді алу: ')+c.options[L][c.correct],txt(L,'Сделать заключение без дополнительных данных','Conclude without further evidence','Қосымша дерексіз қорытынды жасау')];
  const question=firstCorrect?txt(L,'Какие данные следует использовать для физиологического заключения?','Which evidence should support the physiological conclusion?','Физиологиялық қорытындыға қандай деректер негіз болады?'):txt(L,'Выбранный тест не отвечает на вопрос. Как поступить?','The selected test cannot answer the question. What next?','Таңдалған тест сұраққа жауап бермейді. Келесі қадам қандай?');
  const evidence=firstCorrect?c.results[c.correct][L]:c.results[c.correct][L];
- panel.innerHTML=`<div class="patient-investigation"><h3>${txt(L,'Разветвлённый этап','Branching stage','Тармақталған кезең')}</h3><p>${esc(question)}</p><div class="patient-options">${choices.map((o,i)=>`<button type="button" data-branch="${i}">${esc(o)}</button>`).join('')}</div><p class="patient-feedback" role="status" aria-live="polite"></p><div class="investigation-graph"></div><div class="advanced-next"></div></div>`;
+ panel.innerHTML=`<div class="patient-investigation"><h3>${txt(L,'Разветвлённый этап','Branching stage','Тармақталған кезең')}</h3><p>${esc(question)}</p><div class="patient-options">${shuffledEntries(choices).map(([o,i])=>`<button type="button" data-branch="${i}">${esc(o)}</button>`).join('')}</div><p class="patient-feedback" role="status" aria-live="polite"></p><div class="investigation-graph"></div><div class="advanced-next"></div></div>`;
  panel.querySelectorAll('[data-branch]').forEach(b=>b.onclick=()=>{
+  if(b.disabled)return;
   const correct=Number(b.dataset.branch)===0;
   panel.querySelectorAll('[data-branch]').forEach(x=>{x.disabled=true;x.classList.toggle('correct',x.dataset.branch==='0');x.classList.toggle('incorrect',x===b&&!correct)});
   panel.querySelector('.patient-feedback').textContent=correct?evidence:txt(L,'Это не подтверждает искомый физиологический механизм. ','This does not establish the target physiological mechanism. ','Бұл қажетті физиологиялық механизмді дәлелдемейді. ')+evidence;
   if(correct&&c.values.length){panel.querySelector('.investigation-graph').innerHTML=c.values.map(([label,value,reference])=>`<div class="investigation-measure"><strong>${esc(label)}</strong><div class="investigation-bar"><span style="width:${Math.min(100,Math.abs(value)/Math.max(Math.abs(value),Math.abs(reference),0.001)*100)}%"></span></div><small>${txt(L,'Случай','Case','Жағдай')}: ${value}; ${txt(L,'ориентир','reference','салыстыру')}: ${reference}</small></div>`).join('');}
-  const next=document.createElement('button');next.type='button';next.textContent=evidenceCases[Number(panel.closest('[data-advanced]').dataset.advanced)]?txt(L,'Перейти к данным и расчёту','Continue to data and calculation','Деректер мен есепке өту'):txt(L,'Завершить случай','Finish case','Жағдайды аяқтау');next.onclick=()=>done(firstCorrect,correct);panel.querySelector('.advanced-next').replaceChildren(next);
+  const next=document.createElement('button');next.type='button';next.textContent=evidenceFor(Number(panel.closest('[data-advanced]').dataset.advanced))?txt(L,'Перейти к данным и расчёту','Continue to data and calculation','Деректер мен есепке өту'):txt(L,'Завершить случай','Finish case','Жағдайды аяқтау');next.onclick=()=>done(firstCorrect,correct);panel.querySelector('.advanced-next').replaceChildren(next);
  });
 }
 
 const txt=(L,a,b,c)=>[a,b,c][L];
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+// Explicit topic mapping: the first five integrative cases precede module cases.
+export const modulePatientIndices = [5,6,7,8,26,10,11,12,25,13,14,15,1,2,16,0,17,18,19,20,4,21,22,23,24];
+function caseContext(index,L){
+ const mid=modulePatientIndices.indexOf(index)+1;
+ if(mid)return patientContext(mid,L);
+ if(index===3)return patientContext(6,L);
+ return `<details><summary>${txt(L,'Анамнез и осмотр','History and examination','Анамнез және тексеру')}</summary><p>${txt(L,'Синтетический случай пневмоторакса: воздух в плевральной полости нарушает передачу растягивающего давления на лёгкое. Оценивается механизм, не лечебная тактика.','Synthetic pneumothorax case: air in the pleural space disrupts transmission of distending pressure to the lung. The task addresses mechanism, not treatment.','Пневмоторакстың жасанды жағдайы: плевра қуысындағы ауа керуші қысымның өкпеге берілуін бұзады. Емдеу тактикасы емес, механизм бағаланады.')}</p></details>`;
+}
+export function modulePatient(mid,L){
+ const index=modulePatientIndices[mid-1],c=cases[index];
+ if(!c)return '';
+ return `<section class="lesson"><article class="patient-card advanced-case" data-advanced="${index}"><h3>${esc(c.title[L])}</h3><p>${txt(L,'Сначала интерпретируйте данные, затем выберите исследование и объясните результат.','Interpret the findings, choose an investigation, then explain its result.','Алдымен деректерді түсіндіріп, зерттеуді таңдаңыз және нәтижесін талдаңыз.')}</p>${patientContext(mid,L)}<div class="advanced-stage"></div></article></section>`;
+}
+export const patientScenarioData=cases;
 export function advancedPatients(L){
-return `<main class="wrap" id="main"><h1>${txt(L,'Многоэтапные виртуальные пациенты','Advanced virtual patients','Көпкезеңді виртуалды пациенттер')}</h1><p>${txt(L,'25 клинико-физиологических сценариев: три основных этапа, выбор исследования и разветвлённое решение. Учебная модель, не инструмент диагностики.','25 clinical physiology scenarios: three core stages, investigation choice and branching follow-up. Educational only, not diagnostic.','25 клиникалық-физиологиялық сценарий: үш негізгі кезең, зерттеу таңдауы және тармақталған шешім. Тек оқу мақсатында.')}</p><div class="patient-grid">${cases.map((c,i)=>`<article class="patient-card advanced-case" data-advanced="${i}"><h2>${i+1}. ${esc(c.title[L])}</h2><div class="advanced-stage"></div></article>`).join('')}</div></main>`;
+return `<main class="wrap" id="main"><h1>${txt(L,'Многоэтапные виртуальные пациенты','Advanced virtual patients','Көпкезеңді виртуалды пациенттер')}</h1><p>${txt(L,'Клинико-физиологические сценарии: три основных этапа, выбор исследования и разветвлённое решение. Учебная модель, не инструмент диагностики.','Clinical physiology scenarios: three core stages, investigation choice and branching follow-up. Educational only, not diagnostic.','Клиникалық-физиологиялық сценарийлер: үш негізгі кезең, зерттеу таңдауы және тармақталған шешім. Тек оқу мақсатында.')}</p><div class="patient-grid">${cases.map((c,i)=>`<article class="patient-card advanced-case" data-advanced="${i}"><h2>${i+1}. ${esc(c.title[L])}</h2>${caseContext(i,L)}<div class="advanced-stage"></div></article>`).join('')}</div></main>`;
 }
 export function initAdvancedPatients(L){
  document.querySelectorAll('[data-advanced]').forEach(el=>{
   const c=cases[Number(el.dataset.advanced)];let step=0,score=0,answered=false;const extra=allInvestigationCases[Number(el.dataset.advanced)]||null;
   const panel=el.querySelector('.advanced-stage');
-  function render(){answered=false;if(extra&&step===3){showInvestigation(L,panel,extra,(firstCorrect,branchCorrect)=>{if(firstCorrect)score++;if(branchCorrect)score++;step++;render()});return;}if(step===4&&evidenceCases[Number(el.dataset.advanced)]){showEvidence(L,panel,evidenceCases[Number(el.dataset.advanced)],ok=>{if(ok)score++;step++;render()});return;}const s=c.stages[step];
-   if(!s){panel.innerHTML=`<p role="status"><strong>${txt(L,'Результат','Result','Нәтиже')}: ${score}/${evidenceCases[Number(el.dataset.advanced)]?6:extra?5:3}</strong></p><button type="button" class="advanced-restart">${txt(L,'Пройти заново','Restart','Қайта бастау')}</button>`;panel.querySelector('button').onclick=()=>{step=0;score=0;render()};return;}
-   panel.innerHTML=`<p><strong>${step+1}/3 · ${esc(s.title[L])}</strong></p><p>${esc(s.question[L])}</p><div class="patient-options">${s.options[L].map((o,j)=>`<button type="button" data-answer="${j}">${esc(o)}</button>`).join('')}</div><p class="patient-feedback" role="status" aria-live="polite"></p><div class="advanced-next"></div>`;
+  function render(){answered=false;if(extra&&step===3){showInvestigation(L,panel,extra,(firstCorrect,branchCorrect)=>{if(firstCorrect)score++;if(branchCorrect)score++;step++;render()});return;}if(step===4&&evidenceFor(Number(el.dataset.advanced))){showEvidence(L,panel,evidenceFor(Number(el.dataset.advanced)),ok=>{if(ok)score++;step++;render()});return;}const s=c.stages[step];
+   if(!s){panel.innerHTML=`<p role="status"><strong>${txt(L,'Результат','Result','Нәтиже')}: ${score}/${evidenceFor(Number(el.dataset.advanced))?6:extra?5:3}</strong></p><button type="button" class="advanced-restart">${txt(L,'Пройти заново','Restart','Қайта бастау')}</button>`;panel.querySelector('button').onclick=()=>{step=0;score=0;render()};return;}
+   panel.innerHTML=`<p><strong>${step+1}/3 · ${esc(s.title[L])}</strong></p><p>${esc(s.question[L])}</p><div class="patient-options">${shuffledEntries(s.options[L]).map(([o,j])=>`<button type="button" data-answer="${j}">${esc(o)}</button>`).join('')}</div><p class="patient-feedback" role="status" aria-live="polite"></p><div class="advanced-next"></div>`;
    panel.querySelectorAll('[data-answer]').forEach(button=>button.onclick=()=>{
     if(answered)return;answered=true;const chosen=Number(button.dataset.answer),ok=chosen===s.correct;if(ok)score++;
     panel.querySelectorAll('[data-answer]').forEach(b=>{b.disabled=true;b.classList.toggle('correct',Number(b.dataset.answer)===s.correct);b.classList.toggle('incorrect',b===button&&!ok)});
@@ -4002,3 +4027,5 @@ export function initAdvancedPatients(L){
   }render();
  });
 }
+
+function shuffledEntries(values){const entries=values.map((value,index)=>[value,index]);for(let i=entries.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[entries[i],entries[j]]=[entries[j],entries[i]];}return entries;}

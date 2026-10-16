@@ -26,3 +26,8 @@ Review the cover and structure with the user. Only after their instruction, star
 - Browser verified contents, title search (сурфактант), transition to module 5 and all 17 section links. Full mobile/browser sweep not completed; structural routes and syntax verified locally.
 - GitHub integration linking failed in Vercel. Published identical source files via the Vercel deployment API instead. Auto-deploy from GitHub is NOT configured. Future updates need explicit deployment or user setup of Vercel's GitHub integration. Reuse the existing project, do not create duplicates.
 - Daily automation changed to morning Asia/Almaty, starting 2026-10-16; actual execution depends on available quota.
+
+## 2026-10-15: first content iteration
+- Following user authorization, module 1 now has original RU/EN/KZ educational material across all 17 section types, including a ventilatory calculation slider, SVG breathing-path animation, quizzes, patient calculation exercise, glossary, and external educational resource links.
+- This is a first teaching prototype, NOT a finished expert-reviewed module or finished textbook. Module 2-25 remain empty. External media are linked, not downloaded or licence-verified for embedding. No independent medical peer review or browser-based interactive testing has yet been completed.
+- Build and structural check passed.

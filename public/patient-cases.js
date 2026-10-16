@@ -1,3 +1,4 @@
+import {patientExplanationTranslations} from './patient-explanations.js';
 export const patientCases = [
   {
     "id": 1,
@@ -875,3 +876,7 @@ export const patientCases = [
     ]
   }
 ];
+
+// Module 9 teaches gas diffusion; spirometry belongs to module 24.
+Object.assign(patientCases[8], {scenario:['В контролируемой модели диффузионный барьер стал вдвое толще; площадь и градиент давления постоянны.','In a controlled diffusion model, barrier thickness doubles while area and pressure gradient are fixed.','Бақыланатын диффузия моделінде бөгет екі есе қалыңдады; аудан мен қысым градиенті тұрақты.'],question:['Как изменится поток газа по закону Фика?','How does gas transfer change by Fick’s law?','Фик заңы бойынша газ ағыны қалай өзгереді?'],options:[['Уменьшится вдвое','Увеличится вдвое','Не изменится'],['Halves','Doubles','Unchanged'],['Екі есе азаяды','Екі есе артады','Өзгермейді']],explanation:['При фиксированных площади, коэффициенте диффузии и градиенте давления поток обратно пропорционален толщине барьера.','','']});
+for(let i=0;i<patientCases.length;i++){patientCases[i].explanation[1]=patientExplanationTranslations[i][0];patientCases[i].explanation[2]=patientExplanationTranslations[i][1];}

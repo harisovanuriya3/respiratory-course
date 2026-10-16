@@ -1,0 +1,665 @@
+{
+  "content": {
+    "routes": 425,
+    "missingSupplements": 0,
+    "shortSupplements": 72,
+    "weak": [
+      {
+        "module": 1,
+        "section": "objectives",
+        "lengths": [
+          200,
+          217,
+          225
+        ]
+      },
+      {
+        "module": 1,
+        "section": "pretest",
+        "lengths": [
+          245,
+          230,
+          226
+        ]
+      },
+      {
+        "module": 1,
+        "section": "one-minute",
+        "lengths": [
+          219,
+          209,
+          201
+        ]
+      },
+      {
+        "module": 1,
+        "section": "clinical",
+        "lengths": [
+          253,
+          207,
+          213
+        ]
+      },
+      {
+        "module": 1,
+        "section": "interactive",
+        "lengths": [
+          228,
+          214,
+          216
+        ]
+      },
+      {
+        "module": 1,
+        "section": "practice",
+        "lengths": [
+          219,
+          210,
+          226
+        ]
+      },
+      {
+        "module": 1,
+        "section": "cases",
+        "lengths": [
+          229,
+          219,
+          235
+        ]
+      },
+      {
+        "module": 1,
+        "section": "tests",
+        "lengths": [
+          297,
+          247,
+          223
+        ]
+      },
+      {
+        "module": 1,
+        "section": "questions",
+        "lengths": [
+          222,
+          209,
+          221
+        ]
+      },
+      {
+        "module": 1,
+        "section": "virtual-patient",
+        "lengths": [
+          279,
+          260,
+          237
+        ]
+      },
+      {
+        "module": 1,
+        "section": "media",
+        "lengths": [
+          242,
+          185,
+          162
+        ]
+      },
+      {
+        "module": 1,
+        "section": "glossary",
+        "lengths": [
+          251,
+          215,
+          226
+        ]
+      },
+      {
+        "module": 1,
+        "section": "voice",
+        "lengths": [
+          216,
+          208,
+          222
+        ]
+      },
+      {
+        "module": 1,
+        "section": "progress",
+        "lengths": [
+          208,
+          200,
+          183
+        ]
+      },
+      {
+        "module": 1,
+        "section": "notes",
+        "lengths": [
+          225,
+          209,
+          221
+        ]
+      },
+      {
+        "module": 2,
+        "section": "objectives",
+        "lengths": [
+          263,
+          241,
+          249
+        ]
+      },
+      {
+        "module": 2,
+        "section": "pretest",
+        "lengths": [
+          277,
+          245,
+          250
+        ]
+      },
+      {
+        "module": 2,
+        "section": "one-minute",
+        "lengths": [
+          303,
+          286,
+          240
+        ]
+      },
+      {
+        "module": 2,
+        "section": "interactive",
+        "lengths": [
+          303,
+          272,
+          245
+        ]
+      },
+      {
+        "module": 2,
+        "section": "media",
+        "lengths": [
+          323,
+          273,
+          239
+        ]
+      },
+      {
+        "module": 2,
+        "section": "progress",
+        "lengths": [
+          305,
+          245,
+          190
+        ]
+      },
+      {
+        "module": 3,
+        "section": "one-minute",
+        "lengths": [
+          336,
+          301,
+          239
+        ]
+      },
+      {
+        "module": 3,
+        "section": "practice",
+        "lengths": [
+          249,
+          223,
+          192
+        ]
+      },
+      {
+        "module": 3,
+        "section": "cases",
+        "lengths": [
+          274,
+          212,
+          244
+        ]
+      },
+      {
+        "module": 3,
+        "section": "glossary",
+        "lengths": [
+          337,
+          286,
+          249
+        ]
+      },
+      {
+        "module": 4,
+        "section": "practice",
+        "lengths": [
+          227,
+          200,
+          197
+        ]
+      },
+      {
+        "module": 4,
+        "section": "cases",
+        "lengths": [
+          249,
+          226,
+          239
+        ]
+      },
+      {
+        "module": 5,
+        "section": "practice",
+        "lengths": [
+          191,
+          201,
+          178
+        ]
+      },
+      {
+        "module": 5,
+        "section": "cases",
+        "lengths": [
+          242,
+          217,
+          237
+        ]
+      },
+      {
+        "module": 7,
+        "section": "theory",
+        "lengths": [
+          232,
+          232,
+          242
+        ]
+      },
+      {
+        "module": 7,
+        "section": "clinical",
+        "lengths": [
+          319,
+          262,
+          247
+        ]
+      },
+      {
+        "module": 7,
+        "section": "practice",
+        "lengths": [
+          256,
+          242,
+          256
+        ]
+      },
+      {
+        "module": 8,
+        "section": "objectives",
+        "lengths": [
+          298,
+          265,
+          241
+        ]
+      },
+      {
+        "module": 8,
+        "section": "pretest",
+        "lengths": [
+          301,
+          276,
+          243
+        ]
+      },
+      {
+        "module": 8,
+        "section": "one-minute",
+        "lengths": [
+          292,
+          278,
+          228
+        ]
+      },
+      {
+        "module": 8,
+        "section": "practice",
+        "lengths": [
+          229,
+          220,
+          244
+        ]
+      },
+      {
+        "module": 8,
+        "section": "cases",
+        "lengths": [
+          239,
+          229,
+          253
+        ]
+      },
+      {
+        "module": 8,
+        "section": "glossary",
+        "lengths": [
+          293,
+          263,
+          238
+        ]
+      },
+      {
+        "module": 9,
+        "section": "practice",
+        "lengths": [
+          275,
+          231,
+          234
+        ]
+      },
+      {
+        "module": 10,
+        "section": "objectives",
+        "lengths": [
+          290,
+          254,
+          238
+        ]
+      },
+      {
+        "module": 10,
+        "section": "one-minute",
+        "lengths": [
+          284,
+          267,
+          225
+        ]
+      },
+      {
+        "module": 10,
+        "section": "practice",
+        "lengths": [
+          254,
+          211,
+          265
+        ]
+      },
+      {
+        "module": 10,
+        "section": "cases",
+        "lengths": [
+          264,
+          220,
+          274
+        ]
+      },
+      {
+        "module": 10,
+        "section": "glossary",
+        "lengths": [
+          285,
+          252,
+          235
+        ]
+      },
+      {
+        "module": 11,
+        "section": "practice",
+        "lengths": [
+          250,
+          243,
+          246
+        ]
+      },
+      {
+        "module": 11,
+        "section": "cases",
+        "lengths": [
+          224,
+          191,
+          237
+        ]
+      },
+      {
+        "module": 12,
+        "section": "one-minute",
+        "lengths": [
+          319,
+          277,
+          239
+        ]
+      },
+      {
+        "module": 12,
+        "section": "practice",
+        "lengths": [
+          191,
+          175,
+          180
+        ]
+      },
+      {
+        "module": 12,
+        "section": "cases",
+        "lengths": [
+          227,
+          199,
+          218
+        ]
+      },
+      {
+        "module": 12,
+        "section": "glossary",
+        "lengths": [
+          320,
+          262,
+          249
+        ]
+      },
+      {
+        "module": 13,
+        "section": "objectives",
+        "lengths": [
+          324,
+          243,
+          234
+        ]
+      },
+      {
+        "module": 13,
+        "section": "pretest",
+        "lengths": [
+          327,
+          254,
+          236
+        ]
+      },
+      {
+        "module": 13,
+        "section": "one-minute",
+        "lengths": [
+          318,
+          256,
+          221
+        ]
+      },
+      {
+        "module": 13,
+        "section": "media",
+        "lengths": [
+          328,
+          245,
+          261
+        ]
+      },
+      {
+        "module": 13,
+        "section": "glossary",
+        "lengths": [
+          319,
+          241,
+          231
+        ]
+      },
+      {
+        "module": 13,
+        "section": "progress",
+        "lengths": [
+          329,
+          250,
+          246
+        ]
+      },
+      {
+        "module": 14,
+        "section": "objectives",
+        "lengths": [
+          306,
+          277,
+          244
+        ]
+      },
+      {
+        "module": 14,
+        "section": "pretest",
+        "lengths": [
+          309,
+          288,
+          246
+        ]
+      },
+      {
+        "module": 14,
+        "section": "one-minute",
+        "lengths": [
+          300,
+          290,
+          231
+        ]
+      },
+      {
+        "module": 14,
+        "section": "glossary",
+        "lengths": [
+          301,
+          275,
+          241
+        ]
+      },
+      {
+        "module": 16,
+        "section": "one-minute",
+        "lengths": [
+          320,
+          273,
+          241
+        ]
+      },
+      {
+        "module": 18,
+        "section": "practice",
+        "lengths": [
+          286,
+          243,
+          242
+        ]
+      },
+      {
+        "module": 18,
+        "section": "cases",
+        "lengths": [
+          252,
+          239,
+          237
+        ]
+      },
+      {
+        "module": 20,
+        "section": "one-minute",
+        "lengths": [
+          340,
+          309,
+          237
+        ]
+      },
+      {
+        "module": 20,
+        "section": "glossary",
+        "lengths": [
+          341,
+          294,
+          247
+        ]
+      },
+      {
+        "module": 21,
+        "section": "practice",
+        "lengths": [
+          197,
+          181,
+          208
+        ]
+      },
+      {
+        "module": 21,
+        "section": "cases",
+        "lengths": [
+          243,
+          197,
+          233
+        ]
+      },
+      {
+        "module": 23,
+        "section": "practice",
+        "lengths": [
+          235,
+          218,
+          216
+        ]
+      },
+      {
+        "module": 23,
+        "section": "cases",
+        "lengths": [
+          249,
+          242,
+          258
+        ]
+      },
+      {
+        "module": 25,
+        "section": "theory",
+        "lengths": [
+          238,
+          230,
+          232
+        ]
+      },
+      {
+        "module": 25,
+        "section": "practice",
+        "lengths": [
+          189,
+          201,
+          211
+        ]
+      },
+      {
+        "module": 25,
+        "section": "cases",
+        "lengths": [
+          249,
+          201,
+          237
+        ]
+      }
+    ]
+  },
+  "routesBuilt": 425,
+  "media": {
+    "remoteUrlOccurrences": 82,
+    "uniqueRemoteUrls": 28,
+    "individualAssetLicenseVerification": "NOT VERIFIED: URLs alone do not grant reproduction rights"
+  },
+  "physiologyReferenceExamples": "PASS: alveolar ventilation, CO2 balance, Henderson-Hasselbalch, CaO2",
+  "academicSignoff": "NOT COMPLETE: needs expert content, translation, and clinical scenario review"
+}
