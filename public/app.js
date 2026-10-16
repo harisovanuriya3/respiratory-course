@@ -26,3 +26,37 @@ function exam(){document.title=ui.exam+' | '+ui.short;return `<main class="wrap"
 function notFound(){document.title='404 | '+ui.short;return `<main class="wrap" id="main"><h1>404</h1><p>${t('Страница не найдена','Page not found','Бет табылмады')}</p><a class="button" href="${href('/contents')}">${ui.toc}</a></main>`;}
 let html;const match=path.match(/^\/modules\/(\d+)(?:\/([a-z-]+))?$/);if(path==='/')html=home();else if(path==='/contents')html=hub('module');else if(path==='/labs')html=hub('labs');else if(path==='/patients')html=hub('patients');else if(path==='/exam')html=exam();else if(match)html=modulePage(Number(match[1]),match[2]);else html=notFound();document.querySelector('#app').innerHTML=html;
 document.querySelector('#search')?.addEventListener('input',e=>{const q=e.target.value.trim().toLocaleLowerCase();let count=0;document.querySelectorAll('[data-search]').forEach(el=>{const ok=el.dataset.search.toLocaleLowerCase().includes(q);el.hidden=!ok;if(ok)count++});document.querySelector('#no-results').hidden=count>0;});
+
+import {academicMasterChapter} from './academic-master-chapters.js';
+import {coreScientificUnit} from './academic-core-units.js';
+import {curatedAcademic} from './academic-curator.js';
+
+const academicRoute = location.pathname.match(
+  /^\/modules\/(\d+)\/([a-z-]+)\/?$/
+);
+
+if (academicRoute) {
+  const moduleId = Number(academicRoute[1]);
+  const sectionId = academicRoute[2];
+  const language = new URLSearchParams(location.search).get('lang');
+  const languageIndex = {RU: 0, EN: 1, KZ: 2}[language] ?? 0;
+
+  if (moduleId >= 1 && moduleId <= 25) {
+    const main = document.querySelector('#main');
+
+    if (main) {
+      const material = [
+        academicMasterChapter(moduleId, sectionId, languageIndex),
+        curatedAcademic(moduleId, sectionId, languageIndex),
+        coreScientificUnit(moduleId, sectionId, languageIndex)
+      ].filter(Boolean).join('');
+
+      if (material.trim()) {
+        const container = document.createElement('section');
+        container.className = 'academic-material';
+        container.innerHTML = material;
+        main.appendChild(container);
+      }
+    }
+  }
+}
