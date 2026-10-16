@@ -1,5 +1,6 @@
 import {calculationSources} from './scientific-sources.js';
 import {transferLab,initTransferLabs} from './transfer-labs.js';
+import {externalBreathingLab,initExternalBreathingLab} from './external-breathing-lab.js';
 // Independent calculation functions shared by the UI and numerical regression tests.
 const finite=(...xs)=>xs.every(Number.isFinite);
 export function ventilation({vt,dead,rate,vco2}){
@@ -33,6 +34,7 @@ const texts={
 const byModule={8:'ventilation',10:'gas',14:'oxygen',16:'acid'};
 const tr=(x,L)=>Array.isArray(x)?x[L]:x;
 export function integratedLab(mid,L){
+ if(mid===5)return externalBreathingLab(L);
  if([9,11].includes(mid))return transferLab(mid,L);
  const key=byModule[mid],d=texts[key];if(!d)return '';
  const source=calculationSources[key];
@@ -40,6 +42,7 @@ export function integratedLab(mid,L){
 }
 export function initIntegratedLabs(L){
  initTransferLabs(L);
+ initExternalBreathingLab(L);
  document.querySelectorAll('[data-model]').forEach(root=>{
   const d=texts[root.dataset.model],output=root.querySelector('.lab-results');
   const update=()=>{try{
