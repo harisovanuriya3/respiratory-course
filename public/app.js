@@ -1,3 +1,4 @@
+import {initLearningWorkspace} from './learning-workspace.js';
 import {expandedTheoryExample} from './expanded-theory-examples.js';
 import {receptorBreathingAnimation,initReceptorBreathingAnimation} from './receptor-breath-animation.js';
 import {teachingReview} from './teaching-review.js';
@@ -169,3 +170,4 @@ if(match && match[2]==='virtual-patient')initAdvancedPatients(L);
 initIntegratedLabs(L);
 initPracticeWorkshops(L);
 shuffleSelfAssessments();
+initLearningWorkspace();
