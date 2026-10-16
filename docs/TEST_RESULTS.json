@@ -28,6 +28,10 @@
     "passed": true
   },
   {
+    "file": "test-learning-workspace.mjs",
+    "passed": true
+  },
+  {
     "file": "test-lesson-localization.mjs",
     "passed": true
   },
