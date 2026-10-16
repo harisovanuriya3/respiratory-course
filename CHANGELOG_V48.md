@@ -1,0 +1,1 @@
+V48: Original expanded RU/EN/KZ teaching material in modules 7, 13, 14, 16, 24; ten physiology explanations and five worked tasks. Existing sections, simulations and patient cases retained. These are supplementary lessons, not 425 completed standalone lessons.

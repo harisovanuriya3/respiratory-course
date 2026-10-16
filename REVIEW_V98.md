@@ -1,0 +1,1 @@
+V98: Replaced generic V70 supplements in 18 additional pages (six modules x theory/practice/cases). Added independent academic content in RU/EN/KZ on mechanics, surfactant, gas pressures, pulmonary circulation and spirometry. V97 pages preserved. Existing older course content retained. 425 sections are NOT fully peer-reviewed.

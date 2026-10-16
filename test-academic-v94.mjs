@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const text=readFileSync('public/exam-center.js','utf8');
+assert.ok(text.includes('coreExplanations'));
+assert.ok(!text.includes('`Верно: ${row[4]}.`'));
+const matches=text.match(/"mechanism-\$\{row\[0\]\}"/g);
+assert.ok(text.includes('family:`mechanism-${row[0]}`'));
+const bank=readFileSync('public/exam-bank-v32.js','utf8');
+assert.ok(bank.includes('FiO₂ × (PB − 47)'));
+console.log('PASS: explanations individualized and alveolar-gas prompts clarified');
