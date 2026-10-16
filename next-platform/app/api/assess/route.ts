@@ -1,0 +1,2 @@
+import {NextResponse} from 'next/server';import type {AssessmentRequest} from '../../../lib/assessment';
+export async function POST(request:Request){const body=await request.json() as Partial<AssessmentRequest>;if(!body.answer||!body.language||!body.questionId||!body.rubricId)return NextResponse.json({error:'invalid_request'},{status:400});return NextResponse.json({error:'assessment_provider_not_configured',message:'No server-side AI provider is configured. The answer was not graded.'},{status:503})}
