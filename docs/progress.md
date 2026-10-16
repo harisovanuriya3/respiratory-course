@@ -38,3 +38,5 @@ User authorised educational content after the structure-only stage. Preserved ex
 - Build and 25×17 route checks pass. Existing structural checker still describes the original empty scaffold; its output is not a content-completeness assertion. JS syntax passes. Baseline 6/4.2 L/min; shallow breathing 6/2.4; exercise 8/5 to 8/4.25 (15% reduction) independently checked.
 - Responsive controls and reduced-motion CSS included; no automatic animation. Translations internally reviewed; specialist KZ editorial review remains desirable. Full device testing and patient scenarios remain outstanding.
 - Publication is explicit through existing Vercel project. Entire textbook is NOT complete. Next: module 8 formative questions and a virtual-patient scenario, then further modules.
+
+- Published source edac84c016f17879459fbfcb5fb4fc0db139e725 via deployment dpl_4rpeBRXf3wRJdB5RrN5aeNWKkVUM; READY and production alias confirmed. Public browser verified baseline 6.00/4.20 and changed controls 250 mL ×24/min => 6.00/2.40 L/min, correct prediction feedback. Desktop screenshot reviewed; mobile device testing remains pending.
