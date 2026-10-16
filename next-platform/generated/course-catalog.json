@@ -1,0 +1,822 @@
+{
+  "languages": [
+    "RU",
+    "EN",
+    "KZ"
+  ],
+  "modules": [
+    {
+      "id": 1,
+      "title": {
+        "RU": "Введение в физиологию дыхания",
+        "EN": "Introduction to respiratory physiology",
+        "KZ": "Тыныс алу физиологиясына кіріспе"
+      },
+      "sections": [
+        "objectives",
+        "pretest",
+        "theory",
+        "one-minute",
+        "clinical",
+        "interactive",
+        "practice",
+        "cases",
+        "tests",
+        "questions",
+        "virtual-patient",
+        "media",
+        "glossary",
+        "voice",
+        "progress",
+        "notes",
+        "references"
+      ]
+    },
+    {
+      "id": 2,
+      "title": {
+        "RU": "Функциональная организация дыхательной системы",
+        "EN": "Functional organization of the respiratory system",
+        "KZ": "Тыныс алу жүйесінің қызметтік ұйымдасуы"
+      },
+      "sections": [
+        "objectives",
+        "pretest",
+        "theory",
+        "one-minute",
+        "clinical",
+        "interactive",
+        "practice",
+        "cases",
+        "tests",
+        "questions",
+        "virtual-patient",
+        "media",
+        "glossary",
+        "voice",
+        "progress",
+        "notes",
+        "references"
+      ]
+    },
+    {
+      "id": 3,
+      "title": {
+        "RU": "Дыхательные мышцы, грудная клетка и плевра",
+        "EN": "Respiratory muscles, thorax and pleura",
+        "KZ": "Тыныс бұлшықеттері, кеуде қуысы және плевра"
+      },
+      "sections": [
+        "objectives",
+        "pretest",
+        "theory",
+        "one-minute",
+        "clinical",
+        "interactive",
+        "practice",
+        "cases",
+        "tests",
+        "questions",
+        "virtual-patient",
+        "media",
+        "glossary",
+        "voice",
+        "progress",
+        "notes",
+        "references"
+      ]
+    },
+    {
+      "id": 4,
+      "title": {
+        "RU": "Механика вдоха и выдоха",
+        "EN": "Mechanics of inspiration and expiration",
+        "KZ": "Дем алу және дем шығару механикасы"
+      },
+      "sections": [
+        "objectives",
+        "pretest",
+        "theory",
+        "one-minute",
+        "clinical",
+        "interactive",
+        "practice",
+        "cases",
+        "tests",
+        "questions",
+        "virtual-patient",
+        "media",
+        "glossary",
+        "voice",
+        "progress",
+        "notes",
+        "references"
+      ]
+    },
+    {
+      "id": 5,
+      "title": {
+        "RU": "Эластические свойства лёгких и сурфактант",
+        "EN": "Elastic properties of the lungs and surfactant",
+        "KZ": "Өкпенің серпімді қасиеттері және сурфактант"
+      },
+      "sections": [
+        "objectives",
+        "pretest",
+        "theory",
+        "one-minute",
+        "clinical",
+        "interactive",
+        "practice",
+        "cases",
+        "tests",
+        "questions",
+        "virtual-patient",
+        "media",
+        "glossary",
+        "voice",
+        "progress",
+        "notes",
+        "references"
+      ]
+    },
+    {
+      "id": 6,
+      "title": {
+        "RU": "Сопротивление дыхательных путей и работа дыхания",
+        "EN": "Airway resistance and work of breathing",
+        "KZ": "Тыныс жолдарының кедергісі және тыныс жұмысы"
+      },
+      "sections": [
+        "objectives",
+        "pretest",
+        "theory",
+        "one-minute",
+        "clinical",
+        "interactive",
+        "practice",
+        "cases",
+        "tests",
+        "questions",
+        "virtual-patient",
+        "media",
+        "glossary",
+        "voice",
+        "progress",
+        "notes",
+        "references"
+      ]
+    },
+    {
+      "id": 7,
+      "title": {
+        "RU": "Лёгочные объёмы и ёмкости",
+        "EN": "Lung volumes and capacities",
+        "KZ": "Өкпе көлемдері мен сыйымдылықтары"
+      },
+      "sections": [
+        "objectives",
+        "pretest",
+        "theory",
+        "one-minute",
+        "clinical",
+        "interactive",
+        "practice",
+        "cases",
+        "tests",
+        "questions",
+        "virtual-patient",
+        "media",
+        "glossary",
+        "voice",
+        "progress",
+        "notes",
+        "references"
+      ]
+    },
+    {
+      "id": 8,
+      "title": {
+        "RU": "Лёгочная и альвеолярная вентиляция",
+        "EN": "Pulmonary and alveolar ventilation",
+        "KZ": "Өкпелік және альвеолалық вентиляция"
+      },
+      "sections": [
+        "objectives",
+        "pretest",
+        "theory",
+        "one-minute",
+        "clinical",
+        "interactive",
+        "practice",
+        "cases",
+        "tests",
+        "questions",
+        "virtual-patient",
+        "media",
+        "glossary",
+        "voice",
+        "progress",
+        "notes",
+        "references"
+      ]
+    },
+    {
+      "id": 9,
+      "title": {
+        "RU": "Диффузия газов: физические закономерности",
+        "EN": "Gas diffusion: physical principles",
+        "KZ": "Газдар диффузиясы: физикалық заңдылықтар"
+      },
+      "sections": [
+        "objectives",
+        "pretest",
+        "theory",
+        "one-minute",
+        "clinical",
+        "interactive",
+        "practice",
+        "cases",
+        "tests",
+        "questions",
+        "virtual-patient",
+        "media",
+        "glossary",
+        "voice",
+        "progress",
+        "notes",
+        "references"
+      ]
+    },
+    {
+      "id": 10,
+      "title": {
+        "RU": "Газовый состав воздуха и парциальные давления",
+        "EN": "Air composition and partial pressures",
+        "KZ": "Ауаның газдық құрамы және парциалдық қысымдар"
+      },
+      "sections": [
+        "objectives",
+        "pretest",
+        "theory",
+        "one-minute",
+        "clinical",
+        "interactive",
+        "practice",
+        "cases",
+        "tests",
+        "questions",
+        "virtual-patient",
+        "media",
+        "glossary",
+        "voice",
+        "progress",
+        "notes",
+        "references"
+      ]
+    },
+    {
+      "id": 11,
+      "title": {
+        "RU": "Диффузия газов через аэрогематический барьер",
+        "EN": "Gas diffusion across the blood–air barrier",
+        "KZ": "Ауа-қан тосқауылы арқылы газдар диффузиясы"
+      },
+      "sections": [
+        "objectives",
+        "pretest",
+        "theory",
+        "one-minute",
+        "clinical",
+        "interactive",
+        "practice",
+        "cases",
+        "tests",
+        "questions",
+        "virtual-patient",
+        "media",
+        "glossary",
+        "voice",
+        "progress",
+        "notes",
+        "references"
+      ]
+    },
+    {
+      "id": 12,
+      "title": {
+        "RU": "Лёгочное кровообращение",
+        "EN": "Pulmonary circulation",
+        "KZ": "Өкпелік қанайналым"
+      },
+      "sections": [
+        "objectives",
+        "pretest",
+        "theory",
+        "one-minute",
+        "clinical",
+        "interactive",
+        "practice",
+        "cases",
+        "tests",
+        "questions",
+        "virtual-patient",
+        "media",
+        "glossary",
+        "voice",
+        "progress",
+        "notes",
+        "references"
+      ]
+    },
+    {
+      "id": 13,
+      "title": {
+        "RU": "Соотношение вентиляции и перфузии",
+        "EN": "Ventilation–perfusion relationships",
+        "KZ": "Вентиляция мен перфузияның арақатынасы"
+      },
+      "sections": [
+        "objectives",
+        "pretest",
+        "theory",
+        "one-minute",
+        "clinical",
+        "interactive",
+        "practice",
+        "cases",
+        "tests",
+        "questions",
+        "virtual-patient",
+        "media",
+        "glossary",
+        "voice",
+        "progress",
+        "notes",
+        "references"
+      ]
+    },
+    {
+      "id": 14,
+      "title": {
+        "RU": "Транспорт кислорода кровью",
+        "EN": "Oxygen transport in blood",
+        "KZ": "Оттегінің қанмен тасымалдануы"
+      },
+      "sections": [
+        "objectives",
+        "pretest",
+        "theory",
+        "one-minute",
+        "clinical",
+        "interactive",
+        "practice",
+        "cases",
+        "tests",
+        "questions",
+        "virtual-patient",
+        "media",
+        "glossary",
+        "voice",
+        "progress",
+        "notes",
+        "references"
+      ]
+    },
+    {
+      "id": 15,
+      "title": {
+        "RU": "Транспорт углекислого газа кровью",
+        "EN": "Carbon dioxide transport in blood",
+        "KZ": "Көмірқышқыл газының қанмен тасымалдануы"
+      },
+      "sections": [
+        "objectives",
+        "pretest",
+        "theory",
+        "one-minute",
+        "clinical",
+        "interactive",
+        "practice",
+        "cases",
+        "tests",
+        "questions",
+        "virtual-patient",
+        "media",
+        "glossary",
+        "voice",
+        "progress",
+        "notes",
+        "references"
+      ]
+    },
+    {
+      "id": 16,
+      "title": {
+        "RU": "Кислотно-основное состояние и дыхание",
+        "EN": "Acid–base balance and breathing",
+        "KZ": "Қышқыл-негіздік тепе-теңдік және тыныс алу"
+      },
+      "sections": [
+        "objectives",
+        "pretest",
+        "theory",
+        "one-minute",
+        "clinical",
+        "interactive",
+        "practice",
+        "cases",
+        "tests",
+        "questions",
+        "virtual-patient",
+        "media",
+        "glossary",
+        "voice",
+        "progress",
+        "notes",
+        "references"
+      ]
+    },
+    {
+      "id": 17,
+      "title": {
+        "RU": "Центральная регуляция дыхания",
+        "EN": "Central control of breathing",
+        "KZ": "Тыныс алудың орталық реттелуі"
+      },
+      "sections": [
+        "objectives",
+        "pretest",
+        "theory",
+        "one-minute",
+        "clinical",
+        "interactive",
+        "practice",
+        "cases",
+        "tests",
+        "questions",
+        "virtual-patient",
+        "media",
+        "glossary",
+        "voice",
+        "progress",
+        "notes",
+        "references"
+      ]
+    },
+    {
+      "id": 18,
+      "title": {
+        "RU": "Нервная регуляция дыхания",
+        "EN": "Neural regulation of breathing",
+        "KZ": "Тыныс алудың жүйкелік реттелуі"
+      },
+      "sections": [
+        "objectives",
+        "pretest",
+        "theory",
+        "one-minute",
+        "clinical",
+        "interactive",
+        "practice",
+        "cases",
+        "tests",
+        "questions",
+        "virtual-patient",
+        "media",
+        "glossary",
+        "voice",
+        "progress",
+        "notes",
+        "references"
+      ]
+    },
+    {
+      "id": 19,
+      "title": {
+        "RU": "Химическая регуляция дыхания",
+        "EN": "Chemical regulation of breathing",
+        "KZ": "Тыныс алудың химиялық реттелуі"
+      },
+      "sections": [
+        "objectives",
+        "pretest",
+        "theory",
+        "one-minute",
+        "clinical",
+        "interactive",
+        "practice",
+        "cases",
+        "tests",
+        "questions",
+        "virtual-patient",
+        "media",
+        "glossary",
+        "voice",
+        "progress",
+        "notes",
+        "references"
+      ]
+    },
+    {
+      "id": 20,
+      "title": {
+        "RU": "Дыхание при физической нагрузке",
+        "EN": "Breathing during exercise",
+        "KZ": "Дене жүктемесі кезіндегі тыныс алу механизмдері"
+      },
+      "sections": [
+        "objectives",
+        "pretest",
+        "theory",
+        "one-minute",
+        "clinical",
+        "interactive",
+        "practice",
+        "cases",
+        "tests",
+        "questions",
+        "virtual-patient",
+        "media",
+        "glossary",
+        "voice",
+        "progress",
+        "notes",
+        "references"
+      ]
+    },
+    {
+      "id": 21,
+      "title": {
+        "RU": "Дыхание при гипоксии и в условиях высокогорья",
+        "EN": "Breathing in hypoxia and at high altitude",
+        "KZ": "Гипоксия және биік таудағы тыныс алу"
+      },
+      "sections": [
+        "objectives",
+        "pretest",
+        "theory",
+        "one-minute",
+        "clinical",
+        "interactive",
+        "practice",
+        "cases",
+        "tests",
+        "questions",
+        "virtual-patient",
+        "media",
+        "glossary",
+        "voice",
+        "progress",
+        "notes",
+        "references"
+      ]
+    },
+    {
+      "id": 22,
+      "title": {
+        "RU": "Дыхание во сне и возрастные особенности",
+        "EN": "Breathing during sleep and age-related features",
+        "KZ": "Ұйқы кезіндегі тыныс және жас ерекшеліктері"
+      },
+      "sections": [
+        "objectives",
+        "pretest",
+        "theory",
+        "one-minute",
+        "clinical",
+        "interactive",
+        "practice",
+        "cases",
+        "tests",
+        "questions",
+        "virtual-patient",
+        "media",
+        "glossary",
+        "voice",
+        "progress",
+        "notes",
+        "references"
+      ]
+    },
+    {
+      "id": 23,
+      "title": {
+        "RU": "Дыхание в изменённых условиях среды",
+        "EN": "Breathing in altered environments",
+        "KZ": "Өзгерген орта жағдайларындағы тыныс"
+      },
+      "sections": [
+        "objectives",
+        "pretest",
+        "theory",
+        "one-minute",
+        "clinical",
+        "interactive",
+        "practice",
+        "cases",
+        "tests",
+        "questions",
+        "virtual-patient",
+        "media",
+        "glossary",
+        "voice",
+        "progress",
+        "notes",
+        "references"
+      ]
+    },
+    {
+      "id": 24,
+      "title": {
+        "RU": "Методы исследования функций внешнего дыхания",
+        "EN": "Pulmonary function testing",
+        "KZ": "Сыртқы тыныс алу қызметін зерттеу әдістері"
+      },
+      "sections": [
+        "objectives",
+        "pretest",
+        "theory",
+        "one-minute",
+        "clinical",
+        "interactive",
+        "practice",
+        "cases",
+        "tests",
+        "questions",
+        "virtual-patient",
+        "media",
+        "glossary",
+        "voice",
+        "progress",
+        "notes",
+        "references"
+      ]
+    },
+    {
+      "id": 25,
+      "title": {
+        "RU": "Гипоксия и дыхательная недостаточность",
+        "EN": "Hypoxia and respiratory failure",
+        "KZ": "Гипоксия және тыныс жеткіліксіздігі"
+      },
+      "sections": [
+        "objectives",
+        "pretest",
+        "theory",
+        "one-minute",
+        "clinical",
+        "interactive",
+        "practice",
+        "cases",
+        "tests",
+        "questions",
+        "virtual-patient",
+        "media",
+        "glossary",
+        "voice",
+        "progress",
+        "notes",
+        "references"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "objectives",
+      "title": {
+        "RU": "Цели обучения",
+        "EN": "Learning objectives",
+        "KZ": "Оқу мақсаттары"
+      }
+    },
+    {
+      "id": "pretest",
+      "title": {
+        "RU": "Входной блиц",
+        "EN": "Pretest",
+        "KZ": "Кіріспе тест"
+      }
+    },
+    {
+      "id": "theory",
+      "title": {
+        "RU": "Теория",
+        "EN": "Theory",
+        "KZ": "Теория"
+      }
+    },
+    {
+      "id": "one-minute",
+      "title": {
+        "RU": "Итог за минуту",
+        "EN": "One-minute summary",
+        "KZ": "Бір минуттық қорытынды"
+      }
+    },
+    {
+      "id": "clinical",
+      "title": {
+        "RU": "Связь с клиникой",
+        "EN": "Clinical bridge",
+        "KZ": "Клиникамен байланыс"
+      }
+    },
+    {
+      "id": "interactive",
+      "title": {
+        "RU": "Виртуальная лаборатория",
+        "EN": "Virtual laboratory",
+        "KZ": "Виртуалды зертхана"
+      }
+    },
+    {
+      "id": "practice",
+      "title": {
+        "RU": "Практика",
+        "EN": "Practice",
+        "KZ": "Практика"
+      }
+    },
+    {
+      "id": "cases",
+      "title": {
+        "RU": "Ситуационная задача",
+        "EN": "Case problem",
+        "KZ": "Ситуациялық есеп"
+      }
+    },
+    {
+      "id": "tests",
+      "title": {
+        "RU": "Самопроверка",
+        "EN": "Self-assessment",
+        "KZ": "Өзін-өзі тексеру"
+      }
+    },
+    {
+      "id": "questions",
+      "title": {
+        "RU": "Вопросы для обсуждения",
+        "EN": "Discussion",
+        "KZ": "Талқылау сұрақтары"
+      }
+    },
+    {
+      "id": "virtual-patient",
+      "title": {
+        "RU": "Виртуальный пациент",
+        "EN": "Virtual patient",
+        "KZ": "Виртуалды пациент"
+      }
+    },
+    {
+      "id": "media",
+      "title": {
+        "RU": "Анимации и медиа",
+        "EN": "Animation and media",
+        "KZ": "Анимация және медиа"
+      }
+    },
+    {
+      "id": "glossary",
+      "title": {
+        "RU": "Глоссарий",
+        "EN": "Glossary",
+        "KZ": "Глоссарий"
+      }
+    },
+    {
+      "id": "voice",
+      "title": {
+        "RU": "Объясните своими словами",
+        "EN": "Explain in your own words",
+        "KZ": "Өз сөзіңізбен түсіндіріңіз"
+      }
+    },
+    {
+      "id": "progress",
+      "title": {
+        "RU": "Прогресс",
+        "EN": "Progress",
+        "KZ": "Прогресс"
+      }
+    },
+    {
+      "id": "notes",
+      "title": {
+        "RU": "Заметки",
+        "EN": "Notes",
+        "KZ": "Жазбалар"
+      }
+    },
+    {
+      "id": "references",
+      "title": {
+        "RU": "Источники",
+        "EN": "References",
+        "KZ": "Дереккөздер"
+      }
+    }
+  ]
+}
