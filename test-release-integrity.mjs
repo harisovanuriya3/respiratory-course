@@ -1,0 +1,12 @@
+import {readFileSync,existsSync} from 'node:fs';
+import assert from 'node:assert/strict';
+const html=readFileSync('public/index.html','utf8');
+const js=readFileSync('public/study-tools.js','utf8');
+const css=readFileSync('public/style.css','utf8');
+assert.match(html,/src="\/study-tools\.js"/);
+assert.equal((html.match(/src="\/study-tools\.js"/g)||[]).length,1);
+assert.ok(existsSync('public/lungs-cover-original.svg'));
+assert.match(js,/deadline=Date\.now\(\)\+remaining\*1000/);
+assert.match(js,/academic|sections|modules/i);
+assert.match(css,/study-tools-panel/);
+console.log('Release interface integrity: PASS');

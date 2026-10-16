@@ -2,8 +2,8 @@ import assert from 'node:assert/strict';
 import {mediaAtlas} from './public/media-atlas.js';
 for (const lang of [0,1,2]) {
   const html=mediaAtlas(13,lang);
-  assert.match(html,/Shunt-like/);
-  assert.match(html,/Dead space/);
+  assert.match(html,/[Шш]унтоподобная|Shunt-like|Шунт тәрізді/);
+  assert.match(html,/Мёртвое пространство|Dead space|Өлі кеңістік/);
   assert.match(html,/V̇ = 0/);
   assert.match(html,/Q̇ = 0/);
   assert.match(html,/V̇\/Q̇ ≈ 0.8/);

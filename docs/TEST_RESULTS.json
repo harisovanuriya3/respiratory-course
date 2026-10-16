@@ -32,6 +32,10 @@
     "passed": true
   },
   {
+    "file": "test-media-animation.mjs",
+    "passed": true
+  },
+  {
     "file": "test-media-localization.mjs",
     "passed": true
   },
@@ -44,6 +48,26 @@
     "passed": true
   },
   {
+    "file": "test-receptor-animation.mjs",
+    "passed": true
+  },
+  {
+    "file": "test-receptor-physiology-regression.mjs",
+    "passed": true
+  },
+  {
+    "file": "test-receptor-trace-integrity.mjs",
+    "passed": true
+  },
+  {
+    "file": "test-regional-sources.mjs",
+    "passed": true
+  },
+  {
+    "file": "test-release-integrity.mjs",
+    "passed": true
+  },
+  {
     "file": "test-scientific-diagrams.mjs",
     "passed": true
   },
@@ -52,7 +76,19 @@
     "passed": true
   },
   {
+    "file": "test-teaching-review.mjs",
+    "passed": true
+  },
+  {
+    "file": "test-topic-specific-atlas.mjs",
+    "passed": true
+  },
+  {
     "file": "test-transfer-labs.mjs",
+    "passed": true
+  },
+  {
+    "file": "test-ui-release.mjs",
     "passed": true
   },
   {

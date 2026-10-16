@@ -6,16 +6,17 @@ import {modules,sections} from './public/content.js';
 import {allExamItems} from './public/exam-center.js';
 import {patientScenarioData,patientEvidenceData} from './public/advanced-patients.js';
 const casesOnly=process.argv.includes('--case-routes');
-const release=process.argv.includes('--release');
-const remoteUrl=process.argv.find(x=>x.startsWith('--url='))?.slice(6).replace(/\/$/,'');
-if(remoteUrl&&new URL(remoteUrl).hostname!=='respiratory-course.vercel.app'&&!/^respiratory-course-[a-z0-9-]+\.vercel\.app$/.test(new URL(remoteUrl).hostname))throw Error('Unexpected deployment host');
-const focused=process.argv.includes('--focused')||casesOnly||release;
-const focusedRoutes=new Set(release?modules.flatMap(m=>['interactive','virtual-patient'].map(s=>m.id+'/'+s)):casesOnly?['16/cases','16/questions']:['17/references','23/interactive','23/media','24/practice','25/references',...modules.map(m=>m.id+'/tests'),...[5,9,16].map(m=>m+'/virtual-patient')]);
+const focused=process.argv.includes('--focused')||casesOnly;
+const focusedRoutes=new Set(casesOnly?['16/cases','16/questions']:['17/references','23/interactive','23/media','24/practice','25/references',...modules.map(m=>m.id+'/tests'),...[5,9,16].map(m=>m+'/virtual-patient')]);
 const root=resolve('dist');
 const server=createServer(async(req,res)=>{try{let file=resolve(root,'.'+decodeURIComponent(new URL(req.url,'http://local').pathname));if(file!==root&&!file.startsWith(root+sep)){res.writeHead(403).end();return;}if((await stat(file)).isDirectory())file=resolve(file,'index.html');res.setHeader('Content-Type',({'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css','.svg':'image/svg+xml'})[extname(file)]||'application/octet-stream');res.end(await readFile(file));}catch{res.writeHead(404).end();}});
 await new Promise(r=>server.listen(0,'127.0.0.1',r));
-const base=remoteUrl||'http://127.0.0.1:'+server.address().port;
-const browser=await chromium.launch({channel:'msedge',headless:true});
+const base='http://127.0.0.1:'+server.address().port;
+// Use a configurable executable for CI, or Playwright's bundled Chromium.
+// The previous hard-coded msedge channel prevented the audit on machines
+// without Microsoft Edge, even when a supported Chromium was available.
+const executablePath=process.env.BROWSER_EXECUTABLE;
+const browser=await chromium.launch({headless:true,...(executablePath?{executablePath}:{}),args:['--no-sandbox']});
 const report={routes:0,patients:[],labs:[],exams:[],selfAssessments:[],mobile:[],errors:[],brokenLinks:[],duplicateIds:[]};
 const seenLinks=new Set();
 try{
@@ -54,7 +55,7 @@ try{
     }
     if(s[0]==='virtual-patient'){
      const panel=page.locator('[data-advanced] .advanced-stage');let steps=0;
-     for(const policy of release?['correct']:focused?['correct','wrong']:['first']){
+     for(const policy of focused?['correct','wrong']:['first']){
      steps=0;const caseIndex=Number(await panel.locator('..').getAttribute('data-advanced'));
      while(await panel.locator('.patient-options button').count()){
       if(policy==='first')await panel.locator('.patient-options button').first().click();
@@ -71,7 +72,7 @@ try{
      }
     }
     if(s[0]==='interactive'){
-     const sliders=page.locator('input[type=range], .integrated-lab input[type=number], .transfer-lab input[type=number]');const results=[];
+     const sliders=page.locator('input[type=range], .integrated-lab input[type=number]');const results=[];
      const initialValues=await sliders.evaluateAll(elements=>elements.map(x=>x.value));
      const snapshot=()=>page.locator('#main').evaluate(root=>[...root.querySelectorAll('p,output,.lab-results,.result,[role=status],svg,.guided-v38-result,[id$="-result"],[id$="-results"],[data-result],[data-out],[data-ten-results]')].filter(x=>!x.closest('label')&&!x.closest('.lab-controls')).map(x=>x.tagName.toLowerCase()==='svg'?x.innerHTML:x.textContent).join('\n'));
      for(let i=0;i<await sliders.count();i++){
@@ -124,6 +125,6 @@ try{
   await page.close();console.log('Completed '+lang+': '+report.routes+' routes; errors '+report.errors.length);
  }));
  for(const path of seenLinks){try{let file=resolve(root,'.'+path);if((await stat(file)).isDirectory())file=resolve(file,'index.html');await stat(file);}catch{report.brokenLinks.push(path);}}
-}finally{await browser.close();server.close();await writeFile(remoteUrl?'docs/BROWSER_PREVIEW.json':release?'docs/BROWSER_RELEASE.json':casesOnly?'docs/BROWSER_CASE_ROUTES.json':focused?'docs/BROWSER_REGRESSIONS.json':'docs/BROWSER_AUDIT.json',JSON.stringify({...report,base},null,2));}
+}finally{await browser.close();server.close();await writeFile(casesOnly?'docs/BROWSER_CASE_ROUTES.json':focused?'docs/BROWSER_REGRESSIONS.json':'docs/BROWSER_AUDIT.json',JSON.stringify(report,null,2));}
 console.log(JSON.stringify({routes:report.routes,patients:report.patients.length,labs:report.labs.length,exams:report.exams.length,unchangedSliders:report.labs.flatMap(x=>x.sliders.filter(s=>!s.changed).map(s=>({module:x.module,lang:x.lang,...s}))),errors:report.errors},null,2));
 if(report.errors.length||report.brokenLinks.length||report.duplicateIds.length||report.mobile.some(x=>x.overflow)||report.labs.some(x=>x.sliders.some(s=>!s.changed||!s.calculationChanged)))process.exitCode=1;

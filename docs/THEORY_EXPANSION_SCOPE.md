@@ -1,0 +1,1 @@
+Expanded 25 theory pages with one original module-specific worked example in RU/EN/KZ. Examples are supplementary, not a substitute for full peer review. Source orientation: Guyton and Hall, West Respiratory Physiology, Boron and Boulpaep, Pokrovsky/Korotko. No protected textbook passages reproduced.

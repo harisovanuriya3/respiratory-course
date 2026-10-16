@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';
+import {readFileSync,existsSync} from 'node:fs';
+const html=readFileSync('public/index.html','utf8');
+const css=readFileSync('public/style.css','utf8');
+const tools=readFileSync('public/study-tools.js','utf8');
+assert.equal((html.match(/src="\/study-tools.js"/g)||[]).length,1,'single tools entry');
+assert.ok(!html.includes('src="/site-tools.js"'),'no duplicated toolbar');
+for(const n of [5,15,25,45])assert.ok(tools.includes(`data-preset="${n}"`),`timer preset ${n}`);
+assert.ok(css.includes('max-width:760px') && css.includes('.sectionnav'),'responsive section navigation');
+assert.ok(existsSync('public/lungs-cover-original.svg'),'cover asset exists');
+console.log('PASS: UI integration, presets, mobile navigation and cover asset');
