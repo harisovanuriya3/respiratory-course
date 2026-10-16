@@ -29,6 +29,8 @@ const questions=[
 ];
 function exam(){
  const root=document.querySelector('#main');if(!root)return;
+ // Keep the complete exam center and its initialized event handlers intact.
+ if(root.querySelector('.exam-center'))return;
  root.innerHTML='<div class="page-heading"><div class="eyebrow">'+tr('Учебный демонстрационный экзамен','Educational demonstration examination','Оқу демонстрациялық емтиханы')+'</div><h1>'+tr('Экзаменационный центр','Examination center','Емтихан орталығы')+'</h1><p>'+tr('Три проверочных вопроса по физиологии дыхания. Большой экзаменационный банк для 25 модулей находится в разработке.','Three introductory questions. The full 25-module examination bank is in development.','Үш кіріспе сұрақ. 25 модульге арналған толық банк әзірленуде.')+'</p></div><div id="exam-widget" class="learning-panel"></div>';
  let ix=0;const answers={};const order=[...questions.keys()].sort(()=>Math.random()-.5);
  const box=document.querySelector('#exam-widget');

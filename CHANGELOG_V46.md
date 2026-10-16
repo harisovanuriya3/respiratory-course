@@ -1,0 +1,1 @@
+V46: Five clinically contextualized, synthetic measurement tables and individual quantitative interpretation questions (RU/EN/KZ) for the first five virtual patients. One additional graded decision per case. 20 other patients remain at V45 depth. No new external media or patient data.

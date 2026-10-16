@@ -1,0 +1,1 @@
+V99: Replaced generic V70 supplementary material in 21 additional lesson slots (7 modules × theory/practice/cases), with distinct RU/EN/KZ academic explanations, calculations and clinical questions. Previous V97/V98 changes retained. No claim of full peer review.

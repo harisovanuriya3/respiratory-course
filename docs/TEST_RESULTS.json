@@ -1,0 +1,70 @@
+[
+  {
+    "file": "test-academic-v94.mjs",
+    "passed": true
+  },
+  {
+    "file": "test-calculated-bank.mjs",
+    "passed": true
+  },
+  {
+    "file": "test-content-quality.mjs",
+    "passed": true
+  },
+  {
+    "file": "test-exam-data.mjs",
+    "passed": true
+  },
+  {
+    "file": "test-exam-topic-alignment.mjs",
+    "passed": true
+  },
+  {
+    "file": "test-full-exam.mjs",
+    "passed": true
+  },
+  {
+    "file": "test-integrated-labs.mjs",
+    "passed": true
+  },
+  {
+    "file": "test-lesson-localization.mjs",
+    "passed": true
+  },
+  {
+    "file": "test-media-localization.mjs",
+    "passed": true
+  },
+  {
+    "file": "test-patient-content.mjs",
+    "passed": true
+  },
+  {
+    "file": "test-practice-workshops.mjs",
+    "passed": true
+  },
+  {
+    "file": "test-scientific-diagrams.mjs",
+    "passed": true
+  },
+  {
+    "file": "test-study-tools.mjs",
+    "passed": true
+  },
+  {
+    "file": "test-transfer-labs.mjs",
+    "passed": true
+  },
+  {
+    "file": "test-v78.mjs",
+    "passed": true
+  },
+  {
+    "file": "test-v79.mjs",
+    "passed": true
+  },
+  {
+    "file": "test-v82-physiology.mjs",
+    "passed": true
+  }
+]

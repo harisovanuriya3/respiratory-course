@@ -1,0 +1,3127 @@
+[
+  {
+    "module": 1,
+    "title": "Введение в физиологию дыхания",
+    "sections": [
+      {
+        "subsection": "objectives",
+        "ru": 200,
+        "en": 217,
+        "kz": 225,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "pretest",
+        "ru": 245,
+        "en": 230,
+        "kz": 226,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "theory",
+        "ru": 423,
+        "en": 384,
+        "kz": 359,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "one-minute",
+        "ru": 219,
+        "en": 209,
+        "kz": 201,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "clinical",
+        "ru": 253,
+        "en": 207,
+        "kz": 213,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "interactive",
+        "ru": 228,
+        "en": 214,
+        "kz": 216,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "practice",
+        "ru": 219,
+        "en": 210,
+        "kz": 226,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "cases",
+        "ru": 229,
+        "en": 219,
+        "kz": 235,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "tests",
+        "ru": 297,
+        "en": 247,
+        "kz": 223,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "questions",
+        "ru": 222,
+        "en": 209,
+        "kz": 221,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "virtual-patient",
+        "ru": 279,
+        "en": 260,
+        "kz": 237,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "media",
+        "ru": 242,
+        "en": 185,
+        "kz": 162,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "glossary",
+        "ru": 251,
+        "en": 215,
+        "kz": 226,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "voice",
+        "ru": 216,
+        "en": 208,
+        "kz": 222,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "progress",
+        "ru": 208,
+        "en": 200,
+        "kz": 183,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "notes",
+        "ru": 225,
+        "en": 209,
+        "kz": 221,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "references",
+        "ru": 340,
+        "en": 314,
+        "kz": 287,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      }
+    ]
+  },
+  {
+    "module": 2,
+    "title": "Функциональная организация дыхательной системы",
+    "sections": [
+      {
+        "subsection": "objectives",
+        "ru": 263,
+        "en": 241,
+        "kz": 249,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "pretest",
+        "ru": 277,
+        "en": 245,
+        "kz": 250,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "theory",
+        "ru": 563,
+        "en": 501,
+        "kz": 432,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "one-minute",
+        "ru": 303,
+        "en": 286,
+        "kz": 240,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "clinical",
+        "ru": 986,
+        "en": 808,
+        "kz": 828,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "interactive",
+        "ru": 303,
+        "en": 272,
+        "kz": 245,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "practice",
+        "ru": 1037,
+        "en": 910,
+        "kz": 870,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "cases",
+        "ru": 1037,
+        "en": 910,
+        "kz": 870,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "tests",
+        "ru": 306,
+        "en": 254,
+        "kz": 253,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "questions",
+        "ru": 986,
+        "en": 808,
+        "kz": 828,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "virtual-patient",
+        "ru": 382,
+        "en": 305,
+        "kz": 295,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "media",
+        "ru": 323,
+        "en": 273,
+        "kz": 239,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "glossary",
+        "ru": 340,
+        "en": 308,
+        "kz": 277,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "voice",
+        "ru": 321,
+        "en": 289,
+        "kz": 252,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "progress",
+        "ru": 305,
+        "en": 245,
+        "kz": 190,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "notes",
+        "ru": 315,
+        "en": 255,
+        "kz": 250,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "references",
+        "ru": 406,
+        "en": 354,
+        "kz": 303,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      }
+    ]
+  },
+  {
+    "module": 3,
+    "title": "Дыхательные мышцы, грудная клетка и плевра",
+    "sections": [
+      {
+        "subsection": "objectives",
+        "ru": 342,
+        "en": 288,
+        "kz": 252,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "pretest",
+        "ru": 345,
+        "en": 299,
+        "kz": 254,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "theory",
+        "ru": 319,
+        "en": 284,
+        "kz": 279,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "one-minute",
+        "ru": 336,
+        "en": 301,
+        "kz": 239,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "clinical",
+        "ru": 822,
+        "en": 800,
+        "kz": 791,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "interactive",
+        "ru": 396,
+        "en": 347,
+        "kz": 274,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "practice",
+        "ru": 249,
+        "en": 223,
+        "kz": 192,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "cases",
+        "ru": 274,
+        "en": 212,
+        "kz": 244,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "tests",
+        "ru": 346,
+        "en": 284,
+        "kz": 278,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "questions",
+        "ru": 822,
+        "en": 800,
+        "kz": 791,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "virtual-patient",
+        "ru": 363,
+        "en": 311,
+        "kz": 276,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "media",
+        "ru": 346,
+        "en": 290,
+        "kz": 279,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "glossary",
+        "ru": 337,
+        "en": 286,
+        "kz": 249,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "voice",
+        "ru": 331,
+        "en": 298,
+        "kz": 279,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "progress",
+        "ru": 347,
+        "en": 295,
+        "kz": 264,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "notes",
+        "ru": 359,
+        "en": 303,
+        "kz": 300,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "references",
+        "ru": 377,
+        "en": 338,
+        "kz": 306,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      }
+    ]
+  },
+  {
+    "module": 4,
+    "title": "Механика вдоха и выдоха",
+    "sections": [
+      {
+        "subsection": "objectives",
+        "ru": 368,
+        "en": 306,
+        "kz": 269,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "pretest",
+        "ru": 371,
+        "en": 317,
+        "kz": 271,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "theory",
+        "ru": 321,
+        "en": 301,
+        "kz": 267,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "one-minute",
+        "ru": 362,
+        "en": 319,
+        "kz": 256,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "clinical",
+        "ru": 938,
+        "en": 813,
+        "kz": 641,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "interactive",
+        "ru": 422,
+        "en": 365,
+        "kz": 291,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "practice",
+        "ru": 227,
+        "en": 200,
+        "kz": 197,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "cases",
+        "ru": 249,
+        "en": 226,
+        "kz": 239,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "tests",
+        "ru": 429,
+        "en": 362,
+        "kz": 312,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "questions",
+        "ru": 938,
+        "en": 813,
+        "kz": 641,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "virtual-patient",
+        "ru": 389,
+        "en": 329,
+        "kz": 293,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "media",
+        "ru": 372,
+        "en": 308,
+        "kz": 296,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "glossary",
+        "ru": 363,
+        "en": 304,
+        "kz": 266,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "voice",
+        "ru": 357,
+        "en": 316,
+        "kz": 296,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "progress",
+        "ru": 373,
+        "en": 313,
+        "kz": 281,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "notes",
+        "ru": 442,
+        "en": 381,
+        "kz": 334,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "references",
+        "ru": 403,
+        "en": 356,
+        "kz": 323,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      }
+    ]
+  },
+  {
+    "module": 5,
+    "title": "Эластические свойства лёгких и сурфактант",
+    "sections": [
+      {
+        "subsection": "objectives",
+        "ru": 342,
+        "en": 275,
+        "kz": 279,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "pretest",
+        "ru": 345,
+        "en": 286,
+        "kz": 281,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "theory",
+        "ru": 311,
+        "en": 277,
+        "kz": 271,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "one-minute",
+        "ru": 336,
+        "en": 288,
+        "kz": 266,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "clinical",
+        "ru": 932,
+        "en": 779,
+        "kz": 702,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "interactive",
+        "ru": 396,
+        "en": 334,
+        "kz": 301,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "practice",
+        "ru": 191,
+        "en": 201,
+        "kz": 178,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "cases",
+        "ru": 242,
+        "en": 217,
+        "kz": 237,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "tests",
+        "ru": 357,
+        "en": 293,
+        "kz": 297,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "questions",
+        "ru": 932,
+        "en": 779,
+        "kz": 702,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "virtual-patient",
+        "ru": 363,
+        "en": 298,
+        "kz": 303,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "media",
+        "ru": 346,
+        "en": 277,
+        "kz": 306,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "glossary",
+        "ru": 337,
+        "en": 273,
+        "kz": 276,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "voice",
+        "ru": 331,
+        "en": 285,
+        "kz": 306,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "progress",
+        "ru": 347,
+        "en": 282,
+        "kz": 291,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "notes",
+        "ru": 370,
+        "en": 312,
+        "kz": 319,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "references",
+        "ru": 377,
+        "en": 325,
+        "kz": 333,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      }
+    ]
+  },
+  {
+    "module": 6,
+    "title": "Сопротивление дыхательных путей и работа дыхания",
+    "sections": [
+      {
+        "subsection": "objectives",
+        "ru": 362,
+        "en": 271,
+        "kz": 270,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "pretest",
+        "ru": 365,
+        "en": 282,
+        "kz": 272,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "theory",
+        "ru": 538,
+        "en": 426,
+        "kz": 384,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "one-minute",
+        "ru": 356,
+        "en": 284,
+        "kz": 257,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "clinical",
+        "ru": 856,
+        "en": 764,
+        "kz": 659,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "interactive",
+        "ru": 416,
+        "en": 330,
+        "kz": 292,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "practice",
+        "ru": 831,
+        "en": 694,
+        "kz": 667,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "cases",
+        "ru": 831,
+        "en": 694,
+        "kz": 667,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "tests",
+        "ru": 370,
+        "en": 308,
+        "kz": 290,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "questions",
+        "ru": 856,
+        "en": 764,
+        "kz": 659,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "virtual-patient",
+        "ru": 383,
+        "en": 294,
+        "kz": 294,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "media",
+        "ru": 366,
+        "en": 273,
+        "kz": 297,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "glossary",
+        "ru": 357,
+        "en": 269,
+        "kz": 267,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "voice",
+        "ru": 351,
+        "en": 281,
+        "kz": 297,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "progress",
+        "ru": 367,
+        "en": 278,
+        "kz": 282,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "notes",
+        "ru": 383,
+        "en": 327,
+        "kz": 312,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "references",
+        "ru": 397,
+        "en": 321,
+        "kz": 324,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      }
+    ]
+  },
+  {
+    "module": 7,
+    "title": "Лёгочные объёмы и ёмкости",
+    "sections": [
+      {
+        "subsection": "objectives",
+        "ru": 334,
+        "en": 260,
+        "kz": 264,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "pretest",
+        "ru": 337,
+        "en": 271,
+        "kz": 266,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "theory",
+        "ru": 232,
+        "en": 232,
+        "kz": 242,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "one-minute",
+        "ru": 328,
+        "en": 273,
+        "kz": 251,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "clinical",
+        "ru": 319,
+        "en": 262,
+        "kz": 247,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "interactive",
+        "ru": 388,
+        "en": 319,
+        "kz": 286,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "practice",
+        "ru": 256,
+        "en": 242,
+        "kz": 256,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "cases",
+        "ru": 266,
+        "en": 251,
+        "kz": 265,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "tests",
+        "ru": 309,
+        "en": 255,
+        "kz": 253,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "questions",
+        "ru": 672,
+        "en": 540,
+        "kz": 543,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "virtual-patient",
+        "ru": 355,
+        "en": 283,
+        "kz": 288,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "media",
+        "ru": 338,
+        "en": 262,
+        "kz": 291,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "glossary",
+        "ru": 329,
+        "en": 258,
+        "kz": 261,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "voice",
+        "ru": 323,
+        "en": 270,
+        "kz": 291,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "progress",
+        "ru": 339,
+        "en": 267,
+        "kz": 276,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "notes",
+        "ru": 322,
+        "en": 274,
+        "kz": 269,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "references",
+        "ru": 369,
+        "en": 310,
+        "kz": 318,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      }
+    ]
+  },
+  {
+    "module": 8,
+    "title": "Лёгочная и альвеолярная вентиляция",
+    "sections": [
+      {
+        "subsection": "objectives",
+        "ru": 298,
+        "en": 265,
+        "kz": 241,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "pretest",
+        "ru": 301,
+        "en": 276,
+        "kz": 243,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "theory",
+        "ru": 330,
+        "en": 281,
+        "kz": 287,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "one-minute",
+        "ru": 292,
+        "en": 278,
+        "kz": 228,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "clinical",
+        "ru": 329,
+        "en": 291,
+        "kz": 272,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "interactive",
+        "ru": 352,
+        "en": 324,
+        "kz": 263,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "practice",
+        "ru": 229,
+        "en": 220,
+        "kz": 244,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "cases",
+        "ru": 239,
+        "en": 229,
+        "kz": 253,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "tests",
+        "ru": 319,
+        "en": 284,
+        "kz": 272,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "questions",
+        "ru": 703,
+        "en": 582,
+        "kz": 526,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "virtual-patient",
+        "ru": 319,
+        "en": 288,
+        "kz": 265,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "media",
+        "ru": 302,
+        "en": 267,
+        "kz": 268,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "glossary",
+        "ru": 293,
+        "en": 263,
+        "kz": 238,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "voice",
+        "ru": 287,
+        "en": 275,
+        "kz": 268,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "progress",
+        "ru": 303,
+        "en": 272,
+        "kz": 253,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "notes",
+        "ru": 332,
+        "en": 303,
+        "kz": 294,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "references",
+        "ru": 333,
+        "en": 315,
+        "kz": 295,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      }
+    ]
+  },
+  {
+    "module": 9,
+    "title": "Диффузия газов: физические закономерности",
+    "sections": [
+      {
+        "subsection": "objectives",
+        "ru": 353,
+        "en": 276,
+        "kz": 263,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "pretest",
+        "ru": 356,
+        "en": 287,
+        "kz": 265,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "theory",
+        "ru": 558,
+        "en": 465,
+        "kz": 506,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "one-minute",
+        "ru": 347,
+        "en": 289,
+        "kz": 250,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "clinical",
+        "ru": 407,
+        "en": 325,
+        "kz": 311,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "interactive",
+        "ru": 407,
+        "en": 335,
+        "kz": 285,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "practice",
+        "ru": 275,
+        "en": 231,
+        "kz": 234,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "cases",
+        "ru": 309,
+        "en": 266,
+        "kz": 274,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "tests",
+        "ru": 397,
+        "en": 318,
+        "kz": 311,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "questions",
+        "ru": 671,
+        "en": 590,
+        "kz": 579,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "virtual-patient",
+        "ru": 374,
+        "en": 299,
+        "kz": 287,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "media",
+        "ru": 357,
+        "en": 278,
+        "kz": 290,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "glossary",
+        "ru": 348,
+        "en": 274,
+        "kz": 260,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "voice",
+        "ru": 342,
+        "en": 286,
+        "kz": 290,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "progress",
+        "ru": 358,
+        "en": 283,
+        "kz": 275,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "notes",
+        "ru": 410,
+        "en": 337,
+        "kz": 333,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "references",
+        "ru": 388,
+        "en": 326,
+        "kz": 317,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      }
+    ]
+  },
+  {
+    "module": 10,
+    "title": "Газовый состав воздуха и парциальные давления",
+    "sections": [
+      {
+        "subsection": "objectives",
+        "ru": 290,
+        "en": 254,
+        "kz": 238,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "pretest",
+        "ru": 293,
+        "en": 265,
+        "kz": 259,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "theory",
+        "ru": 297,
+        "en": 261,
+        "kz": 272,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "one-minute",
+        "ru": 284,
+        "en": 267,
+        "kz": 225,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "clinical",
+        "ru": 1163,
+        "en": 965,
+        "kz": 919,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "interactive",
+        "ru": 344,
+        "en": 313,
+        "kz": 260,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "practice",
+        "ru": 254,
+        "en": 211,
+        "kz": 265,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "cases",
+        "ru": 264,
+        "en": 220,
+        "kz": 274,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "tests",
+        "ru": 338,
+        "en": 283,
+        "kz": 302,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "questions",
+        "ru": 1163,
+        "en": 965,
+        "kz": 919,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "virtual-patient",
+        "ru": 311,
+        "en": 277,
+        "kz": 262,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "media",
+        "ru": 294,
+        "en": 256,
+        "kz": 265,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "glossary",
+        "ru": 285,
+        "en": 252,
+        "kz": 235,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "voice",
+        "ru": 279,
+        "en": 264,
+        "kz": 265,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "progress",
+        "ru": 295,
+        "en": 261,
+        "kz": 250,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "notes",
+        "ru": 351,
+        "en": 302,
+        "kz": 324,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "references",
+        "ru": 325,
+        "en": 304,
+        "kz": 292,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      }
+    ]
+  },
+  {
+    "module": 11,
+    "title": "Диффузия газов через аэрогематический барьер",
+    "sections": [
+      {
+        "subsection": "objectives",
+        "ru": 354,
+        "en": 278,
+        "kz": 273,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "pretest",
+        "ru": 357,
+        "en": 289,
+        "kz": 275,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "theory",
+        "ru": 307,
+        "en": 278,
+        "kz": 298,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "one-minute",
+        "ru": 348,
+        "en": 291,
+        "kz": 260,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "clinical",
+        "ru": 378,
+        "en": 322,
+        "kz": 311,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "interactive",
+        "ru": 408,
+        "en": 337,
+        "kz": 295,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "practice",
+        "ru": 250,
+        "en": 243,
+        "kz": 246,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "cases",
+        "ru": 224,
+        "en": 191,
+        "kz": 237,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "tests",
+        "ru": 369,
+        "en": 316,
+        "kz": 312,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "questions",
+        "ru": 1081,
+        "en": 957,
+        "kz": 961,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "virtual-patient",
+        "ru": 375,
+        "en": 301,
+        "kz": 297,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "media",
+        "ru": 358,
+        "en": 280,
+        "kz": 300,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "glossary",
+        "ru": 349,
+        "en": 276,
+        "kz": 270,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "voice",
+        "ru": 343,
+        "en": 288,
+        "kz": 300,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "progress",
+        "ru": 359,
+        "en": 285,
+        "kz": 285,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "notes",
+        "ru": 382,
+        "en": 335,
+        "kz": 334,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "references",
+        "ru": 389,
+        "en": 328,
+        "kz": 327,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      }
+    ]
+  },
+  {
+    "module": 12,
+    "title": "Лёгочное кровообращение",
+    "sections": [
+      {
+        "subsection": "objectives",
+        "ru": 325,
+        "en": 264,
+        "kz": 252,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "pretest",
+        "ru": 328,
+        "en": 275,
+        "kz": 254,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "theory",
+        "ru": 316,
+        "en": 277,
+        "kz": 272,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "one-minute",
+        "ru": 319,
+        "en": 277,
+        "kz": 239,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "clinical",
+        "ru": 748,
+        "en": 639,
+        "kz": 665,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "interactive",
+        "ru": 379,
+        "en": 323,
+        "kz": 274,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "practice",
+        "ru": 191,
+        "en": 175,
+        "kz": 180,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "cases",
+        "ru": 227,
+        "en": 199,
+        "kz": 218,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "tests",
+        "ru": 317,
+        "en": 277,
+        "kz": 268,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "questions",
+        "ru": 748,
+        "en": 639,
+        "kz": 665,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "virtual-patient",
+        "ru": 346,
+        "en": 287,
+        "kz": 276,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "media",
+        "ru": 329,
+        "en": 266,
+        "kz": 279,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "glossary",
+        "ru": 320,
+        "en": 262,
+        "kz": 249,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "voice",
+        "ru": 314,
+        "en": 274,
+        "kz": 279,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "progress",
+        "ru": 330,
+        "en": 271,
+        "kz": 264,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "notes",
+        "ru": 330,
+        "en": 296,
+        "kz": 290,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "references",
+        "ru": 360,
+        "en": 314,
+        "kz": 306,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      }
+    ]
+  },
+  {
+    "module": 13,
+    "title": "Соотношение вентиляции и перфузии",
+    "sections": [
+      {
+        "subsection": "objectives",
+        "ru": 324,
+        "en": 243,
+        "kz": 234,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "pretest",
+        "ru": 327,
+        "en": 254,
+        "kz": 236,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "theory",
+        "ru": 659,
+        "en": 571,
+        "kz": 528,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "one-minute",
+        "ru": 318,
+        "en": 256,
+        "kz": 221,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "clinical",
+        "ru": 373,
+        "en": 330,
+        "kz": 317,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "interactive",
+        "ru": 378,
+        "en": 302,
+        "kz": 256,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "practice",
+        "ru": 659,
+        "en": 571,
+        "kz": 528,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "cases",
+        "ru": 659,
+        "en": 571,
+        "kz": 528,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "tests",
+        "ru": 364,
+        "en": 324,
+        "kz": 318,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "questions",
+        "ru": 698,
+        "en": 537,
+        "kz": 499,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "virtual-patient",
+        "ru": 345,
+        "en": 266,
+        "kz": 258,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "media",
+        "ru": 328,
+        "en": 245,
+        "kz": 261,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "glossary",
+        "ru": 319,
+        "en": 241,
+        "kz": 231,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "voice",
+        "ru": 313,
+        "en": 253,
+        "kz": 261,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "progress",
+        "ru": 329,
+        "en": 250,
+        "kz": 246,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "notes",
+        "ru": 377,
+        "en": 343,
+        "kz": 340,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "references",
+        "ru": 359,
+        "en": 293,
+        "kz": 288,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      }
+    ]
+  },
+  {
+    "module": 14,
+    "title": "Транспорт кислорода кровью",
+    "sections": [
+      {
+        "subsection": "objectives",
+        "ru": 306,
+        "en": 277,
+        "kz": 244,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "pretest",
+        "ru": 309,
+        "en": 288,
+        "kz": 246,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "theory",
+        "ru": 465,
+        "en": 447,
+        "kz": 447,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "one-minute",
+        "ru": 300,
+        "en": 290,
+        "kz": 231,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "clinical",
+        "ru": 678,
+        "en": 606,
+        "kz": 688,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "interactive",
+        "ru": 360,
+        "en": 336,
+        "kz": 266,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "practice",
+        "ru": 465,
+        "en": 447,
+        "kz": 447,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "cases",
+        "ru": 465,
+        "en": 447,
+        "kz": 447,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "tests",
+        "ru": 349,
+        "en": 310,
+        "kz": 294,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "questions",
+        "ru": 678,
+        "en": 606,
+        "kz": 688,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "virtual-patient",
+        "ru": 327,
+        "en": 300,
+        "kz": 268,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "media",
+        "ru": 310,
+        "en": 279,
+        "kz": 271,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "glossary",
+        "ru": 301,
+        "en": 275,
+        "kz": 241,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "voice",
+        "ru": 295,
+        "en": 287,
+        "kz": 271,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "progress",
+        "ru": 311,
+        "en": 284,
+        "kz": 256,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "notes",
+        "ru": 362,
+        "en": 329,
+        "kz": 316,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "references",
+        "ru": 341,
+        "en": 327,
+        "kz": 298,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      }
+    ]
+  },
+  {
+    "module": 15,
+    "title": "Транспорт углекислого газа кровью",
+    "sections": [
+      {
+        "subsection": "objectives",
+        "ru": 331,
+        "en": 282,
+        "kz": 288,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "pretest",
+        "ru": 334,
+        "en": 293,
+        "kz": 290,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "theory",
+        "ru": 564,
+        "en": 533,
+        "kz": 523,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "one-minute",
+        "ru": 325,
+        "en": 295,
+        "kz": 275,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "clinical",
+        "ru": 416,
+        "en": 367,
+        "kz": 366,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "interactive",
+        "ru": 385,
+        "en": 341,
+        "kz": 310,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "practice",
+        "ru": 890,
+        "en": 809,
+        "kz": 814,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "cases",
+        "ru": 890,
+        "en": 809,
+        "kz": 814,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "tests",
+        "ru": 407,
+        "en": 361,
+        "kz": 367,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "questions",
+        "ru": 1042,
+        "en": 940,
+        "kz": 979,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "virtual-patient",
+        "ru": 352,
+        "en": 305,
+        "kz": 312,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "media",
+        "ru": 335,
+        "en": 284,
+        "kz": 315,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "glossary",
+        "ru": 326,
+        "en": 280,
+        "kz": 285,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "voice",
+        "ru": 320,
+        "en": 292,
+        "kz": 315,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "progress",
+        "ru": 336,
+        "en": 289,
+        "kz": 300,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "notes",
+        "ru": 420,
+        "en": 380,
+        "kz": 389,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "references",
+        "ru": 366,
+        "en": 332,
+        "kz": 342,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      }
+    ]
+  },
+  {
+    "module": 16,
+    "title": "Кислотно-основное состояние и дыхание",
+    "sections": [
+      {
+        "subsection": "objectives",
+        "ru": 326,
+        "en": 260,
+        "kz": 254,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "pretest",
+        "ru": 329,
+        "en": 271,
+        "kz": 256,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "theory",
+        "ru": 522,
+        "en": 455,
+        "kz": 428,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "one-minute",
+        "ru": 320,
+        "en": 273,
+        "kz": 241,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "clinical",
+        "ru": 1011,
+        "en": 879,
+        "kz": 830,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "interactive",
+        "ru": 380,
+        "en": 319,
+        "kz": 276,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "practice",
+        "ru": 522,
+        "en": 455,
+        "kz": 428,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "cases",
+        "ru": 522,
+        "en": 455,
+        "kz": 428,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "tests",
+        "ru": 361,
+        "en": 313,
+        "kz": 311,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "questions",
+        "ru": 1011,
+        "en": 879,
+        "kz": 830,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "virtual-patient",
+        "ru": 347,
+        "en": 283,
+        "kz": 278,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "media",
+        "ru": 330,
+        "en": 262,
+        "kz": 281,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "glossary",
+        "ru": 321,
+        "en": 258,
+        "kz": 251,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "voice",
+        "ru": 315,
+        "en": 270,
+        "kz": 281,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "progress",
+        "ru": 331,
+        "en": 267,
+        "kz": 266,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "notes",
+        "ru": 374,
+        "en": 332,
+        "kz": 333,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "references",
+        "ru": 361,
+        "en": 310,
+        "kz": 308,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      }
+    ]
+  },
+  {
+    "module": 17,
+    "title": "Центральная регуляция дыхания",
+    "sections": [
+      {
+        "subsection": "objectives",
+        "ru": 360,
+        "en": 290,
+        "kz": 270,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "pretest",
+        "ru": 363,
+        "en": 301,
+        "kz": 272,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "theory",
+        "ru": 450,
+        "en": 398,
+        "kz": 399,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "one-minute",
+        "ru": 354,
+        "en": 303,
+        "kz": 257,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "clinical",
+        "ru": 419,
+        "en": 358,
+        "kz": 340,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "interactive",
+        "ru": 414,
+        "en": 349,
+        "kz": 292,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "practice",
+        "ru": 727,
+        "en": 644,
+        "kz": 640,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "cases",
+        "ru": 727,
+        "en": 644,
+        "kz": 640,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "tests",
+        "ru": 410,
+        "en": 352,
+        "kz": 341,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "questions",
+        "ru": 1529,
+        "en": 1176,
+        "kz": 1096,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "virtual-patient",
+        "ru": 381,
+        "en": 313,
+        "kz": 294,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "media",
+        "ru": 364,
+        "en": 292,
+        "kz": 297,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "glossary",
+        "ru": 355,
+        "en": 288,
+        "kz": 267,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "voice",
+        "ru": 349,
+        "en": 300,
+        "kz": 297,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "progress",
+        "ru": 365,
+        "en": 297,
+        "kz": 282,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "notes",
+        "ru": 423,
+        "en": 371,
+        "kz": 363,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "references",
+        "ru": 395,
+        "en": 340,
+        "kz": 324,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      }
+    ]
+  },
+  {
+    "module": 18,
+    "title": "Нервная регуляция дыхания",
+    "sections": [
+      {
+        "subsection": "objectives",
+        "ru": 358,
+        "en": 295,
+        "kz": 288,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "pretest",
+        "ru": 361,
+        "en": 306,
+        "kz": 290,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "theory",
+        "ru": 322,
+        "en": 301,
+        "kz": 275,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "one-minute",
+        "ru": 352,
+        "en": 308,
+        "kz": 275,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "clinical",
+        "ru": 400,
+        "en": 345,
+        "kz": 334,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "interactive",
+        "ru": 412,
+        "en": 354,
+        "kz": 310,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "practice",
+        "ru": 286,
+        "en": 243,
+        "kz": 242,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "cases",
+        "ru": 252,
+        "en": 239,
+        "kz": 237,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "tests",
+        "ru": 391,
+        "en": 339,
+        "kz": 335,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "questions",
+        "ru": 1317,
+        "en": 1104,
+        "kz": 1035,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "virtual-patient",
+        "ru": 379,
+        "en": 318,
+        "kz": 312,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "media",
+        "ru": 362,
+        "en": 297,
+        "kz": 315,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "glossary",
+        "ru": 353,
+        "en": 293,
+        "kz": 285,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "voice",
+        "ru": 347,
+        "en": 305,
+        "kz": 315,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "progress",
+        "ru": 363,
+        "en": 302,
+        "kz": 300,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "notes",
+        "ru": 404,
+        "en": 358,
+        "kz": 357,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "references",
+        "ru": 393,
+        "en": 345,
+        "kz": 342,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      }
+    ]
+  },
+  {
+    "module": 19,
+    "title": "Химическая регуляция дыхания",
+    "sections": [
+      {
+        "subsection": "objectives",
+        "ru": 325,
+        "en": 271,
+        "kz": 272,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "pretest",
+        "ru": 328,
+        "en": 282,
+        "kz": 274,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "theory",
+        "ru": 649,
+        "en": 515,
+        "kz": 545,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "one-minute",
+        "ru": 319,
+        "en": 284,
+        "kz": 259,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "clinical",
+        "ru": 1016,
+        "en": 856,
+        "kz": 960,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "interactive",
+        "ru": 379,
+        "en": 330,
+        "kz": 294,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "practice",
+        "ru": 649,
+        "en": 515,
+        "kz": 545,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "cases",
+        "ru": 649,
+        "en": 515,
+        "kz": 545,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "tests",
+        "ru": 421,
+        "en": 339,
+        "kz": 342,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "questions",
+        "ru": 1016,
+        "en": 856,
+        "kz": 960,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "virtual-patient",
+        "ru": 346,
+        "en": 294,
+        "kz": 296,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "media",
+        "ru": 329,
+        "en": 273,
+        "kz": 299,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "glossary",
+        "ru": 320,
+        "en": 269,
+        "kz": 269,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "voice",
+        "ru": 314,
+        "en": 281,
+        "kz": 299,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "progress",
+        "ru": 330,
+        "en": 278,
+        "kz": 284,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "notes",
+        "ru": 434,
+        "en": 358,
+        "kz": 364,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "references",
+        "ru": 360,
+        "en": 321,
+        "kz": 326,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      }
+    ]
+  },
+  {
+    "module": 20,
+    "title": "Дыхание при физической нагрузке",
+    "sections": [
+      {
+        "subsection": "objectives",
+        "ru": 346,
+        "en": 296,
+        "kz": 250,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "pretest",
+        "ru": 349,
+        "en": 307,
+        "kz": 252,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "theory",
+        "ru": 491,
+        "en": 449,
+        "kz": 446,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "one-minute",
+        "ru": 340,
+        "en": 309,
+        "kz": 237,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "clinical",
+        "ru": 357,
+        "en": 301,
+        "kz": 297,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "interactive",
+        "ru": 400,
+        "en": 355,
+        "kz": 272,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "practice",
+        "ru": 685,
+        "en": 655,
+        "kz": 639,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "cases",
+        "ru": 685,
+        "en": 655,
+        "kz": 639,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "tests",
+        "ru": 348,
+        "en": 295,
+        "kz": 298,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "questions",
+        "ru": 595,
+        "en": 505,
+        "kz": 477,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "virtual-patient",
+        "ru": 367,
+        "en": 319,
+        "kz": 274,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "media",
+        "ru": 350,
+        "en": 298,
+        "kz": 277,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "glossary",
+        "ru": 341,
+        "en": 294,
+        "kz": 247,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "voice",
+        "ru": 335,
+        "en": 306,
+        "kz": 277,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "progress",
+        "ru": 351,
+        "en": 303,
+        "kz": 262,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "notes",
+        "ru": 361,
+        "en": 314,
+        "kz": 320,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "references",
+        "ru": 381,
+        "en": 346,
+        "kz": 304,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      }
+    ]
+  },
+  {
+    "module": 21,
+    "title": "Дыхание при гипоксии и в условиях высокогорья",
+    "sections": [
+      {
+        "subsection": "objectives",
+        "ru": 335,
+        "en": 295,
+        "kz": 263,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "pretest",
+        "ru": 338,
+        "en": 306,
+        "kz": 265,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "theory",
+        "ru": 300,
+        "en": 279,
+        "kz": 270,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "one-minute",
+        "ru": 329,
+        "en": 308,
+        "kz": 250,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "clinical",
+        "ru": 410,
+        "en": 357,
+        "kz": 308,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "interactive",
+        "ru": 389,
+        "en": 354,
+        "kz": 285,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "practice",
+        "ru": 197,
+        "en": 181,
+        "kz": 208,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "cases",
+        "ru": 243,
+        "en": 197,
+        "kz": 233,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "tests",
+        "ru": 401,
+        "en": 351,
+        "kz": 309,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "questions",
+        "ru": 960,
+        "en": 928,
+        "kz": 894,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "virtual-patient",
+        "ru": 356,
+        "en": 318,
+        "kz": 287,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "media",
+        "ru": 339,
+        "en": 297,
+        "kz": 290,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "glossary",
+        "ru": 330,
+        "en": 293,
+        "kz": 260,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "voice",
+        "ru": 324,
+        "en": 305,
+        "kz": 290,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "progress",
+        "ru": 340,
+        "en": 302,
+        "kz": 275,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "notes",
+        "ru": 414,
+        "en": 370,
+        "kz": 331,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "references",
+        "ru": 370,
+        "en": 345,
+        "kz": 317,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      }
+    ]
+  },
+  {
+    "module": 22,
+    "title": "Дыхание во сне и возрастные особенности",
+    "sections": [
+      {
+        "subsection": "objectives",
+        "ru": 351,
+        "en": 270,
+        "kz": 279,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "pretest",
+        "ru": 354,
+        "en": 281,
+        "kz": 281,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "theory",
+        "ru": 557,
+        "en": 533,
+        "kz": 505,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "one-minute",
+        "ru": 345,
+        "en": 283,
+        "kz": 266,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "clinical",
+        "ru": 391,
+        "en": 350,
+        "kz": 327,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "interactive",
+        "ru": 405,
+        "en": 329,
+        "kz": 301,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "practice",
+        "ru": 849,
+        "en": 815,
+        "kz": 771,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "cases",
+        "ru": 849,
+        "en": 815,
+        "kz": 771,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "tests",
+        "ru": 382,
+        "en": 344,
+        "kz": 328,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "questions",
+        "ru": 1103,
+        "en": 959,
+        "kz": 879,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "virtual-patient",
+        "ru": 372,
+        "en": 293,
+        "kz": 303,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "media",
+        "ru": 355,
+        "en": 272,
+        "kz": 306,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "glossary",
+        "ru": 346,
+        "en": 268,
+        "kz": 276,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "voice",
+        "ru": 340,
+        "en": 280,
+        "kz": 306,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "progress",
+        "ru": 356,
+        "en": 277,
+        "kz": 291,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "notes",
+        "ru": 395,
+        "en": 363,
+        "kz": 350,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "references",
+        "ru": 386,
+        "en": 320,
+        "kz": 333,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      }
+    ]
+  },
+  {
+    "module": 23,
+    "title": "Дыхание в изменённых условиях среды",
+    "sections": [
+      {
+        "subsection": "objectives",
+        "ru": 370,
+        "en": 293,
+        "kz": 263,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "pretest",
+        "ru": 373,
+        "en": 304,
+        "kz": 265,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "theory",
+        "ru": 314,
+        "en": 291,
+        "kz": 287,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "one-minute",
+        "ru": 364,
+        "en": 306,
+        "kz": 250,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "clinical",
+        "ru": 436,
+        "en": 341,
+        "kz": 341,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "interactive",
+        "ru": 424,
+        "en": 352,
+        "kz": 285,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "practice",
+        "ru": 235,
+        "en": 218,
+        "kz": 216,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "cases",
+        "ru": 249,
+        "en": 242,
+        "kz": 258,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "tests",
+        "ru": 427,
+        "en": 335,
+        "kz": 342,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "questions",
+        "ru": 1029,
+        "en": 842,
+        "kz": 781,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "virtual-patient",
+        "ru": 391,
+        "en": 316,
+        "kz": 287,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "media",
+        "ru": 374,
+        "en": 295,
+        "kz": 290,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "glossary",
+        "ru": 365,
+        "en": 291,
+        "kz": 260,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "voice",
+        "ru": 359,
+        "en": 303,
+        "kz": 290,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "progress",
+        "ru": 375,
+        "en": 300,
+        "kz": 275,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "notes",
+        "ru": 440,
+        "en": 354,
+        "kz": 364,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "references",
+        "ru": 405,
+        "en": 343,
+        "kz": 317,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      }
+    ]
+  },
+  {
+    "module": 24,
+    "title": "Методы исследования функций внешнего дыхания",
+    "sections": [
+      {
+        "subsection": "objectives",
+        "ru": 344,
+        "en": 300,
+        "kz": 277,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "pretest",
+        "ru": 347,
+        "en": 311,
+        "kz": 279,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "theory",
+        "ru": 524,
+        "en": 461,
+        "kz": 441,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "one-minute",
+        "ru": 338,
+        "en": 313,
+        "kz": 264,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "clinical",
+        "ru": 932,
+        "en": 839,
+        "kz": 827,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "interactive",
+        "ru": 398,
+        "en": 359,
+        "kz": 299,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "practice",
+        "ru": 524,
+        "en": 461,
+        "kz": 441,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "cases",
+        "ru": 524,
+        "en": 461,
+        "kz": 441,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "tests",
+        "ru": 401,
+        "en": 347,
+        "kz": 333,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "questions",
+        "ru": 932,
+        "en": 839,
+        "kz": 827,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "virtual-patient",
+        "ru": 365,
+        "en": 323,
+        "kz": 301,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "media",
+        "ru": 348,
+        "en": 302,
+        "kz": 304,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "glossary",
+        "ru": 339,
+        "en": 298,
+        "kz": 274,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "voice",
+        "ru": 333,
+        "en": 310,
+        "kz": 304,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "progress",
+        "ru": 349,
+        "en": 307,
+        "kz": 289,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "notes",
+        "ru": 414,
+        "en": 366,
+        "kz": 355,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "references",
+        "ru": 379,
+        "en": 350,
+        "kz": 331,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      }
+    ]
+  },
+  {
+    "module": 25,
+    "title": "Гипоксия и дыхательная недостаточность",
+    "sections": [
+      {
+        "subsection": "objectives",
+        "ru": 349,
+        "en": 311,
+        "kz": 278,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "pretest",
+        "ru": 352,
+        "en": 322,
+        "kz": 280,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "theory",
+        "ru": 238,
+        "en": 230,
+        "kz": 232,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "one-minute",
+        "ru": 343,
+        "en": 324,
+        "kz": 265,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "clinical",
+        "ru": 908,
+        "en": 677,
+        "kz": 681,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "interactive",
+        "ru": 403,
+        "en": 370,
+        "kz": 300,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "practice",
+        "ru": 189,
+        "en": 201,
+        "kz": 211,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "cases",
+        "ru": 249,
+        "en": 201,
+        "kz": 237,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "tests",
+        "ru": 364,
+        "en": 314,
+        "kz": 312,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "questions",
+        "ru": 908,
+        "en": 677,
+        "kz": 681,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "virtual-patient",
+        "ru": 370,
+        "en": 334,
+        "kz": 302,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "media",
+        "ru": 353,
+        "en": 313,
+        "kz": 305,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "glossary",
+        "ru": 344,
+        "en": 309,
+        "kz": 275,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "voice",
+        "ru": 338,
+        "en": 321,
+        "kz": 305,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "progress",
+        "ru": 354,
+        "en": 318,
+        "kz": 290,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "notes",
+        "ru": 377,
+        "en": 333,
+        "kz": 334,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      },
+      {
+        "subsection": "references",
+        "ru": 384,
+        "en": 361,
+        "kz": 332,
+        "note": "Curated supplement only, excludes main lesson and interactive components"
+      }
+    ]
+  }
+]

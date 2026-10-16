@@ -1,0 +1,1 @@
+V97: Replaced nine generic subsection supplements in modules 8, 13, 16 with distinct RU/EN/KZ academic explanations, worked calculations, and cases. Prior module content retained. Other 416 subsection routes remain outside this replacement. This is not a full peer review.

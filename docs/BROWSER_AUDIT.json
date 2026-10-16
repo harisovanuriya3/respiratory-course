@@ -1,0 +1,5995 @@
+{
+  "routes": 1275,
+  "patients": [
+    {
+      "module": 1,
+      "lang": "EN",
+      "steps": 6,
+      "result": "Result: 4/6\n\nRestart"
+    },
+    {
+      "module": 1,
+      "lang": "KZ",
+      "steps": 6,
+      "result": "Нәтиже: 1/6\n\nҚайта бастау"
+    },
+    {
+      "module": 1,
+      "lang": "RU",
+      "steps": 6,
+      "result": "Результат: 0/6\n\nПройти заново"
+    },
+    {
+      "module": 2,
+      "lang": "EN",
+      "steps": 6,
+      "result": "Result: 1/6\n\nRestart"
+    },
+    {
+      "module": 2,
+      "lang": "KZ",
+      "steps": 6,
+      "result": "Нәтиже: 3/6\n\nҚайта бастау"
+    },
+    {
+      "module": 2,
+      "lang": "RU",
+      "steps": 6,
+      "result": "Результат: 3/6\n\nПройти заново"
+    },
+    {
+      "module": 3,
+      "lang": "EN",
+      "steps": 6,
+      "result": "Result: 4/6\n\nRestart"
+    },
+    {
+      "module": 3,
+      "lang": "KZ",
+      "steps": 6,
+      "result": "Нәтиже: 2/6\n\nҚайта бастау"
+    },
+    {
+      "module": 3,
+      "lang": "RU",
+      "steps": 6,
+      "result": "Результат: 2/6\n\nПройти заново"
+    },
+    {
+      "module": 4,
+      "lang": "EN",
+      "steps": 6,
+      "result": "Result: 1/6\n\nRestart"
+    },
+    {
+      "module": 4,
+      "lang": "KZ",
+      "steps": 6,
+      "result": "Нәтиже: 4/6\n\nҚайта бастау"
+    },
+    {
+      "module": 4,
+      "lang": "RU",
+      "steps": 6,
+      "result": "Результат: 3/6\n\nПройти заново"
+    },
+    {
+      "module": 5,
+      "lang": "EN",
+      "steps": 6,
+      "result": "Result: 1/6\n\nRestart"
+    },
+    {
+      "module": 5,
+      "lang": "KZ",
+      "steps": 6,
+      "result": "Нәтиже: 3/6\n\nҚайта бастау"
+    },
+    {
+      "module": 5,
+      "lang": "RU",
+      "steps": 6,
+      "result": "Результат: 1/6\n\nПройти заново"
+    },
+    {
+      "module": 6,
+      "lang": "EN",
+      "steps": 6,
+      "result": "Result: 4/6\n\nRestart"
+    },
+    {
+      "module": 6,
+      "lang": "KZ",
+      "steps": 6,
+      "result": "Нәтиже: 1/6\n\nҚайта бастау"
+    },
+    {
+      "module": 6,
+      "lang": "RU",
+      "steps": 6,
+      "result": "Результат: 2/6\n\nПройти заново"
+    },
+    {
+      "module": 7,
+      "lang": "EN",
+      "steps": 6,
+      "result": "Result: 4/6\n\nRestart"
+    },
+    {
+      "module": 7,
+      "lang": "KZ",
+      "steps": 6,
+      "result": "Нәтиже: 1/6\n\nҚайта бастау"
+    },
+    {
+      "module": 7,
+      "lang": "RU",
+      "steps": 6,
+      "result": "Результат: 0/6\n\nПройти заново"
+    },
+    {
+      "module": 8,
+      "lang": "EN",
+      "steps": 6,
+      "result": "Result: 5/6\n\nRestart"
+    },
+    {
+      "module": 8,
+      "lang": "KZ",
+      "steps": 6,
+      "result": "Нәтиже: 1/6\n\nҚайта бастау"
+    },
+    {
+      "module": 8,
+      "lang": "RU",
+      "steps": 6,
+      "result": "Результат: 2/6\n\nПройти заново"
+    },
+    {
+      "module": 9,
+      "lang": "EN",
+      "steps": 6,
+      "result": "Result: 2/6\n\nRestart"
+    },
+    {
+      "module": 9,
+      "lang": "KZ",
+      "steps": 6,
+      "result": "Нәтиже: 1/6\n\nҚайта бастау"
+    },
+    {
+      "module": 9,
+      "lang": "RU",
+      "steps": 6,
+      "result": "Результат: 2/6\n\nПройти заново"
+    },
+    {
+      "module": 10,
+      "lang": "EN",
+      "steps": 6,
+      "result": "Result: 2/6\n\nRestart"
+    },
+    {
+      "module": 10,
+      "lang": "KZ",
+      "steps": 6,
+      "result": "Нәтиже: 2/6\n\nҚайта бастау"
+    },
+    {
+      "module": 10,
+      "lang": "RU",
+      "steps": 6,
+      "result": "Результат: 2/6\n\nПройти заново"
+    },
+    {
+      "module": 11,
+      "lang": "EN",
+      "steps": 6,
+      "result": "Result: 4/6\n\nRestart"
+    },
+    {
+      "module": 11,
+      "lang": "KZ",
+      "steps": 6,
+      "result": "Нәтиже: 3/6\n\nҚайта бастау"
+    },
+    {
+      "module": 11,
+      "lang": "RU",
+      "steps": 6,
+      "result": "Результат: 1/6\n\nПройти заново"
+    },
+    {
+      "module": 12,
+      "lang": "EN",
+      "steps": 6,
+      "result": "Result: 2/6\n\nRestart"
+    },
+    {
+      "module": 12,
+      "lang": "KZ",
+      "steps": 6,
+      "result": "Нәтиже: 1/6\n\nҚайта бастау"
+    },
+    {
+      "module": 12,
+      "lang": "RU",
+      "steps": 6,
+      "result": "Результат: 1/6\n\nПройти заново"
+    },
+    {
+      "module": 13,
+      "lang": "EN",
+      "steps": 6,
+      "result": "Result: 1/6\n\nRestart"
+    },
+    {
+      "module": 13,
+      "lang": "KZ",
+      "steps": 6,
+      "result": "Нәтиже: 3/6\n\nҚайта бастау"
+    },
+    {
+      "module": 13,
+      "lang": "RU",
+      "steps": 6,
+      "result": "Результат: 2/6\n\nПройти заново"
+    },
+    {
+      "module": 14,
+      "lang": "EN",
+      "steps": 6,
+      "result": "Result: 2/6\n\nRestart"
+    },
+    {
+      "module": 14,
+      "lang": "KZ",
+      "steps": 6,
+      "result": "Нәтиже: 3/6\n\nҚайта бастау"
+    },
+    {
+      "module": 14,
+      "lang": "RU",
+      "steps": 6,
+      "result": "Результат: 3/6\n\nПройти заново"
+    },
+    {
+      "module": 15,
+      "lang": "EN",
+      "steps": 6,
+      "result": "Result: 2/6\n\nRestart"
+    },
+    {
+      "module": 15,
+      "lang": "KZ",
+      "steps": 6,
+      "result": "Нәтиже: 3/6\n\nҚайта бастау"
+    },
+    {
+      "module": 15,
+      "lang": "RU",
+      "steps": 6,
+      "result": "Результат: 2/6\n\nПройти заново"
+    },
+    {
+      "module": 16,
+      "lang": "EN",
+      "steps": 6,
+      "result": "Result: 1/6\n\nRestart"
+    },
+    {
+      "module": 16,
+      "lang": "KZ",
+      "steps": 6,
+      "result": "Нәтиже: 4/6\n\nҚайта бастау"
+    },
+    {
+      "module": 16,
+      "lang": "RU",
+      "steps": 6,
+      "result": "Результат: 4/6\n\nПройти заново"
+    },
+    {
+      "module": 17,
+      "lang": "EN",
+      "steps": 6,
+      "result": "Result: 3/6\n\nRestart"
+    },
+    {
+      "module": 17,
+      "lang": "KZ",
+      "steps": 6,
+      "result": "Нәтиже: 2/6\n\nҚайта бастау"
+    },
+    {
+      "module": 17,
+      "lang": "RU",
+      "steps": 6,
+      "result": "Результат: 4/6\n\nПройти заново"
+    },
+    {
+      "module": 18,
+      "lang": "EN",
+      "steps": 6,
+      "result": "Result: 2/6\n\nRestart"
+    },
+    {
+      "module": 18,
+      "lang": "KZ",
+      "steps": 6,
+      "result": "Нәтиже: 2/6\n\nҚайта бастау"
+    },
+    {
+      "module": 18,
+      "lang": "RU",
+      "steps": 6,
+      "result": "Результат: 4/6\n\nПройти заново"
+    },
+    {
+      "module": 19,
+      "lang": "EN",
+      "steps": 6,
+      "result": "Result: 2/6\n\nRestart"
+    },
+    {
+      "module": 19,
+      "lang": "KZ",
+      "steps": 6,
+      "result": "Нәтиже: 2/6\n\nҚайта бастау"
+    },
+    {
+      "module": 19,
+      "lang": "RU",
+      "steps": 6,
+      "result": "Результат: 2/6\n\nПройти заново"
+    },
+    {
+      "module": 20,
+      "lang": "EN",
+      "steps": 6,
+      "result": "Result: 2/6\n\nRestart"
+    },
+    {
+      "module": 20,
+      "lang": "KZ",
+      "steps": 6,
+      "result": "Нәтиже: 2/6\n\nҚайта бастау"
+    },
+    {
+      "module": 20,
+      "lang": "RU",
+      "steps": 6,
+      "result": "Результат: 1/6\n\nПройти заново"
+    },
+    {
+      "module": 21,
+      "lang": "EN",
+      "steps": 6,
+      "result": "Result: 0/6\n\nRestart"
+    },
+    {
+      "module": 21,
+      "lang": "KZ",
+      "steps": 6,
+      "result": "Нәтиже: 4/6\n\nҚайта бастау"
+    },
+    {
+      "module": 21,
+      "lang": "RU",
+      "steps": 6,
+      "result": "Результат: 2/6\n\nПройти заново"
+    },
+    {
+      "module": 22,
+      "lang": "EN",
+      "steps": 6,
+      "result": "Result: 0/6\n\nRestart"
+    },
+    {
+      "module": 22,
+      "lang": "KZ",
+      "steps": 6,
+      "result": "Нәтиже: 2/6\n\nҚайта бастау"
+    },
+    {
+      "module": 22,
+      "lang": "RU",
+      "steps": 6,
+      "result": "Результат: 3/6\n\nПройти заново"
+    },
+    {
+      "module": 23,
+      "lang": "EN",
+      "steps": 6,
+      "result": "Result: 0/6\n\nRestart"
+    },
+    {
+      "module": 23,
+      "lang": "KZ",
+      "steps": 6,
+      "result": "Нәтиже: 1/6\n\nҚайта бастау"
+    },
+    {
+      "module": 23,
+      "lang": "RU",
+      "steps": 6,
+      "result": "Результат: 0/6\n\nПройти заново"
+    },
+    {
+      "module": 24,
+      "lang": "EN",
+      "steps": 6,
+      "result": "Result: 1/6\n\nRestart"
+    },
+    {
+      "module": 24,
+      "lang": "KZ",
+      "steps": 6,
+      "result": "Нәтиже: 2/6\n\nҚайта бастау"
+    },
+    {
+      "module": 24,
+      "lang": "RU",
+      "steps": 6,
+      "result": "Результат: 2/6\n\nПройти заново"
+    },
+    {
+      "module": 25,
+      "lang": "EN",
+      "steps": 6,
+      "result": "Result: 1/6\n\nRestart"
+    },
+    {
+      "module": 25,
+      "lang": "KZ",
+      "steps": 6,
+      "result": "Нәтиже: 2/6\n\nҚайта бастау"
+    },
+    {
+      "module": 25,
+      "lang": "RU",
+      "steps": 6,
+      "result": "Результат: 3/6\n\nПройти заново"
+    }
+  ],
+  "labs": [
+    {
+      "module": 1,
+      "lang": "KZ",
+      "sliders": [
+        {
+          "id": "vt",
+          "value": "1000",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "freq",
+          "value": "35",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "dead",
+          "value": "250",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "30",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 1,
+      "lang": "EN",
+      "sliders": [
+        {
+          "id": "vt",
+          "value": "1000",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "freq",
+          "value": "35",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "dead",
+          "value": "250",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "30",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 1,
+      "lang": "RU",
+      "sliders": [
+        {
+          "id": "vt",
+          "value": "1000",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "freq",
+          "value": "35",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "dead",
+          "value": "250",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "30",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 2,
+      "lang": "EN",
+      "sliders": [
+        {
+          "id": "vt",
+          "value": "1000",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "freq",
+          "value": "35",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "dead",
+          "value": "250",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "900",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 2,
+      "lang": "KZ",
+      "sliders": [
+        {
+          "id": "vt",
+          "value": "1000",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "freq",
+          "value": "35",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "dead",
+          "value": "250",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "900",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 2,
+      "lang": "RU",
+      "sliders": [
+        {
+          "id": "vt",
+          "value": "1000",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "freq",
+          "value": "35",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "dead",
+          "value": "250",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "900",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 3,
+      "lang": "EN",
+      "sliders": [
+        {
+          "id": "m3-pleural",
+          "value": "-2",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "m3-compliance",
+          "value": "0.3",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "m3-resistance",
+          "value": "10",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "-2",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 3,
+      "lang": "KZ",
+      "sliders": [
+        {
+          "id": "m3-pleural",
+          "value": "-2",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "m3-compliance",
+          "value": "0.3",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "m3-resistance",
+          "value": "10",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "-2",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 3,
+      "lang": "RU",
+      "sliders": [
+        {
+          "id": "m3-pleural",
+          "value": "-2",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "m3-compliance",
+          "value": "0.3",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "m3-resistance",
+          "value": "10",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "-2",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 4,
+      "lang": "EN",
+      "sliders": [
+        {
+          "id": "m4-vt",
+          "value": "800",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "m4-f",
+          "value": "24",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "m4-c",
+          "value": "0.3",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "m4-r",
+          "value": "8",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "12",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 4,
+      "lang": "KZ",
+      "sliders": [
+        {
+          "id": "m4-vt",
+          "value": "800",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "m4-f",
+          "value": "24",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "m4-c",
+          "value": "0.3",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "m4-r",
+          "value": "8",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "12",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 4,
+      "lang": "RU",
+      "sliders": [
+        {
+          "id": "m4-vt",
+          "value": "800",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "m4-f",
+          "value": "24",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "m4-c",
+          "value": "0.3",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "m4-r",
+          "value": "8",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "12",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 5,
+      "lang": "EN",
+      "sliders": [
+        {
+          "id": "m5-pa",
+          "value": "3",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "m5-pp",
+          "value": "0",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "m5-c",
+          "value": "0.3",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "0.3",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 5,
+      "lang": "KZ",
+      "sliders": [
+        {
+          "id": "m5-pa",
+          "value": "3",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "m5-pp",
+          "value": "0",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "m5-c",
+          "value": "0.3",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "0.3",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 5,
+      "lang": "RU",
+      "sliders": [
+        {
+          "id": "m5-pa",
+          "value": "3",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "m5-pp",
+          "value": "0",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "m5-c",
+          "value": "0.3",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "0.3",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 6,
+      "lang": "EN",
+      "sliders": [
+        {
+          "id": "six-radius",
+          "value": "140",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "1.5",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 6,
+      "lang": "KZ",
+      "sliders": [
+        {
+          "id": "six-radius",
+          "value": "140",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "1.5",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 6,
+      "lang": "RU",
+      "sliders": [
+        {
+          "id": "six-radius",
+          "value": "140",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "1.5",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 7,
+      "lang": "EN",
+      "sliders": [
+        {
+          "id": "seven-vt",
+          "value": "1000",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "seven-f",
+          "value": "30",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "seven-vd",
+          "value": "250",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "4000",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 7,
+      "lang": "KZ",
+      "sliders": [
+        {
+          "id": "seven-vt",
+          "value": "1000",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "seven-f",
+          "value": "30",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "seven-vd",
+          "value": "250",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "4000",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 7,
+      "lang": "RU",
+      "sliders": [
+        {
+          "id": "seven-vt",
+          "value": "1000",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "seven-f",
+          "value": "30",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "seven-vd",
+          "value": "250",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "4000",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 8,
+      "lang": "EN",
+      "sliders": [
+        {
+          "id": "eight-vt",
+          "value": "1000",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "eight-f",
+          "value": "35",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "eight-vd",
+          "value": "250",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "vt",
+          "value": "1200",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "dead",
+          "value": "600",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "rate",
+          "value": "60",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "vco2",
+          "value": "1000",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "28",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 8,
+      "lang": "KZ",
+      "sliders": [
+        {
+          "id": "eight-vt",
+          "value": "1000",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "eight-f",
+          "value": "35",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "eight-vd",
+          "value": "250",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "vt",
+          "value": "1200",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "dead",
+          "value": "600",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "rate",
+          "value": "60",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "vco2",
+          "value": "1000",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "28",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 8,
+      "lang": "RU",
+      "sliders": [
+        {
+          "id": "eight-vt",
+          "value": "1000",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "eight-f",
+          "value": "35",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "eight-vd",
+          "value": "250",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "vt",
+          "value": "1200",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "dead",
+          "value": "600",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "rate",
+          "value": "60",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "vco2",
+          "value": "1000",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "28",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 9,
+      "lang": "EN",
+      "sliders": [
+        {
+          "id": "nine-area",
+          "value": "150",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "nine-thick",
+          "value": "300",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "nine-grad",
+          "value": "100",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "3",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 9,
+      "lang": "KZ",
+      "sliders": [
+        {
+          "id": "nine-area",
+          "value": "150",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "nine-thick",
+          "value": "300",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "nine-grad",
+          "value": "100",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "3",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 9,
+      "lang": "RU",
+      "sliders": [
+        {
+          "id": "nine-area",
+          "value": "150",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "nine-thick",
+          "value": "300",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "nine-grad",
+          "value": "100",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "3",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 10,
+      "lang": "EN",
+      "sliders": [
+        {
+          "id": null,
+          "value": "800",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "60",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "80",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "1",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "110",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "fio2",
+          "value": "1",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "pb",
+          "value": "800",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "paco2",
+          "value": "100",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "r",
+          "value": "1.2",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "800",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 10,
+      "lang": "KZ",
+      "sliders": [
+        {
+          "id": null,
+          "value": "800",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "60",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "80",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "1",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "110",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "fio2",
+          "value": "1",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "pb",
+          "value": "800",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "paco2",
+          "value": "100",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "r",
+          "value": "1.2",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "800",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 10,
+      "lang": "RU",
+      "sliders": [
+        {
+          "id": null,
+          "value": "800",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "60",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "80",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "1",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "110",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "fio2",
+          "value": "1",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "pb",
+          "value": "800",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "paco2",
+          "value": "100",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "r",
+          "value": "1.2",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "800",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 11,
+      "lang": "EN",
+      "sliders": [
+        {
+          "id": null,
+          "value": "150",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "300",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "100",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "2",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 11,
+      "lang": "KZ",
+      "sliders": [
+        {
+          "id": null,
+          "value": "150",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "300",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "100",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "2",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 11,
+      "lang": "RU",
+      "sliders": [
+        {
+          "id": null,
+          "value": "150",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "300",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "100",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "2",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 12,
+      "lang": "EN",
+      "sliders": [
+        {
+          "id": "mp",
+          "value": "45",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "wp",
+          "value": "20",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "co",
+          "value": "12",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "45",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 12,
+      "lang": "KZ",
+      "sliders": [
+        {
+          "id": "mp",
+          "value": "45",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "wp",
+          "value": "20",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "co",
+          "value": "12",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "45",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 12,
+      "lang": "RU",
+      "sliders": [
+        {
+          "id": "mp",
+          "value": "45",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "wp",
+          "value": "20",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "co",
+          "value": "12",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "45",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 13,
+      "lang": "EN",
+      "sliders": [
+        {
+          "id": "va",
+          "value": "6",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "qa",
+          "value": "8",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "vb",
+          "value": "6",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "qb",
+          "value": "8",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "8",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "shunt-range",
+          "value": "50",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "shunt-hb-range",
+          "value": "18",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 13,
+      "lang": "KZ",
+      "sliders": [
+        {
+          "id": "va",
+          "value": "6",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "qa",
+          "value": "8",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "vb",
+          "value": "6",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "qb",
+          "value": "8",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "8",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "shunt-range",
+          "value": "50",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "shunt-hb-range",
+          "value": "18",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 13,
+      "lang": "RU",
+      "sliders": [
+        {
+          "id": "va",
+          "value": "6",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "qa",
+          "value": "8",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "vb",
+          "value": "6",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "qb",
+          "value": "8",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "8",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "shunt-range",
+          "value": "50",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "shunt-hb-range",
+          "value": "18",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 14,
+      "lang": "EN",
+      "sliders": [
+        {
+          "id": null,
+          "value": "40",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "120",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "20",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "10",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "hb",
+          "value": "22",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "sao2",
+          "value": "100",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "pao2",
+          "value": "600",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "co",
+          "value": "20",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "20",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "o2-po",
+          "value": "120",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "o2-p50",
+          "value": "35",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "o2-hb",
+          "value": "18",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 14,
+      "lang": "KZ",
+      "sliders": [
+        {
+          "id": null,
+          "value": "40",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "120",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "20",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "10",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "hb",
+          "value": "22",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "sao2",
+          "value": "100",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "pao2",
+          "value": "600",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "co",
+          "value": "20",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "20",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "o2-po",
+          "value": "120",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "o2-p50",
+          "value": "35",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "o2-hb",
+          "value": "18",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 14,
+      "lang": "RU",
+      "sliders": [
+        {
+          "id": null,
+          "value": "40",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "120",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "20",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "10",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "hb",
+          "value": "22",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "sao2",
+          "value": "100",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "pao2",
+          "value": "600",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "co",
+          "value": "20",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "20",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "o2-po",
+          "value": "120",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "o2-p50",
+          "value": "35",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "o2-hb",
+          "value": "18",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 15,
+      "lang": "EN",
+      "sliders": [
+        {
+          "id": null,
+          "value": "400",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "10",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "40",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "9",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v89-co2",
+          "value": "80",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v89-h",
+          "value": "40",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 15,
+      "lang": "KZ",
+      "sliders": [
+        {
+          "id": null,
+          "value": "400",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "10",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "40",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "9",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v89-co2",
+          "value": "80",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v89-h",
+          "value": "40",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 15,
+      "lang": "RU",
+      "sliders": [
+        {
+          "id": null,
+          "value": "400",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "10",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "40",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "9",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v89-co2",
+          "value": "80",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v89-h",
+          "value": "40",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 16,
+      "lang": "EN",
+      "sliders": [
+        {
+          "id": null,
+          "value": "80",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "40",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "155",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "120",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "hco3",
+          "value": "48",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "paco2",
+          "value": "100",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "38",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v90-pco2",
+          "value": "80",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v90-hco3",
+          "value": "40",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v90-hb",
+          "value": "18",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v90-sao2",
+          "value": "100",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v90-pao2",
+          "value": "110",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v90-co",
+          "value": "10",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 16,
+      "lang": "KZ",
+      "sliders": [
+        {
+          "id": null,
+          "value": "80",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "40",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "155",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "120",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "hco3",
+          "value": "48",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "paco2",
+          "value": "100",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "38",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v90-pco2",
+          "value": "80",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v90-hco3",
+          "value": "40",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v90-hb",
+          "value": "18",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v90-sao2",
+          "value": "100",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v90-pao2",
+          "value": "110",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v90-co",
+          "value": "10",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 16,
+      "lang": "RU",
+      "sliders": [
+        {
+          "id": null,
+          "value": "80",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "40",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "155",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "120",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "hco3",
+          "value": "48",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "paco2",
+          "value": "100",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "38",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v90-pco2",
+          "value": "80",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v90-hco3",
+          "value": "40",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v90-hb",
+          "value": "18",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v90-sao2",
+          "value": "100",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v90-pao2",
+          "value": "110",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v90-co",
+          "value": "10",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 17,
+      "lang": "EN",
+      "sliders": [
+        {
+          "id": "reg-co2",
+          "value": "75",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "reg-o2",
+          "value": "35",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "reg-ph",
+          "value": "7.6",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "deep-co2",
+          "value": "70",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "deep-o2",
+          "value": "110",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "rf-co2",
+          "value": "70",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "rf-o2",
+          "value": "40",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "rf-stretch",
+          "value": "100",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "rf-move",
+          "value": "100",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "hs-co2",
+          "value": "75",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "hs-o2",
+          "value": "35",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "400",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "10",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "0.15",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "70",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 17,
+      "lang": "KZ",
+      "sliders": [
+        {
+          "id": "reg-co2",
+          "value": "75",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "reg-o2",
+          "value": "35",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "reg-ph",
+          "value": "7.6",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "deep-co2",
+          "value": "70",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "deep-o2",
+          "value": "110",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "rf-co2",
+          "value": "70",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "rf-o2",
+          "value": "40",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "rf-stretch",
+          "value": "100",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "rf-move",
+          "value": "100",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "hs-co2",
+          "value": "75",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "hs-o2",
+          "value": "35",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "400",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "10",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "0.15",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "70",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 17,
+      "lang": "RU",
+      "sliders": [
+        {
+          "id": "reg-co2",
+          "value": "75",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "reg-o2",
+          "value": "35",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "reg-ph",
+          "value": "7.6",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "deep-co2",
+          "value": "70",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "deep-o2",
+          "value": "110",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "rf-co2",
+          "value": "70",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "rf-o2",
+          "value": "40",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "rf-stretch",
+          "value": "100",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "rf-move",
+          "value": "100",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "hs-co2",
+          "value": "75",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "hs-o2",
+          "value": "35",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "400",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "10",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "0.15",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "70",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 18,
+      "lang": "EN",
+      "sliders": [
+        {
+          "id": null,
+          "value": "1400",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "1400",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 18,
+      "lang": "KZ",
+      "sliders": [
+        {
+          "id": null,
+          "value": "1400",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "1400",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 18,
+      "lang": "RU",
+      "sliders": [
+        {
+          "id": null,
+          "value": "1400",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "1400",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 19,
+      "lang": "EN",
+      "sliders": [
+        {
+          "id": null,
+          "value": "350",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "10",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "35",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "40",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 19,
+      "lang": "KZ",
+      "sliders": [
+        {
+          "id": null,
+          "value": "350",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "10",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "35",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "40",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 19,
+      "lang": "RU",
+      "sliders": [
+        {
+          "id": null,
+          "value": "350",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "10",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "35",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "40",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 20,
+      "lang": "EN",
+      "sliders": [
+        {
+          "id": null,
+          "value": "3",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "55",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "0.35",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "4",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "5",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "190",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "200",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 20,
+      "lang": "KZ",
+      "sliders": [
+        {
+          "id": null,
+          "value": "3",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "55",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "0.35",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "4",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "5",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "190",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "200",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 20,
+      "lang": "RU",
+      "sliders": [
+        {
+          "id": null,
+          "value": "3",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "55",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "0.35",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "4",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "5",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "190",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "200",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 21,
+      "lang": "EN",
+      "sliders": [
+        {
+          "id": null,
+          "value": "760",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "50",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "40",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "760",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 21,
+      "lang": "KZ",
+      "sliders": [
+        {
+          "id": null,
+          "value": "760",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "50",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "40",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "760",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 21,
+      "lang": "RU",
+      "sliders": [
+        {
+          "id": null,
+          "value": "760",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "50",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "40",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "760",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 22,
+      "lang": "EN",
+      "sliders": [
+        {
+          "id": null,
+          "value": "9",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "350",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "180",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "10",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "120",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 22,
+      "lang": "KZ",
+      "sliders": [
+        {
+          "id": null,
+          "value": "9",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "350",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "180",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "10",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "120",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 22,
+      "lang": "RU",
+      "sliders": [
+        {
+          "id": null,
+          "value": "9",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "350",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "180",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "10",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "120",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 23,
+      "lang": "EN",
+      "sliders": [
+        {
+          "id": null,
+          "value": "40",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "0.4",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "6",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "5",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 23,
+      "lang": "KZ",
+      "sliders": [
+        {
+          "id": null,
+          "value": "40",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "0.4",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "6",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "5",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 23,
+      "lang": "RU",
+      "sliders": [
+        {
+          "id": null,
+          "value": "40",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "0.4",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "6",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "5",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 24,
+      "lang": "EN",
+      "sliders": [
+        {
+          "id": null,
+          "value": "5",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "7",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "9",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "5",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "4",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 24,
+      "lang": "KZ",
+      "sliders": [
+        {
+          "id": null,
+          "value": "5",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "7",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "9",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "5",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "4",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 24,
+      "lang": "RU",
+      "sliders": [
+        {
+          "id": null,
+          "value": "5",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "7",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "9",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "5",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "4",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 25,
+      "lang": "EN",
+      "sliders": [
+        {
+          "id": null,
+          "value": "20",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "100",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "140",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "10",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "80",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "60",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "9",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 25,
+      "lang": "KZ",
+      "sliders": [
+        {
+          "id": null,
+          "value": "20",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "100",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "140",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "10",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "80",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "60",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "9",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    },
+    {
+      "module": 25,
+      "lang": "RU",
+      "sliders": [
+        {
+          "id": null,
+          "value": "20",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "100",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "140",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "10",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "80",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": null,
+          "value": "60",
+          "changed": true,
+          "calculationChanged": true
+        },
+        {
+          "id": "v38-range",
+          "value": "9",
+          "changed": true,
+          "calculationChanged": true
+        }
+      ]
+    }
+  ],
+  "exams": [
+    {
+      "module": 1,
+      "lang": "EN",
+      "questions": 14
+    },
+    {
+      "module": 2,
+      "lang": "EN",
+      "questions": 8
+    },
+    {
+      "module": 3,
+      "lang": "EN",
+      "questions": 20
+    },
+    {
+      "module": 1,
+      "lang": "KZ",
+      "questions": 14
+    },
+    {
+      "module": 2,
+      "lang": "KZ",
+      "questions": 8
+    },
+    {
+      "module": 4,
+      "lang": "EN",
+      "questions": 20
+    },
+    {
+      "module": 1,
+      "lang": "RU",
+      "questions": 14
+    },
+    {
+      "module": 3,
+      "lang": "KZ",
+      "questions": 20
+    },
+    {
+      "module": 5,
+      "lang": "EN",
+      "questions": 14
+    },
+    {
+      "module": 2,
+      "lang": "RU",
+      "questions": 8
+    },
+    {
+      "module": 4,
+      "lang": "KZ",
+      "questions": 20
+    },
+    {
+      "module": 3,
+      "lang": "RU",
+      "questions": 20
+    },
+    {
+      "module": 6,
+      "lang": "EN",
+      "questions": 19
+    },
+    {
+      "module": 5,
+      "lang": "KZ",
+      "questions": 14
+    },
+    {
+      "module": 7,
+      "lang": "EN",
+      "questions": 14
+    },
+    {
+      "module": 4,
+      "lang": "RU",
+      "questions": 20
+    },
+    {
+      "module": 6,
+      "lang": "KZ",
+      "questions": 19
+    },
+    {
+      "module": 8,
+      "lang": "EN",
+      "questions": 20
+    },
+    {
+      "module": 7,
+      "lang": "KZ",
+      "questions": 14
+    },
+    {
+      "module": 5,
+      "lang": "RU",
+      "questions": 14
+    },
+    {
+      "module": 9,
+      "lang": "EN",
+      "questions": 19
+    },
+    {
+      "module": 8,
+      "lang": "KZ",
+      "questions": 20
+    },
+    {
+      "module": 6,
+      "lang": "RU",
+      "questions": 19
+    },
+    {
+      "module": 7,
+      "lang": "RU",
+      "questions": 14
+    },
+    {
+      "module": 9,
+      "lang": "KZ",
+      "questions": 19
+    },
+    {
+      "module": 10,
+      "lang": "EN",
+      "questions": 20
+    },
+    {
+      "module": 10,
+      "lang": "KZ",
+      "questions": 20
+    },
+    {
+      "module": 8,
+      "lang": "RU",
+      "questions": 20
+    },
+    {
+      "module": 11,
+      "lang": "EN",
+      "questions": 20
+    },
+    {
+      "module": 11,
+      "lang": "KZ",
+      "questions": 20
+    },
+    {
+      "module": 12,
+      "lang": "EN",
+      "questions": 10
+    },
+    {
+      "module": 9,
+      "lang": "RU",
+      "questions": 19
+    },
+    {
+      "module": 12,
+      "lang": "KZ",
+      "questions": 10
+    },
+    {
+      "module": 10,
+      "lang": "RU",
+      "questions": 20
+    },
+    {
+      "module": 13,
+      "lang": "EN",
+      "questions": 20
+    },
+    {
+      "module": 13,
+      "lang": "KZ",
+      "questions": 20
+    },
+    {
+      "module": 11,
+      "lang": "RU",
+      "questions": 20
+    },
+    {
+      "module": 14,
+      "lang": "EN",
+      "questions": 20
+    },
+    {
+      "module": 12,
+      "lang": "RU",
+      "questions": 10
+    },
+    {
+      "module": 14,
+      "lang": "KZ",
+      "questions": 20
+    },
+    {
+      "module": 15,
+      "lang": "EN",
+      "questions": 14
+    },
+    {
+      "module": 15,
+      "lang": "KZ",
+      "questions": 14
+    },
+    {
+      "module": 13,
+      "lang": "RU",
+      "questions": 20
+    },
+    {
+      "module": 16,
+      "lang": "EN",
+      "questions": 20
+    },
+    {
+      "module": 16,
+      "lang": "KZ",
+      "questions": 20
+    },
+    {
+      "module": 14,
+      "lang": "RU",
+      "questions": 20
+    },
+    {
+      "module": 17,
+      "lang": "EN",
+      "questions": 8
+    },
+    {
+      "module": 17,
+      "lang": "KZ",
+      "questions": 8
+    },
+    {
+      "module": 15,
+      "lang": "RU",
+      "questions": 14
+    },
+    {
+      "module": 18,
+      "lang": "EN",
+      "questions": 2
+    },
+    {
+      "module": 18,
+      "lang": "KZ",
+      "questions": 2
+    },
+    {
+      "module": 16,
+      "lang": "RU",
+      "questions": 20
+    },
+    {
+      "module": 19,
+      "lang": "KZ",
+      "questions": 16
+    },
+    {
+      "module": 19,
+      "lang": "EN",
+      "questions": 16
+    },
+    {
+      "module": 17,
+      "lang": "RU",
+      "questions": 8
+    },
+    {
+      "module": 20,
+      "lang": "EN",
+      "questions": 20
+    },
+    {
+      "module": 18,
+      "lang": "RU",
+      "questions": 2
+    },
+    {
+      "module": 20,
+      "lang": "KZ",
+      "questions": 20
+    },
+    {
+      "module": 21,
+      "lang": "EN",
+      "questions": 14
+    },
+    {
+      "module": 19,
+      "lang": "RU",
+      "questions": 16
+    },
+    {
+      "module": 21,
+      "lang": "KZ",
+      "questions": 14
+    },
+    {
+      "module": 22,
+      "lang": "EN",
+      "questions": 20
+    },
+    {
+      "module": 22,
+      "lang": "KZ",
+      "questions": 20
+    },
+    {
+      "module": 23,
+      "lang": "EN",
+      "questions": 20
+    },
+    {
+      "module": 20,
+      "lang": "RU",
+      "questions": 20
+    },
+    {
+      "module": 23,
+      "lang": "KZ",
+      "questions": 20
+    },
+    {
+      "module": 21,
+      "lang": "RU",
+      "questions": 14
+    },
+    {
+      "module": 24,
+      "lang": "EN",
+      "questions": 17
+    },
+    {
+      "module": 24,
+      "lang": "KZ",
+      "questions": 17
+    },
+    {
+      "module": 22,
+      "lang": "RU",
+      "questions": 20
+    },
+    {
+      "module": 25,
+      "lang": "EN",
+      "questions": 20
+    },
+    {
+      "module": 23,
+      "lang": "RU",
+      "questions": 20
+    },
+    {
+      "module": 25,
+      "lang": "KZ",
+      "questions": 20
+    },
+    {
+      "module": 24,
+      "lang": "RU",
+      "questions": 17
+    },
+    {
+      "module": 25,
+      "lang": "RU",
+      "questions": 20
+    }
+  ],
+  "selfAssessments": [
+    {
+      "module": 1,
+      "lang": "KZ",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 1,
+      "lang": "EN",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 1,
+      "lang": "RU",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 1,
+      "lang": "EN",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 1,
+      "lang": "KZ",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 1,
+      "lang": "RU",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 2,
+      "lang": "KZ",
+      "section": "pretest",
+      "results": [
+        "0 / 4"
+      ]
+    },
+    {
+      "module": 2,
+      "lang": "EN",
+      "section": "pretest",
+      "results": [
+        "0 / 4"
+      ]
+    },
+    {
+      "module": 2,
+      "lang": "RU",
+      "section": "pretest",
+      "results": [
+        "0 / 4"
+      ]
+    },
+    {
+      "module": 2,
+      "lang": "EN",
+      "section": "tests",
+      "results": [
+        "0 / 4"
+      ]
+    },
+    {
+      "module": 2,
+      "lang": "KZ",
+      "section": "tests",
+      "results": [
+        "0 / 4"
+      ]
+    },
+    {
+      "module": 2,
+      "lang": "RU",
+      "section": "tests",
+      "results": [
+        "0 / 4"
+      ]
+    },
+    {
+      "module": 3,
+      "lang": "EN",
+      "section": "pretest",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 3,
+      "lang": "KZ",
+      "section": "pretest",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 3,
+      "lang": "RU",
+      "section": "pretest",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 3,
+      "lang": "EN",
+      "section": "tests",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 3,
+      "lang": "KZ",
+      "section": "tests",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 3,
+      "lang": "RU",
+      "section": "tests",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 4,
+      "lang": "EN",
+      "section": "pretest",
+      "results": [
+        "0/6"
+      ]
+    },
+    {
+      "module": 4,
+      "lang": "KZ",
+      "section": "pretest",
+      "results": [
+        "0/6"
+      ]
+    },
+    {
+      "module": 4,
+      "lang": "RU",
+      "section": "pretest",
+      "results": [
+        "0/6"
+      ]
+    },
+    {
+      "module": 4,
+      "lang": "EN",
+      "section": "tests",
+      "results": [
+        "0/6"
+      ]
+    },
+    {
+      "module": 4,
+      "lang": "KZ",
+      "section": "tests",
+      "results": [
+        "0/6"
+      ]
+    },
+    {
+      "module": 4,
+      "lang": "RU",
+      "section": "tests",
+      "results": [
+        "0/6"
+      ]
+    },
+    {
+      "module": 5,
+      "lang": "EN",
+      "section": "pretest",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 5,
+      "lang": "KZ",
+      "section": "pretest",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 5,
+      "lang": "RU",
+      "section": "pretest",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 5,
+      "lang": "EN",
+      "section": "tests",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 5,
+      "lang": "KZ",
+      "section": "tests",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 5,
+      "lang": "RU",
+      "section": "tests",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 6,
+      "lang": "EN",
+      "section": "pretest",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 6,
+      "lang": "KZ",
+      "section": "pretest",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 6,
+      "lang": "RU",
+      "section": "pretest",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 6,
+      "lang": "EN",
+      "section": "tests",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 6,
+      "lang": "KZ",
+      "section": "tests",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 6,
+      "lang": "RU",
+      "section": "tests",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 7,
+      "lang": "EN",
+      "section": "pretest",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 7,
+      "lang": "KZ",
+      "section": "pretest",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 7,
+      "lang": "RU",
+      "section": "pretest",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 7,
+      "lang": "EN",
+      "section": "tests",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 7,
+      "lang": "KZ",
+      "section": "tests",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 7,
+      "lang": "RU",
+      "section": "tests",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 8,
+      "lang": "EN",
+      "section": "pretest",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 8,
+      "lang": "KZ",
+      "section": "pretest",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 8,
+      "lang": "RU",
+      "section": "pretest",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 8,
+      "lang": "EN",
+      "section": "tests",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 8,
+      "lang": "KZ",
+      "section": "tests",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 8,
+      "lang": "RU",
+      "section": "tests",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 9,
+      "lang": "EN",
+      "section": "pretest",
+      "results": [
+        "0/4"
+      ]
+    },
+    {
+      "module": 9,
+      "lang": "KZ",
+      "section": "pretest",
+      "results": [
+        "0/4"
+      ]
+    },
+    {
+      "module": 9,
+      "lang": "RU",
+      "section": "pretest",
+      "results": [
+        "0/4"
+      ]
+    },
+    {
+      "module": 9,
+      "lang": "EN",
+      "section": "tests",
+      "results": [
+        "0/4"
+      ]
+    },
+    {
+      "module": 9,
+      "lang": "KZ",
+      "section": "tests",
+      "results": [
+        "0/4"
+      ]
+    },
+    {
+      "module": 9,
+      "lang": "RU",
+      "section": "tests",
+      "results": [
+        "0/4"
+      ]
+    },
+    {
+      "module": 10,
+      "lang": "EN",
+      "section": "pretest",
+      "results": [
+        "0/8"
+      ]
+    },
+    {
+      "module": 10,
+      "lang": "KZ",
+      "section": "pretest",
+      "results": [
+        "0/8"
+      ]
+    },
+    {
+      "module": 10,
+      "lang": "RU",
+      "section": "pretest",
+      "results": [
+        "0/8"
+      ]
+    },
+    {
+      "module": 10,
+      "lang": "EN",
+      "section": "tests",
+      "results": [
+        "0/8"
+      ]
+    },
+    {
+      "module": 10,
+      "lang": "KZ",
+      "section": "tests",
+      "results": [
+        "0/8"
+      ]
+    },
+    {
+      "module": 10,
+      "lang": "RU",
+      "section": "tests",
+      "results": [
+        "0/8"
+      ]
+    },
+    {
+      "module": 11,
+      "lang": "EN",
+      "section": "pretest",
+      "results": [
+        "0/3"
+      ]
+    },
+    {
+      "module": 11,
+      "lang": "KZ",
+      "section": "pretest",
+      "results": [
+        "0/3"
+      ]
+    },
+    {
+      "module": 11,
+      "lang": "RU",
+      "section": "pretest",
+      "results": [
+        "0/3"
+      ]
+    },
+    {
+      "module": 11,
+      "lang": "EN",
+      "section": "tests",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 11,
+      "lang": "KZ",
+      "section": "tests",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 11,
+      "lang": "RU",
+      "section": "tests",
+      "results": [
+        "0/5"
+      ]
+    },
+    {
+      "module": 12,
+      "lang": "EN",
+      "section": "pretest",
+      "results": [
+        "0/3"
+      ]
+    },
+    {
+      "module": 12,
+      "lang": "KZ",
+      "section": "pretest",
+      "results": [
+        "0/3"
+      ]
+    },
+    {
+      "module": 12,
+      "lang": "RU",
+      "section": "pretest",
+      "results": [
+        "0/3"
+      ]
+    },
+    {
+      "module": 12,
+      "lang": "EN",
+      "section": "tests",
+      "results": [
+        "0/6"
+      ]
+    },
+    {
+      "module": 12,
+      "lang": "KZ",
+      "section": "tests",
+      "results": [
+        "0/6"
+      ]
+    },
+    {
+      "module": 12,
+      "lang": "RU",
+      "section": "tests",
+      "results": [
+        "0/6"
+      ]
+    },
+    {
+      "module": 13,
+      "lang": "EN",
+      "section": "pretest",
+      "results": [
+        "0/3"
+      ]
+    },
+    {
+      "module": 13,
+      "lang": "KZ",
+      "section": "pretest",
+      "results": [
+        "0/3"
+      ]
+    },
+    {
+      "module": 13,
+      "lang": "RU",
+      "section": "pretest",
+      "results": [
+        "0/3"
+      ]
+    },
+    {
+      "module": 13,
+      "lang": "EN",
+      "section": "tests",
+      "results": [
+        "0/8"
+      ]
+    },
+    {
+      "module": 13,
+      "lang": "KZ",
+      "section": "tests",
+      "results": [
+        "0/8"
+      ]
+    },
+    {
+      "module": 13,
+      "lang": "RU",
+      "section": "tests",
+      "results": [
+        "0/8"
+      ]
+    },
+    {
+      "module": 14,
+      "lang": "EN",
+      "section": "pretest",
+      "results": [
+        "0/4"
+      ]
+    },
+    {
+      "module": 14,
+      "lang": "KZ",
+      "section": "pretest",
+      "results": [
+        "0/4"
+      ]
+    },
+    {
+      "module": 14,
+      "lang": "RU",
+      "section": "pretest",
+      "results": [
+        "0/4"
+      ]
+    },
+    {
+      "module": 14,
+      "lang": "EN",
+      "section": "tests",
+      "results": [
+        "0/10"
+      ]
+    },
+    {
+      "module": 14,
+      "lang": "KZ",
+      "section": "tests",
+      "results": [
+        "0/10"
+      ]
+    },
+    {
+      "module": 14,
+      "lang": "RU",
+      "section": "tests",
+      "results": [
+        "0/10"
+      ]
+    },
+    {
+      "module": 15,
+      "lang": "EN",
+      "section": "pretest",
+      "results": [
+        "0/4"
+      ]
+    },
+    {
+      "module": 15,
+      "lang": "KZ",
+      "section": "pretest",
+      "results": [
+        "0/4"
+      ]
+    },
+    {
+      "module": 15,
+      "lang": "RU",
+      "section": "pretest",
+      "results": [
+        "0/4"
+      ]
+    },
+    {
+      "module": 15,
+      "lang": "EN",
+      "section": "tests",
+      "results": [
+        "0/8"
+      ]
+    },
+    {
+      "module": 15,
+      "lang": "KZ",
+      "section": "tests",
+      "results": [
+        "0/8"
+      ]
+    },
+    {
+      "module": 15,
+      "lang": "RU",
+      "section": "tests",
+      "results": [
+        "0/8"
+      ]
+    },
+    {
+      "module": 16,
+      "lang": "EN",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 16,
+      "lang": "KZ",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 16,
+      "lang": "RU",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 16,
+      "lang": "EN",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 16,
+      "lang": "KZ",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 16,
+      "lang": "RU",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 17,
+      "lang": "EN",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 17,
+      "lang": "KZ",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 17,
+      "lang": "RU",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 17,
+      "lang": "EN",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 17,
+      "lang": "KZ",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 17,
+      "lang": "RU",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 18,
+      "lang": "EN",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 18,
+      "lang": "EN",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 18,
+      "lang": "KZ",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 18,
+      "lang": "RU",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 18,
+      "lang": "KZ",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 18,
+      "lang": "RU",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 19,
+      "lang": "EN",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 19,
+      "lang": "EN",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 19,
+      "lang": "KZ",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 19,
+      "lang": "RU",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 19,
+      "lang": "KZ",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 19,
+      "lang": "RU",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 20,
+      "lang": "EN",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 20,
+      "lang": "KZ",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 20,
+      "lang": "EN",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 20,
+      "lang": "RU",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 20,
+      "lang": "KZ",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 20,
+      "lang": "RU",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 21,
+      "lang": "EN",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 21,
+      "lang": "KZ",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 21,
+      "lang": "EN",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 21,
+      "lang": "RU",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 21,
+      "lang": "KZ",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 21,
+      "lang": "RU",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 22,
+      "lang": "EN",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 22,
+      "lang": "KZ",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 22,
+      "lang": "EN",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 22,
+      "lang": "RU",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 22,
+      "lang": "KZ",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 23,
+      "lang": "EN",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 22,
+      "lang": "RU",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 23,
+      "lang": "KZ",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 23,
+      "lang": "EN",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 23,
+      "lang": "RU",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 23,
+      "lang": "KZ",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 24,
+      "lang": "EN",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 23,
+      "lang": "RU",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 24,
+      "lang": "KZ",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 24,
+      "lang": "EN",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 24,
+      "lang": "RU",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 24,
+      "lang": "KZ",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 25,
+      "lang": "EN",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 24,
+      "lang": "RU",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 25,
+      "lang": "KZ",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 25,
+      "lang": "EN",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 25,
+      "lang": "RU",
+      "section": "pretest",
+      "results": []
+    },
+    {
+      "module": 25,
+      "lang": "KZ",
+      "section": "tests",
+      "results": []
+    },
+    {
+      "module": 25,
+      "lang": "RU",
+      "section": "tests",
+      "results": []
+    }
+  ],
+  "mobile": [
+    {
+      "route": "/?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/contents?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/labs?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/patients?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/patients/advanced?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/exam?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/contents?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/1/theory?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/labs?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/1/interactive?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/patients?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/1/virtual-patient?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/patients/advanced?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/2/theory?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/exam?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/2/interactive?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/1/theory?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/2/virtual-patient?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/1/interactive?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/3/theory?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/1/virtual-patient?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/contents?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/3/interactive?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/2/theory?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/labs?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/3/virtual-patient?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/2/interactive?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/patients?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/4/theory?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/2/virtual-patient?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/patients/advanced?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/4/interactive?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/3/theory?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/4/virtual-patient?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/exam?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/3/interactive?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/5/theory?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/1/theory?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/3/virtual-patient?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/1/interactive?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/5/interactive?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/4/theory?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/1/virtual-patient?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/4/interactive?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/5/virtual-patient?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/2/theory?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/4/virtual-patient?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/6/theory?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/2/interactive?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/5/theory?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/6/interactive?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/2/virtual-patient?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/5/interactive?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/6/virtual-patient?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/3/theory?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/5/virtual-patient?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/7/theory?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/3/interactive?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/6/theory?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/7/interactive?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/3/virtual-patient?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/6/interactive?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/7/virtual-patient?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/4/theory?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/6/virtual-patient?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/8/theory?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/4/interactive?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/7/theory?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/8/interactive?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/4/virtual-patient?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/7/interactive?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/8/virtual-patient?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/5/theory?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/7/virtual-patient?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/5/interactive?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/9/theory?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/8/theory?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/5/virtual-patient?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/9/interactive?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/8/interactive?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/6/theory?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/9/virtual-patient?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/8/virtual-patient?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/6/interactive?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/10/theory?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/9/theory?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/6/virtual-patient?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/10/interactive?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/9/interactive?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/7/theory?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/10/virtual-patient?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/9/virtual-patient?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/7/interactive?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/10/theory?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/11/theory?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/7/virtual-patient?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/11/interactive?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/10/interactive?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/8/theory?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/10/virtual-patient?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/11/virtual-patient?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/8/interactive?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/11/theory?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/12/theory?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/8/virtual-patient?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/11/interactive?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/12/interactive?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/9/theory?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/11/virtual-patient?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/12/virtual-patient?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/9/interactive?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/12/theory?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/13/theory?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/9/virtual-patient?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/12/interactive?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/10/theory?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/13/interactive?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/12/virtual-patient?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/10/interactive?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/13/virtual-patient?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/13/theory?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/10/virtual-patient?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/14/theory?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/13/interactive?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/11/theory?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/14/interactive?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/13/virtual-patient?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/11/interactive?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/14/virtual-patient?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/14/theory?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/11/virtual-patient?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/14/interactive?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/15/theory?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/12/theory?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/15/interactive?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/14/virtual-patient?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/12/interactive?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/15/virtual-patient?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/15/theory?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/12/virtual-patient?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/16/theory?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/15/interactive?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/13/theory?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/15/virtual-patient?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/16/interactive?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/13/interactive?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/16/theory?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/16/virtual-patient?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/13/virtual-patient?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/16/interactive?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/17/theory?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/14/theory?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/16/virtual-patient?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/14/interactive?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/17/interactive?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/17/theory?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/14/virtual-patient?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/17/virtual-patient?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/17/interactive?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/15/theory?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/18/theory?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/17/virtual-patient?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/15/interactive?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/18/interactive?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/18/theory?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/15/virtual-patient?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/18/virtual-patient?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/18/interactive?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/16/theory?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/19/theory?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/18/virtual-patient?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/16/interactive?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/19/interactive?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/19/theory?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/16/virtual-patient?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/19/virtual-patient?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/19/interactive?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/17/theory?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/20/theory?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/19/virtual-patient?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/17/interactive?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/20/interactive?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/20/theory?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/17/virtual-patient?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/20/virtual-patient?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/20/interactive?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/18/theory?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/21/theory?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/20/virtual-patient?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/18/interactive?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/21/interactive?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/21/theory?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/18/virtual-patient?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/21/virtual-patient?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/21/interactive?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/19/theory?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/22/theory?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/21/virtual-patient?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/19/interactive?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/22/interactive?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/22/theory?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/19/virtual-patient?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/22/virtual-patient?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/22/interactive?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/20/theory?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/23/theory?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/22/virtual-patient?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/20/interactive?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/23/interactive?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/23/theory?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/20/virtual-patient?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/23/interactive?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/23/virtual-patient?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/21/theory?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/23/virtual-patient?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/24/theory?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/21/interactive?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/24/theory?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/24/interactive?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/21/virtual-patient?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/24/interactive?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/24/virtual-patient?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/22/theory?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/24/virtual-patient?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/25/theory?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/22/interactive?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/25/theory?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/22/virtual-patient?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/25/interactive?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/25/interactive?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/25/virtual-patient?lang=EN",
+      "overflow": false
+    },
+    {
+      "route": "/modules/23/theory?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/25/virtual-patient?lang=KZ",
+      "overflow": false
+    },
+    {
+      "route": "/modules/23/interactive?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/23/virtual-patient?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/24/theory?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/24/interactive?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/24/virtual-patient?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/25/theory?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/25/interactive?lang=RU",
+      "overflow": false
+    },
+    {
+      "route": "/modules/25/virtual-patient?lang=RU",
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "brokenLinks": [],
+  "duplicateIds": []
+}

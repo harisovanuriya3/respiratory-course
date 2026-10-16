@@ -1,0 +1,382 @@
+{
+    "backup":  "respiratory-course-backup-20261016-164218.zip",
+    "backupSha256":  "B3D1D75FFA758FC79C48A3CEE147ACE9E5E5452E486290106DEB3BCDCC495E9B",
+    "vercelConfigurationUnchanged":  true,
+    "files":  [
+                  {
+                      "path":  ".gitignore",
+                      "sha256":  "652E4E6E586554456756BA869D8C45DEC66812095F7394E4F4999AA995EF1A08",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "audit-changes.ps1",
+                      "sha256":  "B9FAFADCD576B67CE6720533ACA730FFA445CD1451BB5D85071E265C1A34AB63",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "audit-lesson-data.mjs",
+                      "sha256":  "F4A03976E984F32D6E4160810C9A719752C7F8F3189ACCDD6C4B53C72C561E56",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "audit-rendered.mjs",
+                      "sha256":  "AF3A6494B86B67437704643F284F4B79B9BA1AB7AFB2A9D5FA0D3B165DD5F00F",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "browser-audit.mjs",
+                      "sha256":  "DD178210FC35531966F8CF356E6CBFBF66272ADC007C5253949C58FAFC39A526",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "browser-practice.mjs",
+                      "sha256":  "BF302F4803A987D7B7665B23B4F73C47AF9C490260E8AD7E048B200106D2108B",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "build.mjs",
+                      "sha256":  "1A3FB90758EF5690239690911EEEE9FCF214B09173EB46D1E73CEC2B5BB75733",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "check.mjs",
+                      "sha256":  "388032C0E174CF16184E2A78429C5DE50EAA726F7D8960C9B3D03B61964B5683",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "docs/ACCEPTANCE_RESULT.json",
+                      "sha256":  "A13DCE9E75203C373A181621703F7A8952D86AFBAE1AB9220F02B2598FCB9FCE",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "docs/BROWSER_AUDIT.json",
+                      "sha256":  "502FD054FD36C61E5B2885F6B5017EFDF5E172AFD638F36566188971A4E7593D",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "docs/BROWSER_CASE_ROUTES.json",
+                      "sha256":  "D3C79FA052160EF03D619B9643529212C233C79C83294EC9E9A058A813F5D83C",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "docs/BROWSER_PRACTICE.json",
+                      "sha256":  "3DF03F40652FC57A6D452FAB602664452938597A6B256823A189835872792496",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "docs/BROWSER_REGRESSIONS.json",
+                      "sha256":  "B002684355144E8A6370FB0E5A76E70386E709F4EA7EC60F26698A4C8F72D55E",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "docs/BROWSER_SUMMARY.json",
+                      "sha256":  "84B4B60BAEAB9C00F50EF1A4ED1511D73A3A3C2477C906A0BA2F00E9DF82DB4C",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "docs/CHANGED_PAGE_ROUTES.json",
+                      "sha256":  "7983A8EECC7AADFD1816F4B7FB77FC02384AC2834C2540E9D9C8357A4D5F0B37",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "docs/DEPTH_AUDIT_BEFORE.json",
+                      "sha256":  "1E67759CB815937F2D18804C83CF914F62410C1CF507A667598676B84484BE27",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "docs/DEPTH_COMPLETION_2026-10-16.md",
+                      "sha256":  "CD67B70E475FAFD42420AFF3889D7A8994A4DC664F988A1AE12349C4BBE3563F",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "docs/FINAL_AUDIT_2026-10-16.md",
+                      "sha256":  "BCF91FA29C05437F0E7D72902D78240B342009B1A5C6F30D58322C71C42BE3F5",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "docs/FINAL_VERIFICATION.json",
+                      "sha256":  "80B4CA02A57082FA3B59FAA3A34E535059557E3469292B263148F567E8A85B30",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "docs/LESSON_DATA_AUDIT.json",
+                      "sha256":  "4F53CDA18C2BAA0C0354BB5F9A3ECBE5ED12AB4D8E11BA873C2F11161202B945",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "docs/mobile-regulation-EN.png",
+                      "sha256":  "8D98450D5BE85B821450693A48559A19EC7B99AC2D9627DBDF9B0A5A1D84126B",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "docs/RENDERED_AUDIT.json",
+                      "sha256":  "63FAC585F4B53448F93207CED156053705E2BF0D105D7972821674D23F9F1E35",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "docs/RENDERED_AUDIT_BACKUP.json",
+                      "sha256":  "B8F5C1D954DA47782D3EA54CE4BF17BA26DBB3A2F2EC8E3642AA2D2F99EBC94D",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "docs/SCIENTIFIC_REVIEW_2026-10-16.md",
+                      "sha256":  "6A38392A636B0BBF9383B87DEF8106659F5DCEDECBB0FD17E6BD46FBC74F7B80",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "docs/TEST_RESULTS.json",
+                      "sha256":  "C6E6FD713ED9610132761E6668B816746F0BC4CA0C19E7FE66E8A0D695170FD3",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "package.json",
+                      "sha256":  "5D34D9CB37FE17D94C62DF2802095A85837C48061599503D280CF955277C37D3",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/academic-curator.js",
+                      "sha256":  "A16D7F1373ABFF948C8D2CC0255DC04B6B0915ED8E8CD385F1CBDC2A36F1C1AC",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/advanced-patients.js",
+                      "sha256":  "5B87A67987FFFB6AF0511AAA72F6C404CF403C5B2AF77B0A84DD06A6BDDBDAEE",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/app.js",
+                      "sha256":  "E031FEA357306DAFDAE376CE1CF49559A5DB7872FAA22DC748BE366E765C490B",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/assessment.js",
+                      "sha256":  "21A70D2F0C8852FA8F6C7A4D52A917E391CC007107AA196DDB2A617A6F670DE8",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/course-extra.js",
+                      "sha256":  "8AB44CCC6DBD471EFD8320E81E6309FE06CD0FCBBB9D8AF07BB7C13B95B53BA8",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/exam-center.js",
+                      "sha256":  "6B3BBAE9545181630E20BBB30F1B5D05A51248D42D41942881189B794CB5296C",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/integrated-labs.js",
+                      "sha256":  "C6707FFF5F73959BBB3D11D9C35613BE0EC869A0381EFFEC4894EEAFA2450131",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/lesson-localization.js",
+                      "sha256":  "236E75331D35A38512FA9CA5ACCE24AB9036EB2997023F4092F63A7A55EB22C0",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "public/module-eight.js",
+                      "sha256":  "477393FA243D8CE601FA9D96E95CB9E3BAD8802B3F16A530EB332B7C07AEE82F",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/module-eighteen.js",
+                      "sha256":  "410314024CC52ECCCFCF533C4CC6DC52C4A66175086D777EEEC77729333EF346",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/module-eleven.js",
+                      "sha256":  "F068D8D18B84834308649263268DDF018E8C945CD7DCE16D9AB25068D6EA908B",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/module-fifteen.js",
+                      "sha256":  "B140F5D701E667F9F5F44556548A1E454112488B3338F78E6455E8F22E124057",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/module-five.js",
+                      "sha256":  "422B4FA9018E4EE6AF639DF5C20669F17CE96217534C11665E249D9400C24EC8",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/module-four.js",
+                      "sha256":  "AF3467405F59AE7879D4962BC321A51FAE65D031BB37FEAC430B760134529E54",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/module-fourteen.js",
+                      "sha256":  "C0E46DDCF6A5A2210FF658A451DC127561A1F680D05F5A3EA38EBE9EA100FA19",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/module-nine.js",
+                      "sha256":  "6746AE98D7A7E43677A9B5F93FB542AFE3A349320FE9B2425917A724D4C2EB79",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/module-seven.js",
+                      "sha256":  "5104F80D2C1A82FB1584BB97E39904158C474A01D79387A9C07456A1642B130C",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/module-seventeen.js",
+                      "sha256":  "9475EA18FE8002D3DCB5D3173CA3357E91E57B32DD65FE2C860D9AF5A50B388E",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/module-six.js",
+                      "sha256":  "5B115E783E2D5E6823F193563F93ACC29D09F74A6D3088E716A0662C1B013DE7",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/module-sixteen.js",
+                      "sha256":  "5C0779E8A53F6C77873AFDAD9449FB10AD677F15445A95848D546E9FEB86B372",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/module-ten.js",
+                      "sha256":  "982A10E17A359D48D566FAD32B0938C9D13F36B736F09C94DB87E6FEEC75BBAF",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/module-thirteen.js",
+                      "sha256":  "FF8FD720A470254A2618FBF0AD11B653DADD5D6BEC0B6ED4C480CD4326EE9E48",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/module-three.js",
+                      "sha256":  "2719FC85AFBCE3EC8B347FD7FAE869EF273E5AD24CBB14A31A114D1D20ABB1D1",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/module-twelve.js",
+                      "sha256":  "375BABBA0A865BB4FF9BF5199CFD5C7B7D832A6004E6A7E901DB564E5266BE95",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/module-twenty-five.js",
+                      "sha256":  "0C9B1C8F783FB20B6032D6FC7989A2EE2A7F1138EC992236835D18268A647A56",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/module-twenty-four.js",
+                      "sha256":  "98EAC0E827F6576C46F90480298F8D88B723583B4544EE43F8AA123D3F508E5D",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/module-twenty-one.js",
+                      "sha256":  "2230CF842339D42A60700E32B2317EF9A5BBCB0AAB0274D0E54C45D767F92940",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/module-twenty-three.js",
+                      "sha256":  "C26AE22405EC2017BD84971F8EFE69B93732B384F189E69BAE456B3EE04F78CF",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/module-two.js",
+                      "sha256":  "2CFAA794A7D7FD74455267C24703B01574C3931103E5BA339DF2C081FB2DC531",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/patient-cases.js",
+                      "sha256":  "6A34CDC827E465E67E634DD31B25E921CD258FDE9996427D972CCAED0F1524A0",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/patient-context.js",
+                      "sha256":  "E7C0CF63CFF479B9B5C751B874386998971A67DAFD862734BD1FD73B34740354",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "public/patient-evidence.js",
+                      "sha256":  "2C0D0A7FF95CE66612663F6E0C7414D379E36CA9DE1013E489E66E1207D1F165",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "public/patient-explanations.js",
+                      "sha256":  "BE50F021B725B0973E78484B80CB0C17272560F11E08100F2F9B214B749B13A5",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "public/patient-localization.js",
+                      "sha256":  "1C57363DE6A8A9E8759E43B9C799D752DA0170C8FA18A4EFB8590C6ED2531966",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "public/practice-foundations.js",
+                      "sha256":  "AB74B0E9FFB2CAF165BCF69ADF2553B43E47982244107A94BB0824914ADE8736",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "public/practice-gas-exchange.js",
+                      "sha256":  "77413730012EBD1CB6C17821681698B1B09DB08400E9DC737D5731A55646B607",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "public/practice-regulation.js",
+                      "sha256":  "D4AF7713E52DDCAC96A5D6BA1433604FADA58B9C7C95CAE9225AB09E01D9CC49",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "public/practice-workshops.js",
+                      "sha256":  "6ED85C94FA318231D04E75EE169B0BF39756B0BC46D3CEE9FF421CE7E1B99F01",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "public/quiz-order.js",
+                      "sha256":  "0BD470BCEF1A86A376FCDCA0DF4888D00E79DDB924229731F69B672C0C163364",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "public/scientific-sources.js",
+                      "sha256":  "096FC248E831E7B05978A1C6A2EE9F74A42AF8EDC04717E325766B4CABD2A4FE",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "README.md",
+                      "sha256":  "ED2CF9C715CB2BFAB85D4111D7A3AD344AD7FC4FD5EC88B3FA5B405D9E910581",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "remediate.mjs",
+                      "status":  "removed",
+                      "note":  "Temporary one-time remediation helper; preserved in backup"
+                  },
+                  {
+                      "path":  "run-tests.mjs",
+                      "sha256":  "A348611C2E6A95F1AB86EECE888B4014E0616E6B45ABF1852698B1707106D558",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "test-calculated-bank.mjs",
+                      "sha256":  "19A45BE5921414CEA136AFAD7937C443F4A4C53574370AB19B5E8DAB860F37EF",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "test-full-exam.mjs",
+                      "sha256":  "B0BF8A279FA6A486F21E014C1913FE84B9DF5E9C3EACDC4B17D45681E3D328E1",
+                      "status":  "modified"
+                  },
+                  {
+                      "path":  "test-lesson-localization.mjs",
+                      "sha256":  "74BB66B276002ECEA8660221237DB0B17A39447277C628787FE6E7CD30130D42",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "test-patient-content.mjs",
+                      "sha256":  "DBB6D9432EB3523BD4AB3CB0FCEC3E42213D5DDE927C39D3744449B7AF534D16",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "test-practice-workshops.mjs",
+                      "sha256":  "F5D1F622EA568D0089060DA2F3B4DF89A9DC1C478F599BD20EF434D002394043",
+                      "status":  "added"
+                  },
+                  {
+                      "path":  "update-interactions.mjs",
+                      "status":  "removed",
+                      "note":  "Temporary one-time remediation helper; preserved in backup"
+                  }
+              ]
+}

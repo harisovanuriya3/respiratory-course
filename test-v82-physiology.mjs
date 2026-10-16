@@ -1,0 +1,10 @@
+import {readFileSync} from 'node:fs';
+import assert from 'node:assert/strict';
+const s=readFileSync(new URL('./public/module-twenty-two.js',import.meta.url),'utf8');
+assert.match(s,/PaCO₂≈0,863·V̇CO₂\/V̇A/);
+assert.match(s,/PaCO₂≈0\.863·V̇CO₂\/V̇A/);
+assert.match(s,/const paco2=0\.863\*x\.co2\/x\.va/);
+const estimate=(vco2,va)=>0.863*vco2/va;
+assert.ok(Math.abs(estimate(200,4.3)-40.14)<0.05);
+assert.ok(Math.abs(estimate(200,2.15)-80.28)<0.05);
+console.log('V82 unit-consistency regression: passed');

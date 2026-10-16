@@ -1,0 +1,1 @@
+V50: Five new multilingual physiology supplements (modules 3, 10, 18, 21, 22), each with two substantive mechanism paragraphs and an answered reasoning problem; corrected one language mismatch in module 8 supplementary content. Existing content preserved. These are supplementary lessons, not completion of all 425 subsections.

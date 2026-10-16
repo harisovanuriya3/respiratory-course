@@ -1,0 +1,28 @@
+// Reviewed translations of short-case explanations; order is module ID minus one.
+export const patientExplanationTranslations=[
+ ['VT × f = 0.5 × 12 = 6 L/min.','VT × f = 0,5 × 12 = 6 л/мин.'],
+ ['By Fick’s law, gas transfer is proportional to membrane area, all else equal.','Фик заңы бойынша басқа шарттар бірдей болса газ ағыны мембрана ауданына пропорционал.'],
+ ['Ptp = Palv − Ppl; at fixed Palv, a fall in Ppl increases distending pressure.','Ptp = Palv − Ppl; Palv тұрақты болса Ppl төмендеуі керуші қысымды арттырады.'],
+ ['The diaphragm is the main muscle of quiet inspiration.','Көкет — тыныш дем алудың негізгі бұлшықеті.'],
+ ['Loss of the transpulmonary pressure gradient allows elastic recoil to reduce lung volume.','Транспульмоналдық қысым градиенті жойылғанда серпімді қайту өкпе көлемін азайтады.'],
+ ['R ∝ 1/r⁴; halving radius raises resistance by 2⁴ = 16 in the ideal laminar model.','R ∝ 1/r⁴; идеал ламинарлық модельде радиус екі есе кемісе кедергі 2⁴ = 16 есе артады.'],
+ ['VC = IRV + VT + ERV = 3 + 0.5 + 1 = 4.5 L.','VC = IRV + VT + ERV = 3 + 0,5 + 1 = 4,5 л.'],
+ ['V̇A = (400 − 150) × 16 / 1000 = 4 L/min.','V̇A = (400 − 150) × 16 / 1000 = 4 л/мин.'],
+ ['In Fick’s model, doubling barrier thickness halves gas transfer if area, diffusivity and pressure gradient are fixed.','Фик моделінде аудан, диффузия коэффициенті және қысым градиенті тұрақты болса бөгет қалыңдығын екі есе арттыру газ ағынын екі есе азайтады.'],
+ ['PIO₂ = (560 − 47) × 0.21 = 107.73 mmHg; PH₂O=47 mmHg assumes 37°C.','PIO₂ = (560 − 47) × 0,21 = 107,73 мм сын. бағ.; PH₂O=47 мм сын. бағ. мәні 37 °C үшін алынған.'],
+ ['At fixed area and pressure gradient, gas transfer is inversely proportional to membrane thickness.','Аудан мен қысым градиенті тұрақты болса газ ағыны мембрана қалыңдығына кері пропорционал.'],
+ ['PVR = (25 − 10)/5 = 3 Wood units.','PVR = (25 − 10)/5 = 3 Вуд бірлігі.'],
+ ['As Q approaches zero with ventilation maintained, local V̇A/Q becomes very large: alveolar dead space.','Вентиляция сақталып Q нөлге ұмтылғанда жергілікті V̇A/Q өте жоғарылайды: альвеолалық өлі кеңістік.'],
+ ['1.34×10×0.98 + 0.003×100 = 13.432 mL O₂/dL.','1,34×10×0,98 + 0,003×100 = 13,432 мл O₂/дл.'],
+ ['Higher PaCO₂ lowers HCO₃⁻/(0.03×PaCO₂) and hence pH when bicarbonate is fixed.','Бикарбонат тұрақты болса PaCO₂ артуы HCO₃⁻/(0,03×PaCO₂) қатынасын және pH төмендетеді.'],
+ ['Acidemia with increased PaCO₂ indicates a primary respiratory acidosis; assess expected compensation for mixed disorders.','PaCO₂ жоғары болғандағы ацидемия бастапқы респираторлық ацидозды көрсетеді; аралас бұзылысты анықтау үшін күтілетін компенсация бағаланады.'],
+ ['At fixed CO₂ production, PaCO₂ is inversely proportional to alveolar ventilation.','CO₂ өндірілуі тұрақты болса PaCO₂ альвеолалық вентиляцияға кері пропорционал.'],
+ ['Vagal afferents from slowly adapting pulmonary stretch receptors can inhibit inspiration; the reflex is most evident at large tidal volumes in adults.','Баяу бейімделетін өкпе созылу рецепторларының вагустық афференттері дем алуды тежеуі мүмкін; ересектерде рефлекс үлкен тыныс көлемінде айқынырақ.'],
+ ['Carotid bodies respond to low arterial PO₂; their afferents travel in the glossopharyngeal nerve.','Каротидтік денешіктер артериялық PO₂ төмендеуіне жауап береді; афференттері тіл-жұтқыншақ жүйкесімен өтеді.'],
+ ['45 / 1.5 = 30 L ventilated per liter of O₂ consumed.','45 / 1,5 = тұтынылған әр литр O₂-ге 30 л вентиляция.'],
+ ['An acute fall in CO₂ raises pH, producing respiratory alkalosis before renal adaptation.','CO₂ жедел төмендегенде бүйректік бейімделуге дейін pH жоғарылап, респираторлық алкалоз дамиды.'],
+ ['Reduced pharyngeal dilator tone increases upper-airway collapsibility in susceptible individuals.','Бейім адамдарда жұтқыншақ кеңейткіштерінің тонусы азайса жоғарғы тыныс жолдарының солуға бейімділігі артады.'],
+ ['Boyle’s law: P×V is constant for a fixed amount of gas at constant temperature.','Бойль заңы: газ мөлшері мен температурасы тұрақты кезде P×V тұрақты.'],
+ ['FEV₁/FVC below its lower limit of normal indicates an obstructive ventilatory pattern; interpret with test quality and clinical context.','FEV₁/FVC қалыптың төменгі шегінен төмен болса обструкциялық вентиляциялық үлгі анықталады; тест сапасы мен клиникалық жағдай ескеріледі.'],
+ ['CaO₂ depends on hemoglobin concentration; normal saturation does not exclude reduced oxygen delivery in anemia.','CaO₂ гемоглобин концентрациясына тәуелді; қалыпты қанығу анемияда оттегі жеткізілуінің төмендеуін жоққа шығармайды.']
+];

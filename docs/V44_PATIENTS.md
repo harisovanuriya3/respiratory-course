@@ -1,0 +1,1 @@
+V44: added 20 topic-specific investigation choices to the existing 5, covering all 25 patient scenarios. Each offers three alternatives and localized explanations. Still linear, educational only; no branching clinical management or validated patient simulation.
