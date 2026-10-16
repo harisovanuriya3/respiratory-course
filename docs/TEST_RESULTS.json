@@ -20,6 +20,10 @@
     "passed": true
   },
   {
+    "file": "test-external-breathing-lab.mjs",
+    "passed": true
+  },
+  {
     "file": "test-full-exam.mjs",
     "passed": true
   },
