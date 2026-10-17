@@ -6437,8 +6437,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "prediction-observation-comparison-explanation React workflow reuses verified inflation-reflex, chemoreflex and CPET models with exact ranges; localized legacy explanation retained; browser audit unavailable"
   },
   {
     "module": 18,
@@ -6808,8 +6808,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "prediction-observation-comparison-explanation React workflow reuses verified inflation-reflex, chemoreflex and CPET models with exact ranges; localized legacy explanation retained; browser audit unavailable"
   },
   {
     "module": 19,
@@ -7179,8 +7179,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "prediction-observation-comparison-explanation React workflow reuses verified inflation-reflex, chemoreflex and CPET models with exact ranges; localized legacy explanation retained; browser audit unavailable"
   },
   {
     "module": 20,
