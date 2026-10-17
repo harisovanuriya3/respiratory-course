@@ -21,3 +21,5 @@ next-platform/tests/*.JPG
 next-platform/tests/*.jpg
 next-platform/tests/*.jpeg
 next-platform/tests/*.jfif
+.vercel
+.env*
