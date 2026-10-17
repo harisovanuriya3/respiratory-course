@@ -260,8 +260,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "media-css-automated-browser-pending",
+    "verification": "localized accessible SVG and reduced-motion CSS exported; no stateful controls; browser audit unavailable"
   },
   {
     "module": 1,
@@ -631,8 +631,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "media-css-automated-browser-pending",
+    "verification": "localized accessible SVG and reduced-motion CSS exported; no stateful controls; browser audit unavailable"
   },
   {
     "module": 2,
