@@ -8053,8 +8053,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "typed sleep/AHI and Boyle-Dalton diving models with exact ranges and accessible dynamic SVG source-tested; browser audit unavailable"
   },
   {
     "module": 22,
@@ -8424,8 +8424,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "typed sleep/AHI and Boyle-Dalton diving models with exact ranges and accessible dynamic SVG source-tested; browser audit unavailable"
   },
   {
     "module": 23,
