@@ -238,7 +238,7 @@
     ],
     "media": [],
     "status": "react-automated-browser-pending",
-    "verification": "localized source clinical record, decisions, keys, physiological feedback, persistence and completion use an accessible React patient workflow; browser audit unavailable"
+    "verification": "all localized source clinical records render through a crash-safe persistent React workflow; keyed decisions retain feedback, while narrative-only cases use reflective stages; browser audit unavailable"
   },
   {
     "module": 1,
@@ -609,7 +609,7 @@
     ],
     "media": [],
     "status": "react-automated-browser-pending",
-    "verification": "localized source clinical record, decisions, keys, physiological feedback, persistence and completion use an accessible React patient workflow; browser audit unavailable"
+    "verification": "all localized source clinical records render through a crash-safe persistent React workflow; keyed decisions retain feedback, while narrative-only cases use reflective stages; browser audit unavailable"
   },
   {
     "module": 2,
@@ -979,8 +979,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "content-parity-static",
-    "verification": "audited static academic case content; no legacy interactive controls or handler dependency"
+    "status": "react-automated-browser-pending",
+    "verification": "all localized source clinical records render through a crash-safe persistent React workflow; keyed decisions retain feedback, while narrative-only cases use reflective stages; browser audit unavailable"
   },
   {
     "module": 3,
@@ -1351,7 +1351,7 @@
     ],
     "media": [],
     "status": "react-automated-browser-pending",
-    "verification": "localized source clinical record, decisions, keys, physiological feedback, persistence and completion use an accessible React patient workflow; browser audit unavailable"
+    "verification": "all localized source clinical records render through a crash-safe persistent React workflow; keyed decisions retain feedback, while narrative-only cases use reflective stages; browser audit unavailable"
   },
   {
     "module": 4,
@@ -1724,7 +1724,7 @@
     ],
     "media": [],
     "status": "react-automated-browser-pending",
-    "verification": "localized source clinical record, decisions, keys, physiological feedback, persistence and completion use an accessible React patient workflow; browser audit unavailable"
+    "verification": "all localized source clinical records render through a crash-safe persistent React workflow; keyed decisions retain feedback, while narrative-only cases use reflective stages; browser audit unavailable"
   },
   {
     "module": 5,
@@ -2094,8 +2094,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "content-parity-static",
-    "verification": "audited static academic case content; no legacy interactive controls or handler dependency"
+    "status": "react-automated-browser-pending",
+    "verification": "all localized source clinical records render through a crash-safe persistent React workflow; keyed decisions retain feedback, while narrative-only cases use reflective stages; browser audit unavailable"
   },
   {
     "module": 6,
@@ -2466,7 +2466,7 @@
     ],
     "media": [],
     "status": "react-automated-browser-pending",
-    "verification": "localized source clinical record, decisions, keys, physiological feedback, persistence and completion use an accessible React patient workflow; browser audit unavailable"
+    "verification": "all localized source clinical records render through a crash-safe persistent React workflow; keyed decisions retain feedback, while narrative-only cases use reflective stages; browser audit unavailable"
   },
   {
     "module": 7,
@@ -2837,7 +2837,7 @@
     ],
     "media": [],
     "status": "react-automated-browser-pending",
-    "verification": "localized source clinical record, decisions, keys, physiological feedback, persistence and completion use an accessible React patient workflow; browser audit unavailable"
+    "verification": "all localized source clinical records render through a crash-safe persistent React workflow; keyed decisions retain feedback, while narrative-only cases use reflective stages; browser audit unavailable"
   },
   {
     "module": 8,
@@ -3208,7 +3208,7 @@
     ],
     "media": [],
     "status": "react-automated-browser-pending",
-    "verification": "localized source clinical record, decisions, keys, physiological feedback, persistence and completion use an accessible React patient workflow; browser audit unavailable"
+    "verification": "all localized source clinical records render through a crash-safe persistent React workflow; keyed decisions retain feedback, while narrative-only cases use reflective stages; browser audit unavailable"
   },
   {
     "module": 9,
@@ -3579,7 +3579,7 @@
     ],
     "media": [],
     "status": "react-automated-browser-pending",
-    "verification": "localized source clinical record, decisions, keys, physiological feedback, persistence and completion use an accessible React patient workflow; browser audit unavailable"
+    "verification": "all localized source clinical records render through a crash-safe persistent React workflow; keyed decisions retain feedback, while narrative-only cases use reflective stages; browser audit unavailable"
   },
   {
     "module": 10,
@@ -3950,7 +3950,7 @@
     ],
     "media": [],
     "status": "react-automated-browser-pending",
-    "verification": "localized source clinical record, decisions, keys, physiological feedback, persistence and completion use an accessible React patient workflow; browser audit unavailable"
+    "verification": "all localized source clinical records render through a crash-safe persistent React workflow; keyed decisions retain feedback, while narrative-only cases use reflective stages; browser audit unavailable"
   },
   {
     "module": 11,
@@ -4321,7 +4321,7 @@
     ],
     "media": [],
     "status": "react-automated-browser-pending",
-    "verification": "localized source clinical record, decisions, keys, physiological feedback, persistence and completion use an accessible React patient workflow; browser audit unavailable"
+    "verification": "all localized source clinical records render through a crash-safe persistent React workflow; keyed decisions retain feedback, while narrative-only cases use reflective stages; browser audit unavailable"
   },
   {
     "module": 12,
@@ -4692,7 +4692,7 @@
     ],
     "media": [],
     "status": "react-automated-browser-pending",
-    "verification": "localized source clinical record, decisions, keys, physiological feedback, persistence and completion use an accessible React patient workflow; browser audit unavailable"
+    "verification": "all localized source clinical records render through a crash-safe persistent React workflow; keyed decisions retain feedback, while narrative-only cases use reflective stages; browser audit unavailable"
   },
   {
     "module": 13,
@@ -5063,7 +5063,7 @@
     ],
     "media": [],
     "status": "react-automated-browser-pending",
-    "verification": "localized source clinical record, decisions, keys, physiological feedback, persistence and completion use an accessible React patient workflow; browser audit unavailable"
+    "verification": "all localized source clinical records render through a crash-safe persistent React workflow; keyed decisions retain feedback, while narrative-only cases use reflective stages; browser audit unavailable"
   },
   {
     "module": 14,
@@ -5434,7 +5434,7 @@
     ],
     "media": [],
     "status": "react-automated-browser-pending",
-    "verification": "localized source clinical record, decisions, keys, physiological feedback, persistence and completion use an accessible React patient workflow; browser audit unavailable"
+    "verification": "all localized source clinical records render through a crash-safe persistent React workflow; keyed decisions retain feedback, while narrative-only cases use reflective stages; browser audit unavailable"
   },
   {
     "module": 15,
@@ -5805,7 +5805,7 @@
     ],
     "media": [],
     "status": "react-automated-browser-pending",
-    "verification": "localized source clinical record, decisions, keys, physiological feedback, persistence and completion use an accessible React patient workflow; browser audit unavailable"
+    "verification": "all localized source clinical records render through a crash-safe persistent React workflow; keyed decisions retain feedback, while narrative-only cases use reflective stages; browser audit unavailable"
   },
   {
     "module": 16,
@@ -6176,7 +6176,7 @@
     ],
     "media": [],
     "status": "react-automated-browser-pending",
-    "verification": "localized source clinical record, decisions, keys, physiological feedback, persistence and completion use an accessible React patient workflow; browser audit unavailable"
+    "verification": "all localized source clinical records render through a crash-safe persistent React workflow; keyed decisions retain feedback, while narrative-only cases use reflective stages; browser audit unavailable"
   },
   {
     "module": 17,
@@ -6547,7 +6547,7 @@
     ],
     "media": [],
     "status": "react-automated-browser-pending",
-    "verification": "localized source clinical record, decisions, keys, physiological feedback, persistence and completion use an accessible React patient workflow; browser audit unavailable"
+    "verification": "all localized source clinical records render through a crash-safe persistent React workflow; keyed decisions retain feedback, while narrative-only cases use reflective stages; browser audit unavailable"
   },
   {
     "module": 18,
@@ -6917,8 +6917,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "content-parity-static",
-    "verification": "audited static academic case content; no legacy interactive controls or handler dependency"
+    "status": "react-automated-browser-pending",
+    "verification": "all localized source clinical records render through a crash-safe persistent React workflow; keyed decisions retain feedback, while narrative-only cases use reflective stages; browser audit unavailable"
   },
   {
     "module": 19,
@@ -7288,8 +7288,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "content-parity-static",
-    "verification": "audited static academic case content; no legacy interactive controls or handler dependency"
+    "status": "react-automated-browser-pending",
+    "verification": "all localized source clinical records render through a crash-safe persistent React workflow; keyed decisions retain feedback, while narrative-only cases use reflective stages; browser audit unavailable"
   },
   {
     "module": 20,
@@ -7660,7 +7660,7 @@
     ],
     "media": [],
     "status": "react-automated-browser-pending",
-    "verification": "localized source clinical record, decisions, keys, physiological feedback, persistence and completion use an accessible React patient workflow; browser audit unavailable"
+    "verification": "all localized source clinical records render through a crash-safe persistent React workflow; keyed decisions retain feedback, while narrative-only cases use reflective stages; browser audit unavailable"
   },
   {
     "module": 21,
@@ -8031,7 +8031,7 @@
     ],
     "media": [],
     "status": "react-automated-browser-pending",
-    "verification": "localized source clinical record, decisions, keys, physiological feedback, persistence and completion use an accessible React patient workflow; browser audit unavailable"
+    "verification": "all localized source clinical records render through a crash-safe persistent React workflow; keyed decisions retain feedback, while narrative-only cases use reflective stages; browser audit unavailable"
   },
   {
     "module": 22,
@@ -8402,7 +8402,7 @@
     ],
     "media": [],
     "status": "react-automated-browser-pending",
-    "verification": "localized source clinical record, decisions, keys, physiological feedback, persistence and completion use an accessible React patient workflow; browser audit unavailable"
+    "verification": "all localized source clinical records render through a crash-safe persistent React workflow; keyed decisions retain feedback, while narrative-only cases use reflective stages; browser audit unavailable"
   },
   {
     "module": 23,
@@ -8773,7 +8773,7 @@
     ],
     "media": [],
     "status": "react-automated-browser-pending",
-    "verification": "localized source clinical record, decisions, keys, physiological feedback, persistence and completion use an accessible React patient workflow; browser audit unavailable"
+    "verification": "all localized source clinical records render through a crash-safe persistent React workflow; keyed decisions retain feedback, while narrative-only cases use reflective stages; browser audit unavailable"
   },
   {
     "module": 24,
@@ -9143,8 +9143,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "content-parity-static",
-    "verification": "audited static academic case content; no legacy interactive controls or handler dependency"
+    "status": "react-automated-browser-pending",
+    "verification": "all localized source clinical records render through a crash-safe persistent React workflow; keyed decisions retain feedback, while narrative-only cases use reflective stages; browser audit unavailable"
   },
   {
     "module": 25,
