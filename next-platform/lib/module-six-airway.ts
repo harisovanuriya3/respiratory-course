@@ -1,0 +1,1 @@
+export function calculateRelativeAirwayResistance(radiusPercent:number){if(!Number.isFinite(radiusPercent)||radiusPercent<=0)throw Error('domain');const radiusRatio=radiusPercent/100;return{radiusRatio,relativeResistance:1/radiusRatio**4,lumenHeight:50*radiusRatio}}
