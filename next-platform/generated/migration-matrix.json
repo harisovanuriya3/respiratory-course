@@ -17,8 +17,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 1,
@@ -38,8 +38,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 1,
@@ -59,8 +59,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 1,
@@ -80,8 +80,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 1,
@@ -103,8 +103,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 1,
@@ -128,8 +128,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 1,
@@ -149,8 +149,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 1,
@@ -172,8 +172,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 1,
@@ -193,8 +193,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 1,
@@ -214,8 +214,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 1,
@@ -237,8 +237,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 1,
@@ -260,8 +260,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 1,
@@ -281,8 +281,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 1,
@@ -304,8 +304,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 1,
@@ -325,8 +325,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 1,
@@ -346,8 +346,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 1,
@@ -367,8 +367,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 2,
@@ -388,8 +388,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 2,
@@ -409,8 +409,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 2,
@@ -430,8 +430,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 2,
@@ -451,8 +451,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 2,
@@ -474,8 +474,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 2,
@@ -499,8 +499,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 2,
@@ -520,8 +520,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 2,
@@ -543,8 +543,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 2,
@@ -564,8 +564,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 2,
@@ -585,8 +585,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 2,
@@ -608,8 +608,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 2,
@@ -631,8 +631,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 2,
@@ -652,8 +652,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 2,
@@ -675,8 +675,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 2,
@@ -696,8 +696,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 2,
@@ -717,8 +717,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 2,
@@ -738,8 +738,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 3,
@@ -759,8 +759,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 3,
@@ -780,8 +780,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 3,
@@ -801,8 +801,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 3,
@@ -822,8 +822,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 3,
@@ -845,8 +845,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 3,
@@ -870,8 +870,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 3,
@@ -891,8 +891,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 3,
@@ -914,8 +914,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 3,
@@ -935,8 +935,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 3,
@@ -956,8 +956,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 3,
@@ -979,8 +979,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 3,
@@ -1002,8 +1002,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 3,
@@ -1023,8 +1023,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 3,
@@ -1046,8 +1046,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 3,
@@ -1067,8 +1067,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 3,
@@ -1088,8 +1088,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 3,
@@ -1109,8 +1109,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 4,
@@ -1130,8 +1130,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 4,
@@ -1151,8 +1151,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 4,
@@ -1172,8 +1172,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 4,
@@ -1193,8 +1193,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 4,
@@ -1216,8 +1216,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 4,
@@ -1241,8 +1241,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 4,
@@ -1262,8 +1262,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 4,
@@ -1285,8 +1285,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 4,
@@ -1306,8 +1306,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 4,
@@ -1327,8 +1327,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 4,
@@ -1350,8 +1350,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 4,
@@ -1373,8 +1373,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 4,
@@ -1394,8 +1394,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 4,
@@ -1417,8 +1417,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 4,
@@ -1438,8 +1438,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 4,
@@ -1459,8 +1459,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 4,
@@ -1480,8 +1480,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 5,
@@ -1501,8 +1501,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 5,
@@ -1522,8 +1522,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 5,
@@ -1543,8 +1543,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 5,
@@ -1564,8 +1564,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 5,
@@ -1587,8 +1587,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 5,
@@ -1635,8 +1635,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 5,
@@ -1658,8 +1658,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 5,
@@ -1679,8 +1679,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 5,
@@ -1700,8 +1700,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 5,
@@ -1723,8 +1723,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 5,
@@ -1746,8 +1746,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 5,
@@ -1767,8 +1767,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 5,
@@ -1790,8 +1790,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 5,
@@ -1811,8 +1811,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 5,
@@ -1832,8 +1832,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 5,
@@ -1853,8 +1853,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 6,
@@ -1874,8 +1874,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 6,
@@ -1895,8 +1895,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 6,
@@ -1916,8 +1916,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 6,
@@ -1937,8 +1937,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 6,
@@ -1960,8 +1960,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 6,
@@ -1985,8 +1985,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 6,
@@ -2006,8 +2006,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 6,
@@ -2029,8 +2029,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 6,
@@ -2050,8 +2050,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 6,
@@ -2071,8 +2071,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 6,
@@ -2094,8 +2094,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 6,
@@ -2117,8 +2117,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 6,
@@ -2138,8 +2138,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 6,
@@ -2161,8 +2161,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 6,
@@ -2182,8 +2182,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 6,
@@ -2203,8 +2203,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 6,
@@ -2224,8 +2224,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 7,
@@ -2245,8 +2245,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 7,
@@ -2266,8 +2266,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 7,
@@ -2287,8 +2287,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 7,
@@ -2308,8 +2308,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 7,
@@ -2331,8 +2331,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 7,
@@ -2356,8 +2356,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 7,
@@ -2377,8 +2377,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 7,
@@ -2400,8 +2400,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 7,
@@ -2421,8 +2421,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 7,
@@ -2442,8 +2442,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 7,
@@ -2465,8 +2465,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 7,
@@ -2488,8 +2488,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 7,
@@ -2509,8 +2509,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 7,
@@ -2532,8 +2532,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 7,
@@ -2553,8 +2553,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 7,
@@ -2574,8 +2574,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 7,
@@ -2595,8 +2595,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 8,
@@ -2616,8 +2616,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 8,
@@ -2637,8 +2637,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 8,
@@ -2658,8 +2658,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 8,
@@ -2679,8 +2679,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 8,
@@ -2702,8 +2702,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 8,
@@ -2727,8 +2727,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 8,
@@ -2748,8 +2748,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 8,
@@ -2771,8 +2771,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 8,
@@ -2792,8 +2792,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 8,
@@ -2813,8 +2813,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 8,
@@ -2836,8 +2836,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 8,
@@ -2859,8 +2859,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 8,
@@ -2880,8 +2880,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 8,
@@ -2903,8 +2903,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 8,
@@ -2924,8 +2924,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 8,
@@ -2945,8 +2945,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 8,
@@ -2966,8 +2966,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 9,
@@ -2987,8 +2987,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 9,
@@ -3008,8 +3008,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 9,
@@ -3029,8 +3029,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 9,
@@ -3050,8 +3050,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 9,
@@ -3073,8 +3073,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 9,
@@ -3098,8 +3098,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 9,
@@ -3119,8 +3119,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 9,
@@ -3142,8 +3142,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 9,
@@ -3163,8 +3163,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 9,
@@ -3184,8 +3184,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 9,
@@ -3207,8 +3207,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 9,
@@ -3230,8 +3230,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 9,
@@ -3251,8 +3251,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 9,
@@ -3274,8 +3274,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 9,
@@ -3295,8 +3295,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 9,
@@ -3316,8 +3316,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 9,
@@ -3337,8 +3337,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 10,
@@ -3358,8 +3358,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 10,
@@ -3379,8 +3379,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 10,
@@ -3400,8 +3400,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 10,
@@ -3421,8 +3421,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 10,
@@ -3444,8 +3444,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 10,
@@ -3469,8 +3469,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 10,
@@ -3490,8 +3490,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 10,
@@ -3513,8 +3513,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 10,
@@ -3534,8 +3534,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 10,
@@ -3555,8 +3555,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 10,
@@ -3578,8 +3578,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 10,
@@ -3601,8 +3601,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 10,
@@ -3622,8 +3622,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 10,
@@ -3645,8 +3645,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 10,
@@ -3666,8 +3666,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 10,
@@ -3687,8 +3687,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 10,
@@ -3708,8 +3708,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 11,
@@ -3729,8 +3729,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 11,
@@ -3750,8 +3750,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 11,
@@ -3771,8 +3771,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 11,
@@ -3792,8 +3792,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 11,
@@ -3815,8 +3815,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 11,
@@ -3840,8 +3840,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 11,
@@ -3861,8 +3861,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 11,
@@ -3884,8 +3884,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 11,
@@ -3905,8 +3905,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 11,
@@ -3926,8 +3926,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 11,
@@ -3949,8 +3949,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 11,
@@ -3972,8 +3972,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 11,
@@ -3993,8 +3993,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 11,
@@ -4016,8 +4016,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 11,
@@ -4037,8 +4037,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 11,
@@ -4058,8 +4058,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 11,
@@ -4079,8 +4079,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 12,
@@ -4100,8 +4100,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 12,
@@ -4121,8 +4121,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 12,
@@ -4142,8 +4142,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 12,
@@ -4163,8 +4163,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 12,
@@ -4186,8 +4186,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 12,
@@ -4211,8 +4211,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 12,
@@ -4232,8 +4232,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 12,
@@ -4255,8 +4255,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 12,
@@ -4276,8 +4276,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 12,
@@ -4297,8 +4297,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 12,
@@ -4320,8 +4320,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 12,
@@ -4343,8 +4343,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 12,
@@ -4364,8 +4364,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 12,
@@ -4387,8 +4387,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 12,
@@ -4408,8 +4408,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 12,
@@ -4429,8 +4429,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 12,
@@ -4450,8 +4450,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 13,
@@ -4471,8 +4471,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 13,
@@ -4492,8 +4492,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 13,
@@ -4513,8 +4513,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 13,
@@ -4534,8 +4534,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 13,
@@ -4557,8 +4557,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 13,
@@ -4582,8 +4582,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 13,
@@ -4603,8 +4603,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 13,
@@ -4626,8 +4626,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 13,
@@ -4647,8 +4647,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 13,
@@ -4668,8 +4668,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 13,
@@ -4691,8 +4691,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 13,
@@ -4714,8 +4714,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 13,
@@ -4735,8 +4735,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 13,
@@ -4758,8 +4758,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 13,
@@ -4779,8 +4779,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 13,
@@ -4800,8 +4800,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 13,
@@ -4821,8 +4821,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 14,
@@ -4842,8 +4842,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 14,
@@ -4863,8 +4863,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 14,
@@ -4884,8 +4884,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 14,
@@ -4905,8 +4905,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 14,
@@ -4928,8 +4928,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 14,
@@ -4953,8 +4953,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 14,
@@ -4974,8 +4974,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 14,
@@ -4997,8 +4997,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 14,
@@ -5018,8 +5018,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 14,
@@ -5039,8 +5039,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 14,
@@ -5062,8 +5062,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 14,
@@ -5085,8 +5085,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 14,
@@ -5106,8 +5106,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 14,
@@ -5129,8 +5129,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 14,
@@ -5150,8 +5150,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 14,
@@ -5171,8 +5171,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 14,
@@ -5192,8 +5192,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 15,
@@ -5213,8 +5213,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 15,
@@ -5234,8 +5234,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 15,
@@ -5255,8 +5255,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 15,
@@ -5276,8 +5276,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 15,
@@ -5299,8 +5299,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 15,
@@ -5324,8 +5324,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 15,
@@ -5345,8 +5345,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 15,
@@ -5368,8 +5368,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 15,
@@ -5389,8 +5389,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 15,
@@ -5410,8 +5410,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 15,
@@ -5433,8 +5433,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 15,
@@ -5456,8 +5456,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 15,
@@ -5477,8 +5477,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 15,
@@ -5500,8 +5500,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 15,
@@ -5521,8 +5521,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 15,
@@ -5542,8 +5542,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 15,
@@ -5563,8 +5563,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 16,
@@ -5584,8 +5584,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 16,
@@ -5605,8 +5605,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 16,
@@ -5626,8 +5626,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 16,
@@ -5647,8 +5647,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 16,
@@ -5670,8 +5670,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 16,
@@ -5695,8 +5695,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 16,
@@ -5716,8 +5716,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 16,
@@ -5739,8 +5739,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 16,
@@ -5760,8 +5760,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 16,
@@ -5781,8 +5781,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 16,
@@ -5804,8 +5804,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 16,
@@ -5827,8 +5827,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 16,
@@ -5848,8 +5848,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 16,
@@ -5871,8 +5871,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 16,
@@ -5892,8 +5892,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 16,
@@ -5913,8 +5913,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 16,
@@ -5934,8 +5934,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 17,
@@ -5955,8 +5955,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 17,
@@ -5976,8 +5976,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 17,
@@ -5997,8 +5997,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 17,
@@ -6018,8 +6018,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 17,
@@ -6041,8 +6041,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 17,
@@ -6066,8 +6066,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 17,
@@ -6087,8 +6087,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 17,
@@ -6110,8 +6110,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 17,
@@ -6131,8 +6131,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 17,
@@ -6152,8 +6152,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 17,
@@ -6175,8 +6175,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 17,
@@ -6198,8 +6198,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 17,
@@ -6219,8 +6219,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 17,
@@ -6242,8 +6242,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 17,
@@ -6263,8 +6263,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 17,
@@ -6284,8 +6284,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 17,
@@ -6305,8 +6305,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 18,
@@ -6326,8 +6326,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 18,
@@ -6347,8 +6347,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 18,
@@ -6368,8 +6368,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 18,
@@ -6389,8 +6389,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 18,
@@ -6412,8 +6412,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 18,
@@ -6437,8 +6437,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 18,
@@ -6458,8 +6458,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 18,
@@ -6481,8 +6481,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 18,
@@ -6502,8 +6502,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 18,
@@ -6523,8 +6523,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 18,
@@ -6546,8 +6546,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 18,
@@ -6569,8 +6569,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 18,
@@ -6590,8 +6590,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 18,
@@ -6613,8 +6613,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 18,
@@ -6634,8 +6634,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 18,
@@ -6655,8 +6655,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 18,
@@ -6676,8 +6676,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 19,
@@ -6697,8 +6697,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 19,
@@ -6718,8 +6718,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 19,
@@ -6739,8 +6739,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 19,
@@ -6760,8 +6760,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 19,
@@ -6783,8 +6783,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 19,
@@ -6808,8 +6808,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 19,
@@ -6829,8 +6829,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 19,
@@ -6852,8 +6852,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 19,
@@ -6873,8 +6873,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 19,
@@ -6894,8 +6894,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 19,
@@ -6917,8 +6917,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 19,
@@ -6940,8 +6940,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 19,
@@ -6961,8 +6961,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 19,
@@ -6984,8 +6984,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 19,
@@ -7005,8 +7005,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 19,
@@ -7026,8 +7026,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 19,
@@ -7047,8 +7047,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 20,
@@ -7068,8 +7068,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 20,
@@ -7089,8 +7089,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 20,
@@ -7110,8 +7110,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 20,
@@ -7131,8 +7131,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 20,
@@ -7154,8 +7154,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 20,
@@ -7179,8 +7179,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 20,
@@ -7200,8 +7200,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 20,
@@ -7223,8 +7223,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 20,
@@ -7244,8 +7244,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 20,
@@ -7265,8 +7265,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 20,
@@ -7288,8 +7288,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 20,
@@ -7311,8 +7311,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 20,
@@ -7332,8 +7332,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 20,
@@ -7355,8 +7355,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 20,
@@ -7376,8 +7376,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 20,
@@ -7397,8 +7397,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 20,
@@ -7418,8 +7418,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 21,
@@ -7439,8 +7439,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 21,
@@ -7460,8 +7460,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 21,
@@ -7481,8 +7481,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 21,
@@ -7502,8 +7502,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 21,
@@ -7525,8 +7525,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 21,
@@ -7550,8 +7550,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 21,
@@ -7571,8 +7571,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 21,
@@ -7594,8 +7594,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 21,
@@ -7615,8 +7615,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 21,
@@ -7636,8 +7636,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 21,
@@ -7659,8 +7659,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 21,
@@ -7682,8 +7682,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 21,
@@ -7703,8 +7703,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 21,
@@ -7726,8 +7726,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 21,
@@ -7747,8 +7747,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 21,
@@ -7768,8 +7768,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 21,
@@ -7789,8 +7789,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 22,
@@ -7810,8 +7810,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 22,
@@ -7831,8 +7831,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 22,
@@ -7852,8 +7852,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 22,
@@ -7873,8 +7873,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 22,
@@ -7896,8 +7896,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 22,
@@ -7921,8 +7921,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 22,
@@ -7942,8 +7942,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 22,
@@ -7965,8 +7965,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 22,
@@ -7986,8 +7986,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 22,
@@ -8007,8 +8007,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 22,
@@ -8030,8 +8030,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 22,
@@ -8053,8 +8053,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 22,
@@ -8074,8 +8074,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 22,
@@ -8097,8 +8097,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 22,
@@ -8118,8 +8118,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 22,
@@ -8139,8 +8139,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 22,
@@ -8160,8 +8160,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 23,
@@ -8181,8 +8181,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 23,
@@ -8202,8 +8202,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 23,
@@ -8223,8 +8223,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 23,
@@ -8244,8 +8244,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 23,
@@ -8267,8 +8267,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 23,
@@ -8292,8 +8292,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 23,
@@ -8313,8 +8313,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 23,
@@ -8336,8 +8336,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 23,
@@ -8357,8 +8357,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 23,
@@ -8378,8 +8378,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 23,
@@ -8401,8 +8401,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 23,
@@ -8424,8 +8424,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 23,
@@ -8445,8 +8445,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 23,
@@ -8468,8 +8468,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 23,
@@ -8489,8 +8489,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 23,
@@ -8510,8 +8510,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 23,
@@ -8531,8 +8531,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 24,
@@ -8552,8 +8552,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 24,
@@ -8573,8 +8573,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 24,
@@ -8594,8 +8594,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 24,
@@ -8615,8 +8615,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 24,
@@ -8638,8 +8638,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 24,
@@ -8663,8 +8663,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 24,
@@ -8684,8 +8684,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 24,
@@ -8707,8 +8707,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 24,
@@ -8728,8 +8728,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 24,
@@ -8749,8 +8749,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 24,
@@ -8772,8 +8772,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 24,
@@ -8795,8 +8795,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 24,
@@ -8816,8 +8816,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 24,
@@ -8839,8 +8839,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 24,
@@ -8860,8 +8860,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 24,
@@ -8881,8 +8881,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 24,
@@ -8902,8 +8902,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 25,
@@ -8923,8 +8923,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 25,
@@ -8944,8 +8944,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 25,
@@ -8965,8 +8965,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 25,
@@ -8986,8 +8986,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 25,
@@ -9009,8 +9009,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 25,
@@ -9034,8 +9034,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 25,
@@ -9055,8 +9055,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 25,
@@ -9078,8 +9078,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 25,
@@ -9099,8 +9099,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 25,
@@ -9120,8 +9120,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 25,
@@ -9143,8 +9143,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 25,
@@ -9166,8 +9166,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 25,
@@ -9187,8 +9187,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   },
   {
     "module": 25,
@@ -9210,8 +9210,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 25,
@@ -9231,8 +9231,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 25,
@@ -9252,8 +9252,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-present-react-pending",
+    "verification": "content-exported; interactive parity not yet verified"
   },
   {
     "module": 25,
@@ -9273,7 +9273,7 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "pending-content-migration",
-    "verification": "not-yet-verified-in-next"
+    "status": "content-parity-static",
+    "verification": "legacy-render-hash-exported-and-next-rendered"
   }
 ]
