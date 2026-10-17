@@ -27,7 +27,7 @@ export default function LegacyContent({moduleId,section,language,interactivePend
   const interactiveOneTwo=section==='interactive'&&[1,2].includes(moduleId);
   if(interactiveOneTwo)html=html.replace(/<section\b[^>]*class=["']experiment["'][^>]*>[\s\S]*?<\/section>/i,'');
   if(omitCheckboxes)html=html.replace(/<input\b(?=[^>]*type=["']checkbox["'])[^>]*>/gi,'');
-  if(omitQuiz)html=html.replace(/<form\b[^>]*class=["'][^"']*m(?:24|25)quiz[^"']*["'][^>]*>[\s\S]*?<\/form>/gi,'').replace(/<div\b[^>]*class=["'][^"']*m[345]-quiz[^"']*["'][^>]*>[\s\S]*?<\/div>/gi,'');
+  if(omitQuiz)html=html.replace(/<form\b[^>]*>[\s\S]*?<\/form>/gi,'').replace(/<div\b[^>]*class=["'][^"']*(?:m[2345]-quiz|quiz)[^"']*["'][^>]*>[\s\S]*?<\/div>/gi,'');
   if(omitModuleThreeLab||moduleThreeInteractive)html=html.replace(/<div\b[^>]*class=["'][^"']*m3-lab[^"']*["'][^>]*>[\s\S]*?<\/div>/gi,'').replace(/<button\b[^>]*data-breath-toggle[^>]*>[\s\S]*?<\/button>/gi,'');
   if(omitModuleFourLab||moduleFourInteractive)html=html.replace(/<div\b[^>]*class=["'][^"']*m4-lab[^"']*["'][^>]*>[\s\S]*?<\/div>/gi,'').replace(/<button\b[^>]*data-breath-toggle[^>]*>[\s\S]*?<\/button>/gi,'');
   if(omitModuleFiveLab)html=html.replace(/<div\b[^>]*class=["'][^"']*m5-lab[^"']*["'][^>]*>[\s\S]*?<\/div>/gi,'');
