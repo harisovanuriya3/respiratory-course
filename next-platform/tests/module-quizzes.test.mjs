@@ -16,11 +16,18 @@ test('React module quiz engine separates diagnostics from graded tests and persi
 });
 
 test('migrated modules retain trilingual questions, answer keys and explanations',()=>{
-  for(let moduleId=1;moduleId<=20;moduleId+=1)for(const section of ['pretest','tests'])for(const language of ['RU','EN','KZ']){
+  for(let moduleId=1;moduleId<=25;moduleId+=1)for(const section of ['pretest','tests'])for(const language of ['RU','EN','KZ']){
     const html=content[`${moduleId}/${section}/${language}`].html;
     assert.match(html,/data-(?:answer|key)=["']\d+["']/);
     assert.match(html,/data-explanation|class=["'][^"']*(?:explain|explanation)/);
   }
+});
+
+test('all 50 Pretest and Tests routes are source-verified React migrations',()=>{
+  const matrix=JSON.parse(readFileSync(new URL('../generated/migration-matrix.json',import.meta.url),'utf8'));
+  const routes=matrix.filter(row=>['pretest','tests'].includes(row.section));
+  assert.equal(routes.length,50);
+  assert.equal(routes.every(row=>row.status==='react-automated-browser-pending'),true);
 });
 
 test('test option shuffle preserves ids and does not pin correct answers first',()=>{
