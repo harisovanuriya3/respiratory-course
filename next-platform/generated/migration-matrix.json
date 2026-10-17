@@ -5827,8 +5827,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "typed acid-base, ventilatory feedback and inflation-reflex models with exact ranges and reduced-motion SVG source-tested; browser audit unavailable"
   },
   {
     "module": 16,
@@ -6198,8 +6198,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "typed acid-base, ventilatory feedback and inflation-reflex models with exact ranges and reduced-motion SVG source-tested; browser audit unavailable"
   },
   {
     "module": 17,
@@ -6569,8 +6569,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "typed acid-base, ventilatory feedback and inflation-reflex models with exact ranges and reduced-motion SVG source-tested; browser audit unavailable"
   },
   {
     "module": 18,
