@@ -8,3 +8,16 @@ node_modules/
 playwright-report/
 test-results/
 *.zip
+
+# Private/local teaching source materials. Keep originals out of Git and Vercel.
+next-platform/source-materials/
+next-platform/scripts/*.ppt
+next-platform/scripts/*.pptx
+next-platform/scripts/*.JPG
+next-platform/scripts/*.jpg
+next-platform/scripts/*.jpeg
+next-platform/scripts/*.jfif
+next-platform/tests/*.JPG
+next-platform/tests/*.jpg
+next-platform/tests/*.jpeg
+next-platform/tests/*.jfif

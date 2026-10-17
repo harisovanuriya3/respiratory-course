@@ -10,6 +10,13 @@
 
 The illustration may be distributed under the same terms as this repository. Physiological interpretation remains in the accompanying authored course text.
 
+## `thorax-lungs-pleura-diaphragm.png`
+
+- Purpose: realistic teaching illustration for Module 2 anatomy and respiratory motion.
+- Created: 2026-10-18 with OpenAI image generation for this repository.
+- Status: original AI-assisted educational artwork; not copied from an atlas or patient record.
+- Important limitation: this is an educational anterior view, not a dissection photograph or quantitative motion study. Accessible RU/EN/KZ labels and the motion overlay are supplied by the React component.
+
 ## `spirometry-workstation.png`
 
 - Purpose: realistic teaching visualization of a generic spirometer and pneumotachograph setup for Module 24.

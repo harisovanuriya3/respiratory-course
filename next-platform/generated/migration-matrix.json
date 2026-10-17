@@ -631,8 +631,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "media-css-automated-browser-pending",
-    "verification": "localized accessible SVG and reduced-motion CSS exported; no stateful controls; browser audit unavailable"
+    "status": "react-automated-browser-pending",
+    "verification": "original anatomy atlas, localized labels, breathing-phase controls and reduced-motion behavior source-tested; localized legacy media retained; browser audit unavailable"
   },
   {
     "module": 2,
