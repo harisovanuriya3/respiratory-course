@@ -1002,8 +1002,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "typed pressure/compliance/resistance model and motion control source-tested; localized legacy media retained; browser audit unavailable"
   },
   {
     "module": 3,
