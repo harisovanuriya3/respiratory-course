@@ -172,8 +172,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-static",
+    "verification": "audited static academic case content; no legacy interactive controls or handler dependency"
   },
   {
     "module": 1,
@@ -543,8 +543,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-static",
+    "verification": "audited static academic case content; no legacy interactive controls or handler dependency"
   },
   {
     "module": 2,
@@ -870,8 +870,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "prediction-first React experiment reuses verified physiological model; localized controls and legacy explanation retained; browser audit unavailable"
   },
   {
     "module": 3,
@@ -914,8 +914,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-static",
+    "verification": "audited static academic case content; no legacy interactive controls or handler dependency"
   },
   {
     "module": 3,
@@ -979,8 +979,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-static",
+    "verification": "audited static academic case content; no legacy interactive controls or handler dependency"
   },
   {
     "module": 3,
@@ -1241,8 +1241,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "prediction-first React experiment reuses verified physiological model; localized controls and legacy explanation retained; browser audit unavailable"
   },
   {
     "module": 4,
@@ -1658,8 +1658,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-static",
+    "verification": "audited static academic case content; no legacy interactive controls or handler dependency"
   },
   {
     "module": 5,
@@ -2029,8 +2029,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-static",
+    "verification": "audited static academic case content; no legacy interactive controls or handler dependency"
   },
   {
     "module": 6,
@@ -2094,8 +2094,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-static",
+    "verification": "audited static academic case content; no legacy interactive controls or handler dependency"
   },
   {
     "module": 6,
@@ -3142,8 +3142,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-static",
+    "verification": "audited static academic case content; no legacy interactive controls or handler dependency"
   },
   {
     "module": 9,
@@ -3513,8 +3513,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-static",
+    "verification": "audited static academic case content; no legacy interactive controls or handler dependency"
   },
   {
     "module": 10,
@@ -6852,8 +6852,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-static",
+    "verification": "audited static academic case content; no legacy interactive controls or handler dependency"
   },
   {
     "module": 19,
@@ -6917,8 +6917,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-static",
+    "verification": "audited static academic case content; no legacy interactive controls or handler dependency"
   },
   {
     "module": 19,
@@ -7223,8 +7223,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-static",
+    "verification": "audited static academic case content; no legacy interactive controls or handler dependency"
   },
   {
     "module": 20,
@@ -7288,8 +7288,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-static",
+    "verification": "audited static academic case content; no legacy interactive controls or handler dependency"
   },
   {
     "module": 20,
@@ -9078,8 +9078,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-static",
+    "verification": "audited static academic case content; no legacy interactive controls or handler dependency"
   },
   {
     "module": 25,
@@ -9143,8 +9143,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-static",
+    "verification": "audited static academic case content; no legacy interactive controls or handler dependency"
   },
   {
     "module": 25,
