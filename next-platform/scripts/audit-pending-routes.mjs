@@ -1,0 +1,6 @@
+import {readFile} from 'node:fs/promises';
+const root=new URL('../generated/',import.meta.url),matrix=JSON.parse(await readFile(new URL('migration-matrix.json',root),'utf8')),content=JSON.parse(await readFile(new URL('legacy-content.json',root),'utf8')).pages;
+const pending=matrix.filter(row=>row.status==='content-present-react-pending'),markers=html=>({buttons:(html.match(/<button\b/gi)||[]).length,radios:(html.match(/type=["']radio["']/gi)||[]).length,checkboxes:(html.match(/type=["']checkbox["']/gi)||[]).length,ranges:(html.match(/type=["']range["']/gi)||[]).length,forms:(html.match(/<form\b/gi)||[]).length,canvas:(html.match(/<canvas\b/gi)||[]).length,svg:(html.match(/<svg\b/gi)||[]).length,details:(html.match(/<details\b/gi)||[]).length,dataHooks:(html.match(/\bdata-[\w-]+/gi)||[]).length});
+const routes=pending.map(row=>{const localized=Object.fromEntries(['RU','EN','KZ'].map(language=>[language,markers(content[`${row.module}/${row.section}/${language}`].html)]));return{module:row.module,section:row.section,localized}});
+const summary=Object.fromEntries([...new Set(pending.map(row=>row.section))].sort().map(section=>[section,pending.filter(row=>row.section===section).length]));
+console.log(JSON.stringify({pending:pending.length,summary,routes},null,2));
