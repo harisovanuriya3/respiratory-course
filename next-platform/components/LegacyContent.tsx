@@ -17,7 +17,8 @@ import {ModuleThirteenMedia,ModuleFourteenMedia,ModuleFifteenMedia} from './Medi
 import {ModuleSixteenMedia,ModuleSeventeenMedia,ModuleEighteenMedia} from './MediaSixteenEighteen';
 import {ModuleNineteenMedia,ModuleTwentyMedia,ModuleTwentyOneMedia} from './MediaNineteenTwentyOne';
 import {ModuleTwentyTwoMedia,ModuleTwentyThreeMedia} from './MediaTwentyTwoThree';
-import {ModuleTwentyFourMedia,ModuleTwentyFiveMedia} from './MediaTwentyFourFive';
+import {ModuleTwentyFiveMedia} from './MediaTwentyFourFive';
+import ModuleTwentyFourMedia from './SpirometryInstrumentPanel';
 import {legacyContent} from '../lib/legacy-content';
 import type {Language,SectionId} from '../lib/course';
 

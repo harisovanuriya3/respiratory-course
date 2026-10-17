@@ -9,3 +9,10 @@
 - Embedded text: none. Accessible RU/EN/KZ labels and descriptions are provided by the React component.
 
 The illustration may be distributed under the same terms as this repository. Physiological interpretation remains in the accompanying authored course text.
+
+## `spirometry-workstation.png`
+
+- Purpose: realistic teaching visualization of a generic spirometer and pneumotachograph setup for Module 24.
+- Created: 2026-10-17 with OpenAI image generation for this repository.
+- Status: original AI-assisted educational artwork; not a manufacturer photograph or endorsement.
+- The curves visible on the monitor are generic visual context, not patient data. The interactive curve is explicitly labelled as a mathematical simulation.
