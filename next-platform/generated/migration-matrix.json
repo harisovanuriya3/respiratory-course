@@ -1373,8 +1373,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "typed cycle model, controls, graph and reduced-motion handling source-tested; localized legacy media retained; browser audit unavailable"
   },
   {
     "module": 4,
