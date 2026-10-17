@@ -16,7 +16,7 @@ test('React module quiz engine separates diagnostics from graded tests and persi
 });
 
 test('migrated modules retain trilingual questions, answer keys and explanations',()=>{
-  for(let moduleId=1;moduleId<=15;moduleId+=1)for(const section of ['pretest','tests'])for(const language of ['RU','EN','KZ']){
+  for(let moduleId=1;moduleId<=20;moduleId+=1)for(const section of ['pretest','tests'])for(const language of ['RU','EN','KZ']){
     const html=content[`${moduleId}/${section}/${language}`].html;
     assert.match(html,/data-(?:answer|key)=["']\d+["']/);
     assert.match(html,/data-explanation|class=["'][^"']*(?:explain|explanation)/);
