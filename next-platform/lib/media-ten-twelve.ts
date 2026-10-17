@@ -1,0 +1,2 @@
+export function alveolarGas(pb:number,fioPercent:number,paco2:number,r:number,pao2:number){const fio=fioPercent/100,dry=fio*pb,inspired=fio*(pb-47),alveolar=inspired-paco2*(fio+(1-fio)/r);return{dry,inspired,alveolar,aa:alveolar-pao2}}
+export function pulmonaryResistance(mpap:number,pawp:number,cardiacOutput:number){if(cardiacOutput<=0)throw Error('CO must be positive');const gradient=mpap-pawp;return{gradient,pvr:gradient>0?gradient/cardiacOutput:null}}
