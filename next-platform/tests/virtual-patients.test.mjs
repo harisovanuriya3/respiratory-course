@@ -9,7 +9,7 @@ test('migrated virtual patients use localized persistent React decision workflow
   assert.match(generic,/disabled=\{Boolean\(checked\[stage\.id\]&&isCorrect\)\}/);
   assert.match(generic,/RU:/);assert.match(generic,/EN:/);assert.match(generic,/KZ:/);
   assert.match(ten,/stages:/);assert.match(ten,/correct:/);assert.match(ten,/localStorage\.setItem/);
-  assert.match(page,/7,8,9,11,12,13,14,15,16,17,18,21/);
+  assert.match(page,/1,7,8,9,11,12,13,14,15,16,17,18,21,22,23,24/);
   assert.match(generic,/sourceFeedback/);
   assert.match(generic,/PVR = \(32.+9\)\/4\.6 = 5 WU/);
   assert.match(generic,/Perfusion without ventilation means V\/Q = 0/);
@@ -17,7 +17,8 @@ test('migrated virtual patients use localized persistent React decision workflow
   assert.match(generic,/alveolar ventilation retains CO/);
   assert.match(generic,/\[data-step\]/);
   assert.match(generic,/outerDetails/);
-  assert.equal(matrix.filter(row=>row.section==='virtual-patient'&&[7,8,9,10,11,12,13,14,15,16,17,18,21].includes(row.module)&&row.status==='react-automated-browser-pending').length,13);
+  assert.match(generic,/moduleId===1/);
+  assert.equal(matrix.filter(row=>row.section==='virtual-patient'&&[1,7,8,9,10,11,12,13,14,15,16,17,18,21,22,23,24].includes(row.module)&&row.status==='react-automated-browser-pending').length,17);
 });
 
 test('module 10 retains the source blood gases and correct alveolar-gas calculation',()=>{

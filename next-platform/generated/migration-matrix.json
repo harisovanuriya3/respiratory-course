@@ -237,8 +237,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "localized source clinical record, decisions, keys, physiological feedback, persistence and completion use an accessible React patient workflow; browser audit unavailable"
   },
   {
     "module": 1,
@@ -8030,8 +8030,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "localized source clinical record, decisions, keys, physiological feedback, persistence and completion use an accessible React patient workflow; browser audit unavailable"
   },
   {
     "module": 22,
@@ -8401,8 +8401,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "localized source clinical record, decisions, keys, physiological feedback, persistence and completion use an accessible React patient workflow; browser audit unavailable"
   },
   {
     "module": 23,
@@ -8772,8 +8772,8 @@
       "legacy-module-case"
     ],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "localized source clinical record, decisions, keys, physiological feedback, persistence and completion use an accessible React patient workflow; browser audit unavailable"
   },
   {
     "module": 24,
