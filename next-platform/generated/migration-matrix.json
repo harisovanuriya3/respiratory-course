@@ -304,8 +304,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-react",
+    "verification": "legacy-content-exported; React speech/manual fallback source-tested"
   },
   {
     "module": 1,
@@ -675,8 +675,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-react",
+    "verification": "legacy-content-exported; React speech/manual fallback source-tested"
   },
   {
     "module": 2,
@@ -1046,8 +1046,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-react",
+    "verification": "legacy-content-exported; React speech/manual fallback source-tested"
   },
   {
     "module": 3,
@@ -1417,8 +1417,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-react",
+    "verification": "legacy-content-exported; React speech/manual fallback source-tested"
   },
   {
     "module": 4,
@@ -1790,8 +1790,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-react",
+    "verification": "legacy-content-exported; React speech/manual fallback source-tested"
   },
   {
     "module": 5,
@@ -2161,8 +2161,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-react",
+    "verification": "legacy-content-exported; React speech/manual fallback source-tested"
   },
   {
     "module": 6,
@@ -2532,8 +2532,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-react",
+    "verification": "legacy-content-exported; React speech/manual fallback source-tested"
   },
   {
     "module": 7,
@@ -2903,8 +2903,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-react",
+    "verification": "legacy-content-exported; React speech/manual fallback source-tested"
   },
   {
     "module": 8,
@@ -3274,8 +3274,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-react",
+    "verification": "legacy-content-exported; React speech/manual fallback source-tested"
   },
   {
     "module": 9,
@@ -3645,8 +3645,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-react",
+    "verification": "legacy-content-exported; React speech/manual fallback source-tested"
   },
   {
     "module": 10,
@@ -4016,8 +4016,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-react",
+    "verification": "legacy-content-exported; React speech/manual fallback source-tested"
   },
   {
     "module": 11,
@@ -4387,8 +4387,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-react",
+    "verification": "legacy-content-exported; React speech/manual fallback source-tested"
   },
   {
     "module": 12,
@@ -4758,8 +4758,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-react",
+    "verification": "legacy-content-exported; React speech/manual fallback source-tested"
   },
   {
     "module": 13,
@@ -5129,8 +5129,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-react",
+    "verification": "legacy-content-exported; React speech/manual fallback source-tested"
   },
   {
     "module": 14,
@@ -5500,8 +5500,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-react",
+    "verification": "legacy-content-exported; React speech/manual fallback source-tested"
   },
   {
     "module": 15,
@@ -5871,8 +5871,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-react",
+    "verification": "legacy-content-exported; React speech/manual fallback source-tested"
   },
   {
     "module": 16,
@@ -6242,8 +6242,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-react",
+    "verification": "legacy-content-exported; React speech/manual fallback source-tested"
   },
   {
     "module": 17,
@@ -6613,8 +6613,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-react",
+    "verification": "legacy-content-exported; React speech/manual fallback source-tested"
   },
   {
     "module": 18,
@@ -6984,8 +6984,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-react",
+    "verification": "legacy-content-exported; React speech/manual fallback source-tested"
   },
   {
     "module": 19,
@@ -7355,8 +7355,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-react",
+    "verification": "legacy-content-exported; React speech/manual fallback source-tested"
   },
   {
     "module": 20,
@@ -7726,8 +7726,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-react",
+    "verification": "legacy-content-exported; React speech/manual fallback source-tested"
   },
   {
     "module": 21,
@@ -8097,8 +8097,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-react",
+    "verification": "legacy-content-exported; React speech/manual fallback source-tested"
   },
   {
     "module": 22,
@@ -8468,8 +8468,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-react",
+    "verification": "legacy-content-exported; React speech/manual fallback source-tested"
   },
   {
     "module": 23,
@@ -8839,8 +8839,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-react",
+    "verification": "legacy-content-exported; React speech/manual fallback source-tested"
   },
   {
     "module": 24,
@@ -9210,8 +9210,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "content-parity-react",
+    "verification": "legacy-content-exported; React speech/manual fallback source-tested"
   },
   {
     "module": 25,
