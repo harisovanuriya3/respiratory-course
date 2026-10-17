@@ -13,6 +13,8 @@ const copy={
 const plain=(html:string)=>html.replace(/<[^>]+>/g,' ').replace(/&nbsp;/gi,' ').replace(/&amp;/gi,'&').replace(/&lt;/gi,'<').replace(/&gt;/gi,'>').replace(/&quot;/gi,'"').replace(/&#39;/gi,"'").replace(/\s+/g,' ').trim();
 
 const sourceFeedback:Partial<Record<number,Record<Language,string>>>= {
+  4:{RU:'При прочих равных рост R увеличивает τ = R × C и замедляет опорожнение.',EN:'Other things equal, higher R increases τ = R × C and slows emptying.',KZ:'Басқа жағдайлар бірдей болса, R артуы τ = R × C ұлғайтып, босауын баяулатады.'},
+  5:{RU:'Уменьшение Ptp способствует спадению лёгкого.',EN:'Reduced Ptp promotes lung collapse.',KZ:'Ptp төмендеуі өкпенің семуіне әкеледі.'},
   11:{RU:'Это согласуется с уменьшением диффузионного резерва, но не доказывает единственный механизм.',EN:'This fits reduced diffusion reserve but does not establish a single mechanism.',KZ:'Бұл диффузиялық қордың азаюымен үйлеседі, бірақ жалғыз механизмді дәлелдемейді.'},
   12:{RU:'PVR = (32−9)/4,6 = 5 ед. Вуда. Значение указывает на повышенное сопротивление, но этиологию нужно уточнять.',EN:'PVR = (32−9)/4.6 = 5 WU. This indicates elevated resistance but does not establish etiology.',KZ:'PVR = (32−9)/4,6 = 5 Вуд бірлігі. Кедергі жоғары, бірақ себебін қосымша анықтау қажет.'},
   13:{RU:'Перфузия при отсутствии вентиляции соответствует V/Q = 0 — шунту.',EN:'Perfusion without ventilation means V/Q = 0 — shunt.',KZ:'Желдетусіз перфузия V/Q = 0 — шунтқа сәйкес.'},
