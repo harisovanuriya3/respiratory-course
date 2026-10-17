@@ -1895,8 +1895,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "localized source questions, answer keys and explanations use the persistent accessible React assessment engine; browser audit unavailable"
   },
   {
     "module": 6,
@@ -2050,8 +2050,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "localized source questions, answer keys and explanations use the persistent accessible React assessment engine; browser audit unavailable"
   },
   {
     "module": 6,
@@ -2266,8 +2266,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "localized source questions, answer keys and explanations use the persistent accessible React assessment engine; browser audit unavailable"
   },
   {
     "module": 7,
@@ -2421,8 +2421,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "localized source questions, answer keys and explanations use the persistent accessible React assessment engine; browser audit unavailable"
   },
   {
     "module": 7,
@@ -2637,8 +2637,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "localized source questions, answer keys and explanations use the persistent accessible React assessment engine; browser audit unavailable"
   },
   {
     "module": 8,
@@ -2792,8 +2792,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "localized source questions, answer keys and explanations use the persistent accessible React assessment engine; browser audit unavailable"
   },
   {
     "module": 8,
@@ -3008,8 +3008,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "localized source questions, answer keys and explanations use the persistent accessible React assessment engine; browser audit unavailable"
   },
   {
     "module": 9,
@@ -3163,8 +3163,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "localized source questions, answer keys and explanations use the persistent accessible React assessment engine; browser audit unavailable"
   },
   {
     "module": 9,
@@ -3379,8 +3379,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "localized source questions, answer keys and explanations use the persistent accessible React assessment engine; browser audit unavailable"
   },
   {
     "module": 10,
@@ -3534,8 +3534,8 @@
     "laboratory": [],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "localized source questions, answer keys and explanations use the persistent accessible React assessment engine; browser audit unavailable"
   },
   {
     "module": 10,

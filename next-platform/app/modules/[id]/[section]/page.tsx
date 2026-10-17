@@ -16,7 +16,7 @@ import {extractLegacyQuiz} from '../../../../lib/legacy-quiz';
 import {isLanguage,isSection,moduleById,sectionNames} from '../../../../lib/course';
 
 const staticSections=new Set(['objectives','theory','one-minute','clinical','questions','glossary','references']);
-const migratedQuizModules=new Set([1,2,3,4,5]);
+const migratedQuizModules=new Set([1,2,3,4,5,6,7,8,9,10]);
 
 export default async function Page({params,searchParams}:{params:Promise<{id:string;section:string}>;searchParams:Promise<{lang?:string}>}){
   const route=await params,{lang='RU'}=await searchParams,id=Number(route.id),section=route.section,module=moduleById(id);
