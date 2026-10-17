@@ -1985,8 +1985,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "prediction-first React experiment reuses verified airway/ventilation model; localized controls and legacy explanation retained; browser audit unavailable"
   },
   {
     "module": 6,
@@ -2356,8 +2356,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "prediction-first React experiment reuses verified airway/ventilation model; localized controls and legacy explanation retained; browser audit unavailable"
   },
   {
     "module": 7,
@@ -2727,8 +2727,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "prediction-first React experiment reuses verified airway/ventilation model; localized controls and legacy explanation retained; browser audit unavailable"
   },
   {
     "module": 8,
