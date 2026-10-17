@@ -1,0 +1,2 @@
+export function spirometry(fev1:number,fvc:number,tlc:number,rv:number){return{ratio:fev1/fvc,rvTlc:rv/tlc,consistent:fev1<=fvc&&rv<=tlc}}
+export function integratedOxygen(hb:number,satPercent:number,pao2:number,cardiacOutput:number,paco2:number,fioPercent:number){const content=1.34*hb*satPercent/100+.0031*pao2,delivery=content*cardiacOutput*10,alveolar=fioPercent/100*(760-47)-paco2/.8;return{content,delivery,alveolar,aa:alveolar-pao2}}
