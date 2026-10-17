@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import type {Language} from '../lib/course';
-import {ModuleTwentyFourMedia as SpirometrySimulation} from './MediaTwentyFourFive';
+import PulmonaryFunctionLab from './PulmonaryFunctionLab';
 
 const copy={
   RU:{title:'Как работает измерительная система',alt:'Реалистичная учебная иллюстрация спирометрической системы: фильтрованный мундштук, пневмотахограф, соединительная трубка, измерительный блок и монитор с учебными кривыми.',caption:'Авторская визуализация типовой спирометрической установки; не фотография конкретного производителя.',items:['Мундштук и одноразовый фильтр уменьшают загрязнение системы.','Пневмотахограф оценивает поток по перепаду давления на известном сопротивлении; интегрирование потока даёт объём.','Программа строит петлю поток–объём и кривую объём–время. Калибровка, утечка, кашель и усилие пациента влияют на качество.'],trace:'Интерактивная кривая ниже — математическая учебная симуляция, а не запись пациента.',records:'Реальные спирограммы не включены: в проекте нет предоставленных или лицензированных исходных записей. Рестрикцию нельзя подтвердить только низкой FVC — требуется измерение TLC.'},
@@ -15,5 +15,5 @@ export default function SpirometryInstrumentPanel({language}:{language:Language}
     <figure><Image src="/visuals/spirometry-workstation.png" alt={t.alt} width={1536} height={1024} sizes="(max-width: 760px) 100vw, 900px"/><figcaption>{t.caption}</figcaption></figure>
     <ol>{t.items.map(item=><li key={item}>{item}</li>)}</ol>
     <p className="simulationNotice"><strong>{t.trace}</strong> {t.records}</p>
-  </section><SpirometrySimulation language={language}/></>;
+  </section><PulmonaryFunctionLab language={language}/></>;
 }
