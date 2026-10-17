@@ -128,8 +128,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "prediction-observation-comparison-explanation React workflow reuses verified minute/alveolar ventilation model with exact original ranges and reduced-motion dynamic SVG; localized legacy explanation retained; browser audit unavailable"
   },
   {
     "module": 1,
@@ -499,8 +499,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "prediction-observation-comparison-explanation React workflow reuses verified minute/alveolar ventilation model with exact original ranges and reduced-motion dynamic SVG; localized legacy explanation retained; browser audit unavailable"
   },
   {
     "module": 2,
