@@ -7550,8 +7550,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "prediction-observation-comparison-explanation React workflow reuses verified altitude, sleep/AHI and Boyle-Dalton models with exact ranges; localized legacy explanation retained; browser audit unavailable"
   },
   {
     "module": 21,
@@ -7921,8 +7921,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "prediction-observation-comparison-explanation React workflow reuses verified altitude, sleep/AHI and Boyle-Dalton models with exact ranges; localized legacy explanation retained; browser audit unavailable"
   },
   {
     "module": 22,
@@ -8292,8 +8292,8 @@
     ],
     "clinical": [],
     "media": [],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "prediction-observation-comparison-explanation React workflow reuses verified altitude, sleep/AHI and Boyle-Dalton models with exact ranges; localized legacy explanation retained; browser audit unavailable"
   },
   {
     "module": 23,
