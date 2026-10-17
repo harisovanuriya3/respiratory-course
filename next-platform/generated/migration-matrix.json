@@ -6940,8 +6940,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "typed chemoreflex, CPET and altitude models with exact ranges and accessible dynamic SVG source-tested; browser audit unavailable"
   },
   {
     "module": 19,
@@ -7311,8 +7311,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "typed chemoreflex, CPET and altitude models with exact ranges and accessible dynamic SVG source-tested; browser audit unavailable"
   },
   {
     "module": 20,
@@ -7682,8 +7682,8 @@
     "media": [
       "legacy-media-atlas"
     ],
-    "status": "content-present-react-pending",
-    "verification": "content-exported; interactive parity not yet verified"
+    "status": "react-automated-browser-pending",
+    "verification": "typed chemoreflex, CPET and altitude models with exact ranges and accessible dynamic SVG source-tested; browser audit unavailable"
   },
   {
     "module": 21,
