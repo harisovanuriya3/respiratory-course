@@ -15,7 +15,7 @@ export default function CourseHeader(){
   <Link href={`/?lang=${lang}`} className="courseBrand">{c.title}</Link>
   <nav className="courseHeaderActions" aria-label={c.languages}>
     <div className="courseHeaderLanguages">{(['RU','EN','KZ'] as const).map(item=><Link key={item} href={href(item)} aria-current={item===lang?'page':undefined}>{item}</Link>)}</div>
-    <span className="courseGuestStatus">{c.guest}</span>
+    <Link className="courseGuestStatus courseGuestLink" href={`/modules/1/objectives?lang=${lang}`}>{c.guest} →</Link>
     <Link className="courseAccountLink" href={`/account?lang=${lang}`}>{c.account}</Link>
   </nav>
  </header>;
