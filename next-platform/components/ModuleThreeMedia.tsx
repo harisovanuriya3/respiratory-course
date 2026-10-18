@@ -35,11 +35,11 @@ export default function ModuleThreeMedia({ language }: { language: Language }) {
   const now = points[Math.min(points.length - 1, Math.round(phase * (points.length - 1)))];
   const maxFlow = Math.max(...points.map(point => Math.abs(point.flow)));
   const period = 60 / rate;
-  return <section className="card physiologyLab moduleThreeLab"><header><p className="atlasEyebrow">03 · THORAX / PLEURA</p><h2>{c.title}</h2></header>
+  return <section className="card physiologyLab moduleThreeLab"><header><p className="atlasEyebrow">03 · THORAX / PLEURA</p><h2>{c.title}</h2></header><div className="labWorkbench">
     <BreathingThoraxScene language={language} flow={now.flow} maxFlow={maxFlow} running={running}/>
-    <LabPlayback language={language} running={running} onRunning={setRunning} onReplay={() => { setPhase(0); setRunning(true); }} onReset={() => { setPleural(-5); setCompliance(.2); setResistance(2); setRate(12); setPhase(0); setRunning(false); }}/>
-    <div className="metrics"><span>Ppl {now.ppl.toFixed(1)} cm H₂O</span><span>Palv {now.palv.toFixed(2)} cm H₂O</span><span>Ptp {now.ptp.toFixed(1)} cm H₂O</span><span>ΔV {now.volume.toFixed(2)} L</span><span>V̇ {now.flow.toFixed(2)} L/s</span></div>
+    <div className="labControlPanel"><LabPlayback language={language} running={running} onRunning={setRunning} onReplay={() => { setPhase(0); setRunning(true); }} onReset={() => { setPleural(-5); setCompliance(.2); setResistance(2); setRate(12); setPhase(0); setRunning(false); }}/>
     <div className="lab-controls"><label>{c.ppl} (cm H₂O)<input type="range" min="-10" max="-2" step=".5" value={pleuralPressure} onChange={event => setPleural(+event.target.value)}/><output>{pleuralPressure.toFixed(1)}</output></label><label>{c.compliance} (L/cm H₂O)<input type="range" min=".05" max=".3" step=".01" value={compliance} onChange={event => setCompliance(+event.target.value)}/><output>{compliance.toFixed(2)}</output></label><label>{c.resistance} (cm H₂O·s/L)<input type="range" min="1" max="10" step=".5" value={resistance} onChange={event => setResistance(+event.target.value)}/><output>{resistance.toFixed(1)}</output></label><label>{c.rate} (min⁻¹)<input type="range" min="6" max="30" step="1" value={rate} onChange={event => setRate(+event.target.value)}/><output>{rate}</output></label></div>
+    <div className="metrics"><span><b>Ppl</b>{now.ppl.toFixed(1)} cm H₂O</span><span><b>Palv</b>{now.palv.toFixed(2)} cm H₂O</span><span><b>Ptp</b>{now.ptp.toFixed(1)} cm H₂O</span><span><b>ΔV</b>{now.volume.toFixed(2)} L</span><span><b>V̇</b>{now.flow.toFixed(2)} L/s</span></div></div></div>
     <section className="signalGraph" aria-label={c.graph}><h3>{c.graph}</h3><div className="signalPanels">{signals.map(signal => <SignalPanel key={signal.key} points={points} signal={signal} phase={phase} timeLabel={`${c.time}: ${period.toFixed(1)} s`}/>)}</div></section><p className="notice">{c.limit}</p>
   </section>;
 }
