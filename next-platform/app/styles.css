@@ -10,3 +10,5 @@
 .studyToolsSummary span{display:inline-block}
 .studyToolsSummary .studyToolsExpand{margin-left:auto;color:#176b70;font-size:.85rem}
 @media(max-width:760px){.courseGlobalHeader .courseBrand span{display:block}.courseGlobalHeader .courseAuthor{font-size:.75rem}.studyToolsSummary{gap:.35rem .8rem}.studyToolsSummary .studyToolsExpand{margin-left:0}}
+
+.moduleRailBlock{margin:.75rem 0}.moduleRailTitle{font-weight:750;font-size:.88rem;color:#245b63;margin:.4rem 0 .2rem}.moduleRailBlock .moduleRail{margin:.3rem 0 .7rem}.courseGlobalHeader .courseBrand{overflow-wrap:anywhere}
