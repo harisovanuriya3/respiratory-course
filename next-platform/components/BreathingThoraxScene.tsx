@@ -10,12 +10,12 @@ const copy = {
 export default function BreathingThoraxScene({ language, flow, maxFlow, relativeVolume, running, onInspiration, onExpiration }: { language: Language; flow: number; maxFlow: number; relativeVolume: number; running: boolean; onInspiration: () => void; onExpiration: () => void }) {
   const t = copy[language];
   const relativeFlow = maxFlow > 0 ? Math.max(0, Math.min(1, Math.abs(flow) / maxFlow)) : 0;
-  const inspiration = flow >= 0;
+  const airEntering = flow >= 0, displayedInspiration = relativeVolume >= .5;
   return <figure className={`breathingThorax ${running ? 'isRunning' : ''}`}><div className="thoraxStage">
     <img className="thoraxBase" src={atlas} alt={t.alt} width="1536" height="1024" />
     <img className="thoraxPhase expirationPhase" src={expirationAtlas} alt="" width="1536" height="1024" aria-hidden="true" />
-    <img className="thoraxPhase inspirationPhase" src={inspirationAtlas} alt="" width="1536" height="1024" aria-hidden="true" style={{ opacity: relativeVolume >= .5 ? 1 : 0 }} />
-    <svg viewBox="0 0 900 600" aria-hidden="true" className="airflowOverlay" style={{ opacity: .2 + relativeFlow * .7 }}><defs><marker id="air-arrow" markerWidth="8" markerHeight="8" refX="5" refY="3" orient="auto"><path d="M0 0L6 3L0 6Z" /></marker></defs><path className={`airflowPath ${inspiration ? 'in' : 'out'}`} d="M450 5V145M450 145L360 220M450 145L540 220" /></svg>
-    <strong className={`phaseBadge ${inspiration ? 'in' : 'out'}`} role="status">{inspiration ? t.phaseIn : t.phaseOut}</strong>
+    <img className="thoraxPhase inspirationPhase" src={inspirationAtlas} alt="" width="1536" height="1024" aria-hidden="true" style={{ opacity: displayedInspiration ? 1 : 0 }} />
+    <svg viewBox="0 0 900 600" aria-hidden="true" className="airflowOverlay" style={{ opacity: .2 + relativeFlow * .7 }}><defs><marker id="air-arrow" markerWidth="8" markerHeight="8" refX="5" refY="3" orient="auto"><path d="M0 0L6 3L0 6Z" /></marker></defs><path className={`airflowPath ${airEntering ? 'in' : 'out'}`} d="M450 5V145M450 145L360 220M450 145L540 220" /></svg>
+    <strong className={`phaseBadge ${displayedInspiration ? 'in' : 'out'}`} role="status">{displayedInspiration ? t.phaseIn : t.phaseOut}</strong>
   </div><div className="phaseSelector" role="group" aria-label={t.atlas}><button type="button" aria-pressed={relativeVolume >= .5} onClick={onInspiration}>{t.phaseIn}</button><button type="button" aria-pressed={relativeVolume < .5} onClick={onExpiration}>{t.phaseOut}</button></div><ul className="anatomyKey" aria-label={t.alt}><li>{t.pleura}</li><li>{t.intercostals}</li><li>{t.diaphragm}</li></ul><figcaption>{t.atlas}</figcaption></figure>;
 }
