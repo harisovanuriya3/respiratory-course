@@ -25,3 +25,5 @@
 .accountInformation p{line-height:1.7}
 .accountInformation a{display:inline-block;margin-top:15px;padding:12px 16px;background:#176b70;color:#fff;border-radius:8px;text-decoration:none}
 @media(max-width:760px){.courseHeaderActions{width:100%;gap:8px}.courseGuestStatus{margin-left:auto}.courseAccountLink{font-size:.82rem}}
+
+.courseGuestLink{display:inline-flex;align-items:center;min-height:38px;padding:7px 10px;border:1px solid #a5ded0;border-radius:9px;color:#f0fff9;text-decoration:none;font-weight:700;white-space:nowrap}.courseGuestLink:hover{background:#1c5960}.courseGuestLink:focus-visible{outline:3px solid #facc15;outline-offset:2px}
