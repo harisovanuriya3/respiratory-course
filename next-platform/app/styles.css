@@ -12,3 +12,16 @@
 @media(max-width:760px){.courseGlobalHeader .courseBrand span{display:block}.courseGlobalHeader .courseAuthor{font-size:.75rem}.studyToolsSummary{gap:.35rem .8rem}.studyToolsSummary .studyToolsExpand{margin-left:0}}
 
 .moduleRailBlock{margin:.75rem 0}.moduleRailTitle{font-weight:750;font-size:.88rem;color:#245b63;margin:.4rem 0 .2rem}.moduleRailBlock .moduleRail{margin:.3rem 0 .7rem}.courseGlobalHeader .courseBrand{overflow-wrap:anywhere}
+
+.courseHeaderActions{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.courseHeaderLanguages{display:flex;align-items:center;gap:4px}
+.courseHeaderLanguages a{display:inline-block;border-radius:8px;padding:6px 9px;color:#e1f7f2;text-decoration:none;font-size:.84rem}
+.courseHeaderLanguages a[aria-current=page]{background:#f5fff9;color:#103f47;font-weight:800}
+.courseGuestStatus{font-size:.8rem;color:#c9eee5}
+.courseAccountLink{display:inline-block;border-radius:9px;border:1px solid #b8eadc;padding:8px 12px;background:#f3fff9;color:#12453d;text-decoration:none;font-weight:750;font-size:.88rem}
+.courseHeaderLanguages a:focus-visible,.courseAccountLink:focus-visible{outline:3px solid #facc15;outline-offset:2px}
+.accountInformation{margin:clamp(18px,5vw,64px) auto;padding:clamp(20px,4vw,40px);max-width:800px;background:#fff;border:1px solid #d5e4df;border-radius:18px}
+.accountInformation h2{color:#9a3412}
+.accountInformation p{line-height:1.7}
+.accountInformation a{display:inline-block;margin-top:15px;padding:12px 16px;background:#176b70;color:#fff;border-radius:8px;text-decoration:none}
+@media(max-width:760px){.courseHeaderActions{width:100%;gap:8px}.courseGuestStatus{margin-left:auto}.courseAccountLink{font-size:.82rem}}
