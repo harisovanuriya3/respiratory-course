@@ -42,3 +42,11 @@ Review the cover and structure with the user. Only after their instruction, star
 - Limits: no real-browser/mobile audit in this run, no independent professional KZ review. The existing sinusoidal/clipped volume approximation is retained; not a validated clinical simulator. This is a bounded correction, not completion or peer review of the entire textbook. Next scientific priority: review drive amplitude/clipping assumptions and add numerical tick marks to plots.
 
 - Publication confirmed: source 69073f171c5c109cf80fbc326f3d02e2502f3c9d; Vercel dpl_GRTDq2gM8KvC8omCHzDKb8rd5PuY READY, production alias respiratory-course.vercel.app assigned without error. This is deployment-state verification, not a live-browser audit. Logs/monitoring not audited in this run.
+
+## 2026-10-18: guided mechanics experiment and quantitative axes
+
+- Read current main 1b29cd777881d3108e531b6e410ae3b64456a13d and progress before changes. Verified all deploy source files against GitHub blob hashes (normalised only the extra local trailing newline); cover bytes identical. No title, module names, exam, patient or neuro-course changes.
+- Public browser on module5 interactive RU confirmed the actual lab rendered and responded: baseline VT0.78, R2; save comparison, change only R to8 => VT0.56, tau0.80; Start and Pause worked. This is UI evidence, not a patient measurement.
+- Added an original four-step RU/EN/KZ investigation protocol: baseline, written prediction, save reference, change R only, start/pause, compare and explain. Uses the existing textbook-grounded model and references; no new physiological equations introduced or new textbook chapters claimed read today.
+- Added numeric tick labels to volume/time and flow/volume graphs from the exact shared projection limits, including signed flow and zero reference. No auto-animation introduced; prior reduced-motion behaviour preserved.
+- New axes/protocol tests and prior mechanics regression pass. Build456 pages and check425 section routes/102JS pass. Full mobile-device testing and professional translation review still pending. Only this laboratory block was improved; no claim of whole-course completion.
