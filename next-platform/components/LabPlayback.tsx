@@ -1,0 +1,4 @@
+'use client';
+import type {Language} from '../lib/course';
+const labels={RU:{start:'Пуск',pause:'Пауза',replay:'Повтор',reset:'Сброс'},EN:{start:'Start',pause:'Pause',replay:'Replay',reset:'Reset'},KZ:{start:'Іске қосу',pause:'Кідірту',replay:'Қайталау',reset:'Қалпына келтіру'}};
+export default function LabPlayback({language,running,onRunning,onReplay,onReset}:{language:Language;running:boolean;onRunning:(value:boolean)=>void;onReplay:()=>void;onReset:()=>void}){const t=labels[language];return <div className="labPlayback" role="group" aria-label={language==='EN'?'Animation controls':language==='KZ'?'Анимацияны басқару':'Управление анимацией'}><button type="button" aria-pressed={running} onClick={()=>onRunning(true)}>▶ {t.start}</button><button type="button" aria-pressed={!running} onClick={()=>onRunning(false)}>Ⅱ {t.pause}</button><button type="button" onClick={onReplay}>↻ {t.replay}</button><button type="button" onClick={onReset}>■ {t.reset}</button></div>}
