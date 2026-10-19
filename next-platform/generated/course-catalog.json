@@ -440,9 +440,9 @@
     {
       "id": 17,
       "title": {
-        "RU": "Центральная регуляция дыхания",
-        "EN": "Central control of breathing",
-        "KZ": "Тыныс алудың орталық реттелуі"
+        "RU": "Дыхательные центры и формирование дыхательного ритма",
+        "EN": "Respiratory centers and generation of breathing rhythm",
+        "KZ": "Тыныс алу орталықтары және тыныс ырғағының қалыптасуы"
       },
       "sections": [
         "objectives",
@@ -467,9 +467,9 @@
     {
       "id": 18,
       "title": {
-        "RU": "Нервная регуляция дыхания",
-        "EN": "Neural regulation of breathing",
-        "KZ": "Тыныс алудың жүйкелік реттелуі"
+        "RU": "Нервная и рефлекторная регуляция дыхания",
+        "EN": "Neural and reflex regulation of breathing",
+        "KZ": "Тыныс алудың жүйкелік және рефлекстік реттелуі"
       },
       "sections": [
         "objectives",
@@ -494,9 +494,9 @@
     {
       "id": 19,
       "title": {
-        "RU": "Химическая регуляция дыхания",
-        "EN": "Chemical regulation of breathing",
-        "KZ": "Тыныс алудың химиялық реттелуі"
+        "RU": "Гуморальная регуляция дыхания. Роль хеморецепторов",
+        "EN": "Humoral regulation of breathing: Role of chemoreceptors",
+        "KZ": "Тыныс алудың гуморальдық реттелуі. Хеморецепторлардың рөлі"
       },
       "sections": [
         "objectives",
