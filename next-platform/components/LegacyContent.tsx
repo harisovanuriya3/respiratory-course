@@ -10,7 +10,7 @@ import InteractiveTwentyOneThreeModel from './InteractiveTwentyOneThreeModel';
 import InteractiveTwentyFourFiveModel from './InteractiveTwentyFourFiveModel';
 import VentilationMedia from './VentilationMedia';
 import ModuleOneVisual from './ModuleOneVisual';
-import ModuleOneTheoryAtlas from './ModuleOneTheoryAtlas';
+import ModuleOneInfographic from './ModuleOneInfographic';
 import ModuleNineMedia from './ModuleNineMedia';
 import ThoracicAnatomyAtlas from './ThoracicAnatomyAtlas';
 import ModuleElevenMedia from './ModuleElevenMedia';
@@ -65,7 +65,7 @@ export default function LegacyContent({moduleId,section,language,interactivePend
   const interactiveModel=<InteractiveNineElevenModel language={language} moduleId={moduleId}/>;
   const migratedMedia=anatomyMedia||moduleSixMedia||ventilationMedia||moduleNineMedia||moduleTenMedia||moduleElevenMedia||moduleTwelveMedia||moduleThirteenMedia||moduleFourteenMedia||moduleFifteenMedia||moduleSixteenMedia||moduleSeventeenMedia||moduleEighteenMedia||moduleNineteenMedia||moduleTwentyMedia||moduleTwentyOneMedia||moduleTwentyTwoMedia||moduleTwentyThreeMedia||moduleTwentyFourMedia||moduleTwentyFiveMedia;
   if(anatomyMedia)return <><ThoracicAnatomyAtlas language={language}/><section className="legacyContent card" data-source-sha256={entry.sha256}><div dangerouslySetInnerHTML={{__html:html}}/></section></>;
-  if(moduleId===1&&section==='theory')return <><ModuleOneTheoryAtlas language={language}/><section className="legacyContent card" data-source-sha256={entry.sha256}><div dangerouslySetInnerHTML={{__html:html}}/></section></>;
+  if(moduleId===1&&section==='theory')return <><ModuleOneInfographic language={language}/><section className="legacyContent card" data-source-sha256={entry.sha256}><div dangerouslySetInnerHTML={{__html:html}}/></section></>;
   if(moduleId===1&&section==='media')return <><ModuleOneVisual language={language}/><section className="legacyContent card" data-source-sha256={entry.sha256}><div dangerouslySetInnerHTML={{__html:html}}/></section></>;
   if(moduleId===1&&section==='interactive')return <ModuleOneVisual language={language}/>;
   if(moduleThreeInteractive)return <InteractiveLabFlow language={language} moduleId={3} visualFirst><ModuleThreeMedia language={language}/></InteractiveLabFlow>;

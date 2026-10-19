@@ -47,7 +47,7 @@ import {assessment,initAssessment} from './assessment.js';
 import {modules, sections} from './content.js';
 import {academicCasesV63} from './academic-cases-v63.js';
 import {initLesson} from './lesson-one.js';
-import {lessonOne} from './module-one-upgrade.js';
+import {lessonOne} from './module-one-complete.js';
 import {advancedLesson} from './advanced-lessons.js';
 import {moduleTwo,initModuleTwo} from './module-two.js';
 import {moduleThree,initModuleThree} from './module-three.js';
