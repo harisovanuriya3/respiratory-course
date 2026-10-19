@@ -134,25 +134,25 @@ export const modules = [
   {
     "id": 17,
     "title": [
-      "Центральная регуляция дыхания",
-      "Central control of breathing",
-      "Тыныс алудың орталық реттелуі"
+      "Дыхательные центры и формирование дыхательного ритма",
+      "Respiratory centers and generation of breathing rhythm",
+      "Тыныс алу орталықтары және тыныс ырғағының қалыптасуы"
     ]
   },
   {
     "id": 18,
     "title": [
-      "Нервная регуляция дыхания",
-      "Neural regulation of breathing",
-      "Тыныс алудың жүйкелік реттелуі"
+      "Нервная и рефлекторная регуляция дыхания",
+      "Neural and reflex regulation of breathing",
+      "Тыныс алудың жүйкелік және рефлекстік реттелуі"
     ]
   },
   {
     "id": 19,
     "title": [
-      "Химическая регуляция дыхания",
-      "Chemical regulation of breathing",
-      "Тыныс алудың химиялық реттелуі"
+      "Гуморальная регуляция дыхания. Роль хеморецепторов",
+      "Humoral regulation of breathing: Role of chemoreceptors",
+      "Тыныс алудың гуморальдық реттелуі. Хеморецепторлардың рөлі"
     ]
   },
   {
