@@ -11,6 +11,7 @@ import InteractiveTwentyFourFiveModel from './InteractiveTwentyFourFiveModel';
 import VentilationMedia from './VentilationMedia';
 import ModuleOneVisual from './ModuleOneVisual';
 import ModuleOneInfographic from './ModuleOneInfographic';
+import ModuleOneTheoryExpansion from './ModuleOneTheoryExpansion';
 import ModuleNineMedia from './ModuleNineMedia';
 import ThoracicAnatomyAtlas from './ThoracicAnatomyAtlas';
 import ModuleElevenMedia from './ModuleElevenMedia';
@@ -65,7 +66,7 @@ export default function LegacyContent({moduleId,section,language,interactivePend
   const interactiveModel=<InteractiveNineElevenModel language={language} moduleId={moduleId}/>;
   const migratedMedia=anatomyMedia||moduleSixMedia||ventilationMedia||moduleNineMedia||moduleTenMedia||moduleElevenMedia||moduleTwelveMedia||moduleThirteenMedia||moduleFourteenMedia||moduleFifteenMedia||moduleSixteenMedia||moduleSeventeenMedia||moduleEighteenMedia||moduleNineteenMedia||moduleTwentyMedia||moduleTwentyOneMedia||moduleTwentyTwoMedia||moduleTwentyThreeMedia||moduleTwentyFourMedia||moduleTwentyFiveMedia;
   if(anatomyMedia)return <><ThoracicAnatomyAtlas language={language}/><section className="legacyContent card" data-source-sha256={entry.sha256}><div dangerouslySetInnerHTML={{__html:html}}/></section></>;
-  if(moduleId===1&&section==='theory')return <><ModuleOneInfographic language={language}/><section className="legacyContent card" data-source-sha256={entry.sha256}><div dangerouslySetInnerHTML={{__html:html}}/></section></>;
+  if(moduleId===1&&section==='theory')return <><section className="card"><ThoracicAnatomyAtlas language={language}/><ModuleOneInfographic language={language}/></section><section className="legacyContent card" data-source-sha256={entry.sha256}><div dangerouslySetInnerHTML={{__html:html.replace(/<h[23]>\\s*(?:Учебный материал|Learning material|Оқу материалы)\\s*<\\/h[23]>/gi,'').replace(/<h3>\\s*(?:Интегративная система|Integrative system|Интеграциялық жүйе)\\s*<\\/h3>/gi,'<h4>Дополнение / Supplement / Қосымша</h4>')}}/></section><ModuleOneTheoryExpansion language={language}/></>;
   if(moduleId===1&&section==='media')return <><ModuleOneVisual language={language}/><section className="legacyContent card" data-source-sha256={entry.sha256}><div dangerouslySetInnerHTML={{__html:html}}/></section></>;
   if(moduleId===1&&section==='interactive')return <ModuleOneVisual language={language}/>;
   if(moduleThreeInteractive)return <InteractiveLabFlow language={language} moduleId={3} visualFirst><ModuleThreeMedia language={language}/></InteractiveLabFlow>;
