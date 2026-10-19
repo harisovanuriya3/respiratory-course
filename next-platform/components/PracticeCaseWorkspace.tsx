@@ -16,6 +16,17 @@ const numberValue=(value:string)=>Number(value.trim().replace(',','.').replace(/
 function practiceExercise(document:Document,moduleId:number):Exercise[]{
   const workshop=document.querySelector('.practice-workshop');
   if(!workshop)return[];
+  if(moduleId===1){
+    const exercises:Exercise[]=[];
+    for(const field of workshop.querySelectorAll<HTMLElement>('fieldset[data-practice-kind]')){
+      const kind=field.dataset.practiceKind as Exercise['kind'],prompt=plain(field.querySelector('legend')?.innerHTML||''),explanation=plain(field.querySelector('[data-explanation]')?.innerHTML||'');
+      if(!prompt||!explanation)continue;
+      if(kind==='choice'){const options=[...field.querySelectorAll<HTMLInputElement>('input[type=radio]')].map(input=>({id:Number(input.value),text:plain(input.closest('label')?.innerHTML||'')}));exercises.push({id:exercises.length,prompt,explanation,kind,options,correctId:Number(field.dataset.answer)})}
+      else if(kind==='numeric')exercises.push({id:exercises.length,prompt,explanation,kind,expected:Number(field.dataset.answer)});
+      else exercises.push({id:exercises.length,prompt,explanation,kind:'narrative'});
+    }
+    if(exercises.length)return exercises;
+  }
   const prompt=plain(workshop.querySelector(':scope > p')?.innerHTML||'');
   const label=plain(workshop.querySelector('form label')?.innerHTML||'');
   const details=workshop.querySelector('details');

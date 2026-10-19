@@ -24,7 +24,7 @@ import {isLanguage,isSection,moduleById,sectionNames} from '../../../../lib/cour
 const staticSections=new Set(['objectives','theory','one-minute','clinical','questions','glossary','references']);
 const migratedQuizModules=new Set(Array.from({length:25},(_,index)=>index+1));
 const migratedVirtualPatients=new Set(Array.from({length:25},(_,index)=>index+1));
-const migratedCases=new Set([4,7,8,11,12,13,14,15,16,17,18,21,22,23,24]);
+const migratedCases=new Set([1,4,7,8,11,12,13,14,15,16,17,18,21,22,23,24]);
 
 export default async function Page({params,searchParams}:{params:Promise<{id:string;section:string}>;searchParams:Promise<{lang?:string}>}){
   const route=await params,{lang='RU'}=await searchParams,id=Number(route.id),section=route.section,module=moduleById(id);
