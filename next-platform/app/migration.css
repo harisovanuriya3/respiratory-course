@@ -322,3 +322,9 @@
 .moduleOneReferenceVideos article{min-width:0;padding:13px}
 .moduleOneReferenceVideos strong{display:block;line-height:1.35}
 .moduleOneReferenceVideos p{margin:8px 0}
+
+/* Keep pressure readouts proportional to the compact breathing diagram. */
+.m1Breathing .m1PressureValues output{font-size:clamp(1rem,2.3vw,1.45rem)!important;line-height:1.2;font-weight:700}
+.m1Breathing .m1PressureValues b{font-size:.88rem}
+.m1Breathing .m1PressureValues span{font-size:.77rem}
+.m1Breathing .m1PressureValues>div{min-width:0}
