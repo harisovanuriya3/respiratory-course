@@ -191,3 +191,20 @@
  .mobileAccordionSections a{position:relative;z-index:1;touch-action:manipulation}
  .mobileModuleDirectLink:focus-visible,.mobileModuleExpandButton:focus-visible{outline:3px solid #f59e0b;outline-offset:-3px}
 }
+
+/* Compact, usable mobile navigation: do not let a 25-module list hide lesson content. */
+@media(max-width:760px){
+ .sectionSidebar{position:relative!important;top:auto!important;z-index:5!important;padding:8px 12px!important;box-shadow:none!important;background:#f3faf8}
+ .sectionSidebar .courseNavMobileVisible{display:block!important}
+ .courseNavMobileVisible>.mobileModuleNumberHeading{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:46px;padding:9px 12px;border:1px solid #9dbdb4;border-radius:10px;background:#fff;color:#174a52;cursor:pointer;list-style:none;line-height:1.35;font-size:.85rem;font-weight:800}
+ .courseNavMobileVisible>.mobileModuleNumberHeading::-webkit-details-marker{display:none}
+ .courseNavMobileVisible[open]>.mobileModuleNumberHeading{border-radius:10px 10px 0 0;background:#dff3ed}
+ .courseNavMobileVisible .mobileCourseAccordion{max-height:min(55vh,440px);overflow-y:auto;overscroll-behavior:contain;padding:8px;border:1px solid #9dbdb4;border-top:0;border-radius:0 0 10px 10px;background:white}
+ .mobileCourseAccordionItem .mobileModuleExpandButton{flex:0 0 44px;min-height:46px;cursor:pointer}
+ .mobileModuleDirectLink,.mobileAccordionSections a{min-height:46px}
+ .courseNavMobileVisible a:focus-visible,.courseNavMobileVisible button:focus-visible,.courseNavMobileVisible summary:focus-visible{outline:3px solid #b67822;outline-offset:2px}
+ .courseTopNavigation{scroll-margin-top:10px}
+ .courseTopModuleRail,.courseSectionIconRail{scrollbar-width:thin;overscroll-behavior-x:contain}
+ .courseSectionIconRail a[aria-current=page]{outline:2px solid #176b70;outline-offset:-2px}
+ main>h1{scroll-margin-top:16px}
+}
