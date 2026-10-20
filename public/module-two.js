@@ -151,27 +151,42 @@ const m2PatientSteps=[
 ];
 function moduleTwoPatient(L){
  const t=(ru,en,kz)=>E(tr(L,ru,en,kz));
- return `<section class="lesson-card" data-m2-patient data-language="${L}"><h3>${t('Виртуальный пациент: три клинических решения','Virtual patient: three clinical decisions','Виртуалды пациент: үш клиникалық шешім')}</h3>
+ return `<section class="lesson-card" data-m2-patient data-language="${L}"><h3>${t('Виртуальный пациент: шесть клинических решений','Virtual patient: six clinical decisions','Виртуалды пациент: алты клиникалық шешім')}</h3>
  <p>${t('Клиническая ситуация: взрослый пациент с интерстициальным фиброзом и одышкой при нагрузке. Выберите ответ на каждом этапе; получите разбор и переходите дальше.','Clinical scenario: an adult with interstitial fibrosis and exertional breathlessness. Make a choice at each stage, review feedback and continue.','Клиникалық жағдай: интерстициалдық фиброзы бар ересек науқаста жүктемеде ентігу пайда болады. Әр кезеңде жауап таңдап, түсіндірмені оқыңыз.')}</p>
  <div data-m2-patient-stage></div><p role="status" aria-live="polite" data-m2-patient-feedback></p>
  <button type="button" class="button" data-m2-patient-next hidden>${t('Следующий этап','Next stage','Келесі кезең')}</button> <button type="button" class="button" data-m2-patient-restart>${t('Начать заново','Restart','Қайта бастау')}</button>
  <p class="small-note">${t('Учебная модель: клиническое решение, а не диагностический инструмент.','Teaching model for reasoning, not a diagnostic tool.','Бұл диагностикалық құрал емес, оқу моделі.')}</p></section>`;
 }
+
+const m2ExtraSteps=[
+{q:['Какой показатель поможет объективно оценить оксигенацию во время нагрузки?','Which measurement can objectively assess oxygenation during exertion?','Жүктеме кезінде оттектенуді объективті бағалауға қандай көрсеткіш көмектеседі?'],options:[['Цвет волос','Hair color','Шаш түсі'],['Пульсоксиметрия с учётом ограничений метода','Pulse oximetry with awareness of limitations','Шектеулерін ескерген пульсоксиметрия'],['Только частота пульса','Heart rate alone','Тек пульс жиілігі']],correct:1,why:['SpO₂ помогает выявлять десатурацию; при сомнительных данных и по клиническим показаниям используют анализ газов крови.','SpO₂ can reveal desaturation; blood gases may be needed when clinically indicated or if readings are unreliable.','SpO₂ десатурацияны көрсетуі мүмкін; қажет жағдайда қан газдарын талдау қолданылады.']},
+{q:['Какой дополнительный механизм может усугубить снижение PaO₂ помимо утолщения барьера?','What additional mechanism can worsen PaO₂ besides a thickened barrier?','Бөгет қалыңдауынан бөлек PaO₂ төмендеуін қандай механизм күшейте алады?'],options:[['Неоднородность V/Q','V/Q mismatch','V/Q сәйкессіздігі'],['Увеличение числа эритроцитов как единственная причина','Red blood cell count as the sole cause','Эритроцит санының өсуі жалғыз себеп'],['Изменение цвета альвеол','Alveolar color change','Альвеола түсінің өзгеруі']],correct:0,why:['Неравномерность вентиляции и перфузии также ухудшает оксигенацию; механизм нельзя установить только по жалобам.','Ventilation–perfusion mismatch also impairs oxygenation; symptoms alone cannot establish a mechanism.','Вентиляция-перфузия сәйкессіздігі де оттектенуді нашарлатады.']},
+{q:['Как корректно завершить разбор случая?','What is the appropriate final interpretation?','Жағдайды талдауды қалай дұрыс аяқтау керек?'],options:[['Назначить лечение по результату симуляции','Prescribe treatment from this simulation','Модельге сүйеніп ем тағайындау'],['Утверждать, что все симптомы объясняет только диффузия','Attribute all symptoms solely to diffusion','Барлық белгіні тек диффузиямен түсіндіру'],['Сопоставить механизм с обследованием и отметить ограничения модели','Integrate physiology with evaluation and note model limitations','Физиологияны тексеру нәтижелерімен салыстырып, модель шектеуін көрсету']],correct:2,why:['Учебная модель объясняет возможные механизмы; решение о диагнозе и лечении требует полноценной клинической оценки.','The teaching model demonstrates possible mechanisms; clinical evaluation is necessary for diagnosis and treatment.','Оқу моделі механизмдерді түсіндіреді; диагноз бен ем клиникалық бағалауды қажет етеді.']}
+];
+
 export function initModuleTwoPatient(){
  const root=document.querySelector('[data-m2-patient]');if(!root)return;
  const L=Number(root.dataset.language)||0,stage=root.querySelector('[data-m2-patient-stage]'),feedback=root.querySelector('[data-m2-patient-feedback]'),next=root.querySelector('[data-m2-patient-next]');
- let index=0,score=0;
- function show(){const item=m2PatientSteps[index];feedback.textContent='';next.hidden=true;
- stage.innerHTML='<p><b>'+String(index+1)+'/3. '+E(item.q[L])+'</b></p>'+item.options.map((o,i)=>'<button type="button" class="button" data-choice="'+i+'" style="display:block;margin:.5rem 0;white-space:normal;text-align:left">'+E(o[L])+'</button>').join('');
- stage.querySelectorAll('[data-choice]').forEach(b=>b.addEventListener('click',()=>{
- const choice=Number(b.dataset.choice),correct=choice===item.correct;if(correct)score++;
- stage.querySelectorAll('[data-choice]').forEach(x=>x.disabled=true);
- feedback.textContent=(correct?'✓ ':'✗ ')+item.why[L];next.hidden=false;next.textContent=index===2?tr(L,'Показать итог','Show result','Нәтижені көрсету'):tr(L,'Следующий этап','Next stage','Келесі кезең');
- }));}
- next.addEventListener('click',()=>{if(index<2){index++;show();}else{stage.textContent=tr(L,'Сценарий завершён.','Scenario completed.','Сценарий аяқталды.');feedback.textContent=tr(L,'Верных решений: ','Correct decisions: ','Дұрыс шешімдер: ')+score+'/3';next.hidden=true;}});
- root.querySelector('[data-m2-patient-restart]').addEventListener('click',()=>{index=0;score=0;show();});show();
+ const steps=[...m2PatientSteps,...m2ExtraSteps];let index=0,score=0,errors=0;
+ const summary=document.createElement('p');summary.setAttribute('aria-live','polite');root.insertBefore(summary,stage);
+ function show(){
+  const item=steps[index];feedback.textContent='';next.hidden=true;
+  summary.textContent=tr(L,'Этап ','Stage ','Кезең ')+(index+1)+'/6 · '+tr(L,'Верных решений: ','Correct decisions: ','Дұрыс жауаптар: ')+score;
+  stage.innerHTML='<p><b>'+String(index+1)+'/6. '+E(item.q[L])+'</b></p>'+item.options.map((o,i)=>'<button type="button" class="button" data-choice="'+i+'" style="display:block;margin:.5rem 0;white-space:normal;text-align:left">'+E(o[L])+'</button>').join('');
+  stage.querySelectorAll('[data-choice]').forEach(b=>b.addEventListener('click',()=>{
+   const choice=Number(b.dataset.choice),correct=choice===item.correct;if(correct)score++;else errors++;
+   stage.querySelectorAll('[data-choice]').forEach(x=>x.disabled=true);
+   feedback.textContent=(correct?'✓ ':'✗ ')+item.why[L]+' '+(correct?tr(L,'Состояние: физиологический механизм распознан.','Status: mechanism identified.','Жағдай: механизм анықталды.'):tr(L,'Состояние: требуется уточнение механизма.','Status: further interpretation needed.','Жағдай: механизмді нақтылау қажет.'));
+   next.hidden=false;next.textContent=index===5?tr(L,'Итоговый разбор','Final review','Қорытынды талдау'):tr(L,'Следующий этап','Next stage','Келесі кезең');
+  }));
+ }
+ next.addEventListener('click',()=>{if(index<5){index++;show();}else{
+  stage.textContent=tr(L,'Шесть этапов завершены.','Six stages completed.','Алты кезең аяқталды.');
+  feedback.textContent=tr(L,'Верных решений: ','Correct decisions: ','Дұрыс шешімдер: ')+score+'/6. '+tr(L,'Толщина барьера, капиллярное время контакта и отношение V/Q влияют на оксигенацию; симптомы и модель не заменяют обследование.','Barrier thickness, capillary transit time and V/Q influence oxygenation; symptoms and a simulation do not replace evaluation.','Бөгет қалыңдығы, капиллярдағы жанасу уақыты және V/Q оттектенуге әсер етеді; модель тексеруді алмастырмайды.');
+  summary.textContent=tr(L,'Ошибочных решений: ','Incorrect decisions: ','Қате шешімдер: ')+errors;next.hidden=true;
+ }});
+ root.querySelector('[data-m2-patient-restart]').addEventListener('click',()=>{index=0;score=0;errors=0;show();});show();
 }
-
 
 /* Guided self-check: no hidden correct-answer positional pattern. */
 const moduleTwoReasoning=[
