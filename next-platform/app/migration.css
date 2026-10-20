@@ -284,3 +284,15 @@
  .m1Breathing .m1Buttons button{min-height:40px;font-size:.81rem}
  .m1Breathing .m1Graphs svg{max-height:105px}
 }
+
+/* Linked physiology glossary: accessible navigation and readable narrow screens. */
+.moduleOneGlossary .glossaryScroll{max-width:100%;overflow-x:auto;border:1px solid #b8d4cd;border-radius:10px}
+.moduleOneGlossary table{width:100%;border-collapse:collapse;min-width:750px}
+.moduleOneGlossary th,.moduleOneGlossary td{padding:10px 12px;vertical-align:top;border-bottom:1px solid #d3e4df;text-align:left}
+.moduleOneGlossary thead th{background:#e5f3ef;color:#154a50;white-space:nowrap}
+.moduleOneGlossary tbody tr:target{background:#fff1cf;outline:2px solid #b17c1a;outline-offset:-2px}
+.moduleOneGlossary tbody tr{scroll-margin-top:20px}
+.moduleOneGlossary .glossaryCrossLinks{display:flex;flex-wrap:wrap;gap:5px;min-width:145px}
+.moduleOneGlossary .glossaryCrossLinks a{display:inline-flex;padding:5px 8px;border-radius:7px;background:#e8f5f1;color:#11525b;text-decoration:underline;font-size:.86rem}
+.moduleOneGlossary .glossaryCrossLinks a:focus-visible{outline:3px solid #b17c1a;outline-offset:2px}
+@media(max-width:760px){.moduleOneGlossary table{min-width:700px}.moduleOneGlossary th,.moduleOneGlossary td{padding:8px 10px}}
