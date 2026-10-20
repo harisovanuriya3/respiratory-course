@@ -25,6 +25,32 @@ import ModuleTwentyFourMedia from './SpirometryInstrumentPanel';
 import {legacyContent} from '../lib/legacy-content';
 import type {Language,SectionId} from '../lib/course';
 
+/** Make the original module-1 theory a single sequential chapter outline. */
+function normalizeModuleOneTheory(html:string,language:Language){
+ let output=html
+  .replace(/<span class="pill">[^<]*<\/span>/gi,'')
+  .replace(/<h[23]>\s*(?:Учебный материал|Learning material|Оқу материалы)\s*<\/h[23]>/gi,'')
+  .replace(/<h3>\s*(?:Интегративная система|Integrative system|Интеграциялық жүйе)\s*<\/h3>\s*<p>[\s\S]*?<\/p>/gi,'');
+ const oldTitle={RU:'Типичная ошибка студента',EN:'Common student error',KZ:'Студенттің жиі қатесі'}[language];
+ const newTitle={RU:'Почему частое поверхностное дыхание менее эффективно?',EN:'Why is rapid shallow breathing less efficient?',KZ:'Неліктен жиі әрі үстірт тыныс алу тиімділігі төмен?'}[language];
+ output=output.replaceAll(oldTitle,newTitle);
+ // Source chapters 1–13 already have stable numbers; append 14+ only to
+ // additional unnumbered top-level chapter headings after chapter 13.
+ const afterThirteen=output.search(/<h3[^>]*>\s*13\.\s*/i);
+ if(afterThirteen!==-1){
+   const prefix=output.slice(0,afterThirteen);
+   let n=13;
+   const suffix=output.slice(afterThirteen).replace(/<h3([^>]*)>([\s\S]*?)<\/h3>/gi,(whole,attributes:string,title:string)=>{
+     if(/^\s*\d+\./.test(title))return whole;
+     if(/<[^>]+>/.test(title))return whole;
+     n+=1;
+     return '<h3'+attributes+'>'+n+'. '+title+'</h3>';
+   });
+   output=prefix+suffix;
+ }
+ return output.replace(/<h3>\s*(\d{1,2})\.\s*/g,(_,n:string)=>'<h3 id="theory-'+n+'">'+n+'. ');
+}
+
 export default function LegacyContent({moduleId,section,language,interactivePending=false,omitTextareas=false,omitCheckboxes=false,omitQuiz=false,omitExercises=false,omitModuleThreeLab=false,omitModuleFourLab=false,omitModuleFiveLab=false,omitModuleSixLab=false}:{moduleId:number;section:SectionId;language:Language;interactivePending?:boolean;omitTextareas?:boolean;omitCheckboxes?:boolean;omitQuiz?:boolean;omitExercises?:boolean;omitModuleThreeLab?:boolean;omitModuleFourLab?:boolean;omitModuleFiveLab?:boolean;omitModuleSixLab?:boolean}){
   const entry=legacyContent(moduleId,section,language),moduleThreeInteractive=moduleId===3&&section==='interactive',moduleFourInteractive=moduleId===4&&section==='interactive',anatomyMedia=moduleId===2&&section==='media',moduleSixMedia=moduleId===6&&section==='media',ventilationMedia=(moduleId===7||moduleId===8)&&section==='media',moduleNineMedia=moduleId===9&&section==='media',moduleTenMedia=moduleId===10&&section==='media',moduleElevenMedia=moduleId===11&&section==='media',moduleTwelveMedia=moduleId===12&&section==='media',moduleThirteenMedia=moduleId===13&&section==='media',moduleFourteenMedia=moduleId===14&&section==='media',moduleFifteenMedia=moduleId===15&&section==='media',moduleSixteenMedia=moduleId===16&&section==='media',moduleSeventeenMedia=moduleId===17&&section==='media',moduleEighteenMedia=moduleId===18&&section==='media',moduleNineteenMedia=moduleId===19&&section==='media',moduleTwentyMedia=moduleId===20&&section==='media',moduleTwentyOneMedia=moduleId===21&&section==='media',moduleTwentyTwoMedia=moduleId===22&&section==='media',moduleTwentyThreeMedia=moduleId===23&&section==='media',moduleTwentyFourMedia=moduleId===24&&section==='media',moduleTwentyFiveMedia=moduleId===25&&section==='media';
   let html=omitTextareas?entry.html.replace(/<textarea\b[^>]*>[\s\S]*?<\/textarea>/gi,''):entry.html;
@@ -67,7 +93,7 @@ export default function LegacyContent({moduleId,section,language,interactivePend
   const interactiveModel=<InteractiveNineElevenModel language={language} moduleId={moduleId}/>;
   const migratedMedia=anatomyMedia||moduleSixMedia||ventilationMedia||moduleNineMedia||moduleTenMedia||moduleElevenMedia||moduleTwelveMedia||moduleThirteenMedia||moduleFourteenMedia||moduleFifteenMedia||moduleSixteenMedia||moduleSeventeenMedia||moduleEighteenMedia||moduleNineteenMedia||moduleTwentyMedia||moduleTwentyOneMedia||moduleTwentyTwoMedia||moduleTwentyThreeMedia||moduleTwentyFourMedia||moduleTwentyFiveMedia;
   if(anatomyMedia)return <><ThoracicAnatomyAtlas language={language}/><section className="legacyContent card" data-source-sha256={entry.sha256}><div dangerouslySetInnerHTML={{__html:html}}/></section></>;
-  if(moduleId===1&&section==='theory')return <><section className="card"><ModuleOneInfographic language={language}/></section><section className="legacyContent card" data-source-sha256={entry.sha256}><div dangerouslySetInnerHTML={{__html:html.replace(/<span class="pill">[^<]*<\/span>/gi,'').replace(/<h[23]>\s*(?:Учебный материал|Learning material|Оқу материалы)\s*<\/h[23]>/gi,'').replace(/<h3>\s*(?:Интегративная система|Integrative system|Интеграциялық жүйе)\s*<\/h3>\s*<p>[\s\S]*?<\/p>/gi,'').replace(/<h3>\s*(\d{1,2})\.\s*/g,(_,n)=>'<h3 id="theory-'+n+'">'+n+'. ')}}/></section><ModuleOneTheoryExpansion language={language}/></>;
+  if(moduleId===1&&section==='theory')return <><section className="card"><ModuleOneInfographic language={language}/></section><section className="legacyContent card" data-source-sha256={entry.sha256}><div dangerouslySetInnerHTML={{__html:normalizeModuleOneTheory(html,language)}}/></section><ModuleOneTheoryExpansion language={language}/></>;
   if(moduleId===1&&section==='media')return <><ModuleOneVisual language={language}/><section className="legacyContent card" data-source-sha256={entry.sha256}><div dangerouslySetInnerHTML={{__html:html}}/></section></>;
   if(moduleId===1&&section==='interactive')return <ModuleOneVisual language={language}/>;
   if(moduleThreeInteractive)return <InteractiveLabFlow language={language} moduleId={3} visualFirst><ModuleThreeMedia language={language}/></InteractiveLabFlow>;
