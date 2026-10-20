@@ -1,5 +1,6 @@
 import './styles.css';
 import './migration.css';
+import './module-one-animation.css';
 import type {ReactNode} from 'react';
 import {Suspense} from 'react';
 import CourseHeader from '../components/CourseHeader';
