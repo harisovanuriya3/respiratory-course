@@ -168,6 +168,18 @@ export function initModuleTwoPatient(){
  const root=document.querySelector('[data-m2-patient]');if(!root)return;
  const L=Number(root.dataset.language)||0,stage=root.querySelector('[data-m2-patient-stage]'),feedback=root.querySelector('[data-m2-patient-feedback]'),next=root.querySelector('[data-m2-patient-next]');
  const steps=[...m2PatientSteps,...m2ExtraSteps];let index=0,score=0,errors=0,corrected=0;
+ const physiologicalFocus=[
+ ['Толщина барьера: при увеличении толщины диффузия замедляется.','Barrier thickness: a thicker interface reduces diffusion.','Бөгет қалыңдаса, диффузия баяулайды.'],
+ ['Время контакта крови с альвеолой может сокращаться при нагрузке.','Capillary transit time can shorten during exercise.','Жүктемеде капиллярдағы жанасу уақыты қысқаруы мүмкін.'],
+ ['V/Q и вентиляция также определяют оксигенацию.','V/Q and ventilation also affect oxygenation.','V/Q және вентиляция оттектенуге әсер етеді.'],
+ ['Пульсоксиметрия оценивает насыщение, а не непосредственно диффузионную способность.','Pulse oximetry estimates saturation, not diffusion capacity itself.','Пульсоксиметрия диффузиялық қабілетті емес, қанығуды бағалайды.'],
+ ['При снижении перфузии V/Q возрастает.','Lower perfusion raises local V/Q.','Перфузия азайса, жергілікті V/Q артады.'],
+ ['Расчётная модель не заменяет обследование и интерпретацию измерений.','A teaching calculation does not replace examination and interpretation.','Оқу моделі клиникалық тексеруді алмастырмайды.']
+ ];
+ const focus=document.createElement('p');focus.setAttribute('aria-live','polite');root.insertBefore(focus,stage);
+ const panel=root.querySelector('[data-m2-physiology]')||document.querySelector('[data-m2-physiology]');
+ function explainLink(){focus.textContent=tr(L,'Физиологический акцент: ','Physiology focus: ','Физиологиялық назар: ')+physiologicalFocus[index][L];}
+
  const history=[],summary=document.createElement('p'),trajectory=document.createElement('div');
  summary.setAttribute('aria-live','polite');trajectory.setAttribute('aria-live','polite');root.insertBefore(summary,stage);root.insertBefore(trajectory,stage);
  const t=(ru,en,kz)=>tr(L,ru,en,kz);
@@ -179,7 +191,7 @@ export function initModuleTwoPatient(){
  function show(){
   const item=steps[index];feedback.textContent='';next.hidden=true;
   summary.textContent=t('Этап ','Stage ','Кезең ')+(index+1)+'/6 · '+t('Верных решений: ','Correct decisions: ','Дұрыс жауаптар: ')+score;
-  drawTrajectory();
+  drawTrajectory();explainLink();
   stage.innerHTML='<p><b>'+String(index+1)+'/6. '+E(item.q[L])+'</b></p>'+item.options.map((o,i)=>'<button type="button" class="button" data-choice="'+i+'" style="display:block;margin:.5rem 0;white-space:normal;text-align:left">'+E(o[L])+'</button>').join('');
   stage.querySelectorAll('[data-choice]').forEach(b=>b.addEventListener('click',()=>{
    const choice=Number(b.dataset.choice),correct=choice===item.correct;if(correct)score++;else errors++;
@@ -200,7 +212,7 @@ export function initModuleTwoPatient(){
   stage.textContent=t('Шесть этапов завершены.','Six stages completed.','Алты кезең аяқталды.');
   const review=document.createElement('ol');
   history.forEach(h=>{const li=document.createElement('li');li.textContent=t('Этап ','Stage ','Кезең ')+h.stage+': '+(h.correct?t('верно','correct','дұрыс'):t('требовал уточнения','needed review','нақтылауды қажет етті'));review.appendChild(li);});
-  stage.appendChild(review);
+  stage.appendChild(review);focus.textContent=tr(L,'Связь с моделью: изменяйте дыхательный объём, частоту и относительную диффузионную способность в панели ниже и сравнивайте результаты. Это не оценка PaO₂.','Model link: change tidal volume, breathing rate and relative diffusing capacity in the panel below and compare outputs. These do not predict PaO₂.','Модельмен байланыс: төмендегі панельде тыныс көлемін, жиілігін және салыстырмалы диффузиялық қабілетті өзгертіп салыстырыңыз. Бұл PaO₂ болжауы емес.');
   feedback.textContent=t('Верных решений: ','Correct decisions: ','Дұрыс шешімдер: ')+score+'/6. '+t('Толщина барьера, капиллярное время контакта и отношение V/Q влияют на оксигенацию. Это учебная модель, не клинический прогноз.','Barrier thickness, transit time and V/Q influence oxygenation. This is a teaching model, not a clinical prediction.','Бөгет қалыңдығы, жанасу уақыты және V/Q оттектенуге әсер етеді. Бұл клиникалық болжам емес, оқу моделі.');
   summary.textContent=t('Ошибочных решений: ','Incorrect decisions: ','Қате шешімдер: ')+errors;next.hidden=true;drawTrajectory();
  }});
