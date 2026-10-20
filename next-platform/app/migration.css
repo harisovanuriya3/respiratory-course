@@ -223,3 +223,20 @@
 .ventilationResultsTable tbody tr:nth-child(even).studentTrial{background:#fff0d5}
 .ventilationResultsTable td:last-child{font-weight:800}
 @media(max-width:760px){.ventilationResultsTable th,.ventilationResultsTable td{padding:10px 12px}.ventilationResultsScroll{scrollbar-width:thin}}
+
+/* Reading-sized anatomical illustrations; preserve full-size interactive labs. */
+@media(min-width:761px){
+ .legacyContent:not(.moduleOneLab) figure:not(.interactiveLab) img,
+ .legacyContent>div>img,
+ .moduleOneInfographic .moduleOneInfoImage img{max-height:420px;object-fit:contain}
+ .legacyContent figure:not(.interactiveLab){max-width:760px;margin-inline:auto}
+ .moduleOneInfographic{max-width:1050px;margin-inline:auto}
+}
+@media(max-width:760px){
+ .legacyContent figure:not(.interactiveLab) img,
+ .legacyContent>div>img,
+ .moduleOneInfographic .moduleOneInfoImage img{max-height:290px;object-fit:contain}
+ .moduleOneInfographic .moduleOneInfoGrid{grid-template-columns:minmax(0,1fr)}
+ .moduleOneInfographic .moduleOneInfoImage{max-height:300px}
+ .legacyContent figure:not(.interactiveLab){max-width:100%;margin-inline:auto}
+}
