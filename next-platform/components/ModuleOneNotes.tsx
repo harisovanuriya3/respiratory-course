@@ -12,7 +12,7 @@ const c=t[language],key='resp-course-notes-module1-structured-'+language,[notes,
 useEffect(()=>{try{setNotes(JSON.parse(localStorage.getItem(key)||'{}'))}catch{setError(true)}setReady(true)},[key]);
 const update=(id:number,text:string)=>{const next={...notes,[id]:text};setNotes(next);try{localStorage.setItem(key,JSON.stringify(next));setError(false)}catch{setError(true)}};
 const exportText=c.fields.map((item,i)=>item[0]+'\n'+(notes[i]||'')).join('\n\n');
-return <section className="card moduleOneNotes"><h2>{c.title}</h2><p>{c.intro}</p>
+return <section className="card moduleOneNotes"><p>{c.intro}</p>
  <nav className="moduleOneNotesLinks" aria-label={c.title}><Link href={`/modules/1/interactive?lang=${language}`}>{c.lab} →</Link><Link href={`/modules/1/cases?lang=${language}`}>{c.cases} →</Link></nav>
  <div className="moduleOneNotesGrid">{c.fields.map((field,i)=><div key={i} className="lesson-card moduleOneNoteField"><label htmlFor={'note1-'+i}><strong>{i+1}. {field[0]}</strong></label><textarea id={'note1-'+i} rows={4} placeholder={field[1]} disabled={!ready} value={notes[i]||''} onChange={e=>{setCopied(false);update(i,e.target.value)}}/><button type="button" onClick={()=>update(i,'')} disabled={!notes[i]}>{c.clear}</button></div>)}</div>
  <button type="button" onClick={async()=>{if(!navigator.clipboard)return;try{await navigator.clipboard.writeText(exportText);setCopied(true)}catch{setError(true)}}}>{c.copy}</button>
