@@ -106,3 +106,20 @@
  .courseMobileModule a{display:block;padding:10px 12px;border-radius:7px;text-decoration:none;min-height:42px;color:#27545c}
  .courseMobileModule a.isActive{color:white}
 }
+
+
+/* Unconditionally visible mobile navigation. It must never depend on a disclosure toggle. */
+.courseNavMobileVisible{display:none}
+@media(max-width:760px){
+ .sectionSidebar .courseNavDesktop{display:none}
+ .sectionSidebar .courseNavMobileVisible{display:block!important;width:100%;visibility:visible;opacity:1}
+ .sectionSidebar{display:block!important;padding:12px!important;position:relative}
+ .mobileModuleNumberHeading{font-size:.87rem;font-weight:800;color:#164a54;margin:0 0 6px}
+ .mobileModuleNumberRail{display:flex;gap:7px;width:100%;overflow-x:auto;overscroll-behavior-inline:contain;padding:4px 1px 10px;scrollbar-width:thin}
+ .mobileModuleNumberRail a{display:grid;place-items:center;flex:0 0 43px;min-height:44px;border:1px solid #aac8c4;border-radius:9px;background:#fff;color:#14535c;text-decoration:none;font-variant-numeric:tabular-nums;font-weight:750}
+ .mobileModuleNumberRail a[aria-current=location]{background:#176b70;border-color:#176b70;color:white;box-shadow:0 0 0 2px #a6d8cd}
+ .sectionSidebar .mobileCourseNav{display:block!important;margin:0!important}
+ .sectionSidebar .mobileCourseSelectors{display:grid!important;gap:9px}
+ .sectionSidebar .mobileCourseSelectors select{min-height:48px}
+ .courseNavMobile{display:none!important}
+}
