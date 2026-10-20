@@ -144,3 +144,32 @@
  .mobileAccordionSections a.isActive span{color:#fff}
  .mobileCourseAccordionItem summary:focus-visible,.mobileAccordionSections a:focus-visible{outline:3px solid #f59e0b;outline-offset:2px}
 }
+
+
+/* Consistent two-level navigation, shared across desktop and mobile. */
+.courseTopNavigation{min-width:0;margin:0 0 16px;padding:12px;background:#fff;border:1px solid #c5dcd6;border-radius:14px}
+.courseModuleSwitch{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:6px;align-items:center}
+.courseModuleSwitch strong{font-weight:800;color:#124953;white-space:nowrap;font-variant-numeric:tabular-nums}
+.courseModuleSwitch a{display:flex;align-items:center;gap:5px;min-height:44px;padding:8px 10px;border:1px solid #bed8d0;border-radius:9px;text-decoration:none;color:#12616a;background:#f1faf7;font-weight:700;font-size:.82rem}
+.courseModuleSwitch .courseModuleNext{justify-content:flex-end}
+.courseRailLabel{font-size:.83rem;font-weight:800;color:#205a62;margin:12px 0 4px;line-height:1.4}
+.courseTopModuleRail{display:flex!important;gap:7px;overflow-x:auto;width:100%;margin:4px 0 8px;padding:5px 2px 10px;scrollbar-width:thin}
+.courseTopModuleRail a{display:grid;place-items:center;flex:0 0 44px;min-height:44px;border-radius:9px;background:#f7fbfa;color:#194e58;border:1px solid #b9d3cc;text-decoration:none;font-variant-numeric:tabular-nums;font-weight:700}
+.courseTopModuleRail a[aria-current=location]{background:#176b70;color:#fff;border-color:#176b70;box-shadow:0 0 0 2px #beded7}
+.courseSectionIconRail{display:flex;gap:7px;overflow-x:auto;width:100%;padding:4px 2px 10px;scrollbar-width:thin}
+.courseSectionIconRail a{display:flex;flex-direction:column;align-items:center;justify-content:center;flex:0 0 44px;min-height:49px;border:1px solid #c1dcd6;border-radius:9px;background:#f6fbfa;text-decoration:none;color:#205e65}
+.courseSectionIconRail a span{font-size:1.13rem;font-weight:700;line-height:1.1}
+.courseSectionIconRail a small{font-size:.69rem;font-variant-numeric:tabular-nums}
+.courseSectionIconRail a[aria-current=page]{background:#176b70;color:#fff;border-color:#176b70}
+.courseCurrentSection{font-size:.86rem;color:#3b6970;margin-top:4px}
+.courseTopNavigation a:focus-visible{outline:3px solid #f59e0b;outline-offset:2px}
+@media(max-width:760px){
+ .courseTopNavigation{padding:10px;margin-bottom:12px}
+ .courseModuleSwitch a span{display:none}
+ .courseModuleSwitch a{justify-content:center;padding:7px;font-size:.95rem}
+ .courseModuleSwitch strong{font-size:.84rem}
+ .courseRailLabel{margin:9px 0 3px}
+ .courseTopModuleRail a{flex-basis:44px}
+ .courseSectionIconRail a{flex-basis:46px}
+ .courseCurrentSection{font-size:.87rem}
+}
