@@ -240,3 +240,27 @@
  .moduleOneInfographic .moduleOneInfoImage{max-height:300px}
  .legacyContent figure:not(.interactiveLab){max-width:100%;margin-inline:auto}
 }
+
+/* Compact virtual patient: retain the original photo and full interactive controls. */
+[data-testid="patient-case"]{max-width:980px;margin-inline:auto}
+[data-testid="patient-case"]>h2{font-size:clamp(1.25rem,2.5vw,1.65rem);line-height:1.25}
+[data-testid="patient-case"]>p{margin-block:.55rem}
+.m1PatientInstructions{padding:9px 12px!important;margin:8px 0!important}
+.m1PatientInstructions>summary{font-weight:750;cursor:pointer}
+.m1PatientInstructions>p{margin:8px 0 0}
+.m1ClinicalScene{display:grid;gap:9px;align-items:start}
+.m1ClinicalPhoto{width:100%;max-width:490px;margin:0 auto!important}
+.m1ClinicalImage{width:100%;overflow:hidden;border-radius:12px}
+.m1ClinicalImage img{display:block;width:100%;height:auto;max-height:310px;object-fit:contain}
+.m1ClinicalPhoto figcaption{font-size:.83rem;line-height:1.4;margin-top:4px}
+.m1ClinicalPhoto figcaption summary{cursor:pointer}
+.m1ClinicalScene .m1Buttons{display:flex;gap:7px;flex-wrap:wrap;margin:3px 0}
+.m1ClinicalScene .m1Buttons button{min-height:40px}
+.m1ClinicalScene .m1Dialogue{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:10px}
+@media(max-width:640px){
+ .m1ClinicalPhoto{max-width:340px}
+ .m1ClinicalImage img{max-height:225px}
+ [data-testid="patient-case"]{padding:12px}
+ [data-testid="patient-case"] .lesson-card{padding:12px}
+ .m1ClinicalScene .m1Buttons button{font-size:.85rem;padding:7px 9px}
+}
