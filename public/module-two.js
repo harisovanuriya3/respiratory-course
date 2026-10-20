@@ -167,25 +167,44 @@ const m2ExtraSteps=[
 export function initModuleTwoPatient(){
  const root=document.querySelector('[data-m2-patient]');if(!root)return;
  const L=Number(root.dataset.language)||0,stage=root.querySelector('[data-m2-patient-stage]'),feedback=root.querySelector('[data-m2-patient-feedback]'),next=root.querySelector('[data-m2-patient-next]');
- const steps=[...m2PatientSteps,...m2ExtraSteps];let index=0,score=0,errors=0;
- const summary=document.createElement('p');summary.setAttribute('aria-live','polite');root.insertBefore(summary,stage);
+ const steps=[...m2PatientSteps,...m2ExtraSteps];let index=0,score=0,errors=0,corrected=0;
+ const history=[],summary=document.createElement('p'),trajectory=document.createElement('div');
+ summary.setAttribute('aria-live','polite');trajectory.setAttribute('aria-live','polite');root.insertBefore(summary,stage);root.insertBefore(trajectory,stage);
+ const t=(ru,en,kz)=>tr(L,ru,en,kz);
+ function drawTrajectory(){
+ const gap=errors-corrected;
+ const label=gap===0?t('Все выявленные ошибки разобраны','All identified mistakes reviewed','Барлық қателер талданды'):t('Требуется разбор ошибок: ','Errors awaiting review: ','Талдауды қажет ететін қателер: ')+gap;
+ trajectory.textContent=t('Учебное состояние: ','Learning state: ','Оқу жағдайы: ')+label+'. '+t('Физиологическое состояние пациента не изменяется от ответа студента.','Patient physiology is not altered by student answers.','Студент жауабы науқастың физиологиялық жағдайын өзгертпейді.');
+ }
  function show(){
   const item=steps[index];feedback.textContent='';next.hidden=true;
-  summary.textContent=tr(L,'Этап ','Stage ','Кезең ')+(index+1)+'/6 · '+tr(L,'Верных решений: ','Correct decisions: ','Дұрыс жауаптар: ')+score;
+  summary.textContent=t('Этап ','Stage ','Кезең ')+(index+1)+'/6 · '+t('Верных решений: ','Correct decisions: ','Дұрыс жауаптар: ')+score;
+  drawTrajectory();
   stage.innerHTML='<p><b>'+String(index+1)+'/6. '+E(item.q[L])+'</b></p>'+item.options.map((o,i)=>'<button type="button" class="button" data-choice="'+i+'" style="display:block;margin:.5rem 0;white-space:normal;text-align:left">'+E(o[L])+'</button>').join('');
   stage.querySelectorAll('[data-choice]').forEach(b=>b.addEventListener('click',()=>{
    const choice=Number(b.dataset.choice),correct=choice===item.correct;if(correct)score++;else errors++;
+   history.push({stage:index+1,correct,choice});
    stage.querySelectorAll('[data-choice]').forEach(x=>x.disabled=true);
-   feedback.textContent=(correct?'✓ ':'✗ ')+item.why[L]+' '+(correct?tr(L,'Состояние: физиологический механизм распознан.','Status: mechanism identified.','Жағдай: механизм анықталды.'):tr(L,'Состояние: требуется уточнение механизма.','Status: further interpretation needed.','Жағдай: механизмді нақтылау қажет.'));
-   next.hidden=false;next.textContent=index===5?tr(L,'Итоговый разбор','Final review','Қорытынды талдау'):tr(L,'Следующий этап','Next stage','Келесі кезең');
+   feedback.textContent=(correct?'✓ ':'✗ ')+item.why[L];
+   if(!correct){
+    const revise=document.createElement('button');revise.className='button';revise.type='button';
+    revise.textContent=t('Разобрать механизм','Review mechanism','Механизмді талдау');
+    revise.addEventListener('click',()=>{corrected++;revise.disabled=true;feedback.textContent+=' '+t('Верный вариант: ','Correct option: ','Дұрыс нұсқа: ')+item.options[item.correct][L]+'.';drawTrajectory();},{once:true});
+    feedback.appendChild(document.createTextNode(' '));feedback.appendChild(revise);
+   }
+   next.hidden=false;next.textContent=index===5?t('Итоговый разбор','Final review','Қорытынды талдау'):t('Следующий этап','Next stage','Келесі кезең');
+   drawTrajectory();
   }));
  }
  next.addEventListener('click',()=>{if(index<5){index++;show();}else{
-  stage.textContent=tr(L,'Шесть этапов завершены.','Six stages completed.','Алты кезең аяқталды.');
-  feedback.textContent=tr(L,'Верных решений: ','Correct decisions: ','Дұрыс шешімдер: ')+score+'/6. '+tr(L,'Толщина барьера, капиллярное время контакта и отношение V/Q влияют на оксигенацию; симптомы и модель не заменяют обследование.','Barrier thickness, capillary transit time and V/Q influence oxygenation; symptoms and a simulation do not replace evaluation.','Бөгет қалыңдығы, капиллярдағы жанасу уақыты және V/Q оттектенуге әсер етеді; модель тексеруді алмастырмайды.');
-  summary.textContent=tr(L,'Ошибочных решений: ','Incorrect decisions: ','Қате шешімдер: ')+errors;next.hidden=true;
+  stage.textContent=t('Шесть этапов завершены.','Six stages completed.','Алты кезең аяқталды.');
+  const review=document.createElement('ol');
+  history.forEach(h=>{const li=document.createElement('li');li.textContent=t('Этап ','Stage ','Кезең ')+h.stage+': '+(h.correct?t('верно','correct','дұрыс'):t('требовал уточнения','needed review','нақтылауды қажет етті'));review.appendChild(li);});
+  stage.appendChild(review);
+  feedback.textContent=t('Верных решений: ','Correct decisions: ','Дұрыс шешімдер: ')+score+'/6. '+t('Толщина барьера, капиллярное время контакта и отношение V/Q влияют на оксигенацию. Это учебная модель, не клинический прогноз.','Barrier thickness, transit time and V/Q influence oxygenation. This is a teaching model, not a clinical prediction.','Бөгет қалыңдығы, жанасу уақыты және V/Q оттектенуге әсер етеді. Бұл клиникалық болжам емес, оқу моделі.');
+  summary.textContent=t('Ошибочных решений: ','Incorrect decisions: ','Қате шешімдер: ')+errors;next.hidden=true;drawTrajectory();
  }});
- root.querySelector('[data-m2-patient-restart]').addEventListener('click',()=>{index=0;score=0;errors=0;show();});show();
+ root.querySelector('[data-m2-patient-restart]').addEventListener('click',()=>{index=0;score=0;errors=0;corrected=0;history.length=0;show();});show();
 }
 
 /* Guided self-check: no hidden correct-answer positional pattern. */
