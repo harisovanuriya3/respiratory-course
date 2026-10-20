@@ -296,3 +296,9 @@
 .moduleOneGlossary .glossaryCrossLinks a{display:inline-flex;padding:5px 8px;border-radius:7px;background:#e8f5f1;color:#11525b;text-decoration:underline;font-size:.86rem}
 .moduleOneGlossary .glossaryCrossLinks a:focus-visible{outline:3px solid #b17c1a;outline-offset:2px}
 @media(max-width:760px){.moduleOneGlossary table{min-width:700px}.moduleOneGlossary th,.moduleOneGlossary td{padding:8px 10px}}
+
+/* The drawing board is optional and must not occupy the timer area. */
+.learningTools .drawingBoardDrawer{margin-top:12px;padding:10px 12px;border:1px solid #bdd0cb;border-radius:10px;background:#f7fbfa}
+.learningTools .drawingBoardDrawer>summary{cursor:pointer;font-weight:750;color:#245b63;min-height:38px;display:list-item;padding:7px 2px}
+.learningTools .drawingBoardDrawer>canvas{margin-top:10px}
+.learningTools .drawingBoardDrawer:focus-within{border-color:#176b70}
