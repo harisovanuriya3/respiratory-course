@@ -208,3 +208,18 @@
  .courseSectionIconRail a[aria-current=page]{outline:2px solid #176b70;outline-offset:-2px}
  main>h1{scroll-margin-top:16px}
 }
+
+/* Module 1: clearly differentiated ventilation experiment results. */
+.ventilationResultsScroll{max-width:100%;overflow-x:auto;margin:14px 0 12px;border:1px solid #8cb9b3;border-radius:12px}
+.ventilationResultsTable{width:100%;min-width:580px;border-collapse:separate;border-spacing:0;font-variant-numeric:tabular-nums;font-size:clamp(.84rem,1.8vw,.98rem)}
+.ventilationResultsTable th,.ventilationResultsTable td{padding:12px 13px;text-align:center;white-space:nowrap;border-right:1px solid #bfd8d4;border-bottom:1px solid #bfd8d4}
+.ventilationResultsTable tr>*:last-child{border-right:0}
+.ventilationResultsTable tbody tr:last-child>*{border-bottom:0}
+.ventilationResultsTable thead th{background:#125c62;color:white;font-weight:800}
+.ventilationResultsTable tbody th{text-align:left;font-weight:800}
+.ventilationResultsTable .workedExample{background:#eef7f4;color:#173f44}
+.ventilationResultsTable .studentTrial{background:#fff6e7;color:#493b22}
+.ventilationResultsTable tbody tr:nth-child(even).workedExample{background:#e2f0ec}
+.ventilationResultsTable tbody tr:nth-child(even).studentTrial{background:#fff0d5}
+.ventilationResultsTable td:last-child{font-weight:800}
+@media(max-width:760px){.ventilationResultsTable th,.ventilationResultsTable td{padding:10px 12px}.ventilationResultsScroll{scrollbar-width:thin}}
