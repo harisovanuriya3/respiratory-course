@@ -342,3 +342,9 @@
 .moduleTwoChapter h3{font-size:1.12rem;margin:0 0 9px}
 .moduleTwoChapter p{line-height:1.72;margin:0}
 @media(max-width:650px){.moduleTwoPathway{padding:10px}.moduleTwoSteps{grid-template-columns:repeat(2,minmax(0,1fr))}.moduleTwoSteps button{font-size:.78rem}}
+
+.moduleTwoControls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:14px 0}
+.moduleTwoControls label{display:flex;flex-direction:column;gap:8px;padding:12px;border-radius:9px;background:#fff;border:1px solid #c4dcd6;font-weight:600}
+.moduleTwoControls input[type=range]{width:100%;accent-color:#087c91}
+.moduleTwoPathway output{display:block;padding:10px 12px;line-height:1.5;border-left:3px solid #087c91;background:#fff}
+@media(max-width:650px){.moduleTwoControls{grid-template-columns:1fr}}
