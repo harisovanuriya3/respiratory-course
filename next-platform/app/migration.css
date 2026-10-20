@@ -68,3 +68,41 @@
 .sectionSidebar .mobileCourseSteps button:disabled{opacity:.38}
 .sectionSidebar .mobileCourseNav select:focus-visible,.sectionSidebar .mobileCourseSteps button:focus-visible{outline:3px solid #0e7490;outline-offset:2px}
 @media(max-width:760px){.sectionSidebar .mobileCourseNav{display:block;margin:8px 0 0}.sectionSidebar .mobileCourseSteps span{order:0;flex:0 0 auto}.sectionSidebar .mobileCourseSteps button{flex:1 1 105px}.coursePager{margin-top:1rem}}
+
+
+/* Neuro course-inspired numbered, expandable 25-module navigation. */
+.courseNavMobile{display:none}
+.courseNavDesktop{display:block}
+.courseNavLocation{display:grid;gap:5px;margin-bottom:14px}
+.courseNavLocation strong{font-size:1.02rem;color:#134652}
+.courseNavLocation span{color:#57777b;font-size:.83rem}
+.courseModuleList{display:grid;gap:5px;max-height:calc(100vh - 165px);overflow:auto;scrollbar-width:thin}
+.courseModuleItem{border:1px solid #c8dad8;border-radius:10px;overflow:hidden;background:white}
+.courseModuleItem.isCurrent{border-color:#0f7880}
+.courseModuleToggle{display:flex;align-items:center;gap:9px;width:100%;text-align:left;border:0;min-height:46px;background:#fff;color:#194951}
+.courseModuleItem.isCurrent>.courseModuleToggle{background:#e5f6f2}
+.courseModuleNumber{display:grid;place-items:center;flex:0 0 30px;min-height:30px;border-radius:7px;background:#176b70;color:white;font-weight:750;font-variant-numeric:tabular-nums}
+.courseModuleName{min-width:0;flex:1;font-weight:650;line-height:1.25}
+.courseModuleSections{display:grid;gap:2px;padding:5px 6px 8px 16px;border-top:1px solid #ddebe7}
+.courseModuleSections a{display:flex;gap:9px;align-items:center;min-height:38px;padding:6px 8px;border-radius:7px;text-decoration:none;color:#265b62;line-height:1.25}
+.courseModuleSections a span{font-size:.75rem;font-variant-numeric:tabular-nums;color:#577b80}
+.courseModuleSections a.isActive,.courseMobileModule a.isActive{background:#176b70;color:white;font-weight:800}
+.courseModuleSections a.isActive span{color:white}
+.courseNavHome{display:block;padding:12px 5px;font-weight:700}
+.sectionSidebar .courseModuleToggle:focus-visible,.sectionSidebar a:focus-visible,.courseNavMobile summary:focus-visible{outline:3px solid #f59e0b;outline-offset:2px}
+@media(max-width:760px){
+ .sectionSidebar{position:relative;z-index:2;padding:10px 12px}
+ .courseNavDesktop{display:none}
+ .courseNavMobile{display:block}
+ .courseNavMobile>summary{display:flex;justify-content:space-between;gap:8px;align-items:center;min-height:48px;padding:10px 12px;border:1px solid #91bab5;background:#e5f6f2;border-radius:10px;color:#124850;font-weight:800;cursor:pointer;list-style:none}
+ .courseNavMobile>summary::-webkit-details-marker{display:none}
+ .courseNavMobile>summary span{flex:0 0 auto;color:#176b70;font-variant-numeric:tabular-nums}
+ .courseMobileModuleList{display:grid;gap:6px;max-height:72vh;overflow:auto;padding:10px 0}
+ .courseMobileModule{border:1px solid #c4dad5;border-radius:9px;background:white;overflow:hidden}
+ .courseMobileModule>summary{min-height:48px;display:flex;align-items:center;gap:9px;padding:9px 12px;cursor:pointer;font-weight:700;list-style:none}
+ .courseMobileModule>summary::-webkit-details-marker{display:none}
+ .courseMobileModule>summary span{display:inline-grid;place-items:center;min-width:32px;height:32px;border-radius:7px;background:#176b70;color:white}
+ .courseMobileModule>div{display:grid;padding:5px 10px 10px;border-top:1px solid #d4e6e1}
+ .courseMobileModule a{display:block;padding:10px 12px;border-radius:7px;text-decoration:none;min-height:42px;color:#27545c}
+ .courseMobileModule a.isActive{color:white}
+}
