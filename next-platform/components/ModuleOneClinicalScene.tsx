@@ -14,7 +14,7 @@ export default function ModuleOneClinicalScene({language,step,feedback,started,o
  useEffect(()=>setQuestion(null),[step]);
  const patient=question===null?c.lines[Math.min(step,5)]:c.answers[question];
  return <section className="m1ClinicalScene">
-  <figure className="m1ClinicalPhoto"><div className="m1ClinicalImage"><img src="/visuals/module1-clinical-scene.png" alt={c.alt} width="1448" height="1086"/><span aria-hidden="true" className={`m1ChestHighlight ${started&&motion?'isBreathing':''}`}/></div><figcaption>{c.note}</figcaption></figure>
+  <figure className="m1ClinicalPhoto"><div className="m1ClinicalImage"><img src="/visuals/module1-clinical-scene.png" alt={c.alt} width="1448" height="1086"/><span aria-hidden="true" className={`m1ChestHighlight ${started&&motion?'isBreathing':''}`}/></div><figcaption><details><summary>{language==='RU'?'Пояснение к изображению':language==='EN'?'About the illustration':'Суретке түсіндірме'}</summary><p>{c.note}</p></details></figcaption></figure>
   <div className="m1Buttons"><button type="button" onClick={onStart} disabled={started}>{c.start}</button><button type="button" aria-pressed={voice} onClick={()=>setVoice(v=>!v)}>{voice?c.off:c.on}</button><button type="button" aria-pressed={motion} onClick={()=>setMotion(v=>!v)}>{motion?c.motion:c.resume}</button></div>
   {started&&<><div className="m1Buttons">{c.ask.map((question,i)=><button type="button" key={question} onClick={()=>setQuestion(i)}>{question}</button>)}</div><div className="m1Dialogue">
    <article className="lesson-card" data-testid="patient-dialogue"><h3>{c.patient}</h3><p aria-live="polite">{patient}</p>{voice&&<VoiceTools language={language} text={patient} strictLanguage/>}</article>
