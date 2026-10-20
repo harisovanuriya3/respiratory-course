@@ -1,3 +1,4 @@
+import MobileCourseNavigation from './MobileCourseNavigation';
 'use client';
 import {useRef,useState} from 'react';
 import Link from 'next/link';
@@ -20,6 +21,10 @@ export default function SectionNavigation({module,active,language}:{module:Modul
  </section>)}</nav><Link className="courseNavHome" href={`/?lang=${language}`}>{c.home} →</Link></>;
  return <aside className="sectionSidebar">
   <div className="courseNavDesktop">{entries}</div>
-  <details className="courseNavMobile" ref={mobile}><summary>☰ {c.open} <span>{String(module.id).padStart(2,'0')} / 25</span></summary><div>{/* mobile shares current module display, with independent open state */}<nav className="courseMobileModuleList" aria-label={c.title}>{modules.map(m=><details key={m.id}  className="courseMobileModule" ><summary><span>{String(m.id).padStart(2,'0')}</span> {m.title[language]}</summary><div><Link href={`/modules/${m.id}/objectives?lang=${language}`} onClick={()=>mobile.current?.removeAttribute('open')}>{c.start} →</Link>{m.sections.map((s,i)=><Link key={s} className={m.id===module.id&&s===active?'isActive':''} aria-current={m.id===module.id&&s===active?'page':undefined} href={`/modules/${m.id}/${s}?lang=${language}`} onClick={()=>mobile.current?.removeAttribute('open')}>{String(i+1).padStart(2,'0')} · {sectionNames[s][language]}</Link>)}</div></details>)}</nav></div></details>
+  <div className="courseNavMobileVisible">
+   <div className="mobileModuleNumberHeading">{language==='RU'?'Модули 01–25':language==='EN'?'Modules 01–25':'01–25 модульдер'}</div>
+   <nav className="mobileModuleNumberRail" aria-label={c.title}>{modules.map(m=><Link key={m.id} href={`/modules/${m.id}/objectives?lang=${language}`} aria-current={m.id===module.id?'location':undefined} title={m.title[language]}>{String(m.id).padStart(2,'0')}</Link>)}</nav>
+   <MobileCourseNavigation moduleId={module.id} active={active} language={language}/>
+  </div>
  </aside>;
 }
