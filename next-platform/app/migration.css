@@ -55,3 +55,16 @@
  .coursePager{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
  .coursePager .courseContentsLink{grid-column:1/-1;grid-row:2;min-height:44px}
 }
+
+
+/* Clear module selection on desktop as well as mobile. Module selection always opens section 1. */
+.sectionSidebar .mobileCourseNav{display:block;margin:12px 0 18px;padding:12px;background:#f1f8f5;border:1px solid #bad7d0;border-radius:12px}
+.sectionSidebar .mobileCourseSelectors{display:grid;grid-template-columns:minmax(0,1fr);gap:10px}
+.sectionSidebar .mobileCourseSelectors label{display:grid;gap:5px;min-width:0;font-size:.82rem;font-weight:750;color:#174b53}
+.sectionSidebar .mobileCourseSelectors select{display:block;width:100%;min-width:0;max-width:100%;min-height:44px;padding:8px;border:1px solid #87aaa4;border-radius:8px;background:#fff;color:#174b53;font:inherit;font-weight:500}
+.sectionSidebar .mobileCourseSteps{display:flex;align-items:center;gap:5px;margin-top:12px;flex-wrap:wrap}
+.sectionSidebar .mobileCourseSteps button{flex:1 1 92px;min-width:0;min-height:44px;font-size:.78rem;font-weight:700}
+.sectionSidebar .mobileCourseSteps span{flex:1 1 100%;text-align:center;font-size:.78rem;font-weight:700;order:-1}
+.sectionSidebar .mobileCourseSteps button:disabled{opacity:.38}
+.sectionSidebar .mobileCourseNav select:focus-visible,.sectionSidebar .mobileCourseSteps button:focus-visible{outline:3px solid #0e7490;outline-offset:2px}
+@media(max-width:760px){.sectionSidebar .mobileCourseNav{display:block;margin:8px 0 0}.sectionSidebar .mobileCourseSteps span{order:0;flex:0 0 auto}.sectionSidebar .mobileCourseSteps button{flex:1 1 105px}.coursePager{margin-top:1rem}}
