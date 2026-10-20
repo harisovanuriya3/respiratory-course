@@ -1,3 +1,4 @@
+import MobileCourseNavigation from './MobileCourseNavigation';
 import Link from 'next/link';
 import type {Language,ModuleRecord,SectionId} from '../lib/course';
 import {sectionNames} from '../lib/course';
@@ -36,6 +37,7 @@ export default function SectionNavigation({module,active,language}:{module:Modul
   return <aside className="sectionSidebar">
     <Link className="moduleIndexLink" href={`/?lang=${language}`}>{c.back}</Link>
     <h2>{module.title[language]}</h2>
+    <MobileCourseNavigation moduleId={module.id} active={active} language={language}/>
     <nav className="sectionNavigation" aria-label={`${module.title[language]} — ${c.sections}`}>
       {module.sections.map((item,index)=><Link key={item} className={item===active?'active':''} aria-current={item===active?'page':undefined} href={`/modules/${module.id}/${item}?lang=${language}`}>
         <span className="sectionIcon" style={{backgroundColor:colors[item].background,color:colors[item].foreground,border:`1px solid ${colors[item].foreground}33`}} aria-hidden="true">{icons[item]}</span>
