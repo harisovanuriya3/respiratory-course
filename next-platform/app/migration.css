@@ -179,3 +179,15 @@
 .courseSectionIconRail a span{display:grid;place-items:center;width:29px;height:28px;border:1px solid;border-radius:7px;font-weight:800}
 .courseSectionIconRail a[aria-current=page]{background:#e4f4f0;color:#124650;box-shadow:inset 0 0 0 2px #176b70;border-color:#176b70}
 .courseSectionIconRail a[aria-current=page] small{font-weight:800;color:#124650}
+
+
+/* Make module title a real navigation link; plus/minus independently expands sections. */
+@media(max-width:760px){
+ .mobileModuleTitleRow{display:flex;align-items:stretch;gap:4px;min-height:52px}
+ .mobileModuleDirectLink{display:flex;flex:1;min-width:0;align-items:center;gap:10px;padding:9px 10px;text-decoration:none;color:#174a52;line-height:1.3}
+ .mobileModuleDirectLink strong{min-width:0;flex:1;font-size:.9rem}
+ .mobileModuleDirectLink[aria-current=location]{background:#e4f5f0}
+ .mobileModuleExpandButton{flex:0 0 48px;min-height:48px;border:0;border-left:1px solid #d1e5df;border-radius:0;color:#176b70;font-size:1.3rem;font-weight:800}
+ .mobileAccordionSections a{position:relative;z-index:1;touch-action:manipulation}
+ .mobileModuleDirectLink:focus-visible,.mobileModuleExpandButton:focus-visible{outline:3px solid #f59e0b;outline-offset:-3px}
+}
