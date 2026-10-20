@@ -22,12 +22,17 @@ export default function SectionNavigation({module,active,language}:{module:Modul
   <div className="courseNavDesktop">{entries}</div>
   <div className="courseNavMobileVisible">
    <div className="mobileModuleNumberHeading">{c.title} · {String(module.id).padStart(2,'0')} / 25</div>
-   <nav className="mobileCourseAccordion" aria-label={c.title}>{modules.map(m=><details key={m.id} className="mobileCourseAccordionItem" open={m.id===module.id?true:undefined}>
-    <summary><span className="mobileAccordionNumber">{String(m.id).padStart(2,'0')}</span><strong>{m.title[language]}</strong><span aria-hidden="true">⌄</span></summary>
-    <div className="mobileAccordionSections">
-     {m.sections.map((section,i)=><Link key={section} href={`/modules/${m.id}/${section}?lang=${language}`} aria-current={m.id===module.id&&section===active?'page':undefined} className={m.id===module.id&&section===active?'isActive':''}><span>{String(i+1).padStart(2,'0')}</span>{sectionNames[section][language]}</Link>)}
-    </div>
-   </details>)}</nav>
+   <nav className="mobileCourseAccordion" aria-label={c.title}>
+    {modules.map(m=><div key={m.id} className="mobileCourseAccordionItem">
+      <div className="mobileModuleTitleRow">
+       <Link href={`/modules/${m.id}/objectives?lang=${language}`} className="mobileModuleDirectLink" aria-current={m.id===module.id?'location':undefined}>
+         <span className="mobileAccordionNumber">{String(m.id).padStart(2,'0')}</span><strong>{m.title[language]}</strong>
+       </Link>
+       <button type="button" className="mobileModuleExpandButton" aria-label={`${m.title[language]}: ${c.open}`} aria-expanded={expanded===m.id} onClick={()=>setExpanded(v=>v===m.id?0:m.id)}>{expanded===m.id?'−':'+'}</button>
+      </div>
+      {expanded===m.id&&<div className="mobileAccordionSections">{m.sections.map((section,i)=><Link key={section} href={`/modules/${m.id}/${section}?lang=${language}`} aria-current={m.id===module.id&&section===active?'page':undefined} className={m.id===module.id&&section===active?'isActive':''}><span>{String(i+1).padStart(2,'0')}</span>{sectionNames[section][language]}</Link>)}</div>}
+    </div>)}
+   </nav>
   </div>
  </aside>;
 }
