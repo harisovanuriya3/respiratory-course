@@ -123,3 +123,24 @@
  .sectionSidebar .mobileCourseSelectors select{min-height:48px}
  .courseNavMobile{display:none!important}
 }
+
+
+/* Mobile navigation follows neuro textbook: 25 labeled accordion modules, 17 labeled links. */
+@media(max-width:760px){
+ .sectionSidebar .courseNavMobileVisible{display:block!important}
+ .sectionSidebar .mobileModuleNumberRail,.sectionSidebar .mobileCourseNav{display:none!important}
+ .mobileModuleNumberHeading{padding:7px 2px 10px;font-size:.98rem}
+ .mobileCourseAccordion{display:grid;gap:7px;width:100%;max-height:65vh;overflow-y:auto;overscroll-behavior:contain;padding:0 2px 10px}
+ .mobileCourseAccordionItem{background:#fff;border:1px solid #bfd8d2;border-radius:11px;overflow:hidden}
+ .mobileCourseAccordionItem[open]{border-color:#267d83;box-shadow:0 2px 8px #164c5315}
+ .mobileCourseAccordionItem>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:10px;min-height:51px;padding:9px 11px;color:#184b51}
+ .mobileCourseAccordionItem>summary::-webkit-details-marker{display:none}
+ .mobileCourseAccordionItem>summary strong{flex:1;min-width:0;font-size:.9rem;line-height:1.3}
+ .mobileAccordionNumber{display:grid;place-items:center;min-width:36px;height:36px;background:#176b70;color:white;border-radius:8px;font-weight:800;font-variant-numeric:tabular-nums}
+ .mobileAccordionSections{display:grid;gap:3px;padding:7px 8px 10px 19px;border-top:1px solid #d7e7e3}
+ .mobileAccordionSections a{display:flex;align-items:center;gap:10px;padding:9px 10px;min-height:44px;border-radius:8px;color:#225962;text-decoration:none;font-size:.91rem;line-height:1.3}
+ .mobileAccordionSections a span{min-width:23px;font-variant-numeric:tabular-nums;font-size:.77rem;color:#6d8184}
+ .mobileAccordionSections a.isActive{background:#176b70;color:#fff;font-weight:800}
+ .mobileAccordionSections a.isActive span{color:#fff}
+ .mobileCourseAccordionItem summary:focus-visible,.mobileAccordionSections a:focus-visible{outline:3px solid #f59e0b;outline-offset:2px}
+}
