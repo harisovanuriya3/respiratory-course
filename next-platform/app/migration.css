@@ -173,3 +173,9 @@
  .courseSectionIconRail a{flex-basis:46px}
  .courseCurrentSection{font-size:.87rem}
 }
+
+
+/* Colored section icons remain clear on desktop and phones; selected label stays legible. */
+.courseSectionIconRail a span{display:grid;place-items:center;width:29px;height:28px;border:1px solid;border-radius:7px;font-weight:800}
+.courseSectionIconRail a[aria-current=page]{background:#e4f4f0;color:#124650;box-shadow:inset 0 0 0 2px #176b70;border-color:#176b70}
+.courseSectionIconRail a[aria-current=page] small{font-weight:800;color:#124650}
