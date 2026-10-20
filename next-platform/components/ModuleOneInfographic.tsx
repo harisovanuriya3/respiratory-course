@@ -1,3 +1,4 @@
+import ModuleOneFigureNotes from './ModuleOneFigureNotes';
 import type {Language} from '../lib/course';
 
 const copy={
@@ -6,4 +7,8 @@ const copy={
  KZ:{title:'Атмосферадан митохондрияға дейін',alt:'Тыныс алу жүйесінің интегралдық сызбасы',legend:['Өткізгіш аймақ: ауаны өткізеді, жылытады және ылғалдандырады','Респираторлық аймақ: газ алмасу басталатын бронхиолалар мен альвеолалар','Аэрогематикалық бөгет: альвеола мен капиллярдың жұқа шекарасы','Плевра мен диафрагма: өкпені кеуде қабырғасымен механикалық байланыстырады','O₂ жолы: атмосфера → альвеола → қан → тін → митохондрия','Вентиляция: V̇E = VT × f; V̇A = (VT − VD) × f'],compare:'Бірдей V̇E = 6 L/min',shallow:'250 mL × 24/min → V̇A 2,4 L/min',deep:'500 mL × 12/min → V̇A 4,2 L/min'}
 } as const;
 
-export default function ModuleOneInfographic({language}:{language:Language}){const t=copy[language];const labels={RU:['Атмосфера','Проводящая зона','Альвеолы','Капиллярная кровь','Ткани','Митохондрии'],EN:['Atmosphere','Conducting zone','Alveoli','Capillary blood','Tissues','Mitochondria'],KZ:['Атмосфера','Өткізгіш аймақ','Альвеолалар','Капилляр қаны','Тіндер','Митохондриялар']}[language];return <figure className="moduleOneInfographic" aria-label={t.title}><h2>{t.title}</h2><p>{language==='RU'?'Путь O₂ от окружающей среды до клеток; CO₂ переносится в обратном направлении.':language==='EN'?'The O₂ pathway from ambient air to cells; CO₂ moves in the opposite direction.':'O₂ қоршаған ортадан жасушаларға өтеді, CO₂ кері бағытта тасымалданады.'}</p><div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(min(100%,165px),1fr))',gap:12}}>{labels.map((name,i)=><div key={i} style={{border:'2px solid #9bc6c8',borderRadius:14,padding:16,background:i===2?'#e3f7f4':'#fff',minHeight:95,display:'grid',alignContent:'center',gap:8}}><span style={{fontSize:22,color:'#08758a'}}>{i+1} {i<5?'→':''}</span><strong>{name}</strong></div>)}</div><h3>{language==='RU'?'Физиологические связи':language==='EN'?'Physiological relationships':'Физиологиялық байланыстар'}</h3><ul>{t.legend.map(item=><li key={item}>{item}</li>)}</ul><div className="moduleOneInfoCompare"><strong>{t.compare}</strong><span>{t.shallow}</span><span>{t.deep}</span></div></figure>}
+export default function ModuleOneInfographic({language}:{language:Language}) {
+ const t=copy[language];
+ const src={RU:'/visuals/module1-respiratory-anatomy.png',EN:'/visuals/module1-respiratory-anatomy-en.png',KZ:'/visuals/module1-respiratory-anatomy-kz.png'}[language];
+ return <figure className="moduleOneInfographic"><h2>{t.title}</h2><a href={src} target="_blank" rel="noopener noreferrer"><img src={src} alt={t.alt} width={1448} height={1086} style={{display:'block',width:'100%',height:'auto',objectFit:'contain'}}/></a><figcaption><ul>{t.legend.map(item=><li key={item}>{item}</li>)}</ul></figcaption><ModuleOneFigureNotes language={language}/></figure>;
+}
