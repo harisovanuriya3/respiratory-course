@@ -328,3 +328,17 @@
 .m1Breathing .m1PressureValues b{font-size:.88rem}
 .m1Breathing .m1PressureValues span{font-size:.77rem}
 .m1Breathing .m1PressureValues>div{min-width:0}
+
+/* Module 2 interactive airway pathway and readable theory. */
+.moduleTwoTheory{max-width:1050px;margin-inline:auto}
+.moduleTwoTheory>h2{font-size:clamp(1.2rem,2.2vw,1.7rem);margin-bottom:10px}
+.moduleTwoTheory>p{line-height:1.75}
+.moduleTwoPathway{background:#f1f8f5;border:1px solid #bdd9d1;border-radius:14px;padding:16px;margin:20px 0}
+.moduleTwoSteps{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr));gap:8px}
+.moduleTwoSteps button{background:#fff;border:1px solid #aecdc5;border-radius:8px;color:#174d55;min-height:44px;text-align:left;padding:9px;font-size:.88rem}
+.moduleTwoSteps button[aria-pressed="true"]{background:#086e77;color:white;border-color:#086e77;font-weight:700}
+.moduleTwoActions{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin:8px 0}
+.moduleTwoChapter{padding:12px 0;border-bottom:1px solid #d1e0db;scroll-margin-top:30px}
+.moduleTwoChapter h3{font-size:1.12rem;margin:0 0 9px}
+.moduleTwoChapter p{line-height:1.72;margin:0}
+@media(max-width:650px){.moduleTwoPathway{padding:10px}.moduleTwoSteps{grid-template-columns:repeat(2,minmax(0,1fr))}.moduleTwoSteps button{font-size:.78rem}}
