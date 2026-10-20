@@ -10,7 +10,8 @@
     "test": "node run-tests.mjs",
     "audit:content": "node audit-rendered.mjs",
     "test:browser": "node browser-audit.mjs",
-    "verify": "npm run build && npm run check && npm test && node test-release-integrity.mjs && npm run audit:content"
+    "verify": "npm run build && npm run check && npm test && node test-release-integrity.mjs && npm run audit:content && npm run test:module2",
+    "test:module2": "node test-module-two.mjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.64.1"
