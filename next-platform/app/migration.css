@@ -312,3 +312,13 @@
 .moduleOneNoteField textarea{width:100%;min-height:100px;resize:vertical;font:inherit;line-height:1.5;border:1px solid #a6c7c2;border-radius:8px;padding:10px}
 .moduleOneNoteField button{align-self:flex-start}
 @media(max-width:700px){.moduleOneNotesGrid{grid-template-columns:1fr;gap:9px}.moduleOneNoteField{padding:10px}.moduleOneNoteField textarea{min-height:82px}}
+
+/* Readable clickable textbook references and video resource cards. */
+.moduleOneReferences a{color:#126372;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+.moduleOneReferences a:focus-visible{outline:3px solid #b77924;outline-offset:3px}
+.moduleOneReferences ol,.moduleOneReferences ul{padding-left:1.45rem}
+.moduleOneReferences li{padding:5px 0;line-height:1.5}
+.moduleOneReferenceVideos{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:12px;margin:12px 0 18px}
+.moduleOneReferenceVideos article{min-width:0;padding:13px}
+.moduleOneReferenceVideos strong{display:block;line-height:1.35}
+.moduleOneReferenceVideos p{margin:8px 0}
