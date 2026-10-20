@@ -1,4 +1,3 @@
-import MobileCourseNavigation from './MobileCourseNavigation';
 'use client';
 import {useRef,useState} from 'react';
 import Link from 'next/link';
@@ -22,9 +21,13 @@ export default function SectionNavigation({module,active,language}:{module:Modul
  return <aside className="sectionSidebar">
   <div className="courseNavDesktop">{entries}</div>
   <div className="courseNavMobileVisible">
-   <div className="mobileModuleNumberHeading">{language==='RU'?'Модули 01–25':language==='EN'?'Modules 01–25':'01–25 модульдер'}</div>
-   <nav className="mobileModuleNumberRail" aria-label={c.title}>{modules.map(m=><Link key={m.id} href={`/modules/${m.id}/objectives?lang=${language}`} aria-current={m.id===module.id?'location':undefined} title={m.title[language]}>{String(m.id).padStart(2,'0')}</Link>)}</nav>
-   <MobileCourseNavigation moduleId={module.id} active={active} language={language}/>
+   <div className="mobileModuleNumberHeading">{c.title} · {String(module.id).padStart(2,'0')} / 25</div>
+   <nav className="mobileCourseAccordion" aria-label={c.title}>{modules.map(m=><details key={m.id} className="mobileCourseAccordionItem" open={m.id===module.id?true:undefined}>
+    <summary><span className="mobileAccordionNumber">{String(m.id).padStart(2,'0')}</span><strong>{m.title[language]}</strong><span aria-hidden="true">⌄</span></summary>
+    <div className="mobileAccordionSections">
+     {m.sections.map((section,i)=><Link key={section} href={`/modules/${m.id}/${section}?lang=${language}`} aria-current={m.id===module.id&&section===active?'page':undefined} className={m.id===module.id&&section===active?'isActive':''}><span>{String(i+1).padStart(2,'0')}</span>{sectionNames[section][language]}</Link>)}
+    </div>
+   </details>)}</nav>
   </div>
  </aside>;
 }
