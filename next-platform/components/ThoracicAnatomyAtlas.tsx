@@ -1,5 +1,4 @@
 'use client';
-import Image from 'next/image';
 import {useState} from 'react';
 import type {Language} from '../lib/course';
 
@@ -13,11 +12,18 @@ const copy={
 export default function ThoracicAnatomyAtlas({language}:{language:Language}){
   const t=copy[language], [phase,setPhase]=useState<Phase>('auto'), [paused,setPaused]=useState(false);
   const shownPhase=phase==='auto'?(paused?'expiration':'auto'):phase;
-  const hotspots=[['1','50%','13%'],['2','50%','33%'],['3','25%','47%'],['4','73%','47%'],['5','88%','46%'],['6','50%','79%'],['7','8%','43%']];
+  const hotspots=[['1','50%','22%'],['2','50%','34%'],['3','31%','54%'],['4','69%','54%'],['5','82%','53%'],['6','50%','83%'],['7','18%','48%']];
   return <section className="card thoracicAtlas">
     <header><p className="atlasEyebrow">Anatomy atlas · respiratory motion</p><h2>{t.title}</h2><p>{t.intro}</p></header>
     <div className="anatomyPhaseControls" role="group" aria-label={t.phase}>{(['auto','inspiration','expiration'] as const).map(item=><button type="button" key={item} aria-pressed={phase===item} onClick={()=>{setPhase(item);setPaused(false)}}>{t[item]}</button>)}<button type="button" disabled={phase!=='auto'} aria-pressed={paused} onClick={()=>setPaused(value=>!value)}>{paused?t.resume:t.pause}</button></div>
-    <figure><div className={`thoraxImage phase-${shownPhase}${paused?' motion-paused':''}`}><Image src="/visuals/thorax-lungs-pleura-diaphragm.png" alt={t.alt} width={1536} height={1024} sizes="(max-width: 760px) 100vw, 1000px"/><svg className="breathingOverlay" viewBox="0 0 1536 1024" aria-hidden="true"><path className="diaphragmContour" d="M255 780 Q768 610 1280 780"/><path className="ribMotion left" d="M260 500 L155 430"/><path className="ribMotion right" d="M1276 500 L1381 430"/></svg>{hotspots.map(([n,left,top])=><span key={n} className="atlasHotspot" style={{left,top}} aria-hidden="true">{n}</span>)}</div><figcaption>{t.caption}</figcaption></figure>
+    <figure><div className={`thoraxImage phase-${shownPhase}${paused?' motion-paused':''}`}><svg viewBox="0 0 900 600" width="900" height="600" role="img" aria-label={t.alt} style={{display:'block',width:'100%',height:'auto',background:'linear-gradient(180deg,#f2fafb,#d8e9ef)'}}>
+<defs><linearGradient id="lungFillA" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stopColor="#efb1ad"/><stop offset="0.6" stopColor="#da797a"/><stop offset="1" stopColor="#b95767"/></linearGradient><linearGradient id="lungFillB" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stopColor="#f6c6b8"/><stop offset="1" stopColor="#b96376"/></linearGradient></defs>
+<g opacity=".6" fill="none" stroke="#829da7" strokeWidth="5"><path d="M240 95Q130 220 148 453Q175 530 280 565"/><path d="M660 95Q770 220 752 453Q725 530 620 565"/>{[160,230,300,370,440].map((y,i)=><g key={i}><path d={`M450 ${y} Q320 ${y-45} 172 ${y+25}`}/><path d={`M450 ${y} Q580 ${y-45} 728 ${y+25}`}/></g>)}</g>
+<path d="M442 70V192" stroke="#c7a18f" strokeWidth="41" strokeLinecap="round"/>{[85,105,125,145,165].map(y=><path key={y} d={`M423 ${y}h39`} stroke="#7b6670" strokeWidth="4"/>)} 
+<g className="anatomicalLungs"><path d="M408 198C360 132 245 132 204 240C170 340 196 494 280 528C343 550 400 490 413 402Z" fill="url(#lungFillA)" stroke="#a95768" strokeWidth="5"/><path d="M492 198C540 132 655 132 696 240C730 340 704 494 620 528C557 550 500 490 487 402Z" fill="url(#lungFillB)" stroke="#a95768" strokeWidth="5"/><path d="M207 354Q310 326 407 386M235 438Q318 415 393 459M692 355Q592 336 493 390" stroke="#b75d69" strokeWidth="4" opacity=".8" fill="none"/></g>
+<g stroke="#e2c8a6" strokeWidth="22" fill="none" strokeLinecap="round"><path d="M450 185L370 260L323 336M370 260L397 343M450 185L529 260L577 336M529 260L504 343"/></g><g stroke="#886a67" strokeWidth="4" fill="none" strokeLinecap="round"><path d="M450 185L370 260L323 336M370 260L397 343M450 185L529 260L577 336M529 260L504 343"/></g>
+<path d="M183 526Q450 452 717 526" fill="none" stroke="#bb746b" strokeWidth="20" strokeLinecap="round"/><text x="450" y="584" textAnchor="middle" fill="#35515d" fontSize="18">{language==='RU'?'Учебная анатомическая схема, не масштабный препарат':language==='EN'?'Educational anatomy diagram, not to scale':'Оқу анатомиялық сызбасы, масштаб сақталмаған'}</text>
+</svg><svg className="breathingOverlay" viewBox="0 0 1536 1024" aria-hidden="true"><path className="diaphragmContour" d="M255 780 Q768 610 1280 780"/><path className="ribMotion left" d="M260 500 L155 430"/><path className="ribMotion right" d="M1276 500 L1381 430"/></svg>{hotspots.map(([n,left,top])=><span key={n} className="atlasHotspot" style={{left,top}} aria-hidden="true">{n}</span>)}</div><figcaption>{t.caption}</figcaption></figure>
     <ol className="anatomyLegend">{t.labels.map((label,index)=><li key={label}><span>{index+1}</span>{label}</li>)}</ol><p className="motionExplanation" role="status"><strong>{t.phase}:</strong> {t.motion[shownPhase]}</p>
   </section>;
 }
