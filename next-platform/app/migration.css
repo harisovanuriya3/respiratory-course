@@ -302,3 +302,13 @@
 .learningTools .drawingBoardDrawer>summary{cursor:pointer;font-weight:750;color:#245b63;min-height:38px;display:list-item;padding:7px 2px}
 .learningTools .drawingBoardDrawer>canvas{margin-top:10px}
 .learningTools .drawingBoardDrawer:focus-within{border-color:#176b70}
+
+/* Compact structured study notes; preserve all existing localStorage keys. */
+.moduleOneNotes{max-width:1080px}
+.moduleOneNotesLinks{display:flex;gap:10px;flex-wrap:wrap;margin:10px 0 16px}
+.moduleOneNotesLinks a{padding:8px 12px;border:1px solid #b6d5ce;border-radius:9px;background:#f0f8f5;text-decoration:none}
+.moduleOneNotesGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:12px 0}
+.moduleOneNoteField{display:flex;flex-direction:column;gap:7px;min-width:0;padding:12px}
+.moduleOneNoteField textarea{width:100%;min-height:100px;resize:vertical;font:inherit;line-height:1.5;border:1px solid #a6c7c2;border-radius:8px;padding:10px}
+.moduleOneNoteField button{align-self:flex-start}
+@media(max-width:700px){.moduleOneNotesGrid{grid-template-columns:1fr;gap:9px}.moduleOneNoteField{padding:10px}.moduleOneNoteField textarea{min-height:82px}}
