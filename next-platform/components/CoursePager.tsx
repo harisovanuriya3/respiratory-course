@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import type {Language,SectionId} from '../lib/course';
 import {modules,sectionIds,sectionNames} from '../lib/course';
+const iconColors=['#2563eb','#d97706','#7c3aed','#0f766e','#dc2626','#0891b2','#15803d','#ea580c','#be185d','#4f46e5','#db2777','#1d4ed8','#a16207','#0284c7','#059669','#9333ea','#475569'];
 const icons=['◎','✓','▤','◷','✚','⚗','✎','◇','☑','?','♙','▶','≡','◉','↗','▣','§'];
 const copy={
  RU:{previous:'← Предыдущий подраздел',next:'Следующий подраздел →',contents:'Все модули',previousModule:'← Предыдущий модуль',nextModule:'Следующий модуль →',module:'Модуль',modules:'Модули 01–25',sections:'Подразделы 01–17'},
@@ -21,7 +22,7 @@ export default function CoursePager({moduleId,section,language,placement='bottom
   <div className="courseRailLabel">{c.modules} · {current?.title[language]}</div>
   <nav className="moduleRail courseTopModuleRail" aria-label={c.modules}>{modules.map(item=><Link key={item.id} aria-current={item.id===moduleId?'location':undefined} title={item.title[language]} href={modLink(item.id)}>{String(item.id).padStart(2,'0')}</Link>)}</nav>
   <div className="courseRailLabel">{c.sections}</div>
-  <nav className="courseSectionIconRail" aria-label={c.sections}>{sectionIds.map((s,n)=><Link key={s} href={sectionLink(s)} title={sectionNames[s][language]} aria-label={`${n+1}: ${sectionNames[s][language]}`} aria-current={s===section?'page':undefined}><span aria-hidden="true">{icons[n]}</span><small>{n+1}</small></Link>)}</nav>
+  <nav className="courseSectionIconRail" aria-label={c.sections}>{sectionIds.map((s,n)=><Link key={s} href={sectionLink(s)} title={sectionNames[s][language]} aria-label={`${n+1}: ${sectionNames[s][language]}`} aria-current={s===section?'page':undefined}><span aria-hidden="true" style={{color:iconColors[n],backgroundColor:`${iconColors[n]}17`,borderColor:`${iconColors[n]}55`}}>{icons[n]}</span><small>{n+1}</small></Link>)}</nav>
   <div className="courseCurrentSection">{String(i+1).padStart(2,'0')} / 17 · <strong>{sectionNames[section][language]}</strong></div>
  </div>;
  return <nav className="coursePager" aria-label={c.sections}>
