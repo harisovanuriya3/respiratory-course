@@ -35,4 +35,20 @@ const terms:[string,string,string,string,string,string][]=[
 ['Гиповентиляция','Hypoventilation','Гиповентиляция','Недостаточная V̇A относительно продукции CO₂.','V̇A inadequate relative to CO₂ production.','CO₂ түзілуіне қатысты V̇A жеткіліксіздігі.'],
 ['Гипервентиляция','Hyperventilation','Гипервентиляция','Избыточная V̇A относительно продукции CO₂.','Excess V̇A relative to CO₂ production.','CO₂ түзілуіне қатысты V̇A шамадан тыс болуы.']
 ];
-export default function ModuleOneGlossary({language}:{language:Language}){const lang={RU:0,EN:1,KZ:2}[language];const title={RU:'Физиологический глоссарий RU / EN / KZ',EN:'Physiology glossary RU / EN / KZ',KZ:'Физиологиялық глоссарий RU / EN / KZ'}[language];const meaning={RU:'Значение и единицы',EN:'Meaning and units',KZ:'Мағынасы мен өлшемі'}[language];return <section className="card"><h2>{title}</h2><p>{terms.length} {language==='RU'?'термина с определениями и сокращениями':language==='EN'?'terms with definitions and abbreviations':'анықтамасы мен қысқартуы бар термин'}</p><div style={{overflowX:'auto'}}><table><thead><tr><th>RU</th><th>EN</th><th>KZ</th><th>{meaning}</th></tr></thead><tbody>{terms.map(item=><tr key={item[1]}><td>{item[0]}</td><td>{item[1]}</td><td>{item[2]}</td><td>{item[3+lang]}</td></tr>)}</tbody></table></div></section>}
+
+// Chapter anchors refer to the numbered theory headings for module 1.
+const chapterByTerm=[1,2,2,2,3,3,3,3,4,5,6,6,6,6,6,6,6,6,5,5,5,8,9,5,3,3,10,11,11,12,12,12,7,7] as const;
+const related:Record<number,number[]>={0:[1,2,17],1:[2,14],2:[3,4],3:[5,6,7],4:[3,24],5:[6,4],6:[7,3],7:[6,21],8:[18,20],9:[19,20],10:[11,12,17],11:[10,12,17],12:[10,11,17],13:[14,15,16,17],14:[1,13],15:[16,26],16:[14,15],17:[10,11,13],18:[19,20],19:[18,20],20:[18,19,21],21:[7,20],22:[23,9],23:[22,9],24:[4,25],25:[24,26],26:[15,25],27:[17,32],28:[29,30],29:[28,30],30:[29,31],31:[30,25],32:[27,17],33:[27,17]};
+export default function ModuleOneGlossary({language}:{language:Language}){
+ const lang={RU:0,EN:1,KZ:2}[language];
+ const title={RU:'Физиологический глоссарий RU / EN / KZ',EN:'Physiology glossary RU / EN / KZ',KZ:'Физиологиялық глоссарий RU / EN / KZ'}[language];
+ const meaning={RU:'Значение и единицы',EN:'Meaning and units',KZ:'Мағынасы мен өлшемі'}[language];
+ const linkLabel={RU:'Связанные термины',EN:'Related terms',KZ:'Байланысты терминдер'}[language];
+ const theoryLabel={RU:'В теорию',EN:'Read theory',KZ:'Теорияға өту'}[language];
+ return <section className="card moduleOneGlossary"><h2>{title}</h2>
+  <p>{terms.length} {language==='RU'?'термина с определениями и сокращениями. Нажмите на связанный термин для перехода к его строке, или откройте соответствующий раздел теории.':language==='EN'?'terms with definitions and abbreviations. Follow a related term to its row or open the corresponding theory chapter.':'анықтамасы мен қысқартуы бар термин. Байланысты терминді басып, оның жолына немесе тиісті теория тарауына өтіңіз.'}</p>
+  <div className="glossaryScroll"><table><thead><tr><th>RU</th><th>EN</th><th>KZ</th><th>{meaning}</th><th>{linkLabel}</th></tr></thead><tbody>
+  {terms.map((item,i)=><tr key={item[1]} id={`glossary-term-${i}`}><th scope="row">{item[0]}</th><td>{item[1]}</td><td>{item[2]}</td><td>{item[3+lang]}</td><td><div className="glossaryCrossLinks"><a href={`/modules/1/theory?lang=${language}#theory-${chapterByTerm[i]}`}>{theoryLabel} →</a>{(related[i]||[]).map(j=><a key={j} href={`#glossary-term-${j}`}>{terms[j][lang]}</a>)}</div></td></tr>)}
+  </tbody></table></div>
+ </section>;
+}
