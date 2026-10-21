@@ -1,3 +1,4 @@
+import {imageBreathing} from './image-breathing.js';
 import {topicSpecificAtlas} from './topic-specific-atlas.js';
 const moduleConcepts=[["Воздух", "Альвеола", "Кровь"], ["Бронх", "Бронхиола", "Альвеола"], ["Давление", "Поток", "Объём"], ["Диафрагма", "Грудная клетка", "Вентиляция"], ["Сурфактант", "Натяжение", "Комплаенс"], ["Радиус", "Сопротивление", "Поток"], ["VT", "VC", "TLC"], ["VT − VD", "Частота", "V̇A"], ["Площадь", "Толщина", "Диффузия"], ["PB", "FiO₂", "PIO₂"], ["Альвеола", "Барьер", "Капилляр"], ["mPAP", "PVR", "Кровоток"], ["Вентиляция", "Перфузия", "V/Q"], ["Hb", "SaO₂", "CaO₂"], ["CO₂", "HCO₃⁻", "Выдох"], ["HCO₃⁻", "PaCO₂", "pH"], ["Ствол мозга", "Ритм", "Дыхание"], ["Рецептор", "Вагус", "Рефлекс"], ["PaO₂", "Хеморецептор", "Вентиляция"], ["V̇O₂", "V̇CO₂", "RER"], ["Высота", "PB", "PAO₂"], ["Сон", "Тонус", "Вентиляция"], ["Глубина", "Давление", "Объём"], ["FEV₁", "FVC", "FEV₁/FVC"], ["CaO₂", "Сердечный выброс", "DO₂"]];
 const moduleConceptsEN=[
@@ -37,14 +38,7 @@ const resourceLabels = [
 ];
 // Accessible, deliberately qualitative animation: illustrates volume change only.
 // It does not depict measured pressure, lung compliance, or anatomical proportions.
-function ventilationAnimation(language){
- const title=['Дыхательные движения: вдох и выдох','Breathing movements: inspiration and expiration','Тыныс қозғалыстары: дем алу және дем шығару'][language];
- const note=['Схематическая анимация: при вдохе диафрагма опускается, грудная полость расширяется; при выдохе в покое происходит обратное движение. Размеры и скорость условны.','Schematic animation: during inspiration the diaphragm descends and the thoracic cavity expands; quiet expiration reverses the movement. Dimensions and speed are illustrative.','Сызбалық анимация: дем алғанда көкет төмен түсіп, кеуде қуысы кеңейеді; тыныш дем шығарғанда қозғалыс кері жүреді. Өлшем мен жылдамдық шартты.'][language];
- const lung=['Лёгкие','Lungs','Өкпе'][language];
- const diaphragm=['Диафрагма','Diaphragm','Көкет'][language];
- const pause=['Пауза анимации','Pause animation','Анимацияны тоқтату'][language];
- return `<figure class="ventilation-animation" aria-label="${title}"><svg viewBox="0 0 440 300" role="img" aria-labelledby="breath-title breath-desc"><title id="breath-title">${title}</title><desc id="breath-desc">${note}</desc><path d="M220 38 V95" fill="none" stroke="#64748b" stroke-width="11" stroke-linecap="round"/><path d="M220 92 L177 125 M220 92 L263 125" fill="none" stroke="#64748b" stroke-width="8"/><g class="breath-lungs" fill="#f9a8a8" stroke="#9f1239" stroke-width="3"><path d="M199 111 C150 90 91 135 88 201 C84 246 126 259 179 239 C204 227 201 162 199 111Z"/><path d="M241 111 C290 90 349 135 352 201 C356 246 314 259 261 239 C236 227 239 162 241 111Z"/></g><path class="breath-diaphragm" d="M77 259 Q220 213 363 259" fill="none" stroke="#0f766e" stroke-width="9" stroke-linecap="round"/><text x="18" y="34" font-size="16" fill="#334155">${lung}</text><text x="18" y="290" font-size="15" fill="#0f766e">${diaphragm}</text></svg><button type="button" class="breath-toggle" data-breath-toggle aria-pressed="false">${pause}</button><figcaption>${note}</figcaption></figure>`;
-}
+function ventilationAnimation(language){return imageBreathing(language);}
 export function mediaAtlas(moduleId,language){
   if(!Number.isInteger(moduleId)||moduleId<1||moduleId>25)return '';
   const k=diagramByModule[moduleId-1];
@@ -54,18 +48,4 @@ export function mediaAtlas(moduleId,language){
   const resource=externalMedia[moduleId-1];
   const resourceNames=['Ресурс по теме (англ.)','Topic resource','Тақырыптық ресурс (ағылш.)'];
   return `<section class="media-atlas learning-panel"><h3>${title}</h3>${conceptGraphic(moduleId,language)}${diagramContent}${animated}<p class="small-note">${['Авторские учебные SVG-схемы, не клинические измерения. Для отдельных тем используется только концептуальная схема: нерелевантные универсальные рисунки исключены.','Original educational SVG diagrams, not clinical measurements. For some topics only the conceptual pathway is shown; unrelated generic diagrams are omitted.','Авторлық оқу SVG-сызбалары, клиникалық өлшемдер емес. Кейбір тақырыптарда тек тұжырымдамалық сызба берілген.'][language]}</p><p><a href="${resource[1]}" target="_blank" rel="noopener noreferrer">${resourceNames[language]}: ${resource[0]} ↗</a></p><p class="small-note">${['Внешняя ссылка не означает разрешение на копирование иллюстраций. Проверяйте лицензию каждого файла.','An external link does not grant permission to copy images. Check each individual file license.','Сыртқы сілтеме суретті көшіруге рұқсат бермейді. Әр файлдың лицензиясын тексеріңіз.'][language]}</p></section>`;
-}
-
-// The control is event-delegated because atlas HTML is inserted dynamically.
-if (typeof document !== 'undefined') {
- document.addEventListener('click', event => {
-  const button=event.target.closest('[data-breath-toggle]');
-  if(!button)return;
-  const figure=button.closest('.ventilation-animation');
-  if(!figure)return;
-  const paused=figure.classList.toggle('breath-paused');
-  button.setAttribute('aria-pressed',String(paused));
-  const lang=document.documentElement.lang;
-  button.textContent=paused?({ru:'Продолжить анимацию',en:'Resume animation',kk:'Анимацияны жалғастыру'}[lang]||'Resume animation'):({ru:'Пауза анимации',en:'Pause animation',kk:'Анимацияны тоқтату'}[lang]||'Pause animation');
- });
 }

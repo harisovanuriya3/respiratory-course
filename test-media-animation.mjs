@@ -12,7 +12,7 @@ for(let moduleId=1;moduleId<=25;moduleId++)for(let lang=0;lang<3;lang++){
   assert.match(html,/<figcaption>/);
   assert.match(html,/data-breath-toggle aria-pressed="false"/);
   assert.match(html,/<button type="button" class="breath-toggle"/);
-  assert.match(html,/<desc id="breath-desc">/);
+  assert.match(html,/<desc id="breath-desc">/);assert.match(html,/data-image-breathing/);assert.match(html,/assets\/course\/overview.webp/);assert.doesNotMatch(html,/class="breath-lungs"/);
  }else assert.doesNotMatch(html,/ventilation-animation/);
 }
 assert.match(css,/breath-paused/);

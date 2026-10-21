@@ -12,6 +12,14 @@
     "passed": true
   },
   {
+    "file": "test-course-depth.mjs",
+    "passed": true
+  },
+  {
+    "file": "test-course-speech.mjs",
+    "passed": true
+  },
+  {
     "file": "test-exam-data.mjs",
     "passed": true
   },
@@ -44,7 +52,15 @@
     "passed": true
   },
   {
+    "file": "test-mechanics-image-lab.mjs",
+    "passed": true
+  },
+  {
     "file": "test-mechanics-regression.mjs",
+    "passed": true
+  },
+  {
+    "file": "test-mechanics-student-table.mjs",
     "passed": true
   },
   {
@@ -53,6 +69,10 @@
   },
   {
     "file": "test-media-localization.mjs",
+    "passed": true
+  },
+  {
+    "file": "test-module-three.mjs",
     "passed": true
   },
   {
@@ -85,6 +105,10 @@
   },
   {
     "file": "test-release-integrity.mjs",
+    "passed": true
+  },
+  {
+    "file": "test-review-completion.mjs",
     "passed": true
   },
   {

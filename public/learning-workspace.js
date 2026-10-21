@@ -2,7 +2,7 @@ const safeRead=(key,fallback)=>{try{return JSON.parse(localStorage.getItem(key)|
 const safeWrite=(key,value)=>{try{localStorage.setItem(key,JSON.stringify(value));return true}catch{return false}};
 
 export function initLearningWorkspace(){
- const route=location.pathname.match(/^\/modules\/(\d+)\/([a-z-]+)$/);if(!route)return;
+ const route=location.pathname.replace(/\/+$/,'').match(/^\/modules\/(\d+)\/([a-z-]+)$/);if(!route)return;
  const params=new URLSearchParams(location.search),lang=['RU','EN','KZ'].includes(params.get('lang'))?params.get('lang'):'RU';
  const t=(ru,en,kz)=>({RU:ru,EN:en,KZ:kz})[lang],moduleId=Number(route[1]),section=route[2],routeKey=`${moduleId}/${section}`;
  const storageKey=`respiratory-course:workspace:${routeKey}`,courseKey='respiratory-course:learning-state:v1';
