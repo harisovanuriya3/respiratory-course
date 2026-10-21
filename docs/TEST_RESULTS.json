@@ -12,6 +12,10 @@
     "passed": true
   },
   {
+    "file": "test-course-assessment-bank.mjs",
+    "passed": true
+  },
+  {
     "file": "test-course-depth.mjs",
     "passed": true
   },

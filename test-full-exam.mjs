@@ -9,7 +9,8 @@ for(const item of allExamItems){
 for(let mid=1;mid<=25;mid++)assert.ok(allExamItems.some(x=>x.module===mid));
 assert.ok(examBankAudit.duplicatesExcluded>0);
 assert.equal(new Set(allExamItems.map(x=>x.module+'|'+x.q[1].replace(/\s+/g,' ').trim())).size,allExamItems.length);
-const basic=allExamItems.filter(x=>x.kind==='mechanism');assert.equal(basic.length,25);
-assert.deepEqual(basic[0].options[0],['Газообмен между внешней средой и кровью','Gas exchange between environment and blood','Сыртқы орта мен қан арасындағы газ алмасу']);
+for(const item of allExamItems)assert.equal(item.options.length,4,'Active exams require four options');
+for(let mid=1;mid<=25;mid++)assert.ok(allExamItems.filter(item=>item.module===mid).length>=20,'Every module needs a complete twenty-question exam');
+assert.equal(examBankAudit.retiredTwoOption,60);
 assert.equal(integratedExamItems.length,4);
 console.log(`PASS: all ${allExamItems.length} exam items, 25 module pools, answer indices and complete RU/EN/KZ tuples`);

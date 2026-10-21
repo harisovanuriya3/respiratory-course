@@ -1,0 +1,163 @@
+{
+  "rows": [
+    {
+      "module": 1,
+      "tests": 20,
+      "cases": 20,
+      "exam": 20
+    },
+    {
+      "module": 2,
+      "tests": 20,
+      "cases": 20,
+      "exam": 20
+    },
+    {
+      "module": 3,
+      "tests": 20,
+      "cases": 20,
+      "exam": 20
+    },
+    {
+      "module": 4,
+      "tests": 20,
+      "cases": 20,
+      "exam": 20
+    },
+    {
+      "module": 5,
+      "tests": 20,
+      "cases": 20,
+      "exam": 20
+    },
+    {
+      "module": 6,
+      "tests": 20,
+      "cases": 20,
+      "exam": 20
+    },
+    {
+      "module": 7,
+      "tests": 20,
+      "cases": 20,
+      "exam": 20
+    },
+    {
+      "module": 8,
+      "tests": 20,
+      "cases": 20,
+      "exam": 21
+    },
+    {
+      "module": 9,
+      "tests": 20,
+      "cases": 20,
+      "exam": 20
+    },
+    {
+      "module": 10,
+      "tests": 20,
+      "cases": 20,
+      "exam": 21
+    },
+    {
+      "module": 11,
+      "tests": 20,
+      "cases": 20,
+      "exam": 20
+    },
+    {
+      "module": 12,
+      "tests": 20,
+      "cases": 20,
+      "exam": 20
+    },
+    {
+      "module": 13,
+      "tests": 20,
+      "cases": 20,
+      "exam": 21
+    },
+    {
+      "module": 14,
+      "tests": 20,
+      "cases": 20,
+      "exam": 22
+    },
+    {
+      "module": 15,
+      "tests": 20,
+      "cases": 20,
+      "exam": 20
+    },
+    {
+      "module": 16,
+      "tests": 20,
+      "cases": 20,
+      "exam": 22
+    },
+    {
+      "module": 17,
+      "tests": 20,
+      "cases": 20,
+      "exam": 20
+    },
+    {
+      "module": 18,
+      "tests": 20,
+      "cases": 20,
+      "exam": 20
+    },
+    {
+      "module": 19,
+      "tests": 20,
+      "cases": 20,
+      "exam": 20
+    },
+    {
+      "module": 20,
+      "tests": 20,
+      "cases": 20,
+      "exam": 23
+    },
+    {
+      "module": 21,
+      "tests": 20,
+      "cases": 20,
+      "exam": 20
+    },
+    {
+      "module": 22,
+      "tests": 20,
+      "cases": 20,
+      "exam": 22
+    },
+    {
+      "module": 23,
+      "tests": 20,
+      "cases": 20,
+      "exam": 20
+    },
+    {
+      "module": 24,
+      "tests": 20,
+      "cases": 20,
+      "exam": 20
+    },
+    {
+      "module": 25,
+      "tests": 20,
+      "cases": 20,
+      "exam": 20
+    }
+  ],
+  "totalLearning": 1000,
+  "totalExam": 512,
+  "examBankAudit": {
+    "original": 547,
+    "active": 512,
+    "duplicatesExcluded": 86,
+    "supplemental": 111,
+    "retiredTwoOption": 60
+  }
+}

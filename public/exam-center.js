@@ -1,3 +1,4 @@
+import {completeExamPools,modernExamItems} from './exam-completion-bank.js';
 import {examBankSignature,validateExamAttempt} from './exam-attempt-state.js';
 import {reasoningExamItems} from './exam-reasoning-bank.js';
 import {caseBasedItems} from './exam-cases-v91.js';
@@ -100,7 +101,13 @@ for(const item of items){
  if(!prior)uniqueItems.set(key,item);
 }
 items.splice(0,items.length,...uniqueItems.values());
-export const examBankAudit={original:originalItemCount,active:items.length,duplicatesExcluded:originalItemCount-items.length};
+const deduplicatedOriginalCount=items.length;
+const modernItems=modernExamItems(items);
+const legacyTwoOptionCount=items.length-modernItems.length;
+items.splice(0,items.length,...modernItems);
+const completionItems=completeExamPools(items);
+items.push(...completionItems);
+export const examBankAudit={original:originalItemCount,active:items.length,duplicatesExcluded:originalItemCount-deduplicatedOriginalCount,supplemental:completionItems.length,retiredTwoOption:legacyTwoOptionCount};
 export const allExamItems=items;
 const safe=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let timer=null;
