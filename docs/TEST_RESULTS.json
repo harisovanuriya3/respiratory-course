@@ -40,11 +40,23 @@
     "passed": true
   },
   {
+    "file": "test-mechanics-axes.mjs",
+    "passed": true
+  },
+  {
+    "file": "test-mechanics-regression.mjs",
+    "passed": true
+  },
+  {
     "file": "test-media-animation.mjs",
     "passed": true
   },
   {
     "file": "test-media-localization.mjs",
+    "passed": true
+  },
+  {
+    "file": "test-module-two.mjs",
     "passed": true
   },
   {
