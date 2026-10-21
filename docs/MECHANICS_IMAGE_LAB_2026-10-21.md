@@ -13,3 +13,7 @@ This publication replaces module 4 visuals; other historical module animations a
 Following visual feedback, graph labels were reduced from 20 to 12 SVG units. Cropped anatomical lung layers now expand with normalized model volume and the diaphragm annotation descends/flattens through inspiration. These illustrative transforms and all plot cursors use the same cycle phase; they do not measure tissue displacement. Autoplay is enabled unless reduced motion is requested. Pause, reset and manual phase inspection control every animated element together. The earlier statement that the image is not deformed describes the first version, superseded by this update.
 
 Browser verification in RU/EN/KZ covers changing lung transforms and diaphragm contours, cursor alignment at end inspiration, freezing on pause, return at end expiration, reduced-motion pause, font sizes and mobile width. All 34 existing suites and the rendered course audit pass.
+
+## Compact layout
+
+Anatomy and controls now share a compact side panel; synchronized plots occupy the adjacent column on desktop. On small screens the small anatomical image remains beside controls, with plots immediately below. Provenance and illustration limits are retained in the expandable Source caption. The long source statement was removed from the introduction. Numerical behavior is unchanged. RU/EN/KZ browser checks, mobile overflow checks and all 34 suites pass.
