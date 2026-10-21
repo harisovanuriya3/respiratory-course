@@ -1,0 +1,162 @@
+{
+  "overview": {
+    "path": "/assets/course/overview.webp",
+    "slide": 5,
+    "source": "Author-provided respiratory lecture, 2021",
+    "original": "image7.jpeg",
+    "width": 234,
+    "height": 340
+  },
+  "alveoli": {
+    "path": "/assets/course/alveoli.webp",
+    "slide": 17,
+    "source": "Author-provided respiratory lecture, 2021",
+    "original": "image21.png",
+    "width": 536,
+    "height": 638
+  },
+  "compliance": {
+    "path": "/assets/course/compliance.webp",
+    "slide": 17,
+    "source": "Author-provided respiratory lecture, 2021",
+    "original": "image20.jpeg",
+    "width": 708,
+    "height": 525
+  },
+  "volumes": {
+    "path": "/assets/course/volumes.webp",
+    "slide": 30,
+    "source": "Author-provided respiratory lecture, 2021",
+    "original": "image31.jpeg",
+    "width": 640,
+    "height": 480
+  },
+  "obstruction": {
+    "path": "/assets/course/obstruction.webp",
+    "slide": 34,
+    "source": "Author-provided respiratory lecture, 2021",
+    "original": "image35.png",
+    "width": 533,
+    "height": 651
+  },
+  "restriction": {
+    "path": "/assets/course/restriction.webp",
+    "slide": 34,
+    "source": "Author-provided respiratory lecture, 2021",
+    "original": "image36.png",
+    "width": 532,
+    "height": 639
+  },
+  "gas-exchange": {
+    "path": "/assets/course/gas-exchange.webp",
+    "slide": 22,
+    "source": "Author-provided respiratory lecture, 2021",
+    "original": "image25.png",
+    "width": 960,
+    "height": 720
+  },
+  "gas-pressures": {
+    "path": "/assets/course/gas-pressures.webp",
+    "slide": 25,
+    "source": "Author-provided respiratory lecture, 2021",
+    "original": "image28.png",
+    "width": 1024,
+    "height": 768
+  },
+  "circulation": {
+    "path": "/assets/course/circulation.webp",
+    "slide": 47,
+    "source": "Author-provided respiratory lecture, 2021",
+    "original": "image52.png",
+    "width": 284,
+    "height": 342
+  },
+  "spectra": {
+    "path": "/assets/course/spectra.webp",
+    "slide": 41,
+    "source": "Author-provided respiratory lecture, 2021",
+    "original": "image41.jpeg",
+    "width": 1000,
+    "height": 669
+  },
+  "oxygen-curve": {
+    "path": "/assets/course/oxygen-curve.webp",
+    "slide": 42,
+    "source": "Author-provided respiratory lecture, 2021",
+    "original": "image42.png",
+    "width": 272,
+    "height": 226
+  },
+  "buffer": {
+    "path": "/assets/course/buffer.webp",
+    "slide": 54,
+    "source": "Author-provided respiratory lecture, 2021",
+    "original": "image63.jpeg",
+    "width": 569,
+    "height": 392
+  },
+  "motor-pathways": {
+    "path": "/assets/course/motor-pathways.webp",
+    "slide": 67,
+    "source": "Author-provided respiratory lecture, 2021",
+    "original": "image70.png",
+    "width": 640,
+    "height": 480
+  },
+  "neural-control": {
+    "path": "/assets/course/neural-control.webp",
+    "slide": 69,
+    "source": "Author-provided respiratory lecture, 2021",
+    "original": "image72.png",
+    "width": 1314,
+    "height": 1200
+  },
+  "chemoreceptors": {
+    "path": "/assets/course/chemoreceptors.webp",
+    "slide": 115,
+    "source": "Author-provided respiratory lecture, 2021",
+    "original": "image89.png",
+    "width": 649,
+    "height": 553
+  },
+  "inflation-reflex": {
+    "path": "/assets/course/inflation-reflex.webp",
+    "slide": 138,
+    "source": "Author-provided respiratory lecture, 2021",
+    "original": "image105.png",
+    "width": 540,
+    "height": 245
+  },
+  "altitude": {
+    "path": "/assets/course/altitude.webp",
+    "slide": 144,
+    "source": "Author-provided respiratory lecture, 2021",
+    "original": "image110.jpeg",
+    "width": 809,
+    "height": 1089
+  },
+  "diving": {
+    "path": "/assets/course/diving.webp",
+    "slide": 146,
+    "source": "Author-provided respiratory lecture, 2021",
+    "original": "image112.jpeg",
+    "width": 728,
+    "height": 546
+  },
+  "spirogram": {
+    "path": "/assets/course/spirogram.webp",
+    "slide": 35,
+    "source": "Author-provided respiratory lecture, 2021",
+    "original": "image37.png",
+    "width": 837,
+    "height": 681
+  },
+  "blood": {
+    "path": "/assets/course/blood.webp",
+    "slide": 52,
+    "source": "Author-provided respiratory lecture, 2021",
+    "original": "image61.png",
+    "width": 300,
+    "height": 226
+  }
+}
