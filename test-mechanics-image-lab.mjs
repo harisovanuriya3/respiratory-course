@@ -11,5 +11,5 @@ for(const phase of [0,.1,.25,.5,.75,1]){
 let s=mechanicsState(.5,12,.2,2,0);close(s.volume,0);close(s.flow,0);close(s.ptp,5);close(s.ppl,-5);
 s=mechanicsState(.5,12,.2,2,.5);close(s.volume,.5);close(s.flow,0);close(s.ptp,7.5);close(s.ppl,-7.5);
 close(mechanicsState(.5,12,.2,2,.25).flow,Math.PI/10);
-for(let L=0;L<3;L++){const html=mechanicsImageLab(L);assert.ok(html.includes('/assets/course/overview.webp'));assert.ok(!html.includes('<ellipse'));assert.equal((html.match(/data-mechanics-graph=/g)||[]).length,3);assert.ok(html.includes('name="prediction" required'));assert.ok(moduleFour('interactive',L).includes('data-mechanics-image-lab'));}
+for(let L=0;L<3;L++){const html=mechanicsImageLab(L);assert.ok(html.includes('/assets/course/overview.webp'));assert.ok(html.includes('data-anatomy-diaphragm'));assert.equal((html.match(/data-anatomy-lung=/g)||[]).length,2);assert.ok(!html.includes('<ellipse'));assert.equal((html.match(/data-mechanics-graph=/g)||[]).length,3);assert.ok(html.includes('name="prediction" required'));assert.ok(moduleFour('interactive',L).includes('data-mechanics-image-lab'));}
 console.log('Image mechanics: pressure identities, independent volume derivative, boundaries, R/C effects, prediction and trilingual integration passed.');

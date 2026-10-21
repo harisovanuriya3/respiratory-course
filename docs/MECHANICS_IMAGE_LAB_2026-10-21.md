@@ -7,3 +7,9 @@ The imposed-volume model retains explicit pressure definitions and units. Added 
 Verification: independent volume derivative, Ptp identity, boundary conditions and R/C effects; RU/EN/KZ controls; browser image decode, forecast grading, history, reset, reduced-motion initial pause, mobile width, and laboratory/media/practice integration. All 34 suites pass. Original lecture image provenance is retained in course-image-sources.json.
 
 This publication replaces module 4 visuals; other historical module animations are outside this commit.
+
+## Follow-up: synchronized anatomical motion
+
+Following visual feedback, graph labels were reduced from 20 to 12 SVG units. Cropped anatomical lung layers now expand with normalized model volume and the diaphragm annotation descends/flattens through inspiration. These illustrative transforms and all plot cursors use the same cycle phase; they do not measure tissue displacement. Autoplay is enabled unless reduced motion is requested. Pause, reset and manual phase inspection control every animated element together. The earlier statement that the image is not deformed describes the first version, superseded by this update.
+
+Browser verification in RU/EN/KZ covers changing lung transforms and diaphragm contours, cursor alignment at end inspiration, freezing on pause, return at end expiration, reduced-motion pause, font sizes and mobile width. All 34 existing suites and the rendered course audit pass.
