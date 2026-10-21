@@ -4005,7 +4005,7 @@ function patientVisuals(L){return `<div class="patient-illustrations" style="dis
 export function modulePatient(mid,L){
  const index=modulePatientIndices[mid-1],c=cases[index];
  if(!c)return '';
- return `<section class="lesson"><article class="patient-card advanced-case" data-advanced="${index}"><h3>${esc(c.title[L])}</h3>${patientVisuals(L)}<p>${txt(L,'Сначала интерпретируйте данные, затем выберите исследование и объясните результат.','Interpret the findings, choose an investigation, then explain its result.','Алдымен деректерді түсіндіріп, зерттеуді таңдаңыз және нәтижесін талдаңыз.')}</p>${patientContext(mid,L)}<div class="advanced-stage"></div></article></section>`;
+ return `<section class="lesson"><article class="patient-card advanced-case" data-advanced="${index}"><h3>${esc(c.title[L])}</h3><p>${txt(L,'Сначала интерпретируйте данные, затем выберите исследование и объясните результат.','Interpret the findings, choose an investigation, then explain its result.','Алдымен деректерді түсіндіріп, зерттеуді таңдаңыз және нәтижесін талдаңыз.')}</p>${patientContext(mid,L)}<div class="advanced-stage"></div></article></section>`;
 }
 export const patientScenarioData=cases;
 export function advancedPatients(L){

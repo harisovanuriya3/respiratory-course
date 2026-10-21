@@ -1,0 +1,9 @@
+# Anatomical and patient scene upgrade — work in progress
+
+Adds a large clinical teaching scene to interactive and virtual-patient routes for all 25 modules in RU/EN/KZ. Images include original anatomical thorax phases, alveolar atlas, spirometry workstation, blood-gas analyzer, varied synthetic clinic portraits, a separate neonatal scene for module 5, and a licensed real brain/spinal-cord photograph. Provenance is in public/assets/clinical/SOURCES.md.
+
+The shared workbench has parameter controls, quantitative baseline/current plots, synchronized cursor, manual phase control, play/pause and reset. Thorax scenes crossfade inspiration/expiration images. Other anatomy/equipment images are static: animating the plot does not make them fully animated organ simulations. Thirteen model families cover the 25 modules. Existing specialist laboratory controls, student notebooks, patient case decisions and six-stage workflows remain.
+
+Important limits: this is a first visual upgrade, not completion of 25 fully distinct realistic laboratories and patients. The model next to a patient is explicitly independent of case findings. No invented vital signs or improvement based on quiz score. Neural drive and sleep traces are illustrative. No AHI or clinical diagnosis is inferred. Further work should add topic-specific anatomical overlays and stage-linked case evidence, then visually review all routes before production.
+
+Verification: build 456 static documents, JavaScript consistency, 38 existing test suites, direct model boundary/reference checks (Poiseuille, Henderson–Hasselbalch, ventilation) passed. Automated browser installation failed because the download returned a corrupt/empty archive; visual appearance, actual canvas rendering, playback behavior and mobile layout are not yet browser-verified. Do not promote as fully validated production.
