@@ -1,0 +1,1 @@
+Source: next-platform/public/visuals/thorax-lungs-pleura-diaphragm.png at 5a7cc8a6ad224902d9353604e0e17879506d54f5. Original AI-assisted educational illustration, created 2026-10-18; not a dissection photograph or quantitative motion study. Converted to WebP for delivery.

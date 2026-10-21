@@ -106,3 +106,6 @@ body{padding-bottom:76px}
 .lesson-card a.button:focus-visible{color:#ffffff;outline:3px solid #a56308;outline-offset:4px}
 .lesson-card a.button.secondary,.lesson-card a.button.secondary:visited{color:#185f50;background:#ffffff;border-color:#185f50}
 .lesson-card a.button.secondary:hover{color:#10473c;background:#edf5f1;border-color:#10473c}
+
+/* Module 1 material reconciled with the published Next edition. */
+.module-one-explanations{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px}.module-one-explanations>section{padding:14px;border:1px solid #c7dce0;border-radius:12px;background:#f0f7f8;color:#203d46}.module-one-explanations h4{font-size:1.05rem;margin:0 0 8px}.module-one-atlas figure{margin:0 0 16px}.module-one-upgrade fieldset{min-width:0;margin:16px 0;padding:16px;border:1px solid #b9d0d4;border-radius:12px}.module-one-upgrade fieldset label{display:block;margin:10px 0}.module-one-upgrade .table-scroll{max-width:100%;overflow:auto}.module-one-upgrade table{border-collapse:collapse;width:100%}.module-one-upgrade th,.module-one-upgrade td{padding:10px;border:1px solid #c5d8da;vertical-align:top}.module-one-upgrade [data-correct="true"]{color:#176331}.module-one-upgrade [data-correct="false"]{color:#a22525}
