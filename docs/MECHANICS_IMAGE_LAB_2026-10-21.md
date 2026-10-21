@@ -17,3 +17,7 @@ Browser verification in RU/EN/KZ covers changing lung transforms and diaphragm c
 ## Compact layout
 
 Anatomy and controls now share a compact side panel; synchronized plots occupy the adjacent column on desktop. On small screens the small anatomical image remains beside controls, with plots immediately below. Provenance and illustration limits are retained in the expandable Source caption. The long source statement was removed from the introduction. Numerical behavior is unchanged. RU/EN/KZ browser checks, mobile overflow checks and all 34 suites pass.
+
+## Student experiment table
+
+Added editable experimental records with VT, rate, compliance, resistance, predicted and observed maximum absolute alveolar pressure, and a written explanation. Students can copy current parameter values without auto-filling the prediction or observation. Numeric observations are checked against the prescribed-flow model; explanations are explicitly not AI-graded. Up to twenty records persist locally across reloads and language changes. Records can be deleted individually; animation reset leaves the student table intact. Browser checks cover RU/EN/KZ snapshots, correct/incorrect feedback, reload persistence, deletion, reset safety and mobile horizontal scrolling. All 35 test suites pass.
