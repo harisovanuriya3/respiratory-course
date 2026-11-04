@@ -21,7 +21,8 @@ const labs=[
 ];
 const patientSets=[
  'interactivePatientDecision','clinicalDecisionExtension',
- 'patientReasoningSet','mechanicsPatientCases'
+ 'patientReasoningSet','mechanicsPatientCases',
+ 'regulationPatientCases'
 ];
 assert.equal(modules.length,25,'Must retain 25 modules');
 assert.equal(new Set(modules.map(x=>x.id)).size,25,'Module IDs must be unique');
@@ -36,4 +37,4 @@ for(const [mid,render,init] of labs){
  assert.ok(media.includes("'/modules/"+mid+"/theory'"),'Media library lacks theory link: '+mid);
 }
 for(const render of patientSets)assert.ok(app.includes('${'+render+'(mid,section,L,lang)}'),'Patient integration missing: '+render);
-console.log('Course integration checked: 25 modules, 17 sections, 14 specialized laboratories and 4 interactive patient sets.');
+console.log('Course integration checked: 25 modules, 17 sections, 14 specialized laboratories and 5 interactive patient sets.');
