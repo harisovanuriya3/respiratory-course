@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {patientScenarioData,modulePatient} from './public/advanced-patients.js';
+import {patientScenarioData,modulePatient,modulePatientIndices} from './public/advanced-patients.js';
 import {interactivePatientDecision} from './public/interactive-patient-decisions.js';
 import {clinicalDecisionExtension} from './public/clinical-decision-extension.js';
 import {patientReasoningSet} from './public/patient-reasoning-set.js';
@@ -8,6 +8,9 @@ import {mechanicsPatientCases} from './public/mechanics-patient-cases.js';
 import {regulationPatientCases} from './public/regulation-patient-cases.js';
 const sets=[interactivePatientDecision,clinicalDecisionExtension,patientReasoningSet,mechanicsPatientCases,regulationPatientCases];
 assert.equal(patientScenarioData.length,27);
+assert.equal(modulePatientIndices.length,25);
+assert.equal(new Set(modulePatientIndices).size,25);
+for(const i of modulePatientIndices)assert.ok(i>=0&&i<patientScenarioData.length);
 for(let id=1;id<=25;id++){
  for(let L=0;L<3;L++){
   assert.ok(modulePatient(id,L).includes('advanced-stage'),'Missing multistage case '+id+'/'+L);
@@ -21,4 +24,4 @@ for(const render of sets){
 }
 const source=readFileSync('public/advanced-patients.js','utf8');
 assert.ok(!source.includes('src="/assets/module2/patient.webp"'),'Repeated patient picture still used for all advanced cases');
-console.log('25 multistage patients retained; five sets of short questions reclassified as self-checks; duplicate illustration removed.');
+console.log('27 scenarios retained and 25 module mappings checked; five sets of short questions reclassified as self-checks; duplicate illustration removed.');
