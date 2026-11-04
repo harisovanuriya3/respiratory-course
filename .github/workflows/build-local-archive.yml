@@ -23,6 +23,11 @@ jobs:
           npm run test:media
           npm run test:navigation
           node test-exam-media-comprehensive.mjs
+      - name: Check all 425 lesson pages exist
+        run: |
+          test "$(find dist/modules -mindepth 3 -maxdepth 3 -name index.html | wc -l)" -eq 425
+          test -f dist/media-library/index.html
+          test -f dist/exam/index.html
       - name: Include local Windows launcher
         run: |
           cat > dist/START-LOCAL.bat <<'EOF'
