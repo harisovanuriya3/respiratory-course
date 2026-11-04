@@ -35,6 +35,7 @@ jobs:
           node test-diffusion-station.mjs
           node test-airway-resistance-station.mjs
           node test-compliance-station.mjs
+          node test-pulmonary-resistance-station.mjs
           node test-spirometry-station.mjs
           node test-vq-learning-model.mjs
           node test-alveolar-gas-station.mjs
