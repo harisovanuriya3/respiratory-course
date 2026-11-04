@@ -5,7 +5,7 @@ export function alveolarGasValues(pb,fio2,paco2,rq){
 }
 export function alveolarGasStation(mid,section,L,lang){
  if(mid!==10||!['theory','practice','interactive','media'].includes(section))return '';
- return '<section class="lesson-card alveolar-ventilation-station" data-alveolar-gas-station><h3>'+t(L,'Виртуальная лаборатория: альвеолярное уравнение кислорода','Virtual laboratory: alveolar oxygen equation','Виртуалды зертхана: альвеолалық оттегі теңдеуі')+'</h3><p>'+t(L,'Изменяйте барометрическое давление, FiO₂, PaCO₂ и дыхательный коэффициент. Исследуйте изменение PIO₂ и PAO₂.','Change barometric pressure, FiO₂, PaCO₂ and respiratory exchange ratio. Explore PIO₂ and PAO₂.','Барометрлік қысымды, FiO₂, PaCO₂ және тыныстық коэффициентті өзгертіңіз. PIO₂ мен PAO₂ өзгерісін зерттеңіз.')+'</p>'+
+ return '<section class="lesson-card alveolar-ventilation-station" data-alveolar-gas-station data-language-index="'+L+'"><h3>'+t(L,'Виртуальная лаборатория: альвеолярное уравнение кислорода','Virtual laboratory: alveolar oxygen equation','Виртуалды зертхана: альвеолалық оттегі теңдеуі')+'</h3><p>'+t(L,'Изменяйте барометрическое давление, FiO₂, PaCO₂ и дыхательный коэффициент. Исследуйте изменение PIO₂ и PAO₂.','Change barometric pressure, FiO₂, PaCO₂ and respiratory exchange ratio. Explore PIO₂ and PAO₂.','Барометрлік қысымды, FiO₂, PaCO₂ және тыныстық коэффициентті өзгертіңіз. PIO₂ мен PAO₂ өзгерісін зерттеңіз.')+'</p>'+
  '<div class="vent-controls">'+
  '<label>PB (mmHg) <output data-pb-value>760</output><input type="range" data-pb min="400" max="800" step="10" value="760"></label>'+
  '<label>FiO₂ (%) <output data-fi-value>21</output><input type="range" data-fi min="21" max="60" step="1" value="21"></label>'+
@@ -26,7 +26,7 @@ export function initAlveolarGasStations(){
    const values=alveolarGasValues(pb,fi/100,co2,r);
    root.querySelector('[data-pio]').textContent=values.pio2.toFixed(1);
    root.querySelector('[data-pao]').textContent=values.pao2.toFixed(1);
-   root.querySelector('[data-gas-note]').textContent=values.pao2<=0?'Outside simplified model range':'';
+   root.querySelector('[data-gas-note]').textContent=values.pao2<=0?['Значение вне области применимости упрощённой модели.','Value outside the useful range of this simplified model.','Мән қарапайым модельдің қолданылу шегінен тыс.'][Number(root.dataset.languageIndex||0)]:'';
   };
   els.forEach(e=>e.addEventListener('input',update));update();
  });
