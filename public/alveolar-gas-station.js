@@ -26,7 +26,7 @@ export function initAlveolarGasStations(){
    const values=alveolarGasValues(pb,fi/100,co2,r);
    root.querySelector('[data-pio]').textContent=values.pio2.toFixed(1);
    root.querySelector('[data-pao]').textContent=values.pao2.toFixed(1);
-   root.querySelector('[data-gas-note]').textContent=values.pao2<=0?t(0,'Значение вне области применимости простой физиологической модели.','Value outside the useful range of this simplified physiological model.','Қарапайым физиологиялық модельдің қолданылу шегінен тыс мән.')[L]:'';
+   root.querySelector('[data-gas-note]').textContent=values.pao2<=0?'Outside simplified model range':'';
   };
   els.forEach(e=>e.addEventListener('input',update));update();
  });
