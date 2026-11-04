@@ -1,0 +1,27 @@
+name: Respiratory integration verification
+on:
+  push:
+    branches:
+      - feature/trilingual-respiratory-theory-visual-sources
+  pull_request:
+    paths:
+      - 'public/**'
+      - 'build.mjs'
+      - 'package.json'
+      - 'test-media-library-integration.mjs'
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci
+      - run: npm run build
+      - run: npm run check
+      - run: npm run test:media
+      - run: npm test
+      - run: npm run audit:content
