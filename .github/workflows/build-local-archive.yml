@@ -23,6 +23,8 @@ jobs:
           npm run test:media
           npm run test:navigation
           node test-exam-media-comprehensive.mjs
+      - name: Audit all modules and cross-links to specialized media
+        run: node test-course-integration-regression.mjs
       - name: Verify added clinical cases and laboratories
         run: |
           node test-detailed-clinical-cases.mjs
