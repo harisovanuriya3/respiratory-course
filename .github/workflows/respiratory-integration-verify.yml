@@ -23,6 +23,7 @@ jobs:
       - run: npm run build
       - run: npm run check
       - run: npm run test:media
+      - run: node test-exam-media-comprehensive.mjs
       - run: npm run test:navigation
       - run: npm test
       - run: npm run audit:content
