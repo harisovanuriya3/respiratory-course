@@ -7,7 +7,7 @@ import {patientReasoningSet} from './public/patient-reasoning-set.js';
 import {mechanicsPatientCases} from './public/mechanics-patient-cases.js';
 import {regulationPatientCases} from './public/regulation-patient-cases.js';
 const sets=[interactivePatientDecision,clinicalDecisionExtension,patientReasoningSet,mechanicsPatientCases,regulationPatientCases];
-assert.equal(patientScenarioData.length,25);
+assert.equal(patientScenarioData.length,27);
 for(let id=1;id<=25;id++){
  for(let L=0;L<3;L++){
   assert.ok(modulePatient(id,L).includes('advanced-stage'),'Missing multistage case '+id+'/'+L);
