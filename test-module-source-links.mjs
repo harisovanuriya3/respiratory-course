@@ -9,6 +9,9 @@ for(const [L,lang] of ['RU','EN','KZ'].entries()){
  for(let mid=1;mid<=25;mid++){
   const html=moduleReadingReferences(mid,'theory',L,lang);
   assert.ok(html.includes('/bibliography?lang='+lang+'#ref-'));
+  assert.ok(html.includes('target="_blank"'));
+  assert.ok(html.includes('Guyton and Hall Textbook of Medical Physiology'));
+  assert.ok(html.includes('https://shop.elsevier.com/'));
   for(const match of html.matchAll(/#ref-(\d+)/g))assert.ok(Number(match[1])<=total);
  }
 }
