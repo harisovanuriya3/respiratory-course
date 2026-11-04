@@ -2,7 +2,7 @@ name: Respiratory integration verification
 on:
   push:
     branches:
-      - feature/trilingual-respiratory-theory-visual-sources
+      - main
   pull_request:
     paths:
       - 'public/**'
@@ -23,5 +23,6 @@ jobs:
       - run: npm run build
       - run: npm run check
       - run: npm run test:media
+      - run: npm run test:navigation
       - run: npm test
       - run: npm run audit:content
