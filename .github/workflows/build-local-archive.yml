@@ -71,6 +71,9 @@ jobs:
           Alternatively run: python -m http.server 8765
           Do not open index.html directly using file:// as route imports need a local web server.
           EOF
+      - name: Record immutable build provenance
+        run: |
+          printf 'Repository: %s\nCommit: %s\nWorkflow run: %s\n' "$GITHUB_REPOSITORY" "$GITHUB_SHA" "$GITHUB_RUN_ID" > dist/BUILD-CONTROL-POINT.txt
       - name: Upload complete site archive
         uses: actions/upload-artifact@v4
         with:
