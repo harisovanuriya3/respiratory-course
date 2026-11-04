@@ -9,6 +9,6 @@ assert.ok(app.includes("courseBibliography(L,lang)"));
 for(const [L,lang] of ['RU','EN','KZ'].entries()){
  const html=courseBibliography(L,lang);
  for(const s of [...textbookSources,...regionalTextbookSources])assert.ok(html.includes(s.url.replaceAll('&','&amp;')), 'Missing safely escaped source URL: '+s.title);
- assert.equal((html.match(/<li>/g)||[]).length,textbookSources.length+regionalTextbookSources.length);
+ assert.equal((html.match(/<li\b[^>]*>/g)||[]).length,textbookSources.length+regionalTextbookSources.length);
 }
 console.log('Consolidated bibliography routes and all source links verified.');
