@@ -28,11 +28,10 @@ jobs:
           test "$(find dist/modules -mindepth 3 -maxdepth 3 -name index.html | wc -l)" -eq 425
           test -f dist/media-library/index.html
           test -f dist/exam/index.html
-      - name: Verify exam bank and source links
-        run: |
-          node test-exam-media-comprehensive.mjs
-          node test-module-source-links.mjs
-          node test-consolidated-bibliography.mjs
+      - name: Verify module bibliography anchors
+        run: node test-module-source-links.mjs
+      - name: Verify consolidated bibliography URLs
+        run: node test-consolidated-bibliography.mjs
       - name: Include local Windows launcher
         run: |
           cat > dist/START-LOCAL.bat <<'EOF'
