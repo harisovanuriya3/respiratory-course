@@ -13,6 +13,9 @@ assert.ok(app.includes('supplementalModuleContent(mid,section,L,lang)'));
 assert.ok(app.includes('integratedModuleOne(mid,section,L)'));
 assert.ok(build.includes("'media-library'"));
 assert.ok(css.includes('@media(max-width:780px)'));
+assert.ok(css.includes('.sectionnav .section-label'));
+assert.ok(app.includes('class="section-label"'));
+assert.ok(app.includes('class="section-number"'));
 assert.ok(existsSync('public/images/respiratory-alveolus-exchange.svg'));
 for(const m of modules)for(const section of sections){
  const route='dist/modules/'+m.id+'/'+section[0]+'/index.html';
