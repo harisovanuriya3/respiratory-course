@@ -14,6 +14,9 @@ assert.ok(existsSync('public/images/respiratory-alveolus-exchange.svg'));
 for(const L of [0,1,2]){
  const lang=['RU','EN','KZ'][L];
  const html=centralMediaLibrary(L,lang);
+ assert.ok(html.includes('id="search"'));
+ assert.ok(html.includes('id="no-results"'));
+ assert.ok(html.includes('id="media-catalog"'));
  for(const m of modules){
   assert.ok(html.includes('/modules/'+m.id+'/media?lang='+lang));
   assert.ok(html.includes('/modules/'+m.id+'/interactive?lang='+lang));
