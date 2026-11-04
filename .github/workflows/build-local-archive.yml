@@ -47,6 +47,7 @@ jobs:
           node test-capacity-spirogram.mjs
           node test-asymmetric-spirogram.mjs
           node test-recorded-spirogram.mjs
+          node test-moving-diaphragm.mjs
           node test-interactive-patient-decisions.mjs
           node test-clinical-decision-extension.mjs
           node test-patient-reasoning-set.mjs
