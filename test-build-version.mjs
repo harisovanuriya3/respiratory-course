@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const meta=JSON.parse(readFileSync('dist/build-info.json','utf8'));
+assert.ok(typeof meta.builtAt==='string'&&!Number.isNaN(Date.parse(meta.builtAt)));
+assert.ok(/^[a-f0-9]{40}$/.test(meta.revision),'Build revision must match a full Git SHA');
+assert.equal(meta.shortRevision,meta.revision.slice(0,7));
+const html=readFileSync('dist/index.html','utf8');
+assert.ok(html.includes('/version-display.js'));
+const script=readFileSync('dist/version-display.js','utf8');
+for(const name of ['RU','EN','KZ'])assert.ok(script.includes(name+':{'));
+console.log('Version metadata verified for current Git revision and all languages.');
