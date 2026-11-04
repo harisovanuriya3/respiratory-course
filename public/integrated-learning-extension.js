@@ -1,0 +1,23 @@
+import {modules} from './content.js';
+import {topicCore} from './topic-core-2-25.js';
+const tr=(L,ru,en,kz)=>[ru,en,kz][L];
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[c]));
+const first=[
+ 'Внешнее дыхание включает вентиляцию, диффузию и лёгочную перфузию.',
+ 'External respiration integrates ventilation, diffusion and pulmonary perfusion.',
+ 'Сыртқы тыныс алу желдетілу, диффузия және өкпелік перфузияны біріктіреді.'
+];
+const mechanism=(mid,L)=>mid===1?first[L]:topicCore.find(x=>x.id===mid)?.text[L]||'';
+export function integratedLearningExtension(mid,section,L,lang){
+ const m=modules.find(x=>x.id===mid);if(!m)return '';
+ const mechanismText=esc(mechanism(mid,L));
+ const ref='/modules/'+mid+'/';
+ const common='<p><a href="'+ref+'theory?lang='+lang+'">'+tr(L,'Теория','Theory','Теория')+'</a> · <a href="'+ref+'media?lang='+lang+'">'+tr(L,'Визуализация','Visualization','Көрнекілік')+'</a> · <a href="'+ref+'interactive?lang='+lang+'">'+tr(L,'Лаборатория','Laboratory','Зертхана')+'</a></p>';
+ const heading=tr(L,'Дополнительная предметная станция','Additional topic-specific station','Қосымша тақырыптық тапсырма');
+ if(section==='objectives')return '<section class="lesson-card"><h3>'+heading+'</h3><ol><li>'+tr(L,'Объяснить механизм: ','Explain the mechanism: ','Механизмді түсіндіру: ')+mechanismText+'</li><li>'+tr(L,'Назвать измеримые физиологические параметры и их единицы.','Identify measurable physiological variables and their units.','Өлшенетін физиологиялық айнымалылар мен бірліктерін атау.')+'</li><li>'+tr(L,'Обосновать связь с клиническим наблюдением, отличая модель от диагностики.','Relate the mechanism to clinical observations while distinguishing models from diagnosis.','Модельді диагноздан ажыратып, механизмді клиникалық бақылаумен байланыстыру.')+'</li></ol>'+common+'</section>';
+ if(section==='questions')return '<section class="lesson-card"><h3>'+heading+'</h3><p>'+mechanismText+'</p><ol><li>'+tr(L,'Какие переменные определяют этот процесс?','Which variables determine this process?','Бұл үдерісті қандай айнымалылар анықтайды?')+'</li><li>'+tr(L,'Какие данные могли бы опровергнуть вашу гипотезу?','What findings could falsify your hypothesis?','Қандай деректер болжамыңызға қайшы келеді?')+'</li><li>'+tr(L,'Как изменится результат при нарушении одного звена?','How would impairment of one component alter the result?','Бір буын бұзылса нәтиже қалай өзгереді?')+'</li></ol>'+common+'</section>';
+ if(section==='virtual-patient')return '<section class="lesson-card"><h3>'+tr(L,'Задание к виртуальному пациенту','Virtual-patient reasoning task','Виртуалды пациент тапсырмасы')+'</h3><p>'+mechanismText+'</p><p>'+tr(L,'Изучите существующий сценарий пациента. Укажите один наблюдаемый показатель, один предполагаемый механизм и один альтернативный вариант объяснения. Не ставьте диагноз только по учебной модели.','Review the existing patient scenario. Identify one observable measure, one proposed mechanism and one alternative explanation. Do not diagnose from the teaching model alone.','Қолданыстағы пациент сценарийін талдаңыз. Бір бақыланатын көрсеткішті, ықтимал механизмді және балама түсіндірмені көрсетіңіз. Тек оқу моделі бойынша диагноз қоймаңыз.')+'</p>'+common+'</section>';
+ if(section==='pretest')return '<section class="lesson-card"><h3>'+tr(L,'Вопрос для предварительной подготовки','Preparation question','Дайындық сұрағы')+'</h3><p>'+tr(L,'Сформулируйте, какой физиологический процесс исследуется в этой теме, и какие данные понадобятся для его оценки.','State which physiological process is studied and what observations would be needed to assess it.','Бұл тақырыпта қандай физиологиялық үдеріс зерттелетінін және оны бағалау үшін қандай деректер керегін атаңыз.')+'</p>'+common+'</section>';
+ if(section==='media')return '<section class="lesson-card"><h3>'+tr(L,'Связь визуала с механизмом','Visual-to-mechanism link','Көрнекілік пен механизм байланысы')+'</h3><p>'+mechanismText+'</p><p>'+tr(L,'При просмотре существующих рисунков и анимаций найдите анатомическую структуру, направление процесса и измеряемый показатель. Каталог не заменяет проверку происхождения и лицензии каждого изображения.','For each existing illustration or animation identify the anatomical structure, process direction and measured variable. This index does not substitute for verifying each image source and license.','Қолданыстағы сурет пен анимациядан анатомиялық құрылымды, үдеріс бағытын және өлшенетін көрсеткішті табыңыз. Каталог әр суреттің дереккөзі мен лицензиясын тексеруді алмастырмайды.')+'</p>'+common+'</section>';
+ return '';
+}
