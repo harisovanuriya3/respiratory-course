@@ -47,6 +47,7 @@ jobs:
           node test-patient-reasoning-set.mjs
           node test-mechanics-patient-cases.mjs
           node test-regulation-patient-cases.mjs
+          node test-patient-redesign.mjs
           node test-additional-physiology-checks.mjs
           node test-respiratory-exam-additions.mjs
           node test-spirometry-station.mjs
