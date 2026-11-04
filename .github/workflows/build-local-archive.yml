@@ -39,6 +39,7 @@ jobs:
           node test-compliance-station.mjs
           node test-pulmonary-resistance-station.mjs
           node test-exercise-gas-station.mjs
+          node test-sleep-breathing-station.mjs
           node test-interactive-patient-decisions.mjs
           node test-clinical-decision-extension.mjs
           node test-patient-reasoning-set.mjs
