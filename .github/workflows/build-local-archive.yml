@@ -35,6 +35,11 @@ jobs:
           node test-alveolar-gas-station.mjs
           node test-oxygen-delivery-station.mjs
           node test-integrated-learning-extension.mjs
+      - name: Verify cumulative multilingual content checks
+        run: |
+          node test-advanced-reasoning-cases.mjs
+          node test-expanded-physiology-cases.mjs
+          node test-module-source-links.mjs
       - name: Check all 425 lesson pages exist
         run: |
           test "$(find dist/modules -mindepth 3 -maxdepth 3 -name index.html | wc -l)" -eq 425
