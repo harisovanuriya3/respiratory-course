@@ -46,6 +46,7 @@ jobs:
           node test-mechanics-patient-cases.mjs
           node test-regulation-patient-cases.mjs
           node test-additional-physiology-checks.mjs
+          node test-respiratory-exam-additions.mjs
           node test-spirometry-station.mjs
           node test-vq-learning-model.mjs
           node test-alveolar-gas-station.mjs
