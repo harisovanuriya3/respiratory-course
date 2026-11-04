@@ -44,6 +44,7 @@ jobs:
           node test-clinical-decision-extension.mjs
           node test-patient-reasoning-set.mjs
           node test-mechanics-patient-cases.mjs
+          node test-regulation-patient-cases.mjs
           node test-spirometry-station.mjs
           node test-vq-learning-model.mjs
           node test-alveolar-gas-station.mjs
