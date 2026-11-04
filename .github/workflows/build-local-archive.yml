@@ -17,6 +17,8 @@ jobs:
       - run: npm ci
       - name: Build complete offline-ready static site
         run: npm run build
+      - name: Verify displayed textbook build version
+        run: node test-build-version.mjs
       - name: Validate routes and module links
         run: |
           npm run check
