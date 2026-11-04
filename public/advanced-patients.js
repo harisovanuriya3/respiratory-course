@@ -1,3 +1,4 @@
+import {patientCaseVisual} from './patient-case-visuals.js';
 import {patientContext} from './patient-context.js';
 import {patientCases} from './patient-cases.js';
 import {repairPatientEvidence} from './patient-evidence.js';
@@ -4001,16 +4002,16 @@ function caseContext(index,L){
  if(index===3)return patientContext(6,L);
  return `<details><summary>${txt(L,'Анамнез и осмотр','History and examination','Анамнез және тексеру')}</summary><p>${txt(L,'Синтетический случай пневмоторакса: воздух в плевральной полости нарушает передачу растягивающего давления на лёгкое. Оценивается механизм, не лечебная тактика.','Synthetic pneumothorax case: air in the pleural space disrupts transmission of distending pressure to the lung. The task addresses mechanism, not treatment.','Пневмоторакстың жасанды жағдайы: плевра қуысындағы ауа керуші қысымның өкпеге берілуін бұзады. Емдеу тактикасы емес, механизм бағаланады.')}</p></details>`;
 }
-function patientVisuals(L){return '<p class="patient-synthetic-note">'+txt(L,'Учебный синтетический клинический случай. Анамнез, данные и решения приведены ниже; иллюстрации не являются фотографиями реальных пациентов.','Synthetic educational clinical case. History, findings and decisions follow; no real-patient photographs are represented.','Синтетикалық оқу клиникалық жағдайы. Анамнез, деректер мен шешімдер төменде; нақты пациенттердің фотосуреттері көрсетілмейді.')+'</p>';}
+function patientVisuals(index,L){return patientCaseVisual(index,L)+'<p class="patient-synthetic-note">'+txt(L,'Учебный синтетический клинический случай. Анамнез, данные и решения приведены ниже; иллюстрации не являются фотографиями реальных пациентов.','Synthetic educational clinical case. History, findings and decisions follow; no real-patient photographs are represented.','Синтетикалық оқу клиникалық жағдайы. Анамнез, деректер мен шешімдер төменде; нақты пациенттердің фотосуреттері көрсетілмейді.')+'</p>';}
 
 export function modulePatient(mid,L){
  const index=modulePatientIndices[mid-1],c=cases[index];
  if(!c)return '';
- return `<section class="lesson"><article class="patient-card advanced-case" data-advanced="${index}"><h3>${esc(c.title[L])}</h3><p>${txt(L,'Сначала интерпретируйте данные, затем выберите исследование и объясните результат.','Interpret the findings, choose an investigation, then explain its result.','Алдымен деректерді түсіндіріп, зерттеуді таңдаңыз және нәтижесін талдаңыз.')}</p>${patientContext(mid,L)}<div class="advanced-stage"></div></article></section>`;
+ return `<section class="lesson"><article class="patient-card advanced-case" data-advanced="${index}"><h3>${esc(c.title[L])}</h3><p>${txt(L,'Сначала интерпретируйте данные, затем выберите исследование и объясните результат.','Interpret the findings, choose an investigation, then explain its result.','Алдымен деректерді түсіндіріп, зерттеуді таңдаңыз және нәтижесін талдаңыз.')}</p>${patientCaseVisual(index,L)}${patientContext(mid,L)}<div class="advanced-stage"></div></article></section>`;
 }
 export const patientScenarioData=cases;
 export function advancedPatients(L){
-return `<main class="wrap" id="main"><h1>${txt(L,'Многоэтапные виртуальные пациенты','Advanced virtual patients','Көпкезеңді виртуалды пациенттер')}</h1><p>${txt(L,'Клинико-физиологические сценарии: три основных этапа, выбор исследования и разветвлённое решение. Учебная модель, не инструмент диагностики.','Clinical physiology scenarios: three core stages, investigation choice and branching follow-up. Educational only, not diagnostic.','Клиникалық-физиологиялық сценарийлер: үш негізгі кезең, зерттеу таңдауы және тармақталған шешім. Тек оқу мақсатында.')}</p><div class="patient-grid">${cases.map((c,i)=>`<article class="patient-card advanced-case" data-advanced="${i}"><h2>${i+1}. ${esc(c.title[L])}</h2>${patientVisuals(L)}${caseContext(i,L)}<div class="advanced-stage"></div></article>`).join('')}</div></main>`;
+return `<main class="wrap" id="main"><h1>${txt(L,'Многоэтапные виртуальные пациенты','Advanced virtual patients','Көпкезеңді виртуалды пациенттер')}</h1><p>${txt(L,'Клинико-физиологические сценарии: три основных этапа, выбор исследования и разветвлённое решение. Учебная модель, не инструмент диагностики.','Clinical physiology scenarios: three core stages, investigation choice and branching follow-up. Educational only, not diagnostic.','Клиникалық-физиологиялық сценарийлер: үш негізгі кезең, зерттеу таңдауы және тармақталған шешім. Тек оқу мақсатында.')}</p><div class="patient-grid">${cases.map((c,i)=>`<article class="patient-card advanced-case" data-advanced="${i}"><h2>${i+1}. ${esc(c.title[L])}</h2>${patientVisuals(i,L)}${caseContext(i,L)}<div class="advanced-stage"></div></article>`).join('')}</div></main>`;
 }
 export function initAdvancedPatients(L){
  document.querySelectorAll('[data-advanced]').forEach(el=>{
