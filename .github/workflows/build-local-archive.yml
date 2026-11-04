@@ -27,6 +27,7 @@ jobs:
         run: |
           node test-detailed-clinical-cases.mjs
           node test-expanded-physiology-cases.mjs
+          node test-advanced-reasoning-cases.mjs
           node test-reasoning-self-checks.mjs
           node test-lung-capacity-station.mjs
           node test-spirometry-station.mjs
