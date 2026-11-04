@@ -1,3 +1,4 @@
+import {respiratoryExamAdditions} from './respiratory-exam-additions.js';
 import {completeExamPools,modernExamItems} from './exam-completion-bank.js';
 import {examBankSignature,validateExamAttempt} from './exam-attempt-state.js';
 import {reasoningExamItems} from './exam-reasoning-bank.js';
@@ -92,6 +93,7 @@ function diverseSample(pool, count, comprehensive=false){
 }
 // Parameterized legacy families contain exact repeated prompts with different IDs.
 // Preserve the source archive, but admit each module/prompt once to the active bank.
+items.push(...respiratoryExamAdditions);
 const originalItemCount=items.length;
 const uniqueItems=new Map();
 for(const item of items){
