@@ -23,6 +23,16 @@ jobs:
           npm run test:media
           npm run test:navigation
           node test-exam-media-comprehensive.mjs
+      - name: Verify added clinical cases and laboratories
+        run: |
+          node test-detailed-clinical-cases.mjs
+          node test-reasoning-self-checks.mjs
+          node test-lung-capacity-station.mjs
+          node test-spirometry-station.mjs
+          node test-vq-learning-model.mjs
+          node test-alveolar-gas-station.mjs
+          node test-oxygen-delivery-station.mjs
+          node test-integrated-learning-extension.mjs
       - name: Check all 425 lesson pages exist
         run: |
           test "$(find dist/modules -mindepth 3 -maxdepth 3 -name index.html | wc -l)" -eq 425
