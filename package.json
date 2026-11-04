@@ -12,7 +12,8 @@
     "test:browser": "node browser-audit.mjs",
     "verify": "npm run build && npm run check && npm test && node test-release-integrity.mjs && npm run audit:content && npm run test:module2",
     "test:module2": "node test-module-two.mjs",
-    "test:media": "node test-media-library-integration.mjs"
+    "test:media": "node test-media-library-integration.mjs",
+    "preview": "node build.mjs && python3 -m http.server 8765 --directory dist"
   },
   "devDependencies": {
     "@playwright/test": "^1.64.1"
