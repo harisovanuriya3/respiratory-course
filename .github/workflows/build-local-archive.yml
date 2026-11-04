@@ -30,6 +30,7 @@ jobs:
           node test-advanced-reasoning-cases.mjs
           node test-reasoning-self-checks.mjs
           node test-lung-capacity-station.mjs
+          node test-acid-base-station.mjs
           node test-spirometry-station.mjs
           node test-vq-learning-model.mjs
           node test-alveolar-gas-station.mjs
