@@ -1,0 +1,49 @@
+name: Build downloadable respiratory textbook
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci
+      - name: Build complete offline-ready static site
+        run: npm run build
+      - name: Validate routes and module links
+        run: |
+          npm run check
+          npm run test:media
+          npm run test:navigation
+          node test-exam-media-comprehensive.mjs
+      - name: Include local Windows launcher
+        run: |
+          cat > dist/START-LOCAL.bat <<'EOF'
+          @echo off
+          cd /d "%~dp0"
+          echo Open http://localhost:8765 in your browser
+          py -m http.server 8765
+          pause
+          EOF
+          cat > dist/README-LOCAL.txt <<'EOF'
+          RESPIRATORY PHYSIOLOGY TEXTBOOK - LOCAL PREVIEW
+          Extract the ZIP archive into a folder.
+          On Windows with Python installed, double-click START-LOCAL.bat.
+          Then open http://localhost:8765 in a browser.
+          Alternatively run: python -m http.server 8765
+          Do not open index.html directly using file:// as route imports need a local web server.
+          EOF
+      - name: Upload complete site archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: respiratory-course-local-build
+          path: dist/
+          retention-days: 14
+          if-no-files-found: error
