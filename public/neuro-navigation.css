@@ -22,3 +22,12 @@ body{background:linear-gradient(180deg,#f2f7fb 0%,#f8fafc 42%,#f6f8f3 100%)}
 :where(a,button,input,select,textarea):focus-visible{outline:3px solid #b45309;outline-offset:3px}
 @media(max-width:780px){.layout{display:block}.page-heading{padding:18px}.sectionnav{gap:5px}.sectionnav a{min-width:33px;min-height:33px}.pagination{display:grid;grid-template-columns:minmax(0,1fr)}.pagination a{width:100%;box-sizing:border-box}.lesson-card{padding:14px}.lesson-card table{display:block;overflow-x:auto}.topnav{gap:8px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}}
+
+/* Accessible 17-section navigation matching the neuro textbook pattern. */
+.sectionnav{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:9px;align-items:stretch}
+.sectionnav a{display:flex;align-items:center;justify-content:flex-start;gap:9px;min-height:49px;text-align:left;padding:9px 11px;font-size:.89rem;line-height:1.3}
+.sectionnav .section-number{flex:0 0 auto;display:grid;place-items:center;width:27px;height:27px;border-radius:8px;background:#dcebf6;font-weight:800}
+.sectionnav .section-label{min-width:0;overflow-wrap:anywhere}
+.sectionnav a[aria-current="page"] .section-number{background:#fff;color:#005b96}
+@media(max-width:600px){.sectionnav{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.sectionnav a{padding:8px;min-height:53px;font-size:.8rem}.sectionnav .section-number{width:24px;height:24px}}
+@media(max-width:360px){.sectionnav{grid-template-columns:minmax(0,1fr)}}
