@@ -45,6 +45,7 @@ jobs:
           node test-breathing-mechanics-lab.mjs
           node test-forced-expiration-extension.mjs
           node test-capacity-spirogram.mjs
+          node test-asymmetric-spirogram.mjs
           node test-interactive-patient-decisions.mjs
           node test-clinical-decision-extension.mjs
           node test-patient-reasoning-set.mjs
