@@ -1,0 +1,24 @@
+/* Neuro-course-inspired readability and navigation. Additive override only. */
+:root{--nav-blue:#005b96;--nav-line:#d7e5ed;--nav-bg:#f2f7fb}
+body{background:linear-gradient(180deg,#f2f7fb 0%,#f8fafc 42%,#f6f8f3 100%)}
+.layout{max-width:1550px;margin-inline:auto;min-width:0}
+.layout main,.layout aside,.lesson-card{min-width:0}
+.page-heading{background:linear-gradient(125deg,#eef7fc,#ffffff);border:1px solid var(--nav-line);border-radius:20px;padding:clamp(18px,3vw,30px);box-shadow:0 6px 20px rgba(28,72,102,.06)}
+.page-heading h1{overflow-wrap:anywhere;line-height:1.22}
+.sectionnav{display:flex;flex-wrap:wrap;gap:7px;background:#fff;border:1px solid var(--nav-line);border-radius:16px;padding:12px}
+.sectionnav a{display:grid;place-items:center;min-width:35px;min-height:35px;border-radius:9px;background:#f2f7fb;color:#005b96;border:1px solid #d7e5ed;font-weight:700}
+.sectionnav a[aria-current="page"]{background:#005b96;color:white;border-color:#005b96}
+.sectionnav a:hover,.section-card:hover{box-shadow:0 4px 12px rgba(0,91,150,.12)}
+.section-grid{gap:12px}
+.section-card,.lesson-card{border-radius:16px;overflow-wrap:anywhere}
+.lesson-card p,.lesson-card li{line-height:1.68}
+.lesson-card img,.lesson-card svg,.lesson-card video,.lesson-card canvas{max-width:100%;height:auto}
+.lesson-card table{max-width:100%}
+.table-scroll{max-width:100%;overflow-x:auto}
+.pagination{display:flex;flex-wrap:wrap;gap:10px;padding:16px;border:1px solid var(--nav-line);border-radius:16px;background:#fff}
+.pagination a{border:1px solid var(--nav-line);background:#f4f8fb;color:#005b96;border-radius:12px;padding:12px;min-width:0;overflow-wrap:anywhere}
+.topnav{flex-wrap:wrap}
+.topnav a[aria-current="page"]{color:#005b96;text-decoration:underline;text-underline-offset:5px}
+:where(a,button,input,select,textarea):focus-visible{outline:3px solid #b45309;outline-offset:3px}
+@media(max-width:780px){.layout{display:block}.page-heading{padding:18px}.sectionnav{gap:5px}.sectionnav a{min-width:33px;min-height:33px}.pagination{display:grid;grid-template-columns:minmax(0,1fr)}.pagination a{width:100%;box-sizing:border-box}.lesson-card{padding:14px}.lesson-card table{display:block;overflow-x:auto}.topnav{gap:8px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}}
