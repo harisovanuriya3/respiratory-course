@@ -6,7 +6,7 @@ export function progressBadge(mid,section,sections,L){
  const pct=Math.round(n/sections.length*100);
  const l=labels[L]||labels[0];
  const note=['Процент отражает отмеченные студентом разделы, а не оценку знаний.','Percentage reflects manually marked sections, not assessed mastery.','Пайыз белгіленген бөлімдерді көрсетеді, білім бағасы емес.'][L]||'';
- return '<div class="study-progress" data-study-progress="'+mid+'"><div class="study-progress-summary"><strong>'+l.progress+': <span data-study-count>'+n+'</span>/'+sections.length+'</strong><span data-study-percent>'+pct+'%</span></div><div class="study-progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="'+pct+'" aria-label="'+l.progress+'"><span style="width:'+pct+'%"></span></div>'+(section?'<button type="button" data-study-mark="'+section+'" aria-pressed="'+read(mid,section)+'">'+(read(mid,section)?l.undo:l.done)+'</button>':'')+'</div>';
+ return '<div class="study-progress" data-study-progress="'+mid+'"><div class="study-progress-summary"><strong>'+l.progress+': <span data-study-count>'+n+'</span>/'+sections.length+'</strong><span data-study-percent>'+pct+'%</span></div><div class="study-progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="'+pct+'" aria-label="'+l.progress+'"><span style="width:'+pct+'%"></span></div><small class="study-progress-note">'+note+'</small>'+(section?'<button type="button" data-study-mark="'+section+'" aria-pressed="'+read(mid,section)+'">'+(read(mid,section)?l.undo:l.done)+'</button>':'')+'</div>';
 }
 export function initStudyProgress(sections,L){
  document.querySelectorAll('[data-study-progress]').forEach(root=>{
