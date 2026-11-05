@@ -1,7 +1,7 @@
 name: Build downloadable respiratory textbook
 on:
   push:
-    branches: [main]
+    branches: [main, work/course-completion-audit-20261105]
   workflow_dispatch:
 jobs:
   build:
