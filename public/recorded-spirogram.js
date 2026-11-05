@@ -7,6 +7,7 @@ export function parseSpirographCsv(text){
  const rows=lines.map(line=>line.trim().split(/[;,\t]/).map(s=>s.trim().replace(/^"|"$/g,'')));
  const header=rows[0].map(s=>s.toLowerCase().replace(/\s/g,''));
  if(!/^(time|time_s|seconds|t)$/.test(header[0])||!/^(volume|volume_l|volumel|liters|litres|v)$/.test(header[1]))throw new Error('Expected time_s,volume_l');
+ if(rows.slice(1).some(r=>r.length!==2||r.some(cell=>cell==='')))throw new RangeError('Missing CSV values');
  const values=rows.slice(1).map(r=>[Number(r[0]),Number(r[1])]);
  if(values.some(([time,volume])=>!Number.isFinite(time)||!Number.isFinite(volume)||time<0||Math.abs(volume)>20))throw new RangeError('Invalid sample');
  if(values.some((r,i)=>i&&r[0]<=values[i-1][0]))throw new RangeError('Nonmonotonic time');
