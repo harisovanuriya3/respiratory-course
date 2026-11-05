@@ -6,7 +6,7 @@ assert.throws(()=>parseSpirographCsv('time_s,volume_l\n0,1\n0,2'),RangeError);
 assert.throws(()=>parseSpirographCsv('time_s,volume_l\n0,1\n1,NaN'),RangeError);
 for(let L=0;L<3;L++){
  const html=moduleOneVisual(L);
- assert.ok(html.includes('data-m1-diaphragm'));
+ assert.ok(html.includes('data-m1-phase-inspiration') && html.includes('data-m1-phase-expiration'));
  assert.ok(html.includes('data-m1-graphmode="recorded"'));
  assert.ok(html.includes('data-spiro-file'));
  assert.ok(html.includes('m1-lab-instructions'));
