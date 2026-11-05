@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "reviewDate": "2026-11-05",
+  "policy": "Do not publish or redistribute unlicensed third-party media files. Link to official publisher pages when appropriate. Attribution alone does not grant a license.",
+  "assets": [
+    {
+      "id": "uploaded-peak-flow-spirometry",
+      "title": "Peak Flow and Spirometry - Lung Function Tests",
+      "type": "video/mp4",
+      "origin": "User downloaded from internet; original publisher unknown",
+      "license": "unknown",
+      "copyrightStatus": "unverified",
+      "publicEmbeddingAllowed": false,
+      "publicFileDistributionAllowed": false,
+      "action": "Research original publisher and reuse permission; retain uploaded file outside public site",
+      "targetSections": ["module-1-interactive", "media-library"]
+    },
+    {
+      "id": "msd-spirometry-video",
+      "title": "Spirometry recording",
+      "type": "external-link",
+      "origin": "MSD Manuals",
+      "sourceUrl": "https://www.msdmanuals.com/ru/home/multimedia/video/спирометрия-регистрация",
+      "license": "publisher copyright; no local redistribution authorization established",
+      "publicEmbeddingAllowed": false,
+      "publicFileDistributionAllowed": false,
+      "action": "Keep external link only; do not download or host video file",
+      "targetSections": ["module-1-interactive", "media-library"]
+    },
+    {
+      "id": "kharissova-respiratory-lecture-2021",
+      "title": "Morpho-functional characteristics of the respiratory system. Regulation of breathing",
+      "type": "lecture",
+      "origin": "User-supplied author lecture (Karaganda, 2021)",
+      "license": "Author indicated in source; individual third-party illustrations not cleared",
+      "publicEmbeddingAllowed": false,
+      "action": "Use attributed author-created text and exercises in review branch; inspect each slide image before any public reuse",
+      "targetSections": ["respiratory-regulation", "module-1-interactive"]
+    },
+    {
+      "id": "spiro-s100-guide-scan",
+      "title": "Spiro S-100 instrument printout from teaching guide",
+      "type": "image",
+      "origin": "User-supplied teaching guide",
+      "license": "rights to reproduce figure not independently established",
+      "publicEmbeddingAllowed": false,
+      "action": "Retain in private review branch only; obtain permission or use verified replacement before public deployment",
+      "targetSections": ["module-1-interactive"]
+    }
+  ]
+}
