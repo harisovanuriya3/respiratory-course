@@ -7,7 +7,7 @@ assert.equal(a.tlc,a.vc+a.rv);
 assert.throws(()=>lungCapacities({vt:0,irv:3000,erv:1100,rv:1200}),RangeError);
 for(const [L,lang] of ['RU','EN','KZ'].entries()){
  const html=moduleOneVisual(L);
- assert.ok(html.includes('data-m1-diaphragm'),'Existing anatomical animation lost');
+ assert.ok(html.includes('data-m1-phase-inspiration') && html.includes('data-m1-phase-expiration'),'Existing anatomical animation lost');
  assert.ok(html.includes('data-m1-graphmode="capacities"'));
  assert.ok(html.includes('data-m1-capacity-graph'));
  assert.ok(html.includes('data-capacity-wave'));
