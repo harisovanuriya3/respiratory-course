@@ -6,7 +6,7 @@ export function interpretSpirometry({fev1,fvc,ratioLLN,fvcLLN,tlc=null,tlcLLN=nu
  if(tlc!==null&&(!Number.isFinite(tlc)||!Number.isFinite(tlcLLN)||tlc<=0||tlcLLN<=0))throw new RangeError('Invalid TLC or TLC LLN');
  const tlcKnown=tlc!==null;
  const lowTlc=tlcKnown&&tlc<tlcLLN;
- const pattern=obstructed?(lowTlc?'mixed':'obstructive'):lowTlc?'restrictive':lowFvc?'low-fvc':'no-obstruction';
+ const pattern=obstructed?(lowTlc?'mixed':'obstructive'):lowTlc?'restrictive':lowFvc?(tlcKnown?'nonspecific':'low-fvc'):'no-obstruction';
  const restrictionUnconfirmed=lowFvc&&!tlcKnown;
  return {ratio,obstructed,lowFvc,tlcKnown,lowTlc,pattern,restrictionUnconfirmed};
 }
@@ -24,7 +24,7 @@ export function initClinicalSpirometryPanels(){
  try{
  const val=k=>get(k).value===''?null:Number(get(k).value);
  const result=interpretSpirometry({fev1:val('fev1'),fvc:val('fvc'),ratioLLN:val('ratioLLN'),fvcLLN:val('fvcLLN'),tlc:val('tlc'),tlcLLN:val('tlcLLN')});
- const patterns={obstructive:['Обструктивный паттерн','Obstructive pattern','Обструктивті үлгі'],restrictive:['Рестриктивный паттерн подтверждён TLC','Restriction supported by measured TLC','Рестрикция TLC арқылы расталды'],mixed:['Смешанный паттерн','Mixed pattern','Аралас үлгі'],'low-fvc':['Сниженная FVC: необходима оценка TLC','Low FVC: assess TLC','Төмен FVC: TLC бағалау қажет'],'no-obstruction':['Обструкция не выявлена по заданной LLN','No obstruction by supplied LLN','Берілген LLN бойынша обструкция жоқ']};
+ const patterns={obstructive:['Обструктивный паттерн','Obstructive pattern','Обструктивті үлгі'],restrictive:['Рестриктивный паттерн подтверждён TLC','Restriction supported by measured TLC','Рестрикция TLC арқылы расталды'],mixed:['Смешанный паттерн','Mixed pattern','Аралас үлгі'],'low-fvc':['Сниженная FVC: необходима оценка TLC','Low FVC: assess TLC','Төмен FVC: TLC бағалау қажет'],nonspecific:['Неспецифический паттерн: FVC ниже LLN при нормальной TLC и сохранённом FEV₁/FVC','Nonspecific pattern: low FVC with normal TLC and preserved FEV₁/FVC','Спецификалық емес үлгі: FVC төмен, TLC қалыпты және FEV₁/FVC сақталған'],'no-obstruction':['Обструкция не выявлена по заданной LLN','No obstruction by supplied LLN','Берілген LLN бойынша обструкция жоқ']};
  const quality=q('[data-clinical-quality]').checked;
  q('[data-clinical-output]').textContent='FEV₁/FVC = '+(result.ratio*100).toFixed(1)+'%. '+patterns[result.pattern][L]+'. '+(result.restrictionUnconfirmed?tr(L,' Снижение FVC требует оценки TLC; рестрикция не подтверждена. ',' Low FVC requires TLC assessment; restriction is not confirmed. ',' FVC төмендеуі TLC бағалауын қажет етеді; рестрикция расталмаған. '):'')+(quality?tr(L,'Качество отмечено как проверенное.','Quality marked as checked.','Сапа тексерілген деп белгіленді.'):tr(L,'Качество манёвров не подтверждено; заключение предварительное.','Maneuver quality not confirmed; interpretation is provisional.','Маневр сапасы расталмаған; қорытынды алдын ала.'));
  }catch{q('[data-clinical-output]').textContent=tr(L,'Проверьте числовые данные и индивидуальные LLN.','Check numeric values and individual LLNs.','Сандар мен жеке LLN мәндерін тексеріңіз.');}
