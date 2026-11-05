@@ -11,6 +11,7 @@ for(let L=0;L<3;L++){
  for(let mid=1;mid<=25;mid++){
   assert.ok(html.includes('/modules/'+mid+'/media?lang='+lang));
   assert.ok(progressBadge(mid,'theory',sections,L).includes('data-study-mark="theory"'));
+  assert.ok(progressBadge(mid,'theory',sections,L).includes('study-progress-note'));
  }
 }
 console.log('Media previews and explicit progress controls verified for 25 modules in three languages.');
