@@ -5,7 +5,7 @@ for(const [L,lang] of ['RU','EN','KZ'].entries()){
  const html=moduleOneVisual(L);
  assert.ok(html.includes('data-m1-visual'));
  assert.ok(html.includes('/assets/module1/thorax.webp'));
- assert.ok(html.includes('data-m1-diaphragm'));
+ assert.ok(html.includes('data-m1-phase-inspiration') && html.includes('data-m1-phase-expiration'));
  assert.ok(html.includes('data-m1-curve'));
  assert.ok(html.includes('data-forced-panel'));
  assert.ok(html.includes('data-forced-wave'));
