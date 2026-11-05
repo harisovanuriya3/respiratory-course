@@ -51,6 +51,7 @@ jobs:
           node test-patient-case-visuals.mjs
           node test-progress-media.mjs
           node test-capacity-exercise.mjs
+          node test-clinical-spirometry-interpretation.mjs
           node test-interactive-patient-decisions.mjs
           node test-clinical-decision-extension.mjs
           node test-patient-reasoning-set.mjs
