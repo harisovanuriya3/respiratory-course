@@ -1,0 +1,32 @@
+{
+  "source": "Kharissova N. M., Morpho-functional characteristics of the respiratory system. Regulation of breathing, Karaganda, 2021 (user-supplied PPT)",
+  "reviewStatus": "preliminary provenance inventory; not copyright clearance",
+  "categories": [
+    {
+      "slideTopics": ["Respiratory system and brain secretion"],
+      "visibleSource": "https://www.anatomynote.com/disease-anatomy/respiratory-disease-anatomy/respiratory-system-and-brain-secretion/",
+      "decision": "Do not copy illustration without identifying its actual creator and license; external link only pending verification"
+    },
+    {
+      "slideTopics": ["Pneumotaxic center of pons"],
+      "visibleSource": "http://meduniver.com/Medical/Physiology/438.html",
+      "decision": "Do not assume image reuse rights from a citation; replace with original independently authored diagram if permission unavailable"
+    },
+    {
+      "slideTopics": ["Brainstem transection levels", "Inspiratory and expiratory brainstem centers", "Central and peripheral chemoreceptors", "Hering-Breuer reflex"],
+      "visibleSource": "No complete per-figure credit established from extracted slide text",
+      "decision": "Review image-by-image before public use; use textual facts with lecture attribution, not copied illustrations"
+    },
+    {
+      "slideTopics": ["Lung volumes and capacities", "Spirography"],
+      "visibleSource": "Lecture includes reference tables but not a reusable license for every diagram",
+      "decision": "Recreate original educational tables with attribution to lecture and independently verify clinical norms"
+    },
+    {
+      "slideTopics": ["Cardiovascular illustrations", "Heart animation"],
+      "visibleSource": "Legacy third-party URLs visible in lecture",
+      "decision": "Out of scope for respiratory teaching media; do not import to respiratory textbook"
+    }
+  ],
+  "note": "The lecture is user-supplied, but its embedded third-party figures require independent permission for public redistribution. The inventory is not a legal determination."
+}
