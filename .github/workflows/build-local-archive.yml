@@ -50,6 +50,7 @@ jobs:
           node test-moving-diaphragm.mjs
           node test-patient-case-visuals.mjs
           node test-progress-media.mjs
+          node test-media-feature-links.mjs
           node test-capacity-exercise.mjs
           node test-clinical-spirometry-interpretation.mjs
           node test-spirogram-modes.mjs
