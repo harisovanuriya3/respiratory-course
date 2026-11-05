@@ -13,4 +13,9 @@ for(let L=0;L<3;L++){
   assert.ok(progressBadge(mid,'theory',sections,L).includes('data-study-mark="theory"'));
  }
 }
+for(const [L,lang] of ['RU','EN','KZ'].entries()){
+ const html=centralMediaLibrary(L,lang);
+ assert.ok(html.includes('/modules/17/interactive?lang='+lang+'#reg-atlas'));
+ assert.equal((html.match(/class="media-feature"/g)||[]).length,3);
+}
 console.log('Media previews and explicit progress controls verified for 25 modules in three languages.');
