@@ -1,6 +1,6 @@
-import {modules,sections} from './public/content.js';
-import {centralMediaLibrary} from './public/central-media-library.js';
-import {patientScenarioData} from './public/advanced-patients.js';
+import {modules,sections} from '../public/content.js';
+import {centralMediaLibrary} from '../public/central-media-library.js';
+import {patientScenarioData} from '../public/advanced-patients.js';
 import {readFileSync,writeFileSync} from 'node:fs';
 const normalize=s=>String(s||'').toLowerCase().replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
 const groups=new Map();
