@@ -4,8 +4,8 @@ import {moduleOneVisual} from './public/module-one-visual.js';
 assert.deepEqual(parseSpirographCsv('time_s,volume_l\n0,0.1\n1,0.4\n2,0.2'),[[0,.1],[1,.4],[2,.2]]);
 assert.throws(()=>parseSpirographCsv('time_s,volume_l\n0,1\n0,2'),RangeError);
 assert.throws(()=>parseSpirographCsv('time_s,volume_l\n0,1\n1,NaN'),RangeError);
-assert.throws(()=>parseSpirographCsv('time_s,volume_l\\n0,0.1\\n1,'),RangeError);
-assert.throws(()=>parseSpirographCsv('time_s,volume_l\\n0,0.1\\n,0.2'),RangeError);
+assert.throws(()=>parseSpirographCsv('time_s,volume_l\n0,0.1\n1,'),RangeError);
+assert.throws(()=>parseSpirographCsv('time_s,volume_l\n0,0.1\n,0.2'),RangeError);
 for(let L=0;L<3;L++){
  const html=moduleOneVisual(L);
  assert.ok(html.includes('data-m1-phase-inspiration') && html.includes('data-m1-phase-expiration'));
