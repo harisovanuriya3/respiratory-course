@@ -6,5 +6,5 @@ assert.ok(tidalBreathFraction(.2)>tidalBreathFraction(.1));
 assert.ok(tidalBreathFraction(.7)<tidalBreathFraction(.5));
 assert.ok(Math.abs(tidalBreathFraction(.99))<.06);
 assert.notEqual(tidalBreathFraction(.19),.5,'Trace should not be a symmetric sinusoid');
-for(let L=0;L<3;L++){const html=moduleOneVisual(L);assert.ok(html.includes('data-m1-diaphragm'));assert.ok(html.includes('data-m1-graphmode="capacities"'));assert.ok(html.includes('data-m1-forced-graph'));}
+for(let L=0;L<3;L++){const html=moduleOneVisual(L);assert.ok(html.includes('data-m1-phase-inspiration') && html.includes('data-m1-phase-expiration'));assert.ok(html.includes('data-m1-graphmode="capacities"'));assert.ok(html.includes('data-m1-forced-graph'));}
 console.log('Asymmetric tidal spirogram and preserved anatomical controls verified.');
