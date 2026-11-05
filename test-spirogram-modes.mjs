@@ -4,6 +4,8 @@ import {moduleOneVisual} from './public/module-one-visual.js';
 for(let L=0;L<3;L++){
  const html=recordedSpirogramPanel(L);
  assert.ok(html.includes('data-spiro-image'));
+ assert.ok(html.includes('class="real-spirogram-example"'));
+ assert.ok(html.includes('data:image/jpeg;base64,'));
  assert.ok(html.includes('data-spiro-image-preview'));
  assert.ok(html.includes('data-spiro-file'));
  assert.ok(html.includes('recorded-study-steps'));
