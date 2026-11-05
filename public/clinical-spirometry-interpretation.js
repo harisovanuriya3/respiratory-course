@@ -1,0 +1,30 @@
+const tr=(L,ru,en,kz)=>[ru,en,kz][L];
+export function interpretSpirometry({fev1,fvc,ratioLLN,fvcLLN,tlc=null,tlcLLN=null}){
+ if(![fev1,fvc,ratioLLN,fvcLLN].every(Number.isFinite)||fev1<=0||fvc<=0||fev1>fvc||ratioLLN<=0||ratioLLN>=1||fvcLLN<=0)throw new RangeError('Invalid spirometry values');
+ const ratio=fev1/fvc,obstructed=ratio<ratioLLN,lowFvc=fvc<fvcLLN;
+ const tlcKnown=tlc!==null&&tlcLLN!==null&&Number.isFinite(tlc)&&Number.isFinite(tlcLLN)&&tlc>0&&tlcLLN>0;
+ const lowTlc=tlcKnown&&tlc<tlcLLN;
+ const pattern=obstructed?(lowTlc?'mixed':'obstructive'):lowTlc?'restrictive':lowFvc?'low-fvc':'no-obstruction';
+ return {ratio,obstructed,lowFvc,tlcKnown,lowTlc,pattern};
+}
+export function clinicalSpirometryPanel(L){
+ const rows=[['fev1','FEV₁ (L)','3.2'],['fvc','FVC (L)','4'],['ratioLLN','FEV₁/FVC LLN','0.70'],['fvcLLN','FVC LLN (L)','3.1'],['tlc','TLC (L)',''],['tlcLLN','TLC LLN (L)','']];
+ return '<section class="clinical-spirometry-panel" data-clinical-spirometry data-l="'+L+'"><h4>'+tr(L,'Клиническая интерпретация спирометрии','Clinical interpretation of spirometry','Спирометрияны клиникалық түсіндіру')+'</h4><p>'+tr(L,'Цель: оценить качество исследования, сравнить FEV₁/FVC и FVC с индивидуальными LLN и определить физиологический паттерн.','Objective: review test quality, compare FEV₁/FVC and FVC with individual LLN and identify a physiological pattern.','Мақсат: зерттеу сапасын бағалау, FEV₁/FVC және FVC жеке LLN мәндерімен салыстыру және физиологиялық үлгіні анықтау.')+'</p><p>'+tr(L,'Учебные числовые примеры ниже синтетические, а не результаты реальных пациентов. LLN в примерах условные: для клинической работы получите их из GLI по возрасту, росту и полу.','The numeric cases below are synthetic, not real patient results. Example LLNs are illustrative: obtain clinical LLNs from GLI using age, height and sex.','Төмендегі сандар нақты пациент деректері емес, оқу мысалдары. LLN шартты: клиникада GLI бойынша жас, бой және жынысқа сәйкес есептеңіз.')+'</p><div class="clinical-spiro-presets"><button type="button" data-clinical-preset="normal">'+tr(L,'Без обструкции','No obstruction','Обструкциясыз')+'</button><button type="button" data-clinical-preset="obstructive">'+tr(L,'Обструктивный паттерн','Obstructive pattern','Обструктивті үлгі')+'</button><button type="button" data-clinical-preset="lowfvc">'+tr(L,'Сниженная FVC','Low FVC','FVC төмен')+'</button><button type="button" data-clinical-preset="mixed">'+tr(L,'Смешанный паттерн','Mixed pattern','Аралас үлгі')+'</button></div><div class="clinical-spiro-inputs">'+rows.map(([id,label,value])=>'<label>'+label+'<input type="number" data-clinical-input="'+id+'" step=".01" min="0" value="'+value+'" placeholder="'+tr(L,'Не измерено','Not measured','Өлшенбеген')+'"></label>').join('')+'</div><label class="clinical-quality"><input type="checkbox" data-clinical-quality>'+tr(L,'Подтверждены приемлемость и повторяемость манёвров','Maneuver acceptability and repeatability confirmed','Маневр сапасы мен қайталануы расталды')+'</label><button type="button" data-clinical-interpret>'+tr(L,'Интерпретировать','Interpret','Түсіндіру')+'</button><p data-clinical-output role="status" aria-live="polite"></p><p>'+tr(L,'Низкая FVC без измерения TLC не доказывает рестрикцию. Результат не равен диагнозу: учитывайте симптомы, анамнез и качество исследования.','Low FVC without measured TLC does not confirm restriction. A pattern is not a diagnosis; consider symptoms, history and test quality.','TLC өлшемінсіз төмен FVC рестрикцияны дәлелдемейді. Үлгі диагноз емес; симптом, анамнез және сапаны ескеріңіз.')+'</p><p><a href="https://gli-calculator.ersnet.org/" target="_blank" rel="noopener noreferrer">GLI</a> · <a href="https://publications.ersnet.org/content/erj/60/1/2101499" target="_blank" rel="noopener noreferrer">ERS/ATS 2022</a> · <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6794117/" target="_blank" rel="noopener noreferrer">ATS/ERS 2019</a></p></section>';
+}
+export function initClinicalSpirometryPanels(){
+ document.querySelectorAll('[data-clinical-spirometry]').forEach(root=>{
+ if(root.dataset.ready)return;root.dataset.ready='1';
+ const L=Number(root.dataset.l),q=s=>root.querySelector(s),get=k=>q('[data-clinical-input="'+k+'"]');
+ const presets={normal:[3.2,4,.70,3.1,'',''],obstructive:[1.9,3.8,.70,3.1,'',''],lowfvc:[2.5,2.9,.70,3.1,'',''],mixed:[1.6,2.8,.70,3.1,3.7,4.1]};
+ root.querySelectorAll('[data-clinical-preset]').forEach(btn=>btn.addEventListener('click',()=>{const vals=presets[btn.dataset.clinicalPreset];['fev1','fvc','ratioLLN','fvcLLN','tlc','tlcLLN'].forEach((k,i)=>get(k).value=vals[i]);q('[data-clinical-output]').textContent='';}));
+ q('[data-clinical-interpret]').addEventListener('click',()=>{
+ try{
+ const val=k=>get(k).value===''?null:Number(get(k).value);
+ const result=interpretSpirometry({fev1:val('fev1'),fvc:val('fvc'),ratioLLN:val('ratioLLN'),fvcLLN:val('fvcLLN'),tlc:val('tlc'),tlcLLN:val('tlcLLN')});
+ const patterns={obstructive:['Обструктивный паттерн','Obstructive pattern','Обструктивті үлгі'],restrictive:['Рестриктивный паттерн подтверждён TLC','Restriction supported by measured TLC','Рестрикция TLC арқылы расталды'],mixed:['Смешанный паттерн','Mixed pattern','Аралас үлгі'],'low-fvc':['Сниженная FVC: необходима оценка TLC','Low FVC: assess TLC','Төмен FVC: TLC бағалау қажет'],'no-obstruction':['Обструкция не выявлена по заданной LLN','No obstruction by supplied LLN','Берілген LLN бойынша обструкция жоқ']};
+ const quality=q('[data-clinical-quality]').checked;
+ q('[data-clinical-output]').textContent='FEV₁/FVC = '+(result.ratio*100).toFixed(1)+'%. '+patterns[result.pattern][L]+'. '+(quality?tr(L,'Качество отмечено как проверенное.','Quality marked as checked.','Сапа тексерілген деп белгіленді.'):tr(L,'Качество манёвров не подтверждено; заключение предварительное.','Maneuver quality not confirmed; interpretation is provisional.','Маневр сапасы расталмаған; қорытынды алдын ала.'));
+ }catch{q('[data-clinical-output]').textContent=tr(L,'Проверьте числовые данные и индивидуальные LLN.','Check numeric values and individual LLNs.','Сандар мен жеке LLN мәндерін тексеріңіз.');}
+ });
+ });
+}
