@@ -55,6 +55,7 @@ jobs:
           node test-clinical-spirometry-interpretation.mjs
           node test-spirogram-modes.mjs
           node test-spirometry-video-lesson.mjs
+          node test-media-rights-review.mjs
           node test-author-lecture-respiratory-case.mjs
           node test-reflex-pathway-atlas.mjs
           node test-receptor-response-visual.mjs
