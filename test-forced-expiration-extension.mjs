@@ -6,6 +6,7 @@ for(const [L,lang] of ['RU','EN','KZ'].entries()){
  assert.ok(html.includes('data-m1-visual'));
  assert.ok(html.includes('/assets/module1/thorax.webp'));
  assert.ok(html.includes('data-m1-phase-inspiration') && html.includes('data-m1-phase-expiration'));
+ assert.ok(!html.includes('data-m1-diaphragm'),'Removed artificial diaphragm overlay must stay absent');
  assert.ok(html.includes('data-m1-curve'));
  assert.ok(html.includes('data-forced-panel'));
  assert.ok(html.includes('data-forced-wave'));
