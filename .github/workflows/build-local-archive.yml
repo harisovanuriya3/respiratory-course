@@ -55,6 +55,7 @@ jobs:
           node test-spirogram-modes.mjs
           node test-reflex-pathway-atlas.mjs
           node test-receptor-response-visual.mjs
+          node test-regulation-video-gallery.mjs
           node test-interactive-patient-decisions.mjs
           node test-clinical-decision-extension.mjs
           node test-patient-reasoning-set.mjs
