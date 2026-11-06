@@ -1,3 +1,4 @@
+import {initAltitudePressureLab} from './altitude-pressure-lab.js';
 import {specialBreathingChapter} from './special-breathing-chapters.js';
 import {scientificallyReviewedReflexFigures} from './scientifically-reviewed-reflex-figures.js';
 import {regulationTheoryChapter} from './regulation-theory-chapters.js';
@@ -241,6 +242,7 @@ initCourseAssessments();
 initModuleOneDiscussion();
 initModuleOneVisual();
 initStudyProgress(sections,L);
+initAltitudePressureLab();
 
 initCourseSpeech();
 initAlveolarVentilationStations();
