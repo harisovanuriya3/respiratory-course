@@ -11,5 +11,6 @@ for(const [L,lang] of ['RU','EN','KZ'].entries()){
  assert.ok(!html.includes('/modules/19/interactive?lang='+lang+'#reg-atlas'));
  assert.equal((html.match(/class="media-preview-notice"/g)||[]).length,25);
 }
+assert.ok(new Set(Object.values(mediaPreviewAssets)).size>=9,'Use available topic-relevant photos instead of five repeated previews');
 assert.ok(new Set(Object.values(mediaPreviewAssets)).size<25,'Shared preview assets should be reported, not described as unique');
 console.log('Topic-specific media links verified in three languages.');
