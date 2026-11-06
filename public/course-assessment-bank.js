@@ -41,7 +41,7 @@ export function courseQuestions(mid,mode='tests'){
  const seenPrompts=[new Set(),new Set(),new Set()];
  for(const [i,item] of items.entries()){
   for(let L=0;L<3;L++){
-   const prompt=String(item.q?.[L]||'').normalize('NFKC').toLocaleLowerCase().replace(/\s+/g,' ').trim();
+   const prompt=String(item.q?.[L]||'').normalize('NFKC').replace(/\s+/g,' ').trim();
    if(seenPrompts[L].has(prompt))throw Error('Repeated question in module '+mid+' '+mode+' language '+L+' index '+i);
    seenPrompts[L].add(prompt);
   }
