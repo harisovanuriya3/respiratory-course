@@ -3,10 +3,11 @@ import {spirometryVideoLesson} from './spirometry-video-lesson.js';
 import {embeddedSpirogramImage} from './embedded-spirogram-sample.js';
 const t=(L,ru,en,kz)=>[ru,en,kz][L];
 export function parseSpirographCsv(text){
- const lines=String(text).trim().split(/\r?\n/).filter(Boolean);
+ const lines=String(text).replace(/^\uFEFF/,'').trim().split(/\r?\n/).map(line=>line.trim()).filter(Boolean);
  if(lines.length<3||lines.length>20002)throw new RangeError('CSV row count');
  const rows=lines.map(line=>line.trim().split(/[;,\t]/).map(s=>s.trim().replace(/^"|"$/g,'')));
  const header=rows[0].map(s=>s.toLowerCase().replace(/\s/g,''));
+ if(rows[0].length!==2)throw new Error('Expected exactly two CSV columns');
  if(!/^(time|time_s|seconds|t)$/.test(header[0])||!/^(volume|volume_l|volumel|liters|litres|v)$/.test(header[1]))throw new Error('Expected time_s,volume_l');
  if(rows.slice(1).some(r=>r.length!==2||r.some(cell=>cell==='')))throw new RangeError('Missing CSV values');
  const values=rows.slice(1).map(r=>[Number(r[0]),Number(r[1])]);
