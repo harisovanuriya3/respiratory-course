@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import {courseQuestions} from './public/course-assessment-bank.js';
 import {modules} from './public/content.js';
-const normalize=s=>String(s).toLocaleLowerCase('ru').replace(/\s+/g,' ').trim();
+const normalize=s=>String(s).normalize('NFKC').replace(/\s+/g,' ').trim();
 const report=[];
 for(const {id} of modules){
  for(const mode of ['tests','cases']){
