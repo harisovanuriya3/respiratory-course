@@ -28,6 +28,22 @@ for(const m of modules){
 const app=readFileSync('public/app.js','utf8');
 for(const token of ['diagramSketchpad(mid,L)','initDiagramSketchpads()','moduleReadingReferences(mid,section,L,lang)','mediaAtlas(mid,L)'])assert.ok(app.includes(token),'Missing interface integration: '+token);
 assert.ok(existsSync('public/assets/oxyhemoglobin-p50-curves.svg'));
+const figures=[
+ [13,'vq-relationships-physiology.svg'],
+ [14,'oxyhemoglobin-p50-curves.svg'],
+ [21,'altitude-alveolar-oxygen-comparison.svg']
+];
+const atlas=readFileSync('public/media-atlas.js','utf8');
+const library=readFileSync('public/central-media-library.js','utf8');
+for(const [moduleId,file] of figures){
+ const path='public/assets/'+file;
+ assert.ok(existsSync(path),'Missing scientific visual '+file);
+ const svg=readFileSync(path,'utf8');
+ assert.ok(svg.includes('<svg')&&svg.includes('</svg>')&&svg.includes('<title'),'Invalid or inaccessible SVG '+file);
+ assert.ok(atlas.includes('/assets/'+file),'Module '+moduleId+' theory does not include '+file);
+ assert.ok(library.includes('/assets/'+file),'Media library does not include '+file);
+}
+
 for(const [l,lang] of ['RU','EN','KZ'].entries()){
  const page=centralMediaLibrary(l,lang);
  for(const m of modules)assert.ok(page.includes('/modules/'+m.id+'/media?lang='+lang));
