@@ -1,0 +1,42 @@
+const tr=(L,ru,en,kz)=>[ru,en,kz][L];
+const sourceLinks={
+ rhythm:'https://pmc.ncbi.nlm.nih.gov/articles/PMC9995121/',
+ chemical:'https://pmc.ncbi.nlm.nih.gov/articles/PMC4559867/',
+ pontine:'https://pmc.ncbi.nlm.nih.gov/articles/PMC4422496/'
+};
+const cite=(key,label)=>'<a href="'+sourceLinks[key]+'" target="_blank" rel="noopener noreferrer" class="theory-inline-source">['+label+']</a>';
+export function regulationTheoryChapter(mid,L,lang){
+ if(![17,18,19].includes(mid))return '';
+ const intro=mid===17?[
+ 'Дыхательный ритм формируется распределёнными нейронными сетями ствола мозга. Комплекс pre-Bötzinger в вентролатеральной части продолговатого мозга играет ключевую роль в генерации инспираторного ритма; его нельзя считать единственным «дыхательным центром». Дорсальные и вентральные дыхательные сети интегрируют сенсорные входы и формируют паттерны моторной активности.',
+ 'Breathing rhythm arises from distributed brainstem neural circuits. The ventrolateral medullary pre-Bötzinger complex is pivotal for inspiratory rhythm generation, but it is not the sole “respiratory center.” Dorsal and ventral networks integrate sensory inputs and coordinate respiratory motor patterns.',
+ 'Тыныс ырғағы ми бағанының таралған нейрондық желілерінде қалыптасады. Сопақша мидың вентролатералды бөлігіндегі pre-Bötzinger кешені инспираторлық ырғақ түзуге маңызды, бірақ жалғыз «тыныс орталығы» емес. Дорсалдық және вентралдық желілер сезімтал сигналдарды біріктіріп, тыныс моторлық үлгілерін үйлестіреді.'
+ ]:mid===18?[
+ 'Рефлекторная регуляция дыхания включает рецептор, афферентный путь, стволовую интеграцию, эфферентный выход и ответ дыхательных мышц. Лёгочные рецепторы растяжения передают сигнал по блуждающему нерву в ядро одиночного пути (NTS). При выраженном растяжении может тормозиться продолжение вдоха (рефлекс Геринга—Брейера). У здорового взрослого при спокойном дыхании его вклад обычно невелик.',
+ 'Respiratory reflex control links receptor activation, afferent transmission, brainstem integration, efferent output, and respiratory muscle response. Pulmonary stretch receptors signal through the vagus to the nucleus tractus solitarius (NTS). Substantial inflation can inhibit further inspiration (Hering–Breuer reflex); its role in quiet adult breathing is usually limited.',
+ 'Тыныстың рефлекстік реттелуі рецептор белсенуін, афференттік өткізуді, ми бағанындағы интеграцияны, эфференттік шығысты және тыныс бұлшықеттерінің жауабын біріктіреді. Өкпе созылу рецепторлары сигналды кезбе жүйке арқылы жеке жол ядросына (NTS) жеткізеді. Күшті керілу дем алуды тежей алады (Геринг—Брейер рефлексі); ересектің тыныш тынысында оның үлесі әдетте аз.'
+ ]:[
+ 'Химическая регуляция поддерживает относительную стабильность PaCO₂, pH и PaO₂. Центральные хемочувствительные сети реагируют преимущественно на связанные с CO₂ изменения pH жидкости мозга. Каротидные тельца чувствительны к снижению артериального PO₂, а также к изменениям CO₂ и pH; их афференты идут по IX черепному нерву в NTS. Аортальные тельца передают сигналы преимущественно по X нерву.',
+ 'Chemical control helps stabilize PaCO₂, pH, and PaO₂. Central chemosensory circuits respond primarily to CO₂-related changes in brain extracellular-fluid pH. Carotid bodies sense falling arterial PO₂ as well as CO₂ and pH changes; their afferents reach the NTS via cranial nerve IX. Aortic-body signals travel predominantly through cranial nerve X.',
+ 'Химиялық реттелу PaCO₂, pH және PaO₂ салыстырмалы тұрақтылығын қамтамасыз етеді. Орталық хемосезімтал желілер негізінен CO₂-ге байланысты ми сұйықтығы pH өзгерісіне жауап береді. Каротид денешіктері артериялық PO₂ төмендеуін, CO₂ және pH өзгерістерін сезеді; афференттері IX бассүйек жүйкесі арқылы NTS-ке өтеді. Қолқа денешіктерінің сигналдары көбіне X жүйкемен өтеді.'
+ ];
+ const bullets=mid===17?[
+ ['Мостовые парабрахиальные сети и комплекс Kölliker–Fuse участвуют в модуляции переходов между фазами дыхания.','Pontine parabrachial networks and the Kölliker–Fuse complex modulate transitions between respiratory phases.','Көпірдің парабрахиалдық желілері мен Kölliker–Fuse кешені тыныс фазаларының ауысуын реттейді.'],
+ ['Френические мотонейроны спинного мозга (C3–C5) активируют диафрагму; межрёберные мотонейроны участвуют в движениях грудной клетки.','Spinal phrenic motor neurons (C3–C5) activate the diaphragm; intercostal motor neurons contribute to chest-wall motion.','Жұлынның C3–C5 көкет мотонейрондары көкетті белсендіреді; қабырғааралық мотонейрондар кеуде қозғалысына қатысады.']
+ ]:mid===18?[
+ ['Ирритантные и другие вагусные сенсорные окончания могут запускать кашель и защитные изменения дыхательного паттерна.','Irritant and other vagal airway sensory endings can evoke cough and protective respiratory pattern changes.','Тітіркендіргіш және басқа вагустық сезімтал ұштар жөтел мен тыныстың қорғаныш өзгерістерін туғызады.'],
+ ['Проприоцептивные сигналы и центральная моторная команда участвуют в раннем увеличении вентиляции при физической нагрузке.','Proprioceptive signals and central motor command contribute to the early ventilatory response to exercise.','Проприоцептивтік сигналдар мен орталық моторлық команда жүктемедегі ерте вентиляциялық жауапқа қатысады.']
+ ]:[
+ ['При выраженном снижении PaO₂ периферический хеморецепторный ответ усиливает вентиляцию; это не означает, что центральные хеморецепторы напрямую измеряют кислород.','Markedly reduced PaO₂ enhances peripheral chemoreceptor-driven ventilation; central chemoreceptors do not directly measure arterial oxygen.','PaO₂ айқын төмендегенде шеткі хеморецепторлар вентиляцияны күшейтеді; орталық хеморецепторлар артериялық оттегіні тікелей өлшемейді.'],
+ ['Хеморецепторные ответы зависят от сна, высоты, лекарств, хронической гиперкапнии и состояния дыхательной сети.','Chemoreceptor responses depend on sleep, altitude, medication, chronic hypercapnia, and respiratory network state.','Хеморецепторлық жауап ұйқыға, биіктікке, дәрілерге, созылмалы гиперкапнияға және тыныс желісінің күйіне тәуелді.']
+ ];
+ const stages=[
+ [tr(L,'Стимул','Stimulus','Тітіркендіргіш'),mid===19?'↑ PaCO₂ / ↓ PaO₂':mid===18?tr(L,'Растяжение лёгких','Lung inflation','Өкпенің керілуі'):tr(L,'Нейронный ритм','Neural rhythm','Нейрондық ырғақ')],
+ [tr(L,'Сенсорный вход','Sensory input','Сезімтал кіріс'),mid===19?'RTN / carotid body':mid===18?'Vagus (X)':'pre-Bötzinger'],
+ [tr(L,'Интеграция','Integration','Интеграция'),'NTS · VRG · pons'],
+ [tr(L,'Моторный выход','Motor output','Моторлық шығыс'),'C3–C5 · intercostal'],
+ [tr(L,'Ответ','Response','Жауап'),tr(L,'Изменение вентиляции','Ventilation changes','Вентиляция өзгереді')]
+ ];
+ const refs=cite('rhythm','1')+' '+cite('chemical','2')+' '+cite('pontine','3');
+ return '<section class="regulation-theory-chapter" id="regulation-theory-'+mid+'"><h2>'+tr(L,'Нервная, рефлекторная и гуморальная регуляция: расширенная теория','Neural, reflex and humoral control: extended theory','Жүйкелік, рефлекстік және гуморалдық реттелу: кеңейтілген теория')+'</h2><p>'+intro[L]+' '+refs+'</p><ul>'+bullets.map(b=>'<li>'+b[L]+' '+refs+'</li>').join('')+'</ul><h3>'+tr(L,'Визуальная последовательность регуляции','Visual sequence of respiratory control','Тыныс реттелуінің көрнекі тізбегі')+'</h3><div class="regulation-theory-flow" role="group" aria-label="'+tr(L,'Функциональная схема регуляции','Functional control diagram','Реттелудің функционалдық сызбасы')+'">'+stages.map((s,i)=>'<div class="regulation-theory-node"><small>'+(i+1)+'. '+s[0]+'</small><strong>'+s[1]+'</strong></div>').join('<span aria-hidden="true">→</span>')+'</div><p>'+tr(L,'Схема условная и не заменяет анатомическую модель.','This functional diagram is illustrative, not an anatomical model.','Бұл функционалдық сызба шартты, анатомиялық модель емес.')+'</p><p><a href="/modules/17/interactive?lang='+lang+'#reg-atlas">'+tr(L,'Перейти к интерактивным рефлекторным дугам и дыхательным центрам','Explore interactive reflex arcs and respiratory centers','Интерактивті рефлекстік доғалар мен тыныс орталықтарына өту')+'</a></p><p class="regulation-source-note">'+tr(L,'Источники [1–3] — обзорные научные публикации. Приведённые объяснения являются учебным синтезом, а не дословными цитатами.','Sources [1–3] are scientific reviews. The explanations are educational synthesis rather than verbatim quotations.','[1–3] дереккөздер — ғылыми шолулар. Түсіндірмелер сөзбе-сөз дәйексөз емес, оқу синтезі.')+'</p></section>';
+}
