@@ -15,7 +15,7 @@ export function initDiagramSketchpads(){
   const section=location.pathname.match(/\/modules\/\d+\/([a-z-]+)/)?.[1]||'overview';
   const storageKey='respiratory-sketch-v3-'+root.dataset.sketchpad+'-'+section;
   const persist=()=>{try{localStorage.setItem(storageKey,canvas.toDataURL('image/png'))}catch(_){/* PNG export remains available. */}};
-  try{const saved=localStorage.getItem(storageKey);if(saved){const img=new Image();img.onload=()=>ctx.drawImage(img,0,0,canvas.width,canvas.height);img.src=saved;}}catch(_){/* Storage unavailable. */}
+  try{const saved=localStorage.getItem(storageKey)||localStorage.getItem('respiratory-sketch-v2-'+root.dataset.sketchpad);if(saved){const img=new Image();img.onload=()=>ctx.drawImage(img,0,0,canvas.width,canvas.height);img.src=saved;}}catch(_){/* Storage unavailable. */}
   const snapshot=()=>{if(undo.length>=25)undo.shift();undo.push(ctx.getImageData(0,0,canvas.width,canvas.height))};
   const point=e=>{const r=canvas.getBoundingClientRect();return {x:(e.clientX-r.left)*canvas.width/r.width,y:(e.clientY-r.top)*canvas.height/r.height}};
   canvas.addEventListener('pointerdown',e=>{if(e.button!==0&&e.pointerType==='mouse')return;snapshot();active=true;previous=point(e);canvas.setPointerCapture(e.pointerId);ctx.beginPath();ctx.fillStyle=tool==='erase'?'#ffffff':color.value;ctx.arc(previous.x,previous.y,+width.value/2,0,Math.PI*2);ctx.fill();});
