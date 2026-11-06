@@ -87,6 +87,8 @@ jobs:
           node test-integrated-learning-extension.mjs
       - name: Verify prepublication module and media integrity
         run: node test-prepublication-integrity.mjs
+      - name: Verify thematic scenario questions retain original meaning
+        run: node test-scenario-question-preservation.mjs
       - name: Verify 20 unique assessment items per module and language
         run: node test-all-25-assessment-uniqueness.mjs
       - name: Verify cumulative multilingual content checks
