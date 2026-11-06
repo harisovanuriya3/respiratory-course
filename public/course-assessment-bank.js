@@ -5,7 +5,7 @@ import {moduleOneQuizBank,moduleOneCaseBank,moduleOneCaseOptions,moduleOnePracti
 const normal=s=>s.replace(/^\d+[.)]\s*/,'').replace(/\s+/g,' ').trim();
 const fromRows=rows=>rows.map(row=>({q:row[0],options:row[1],answer:row[2],explain:row[3]}));
 const transposeRows=(bank,key)=>bank.RU[key].map((q,i)=>({q:[q[0],bank.EN[key][i][0],bank.KZ[key][i][0]],options:q[1].map((_,j)=>[bank.RU[key][i][1][j],bank.EN[key][i][1][j],bank.KZ[key][i][1][j]]),answer:q[2],explain:[q[3],bank.EN[key][i][3],bank.KZ[key][i][3]],kind:'reasoning',source:'restored-module-one'}));
-function contextual(item,scenario,index){return {...item,q:item.q.map((q,L)=>scenario[L]+' '+['Какой из четырёх вариантов соответствует описанному механизму или наблюдению?','Which of the four options matches the mechanism or observation?','Төрт нұсқаның қайсысы сипатталған механизмге немесе бақылауға сәйкес?'][L]),originalPrompt:item.q,kind:['localisation','mechanism','sequence','interpretation','limitation'][index%5],source:'applied-concept',scenario};}
+function contextual(item,scenario,index){return {...item,q:item.q.map((q,L)=>scenario[L]+' '+q),originalPrompt:item.q,kind:['localisation','mechanism','sequence','interpretation','limitation'][index%5],source:'applied-concept',scenario};}
 const unique=items=>{const seen=new Set;return items.filter(q=>{const key=normal(q.q[0]);if(seen.has(key))return false;seen.add(key);return true;});};
 function buildCourseQuestions(mid,mode='tests'){
  if(mid===1){
