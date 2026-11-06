@@ -2,7 +2,7 @@ import {spirometryVideoLesson} from './spirometry-video-lesson.js';
 import {modules} from './content.js';
 const tr=(L,ru,en,kz)=>[ru,en,kz][L];
 const link=(path,lang)=>path+'?lang='+lang;
-export const mediaPreviewAssets={1:'thorax-inspiration',2:'thorax-expiration',3:'alveolus-capillary-atlas',4:'thorax-inspiration',5:'thorax-expiration',6:'thorax-inspiration',7:'spirometry-workstation',8:'alveolus-capillary-atlas',9:'alveolus-capillary-atlas',10:'alveolus-capillary-atlas',11:'alveolus-capillary-atlas',12:'alveolus-capillary-atlas',13:'alveolus-capillary-atlas',14:'alveolus-capillary-atlas',15:'alveolus-capillary-atlas',16:'alveolus-capillary-atlas',17:'brain-spinal-cord',18:'brain-spinal-cord',19:'brain-spinal-cord',20:'thorax-inspiration',21:'thorax-expiration',22:'thorax-expiration',23:'thorax-inspiration',24:'spirometry-workstation',25:'thorax-expiration'};;
+export const mediaPreviewAssets={"1":"thorax-inspiration","2":"alveolus-capillary-atlas","3":"thorax-expiration","4":"thorax-inspiration","5":"alveolus-capillary-atlas","6":"thorax-expiration","7":"spirometry-workstation","8":"thorax-inspiration","9":"alveolus-capillary-atlas","10":"blood-gas-analyzer","11":"alveolus-capillary-atlas","12":"alveolus-capillary-atlas","13":"alveolus-capillary-atlas","14":"blood-gas-analyzer","15":"blood-gas-analyzer","16":"blood-gas-analyzer","17":"brain-spinal-cord","18":"brain-spinal-cord","19":"brain-spinal-cord","20":"young-man","21":"adult-man","22":"senior-man","23":"thorax-expiration","24":"spirometry-workstation","25":"blood-gas-analyzer"};
 export function centralMediaLibrary(L,lang){
  const cards=modules.map(m=>{
  const id=m.id, title=m.title[L];
