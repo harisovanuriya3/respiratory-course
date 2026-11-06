@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
-import {modules} from './public/content.js';
-import {mediaPreviewAssets} from './public/central-media-library.js';
+import {modules} from '../public/content.js';
+import {mediaPreviewAssets} from '../public/central-media-library.js';
 const byAsset=new Map();
 for(const module of modules){
  const asset=mediaPreviewAssets[module.id];
