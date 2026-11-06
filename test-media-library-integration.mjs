@@ -25,6 +25,12 @@ for(const L of [0,1,2]){
   assert.ok(mediaBacklink(m.id,L,lang).includes('/media-library?lang='+lang));
  }
  for(const section of ['theory','practice','cases','references'])assert.ok(integratedModuleOne(1,section,L).length>80);
+ assert.ok(html.includes('/modules/1/interactive?lang='+lang),'Real spirogram must be linked');
+ assert.ok(html.includes('/media-library?lang='+lang+'#respiratory-reflex-infographics'),'Reflex atlas anchor must be linked');
+ for(const file of ['alveolar-ventilation-patterns.svg','lung-compliance-pressure-volume.svg','vq-relationships-physiology.svg','altitude-alveolar-oxygen-comparison.svg']){
+  assert.ok(existsSync('public/assets/'+file),'Missing themed image '+file);
+  assert.ok(html.includes('/assets/'+file),'Themed image not linked in media catalogue '+file);
+ }
  assert.equal(integratedModuleOne(2,'theory',L),'');
 }
 console.log('Trilingual media links and additive module-one integration: passed');
