@@ -12,6 +12,11 @@ for(let L=0;L<3;L++){
  assert.ok(html.includes('data-m1-graphmode="recorded"'));
  assert.ok(html.includes('data-spiro-file'));
  assert.ok(html.includes('m1-lab-instructions'));
- assert.ok(recordedSpirogramPanel(L).includes('data-spiro-record'));
+ const panel=recordedSpirogramPanel(L);
+ assert.ok(panel.includes('data-spiro-record'));
+ assert.ok(panel.includes('data-spiro-replay') && panel.includes('data-spiro-speed'));
+ assert.ok(panel.includes('data-spiro-grid'));
+ assert.ok(panel.includes('data-spiro-image'));
+ assert.ok(panel.includes('data-spiro-file'));
 }
-console.log('Real CSV import, teaching instructions and original anatomy integration passed.');
+console.log('Real CSV import, playback controls, grid, teaching instructions and original anatomy integration checked.');
