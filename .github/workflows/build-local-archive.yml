@@ -85,6 +85,8 @@ jobs:
           node test-alveolar-gas-station.mjs
           node test-oxygen-delivery-station.mjs
           node test-integrated-learning-extension.mjs
+      - name: Inventory repeated media previews without deleting originals
+        run: node scripts/audit-media-preview-reuse.mjs
       - name: Verify prepublication module and media integrity
         run: node test-prepublication-integrity.mjs
       - name: Verify thematic scenario questions retain original meaning
