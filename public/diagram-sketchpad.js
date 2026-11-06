@@ -12,7 +12,8 @@ export function initDiagramSketchpads(){
  document.querySelectorAll('[data-sketchpad]').forEach(root=>{
   const canvas=root.querySelector('canvas'),ctx=canvas.getContext('2d'),undo=[],color=root.querySelector('[data-sketch-color]'),width=root.querySelector('[data-sketch-width]');
   let active=false,tool='pen',previous=null;
-  const storageKey='respiratory-sketch-v2-'+root.dataset.sketchpad;
+  const section=location.pathname.match(/\/modules\/\d+\/([a-z-]+)/)?.[1]||'overview';
+  const storageKey='respiratory-sketch-v3-'+root.dataset.sketchpad+'-'+section;
   const persist=()=>{try{localStorage.setItem(storageKey,canvas.toDataURL('image/png'))}catch(_){/* PNG export remains available. */}};
   try{const saved=localStorage.getItem(storageKey);if(saved){const img=new Image();img.onload=()=>ctx.drawImage(img,0,0,canvas.width,canvas.height);img.src=saved;}}catch(_){/* Storage unavailable. */}
   const snapshot=()=>{if(undo.length>=25)undo.shift();undo.push(ctx.getImageData(0,0,canvas.width,canvas.height))};
