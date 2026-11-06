@@ -17,6 +17,8 @@ jobs:
       - run: npm ci
       - name: Build complete offline-ready static site
         run: npm run build
+      - name: Audit 25-module media previews and trilingual links
+        run: node audit-media-preview.mjs
       - name: Verify displayed textbook build version
         run: node test-build-version.mjs
       - name: Validate routes and module links
