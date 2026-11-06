@@ -34,6 +34,7 @@ export function initRecordedSpirogramPanels(){
     const minT=rows[0][0],duration=rows.at(-1)[0]-minT;
     const vols=rows.map(r=>r[1]),lo=Math.min(...vols),hi=Math.max(...vols),range=Math.max(.01,hi-lo);
     const stride=Math.max(1,Math.ceil(rows.length/1500));
+    path.style.transition='none';path.style.strokeDasharray='none';path.style.strokeDashoffset='0';
     path.setAttribute('d',rows.filter((_,i)=>i%stride===0||i===rows.length-1).map(([time,volume],i)=>(i?'L':'M')+(55+560*(time-minT)/duration).toFixed(2)+' '+(220-190*(volume-lo)/range).toFixed(2)).join(' '));
     const ns='http://www.w3.org/2000/svg';grid.replaceChildren();
     for(let i=0;i<=4;i++){
