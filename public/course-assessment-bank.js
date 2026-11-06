@@ -44,6 +44,9 @@ export function courseQuestions(mid,mode='tests'){
    const prompt=String(item.q?.[L]||'').normalize('NFKC').replace(/\s+/g,' ').trim();
    if(seenPrompts[L].has(prompt))throw Error('Repeated question in module '+mid+' '+mode+' language '+L+' index '+i);
    seenPrompts[L].add(prompt);
+   const options=(item.options||[]).map(o=>String(o?.[L]||'').normalize('NFKC').replace(/\s+/g,' ').trim());
+   if(options.some(o=>!o)||new Set(options).size!==4)
+    throw Error('Repeated or empty answer option in module '+mid+' '+mode+' language '+L+' index '+i);
   }
  }
  for(const [i,item] of items.entries()){
