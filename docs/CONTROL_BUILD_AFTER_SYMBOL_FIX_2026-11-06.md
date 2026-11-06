@@ -1,0 +1,1 @@
+Control build after fixing assessment uniqueness normalization. Preserve case-sensitive physiological symbols Pa and PA. Run full offline workflow for all 25 modules, RU/EN/KZ. No deployment or merge. Date 2026-11-06.
