@@ -9,17 +9,22 @@ const duplicates=[...groups].filter(([,ids])=>ids.length>1).map(([asset,modules]
 const languageChecks={};
 for(const [L,lang] of ['RU','EN','KZ'].entries()){
  const html=centralMediaLibrary(L,lang);
+ const previewSources=[...html.matchAll(/<img\\s+loading="lazy"\\s+src="([^"]+)"/g)].map(m=>m[1]);
+ const previewCounts=new Map();
+ for(const src of previewSources)previewCounts.set(src,(previewCounts.get(src)||0)+1);
+ const repeatedVisiblePreviews=[...previewCounts].filter(([,count])=>count>1).map(([src,count])=>({src,count}));
  languageChecks[lang]={
   cards:(html.match(/class="lesson-card"/g)||[]).length,
   missingModuleMedia:modules.filter(m=>!html.includes('/modules/'+m.id+'/media?lang='+lang)).map(m=>m.id),
   missingModuleInteractive:modules.filter(m=>!html.includes('/modules/'+m.id+'/interactive?lang='+lang)).map(m=>m.id),
   reflexAtlasLink:html.includes('#respiratory-reflex-infographics'),
-  uniqueVisiblePreviewImages:(html.match(/<img loading="lazy"/g)||[]).length,
+  uniqueVisiblePreviewImages:previewCounts.size,
+  repeatedVisiblePreviews,
   topicCovers:(html.match(/class="media-topic-cover"/g)||[]).length,
   spirometryLinks:[7,24].every(id=>html.includes('/modules/'+id+'/interactive?lang='+lang))
  };
 }
-const report={generatedAt:new Date().toISOString(),modules:modules.length,uniqueBasePhotos:groups.size,repeatedBasePhotoGroups:duplicates,languageChecks,publicationGate:duplicates.length===0&&Object.values(languageChecks).every(x=>x.cards===25&&x.missingModuleMedia.length===0&&x.missingModuleInteractive.length===0&&x.reflexAtlasLink&&x.spirometryLinks&&x.topicCovers===0)?'PASS':'BLOCKED_VISUAL_AUDIT'};
+const report={generatedAt:new Date().toISOString(),modules:modules.length,uniqueBasePhotos:groups.size,repeatedBasePhotoGroups:duplicates,languageChecks,publicationGate:duplicates.length===0&&Object.values(languageChecks).every(x=>x.cards===25&&x.missingModuleMedia.length===0&&x.missingModuleInteractive.length===0&&x.reflexAtlasLink&&x.spirometryLinks&&x.topicCovers===0&&x.repeatedVisiblePreviews.length===0)?'PASS':'BLOCKED_VISUAL_AUDIT'};
 mkdirSync('audit-results',{recursive:true});
 writeFileSync('audit-results/media-preview-audit.json',JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify(report,null,2));
