@@ -65,6 +65,7 @@ jobs:
           node test-reflex-figures-in-theory.mjs
           node test-chemoreceptor-comparison.mjs
           node test-regulation-theory-chapters.mjs
+          node test-special-breathing-chapters.mjs
           node test-chemoreceptor-practice.mjs
           node test-receptor-response-visual.mjs
           node test-reflex-clinical-tasks.mjs
