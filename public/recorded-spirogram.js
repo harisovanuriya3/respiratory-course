@@ -33,9 +33,20 @@ export function initRecordedSpirogramPanels(){
     const rows=parseSpirographCsv(await f.text());
     const minT=rows[0][0],duration=rows.at(-1)[0]-minT;
     const vols=rows.map(r=>r[1]),lo=Math.min(...vols),hi=Math.max(...vols),range=Math.max(.01,hi-lo);
-    const stride=Math.max(1,Math.ceil(rows.length/1500));
+    // Preserve both peaks and troughs while limiting the SVG path size.
+    const bucketSize=Math.max(1,Math.ceil(rows.length/700));
+    const indices=new Set([0,rows.length-1]);
+    for(let start=0;start<rows.length;start+=bucketSize){
+     let minIndex=start,maxIndex=start;
+     for(let j=start+1;j<Math.min(rows.length,start+bucketSize);j++){
+      if(rows[j][1]<rows[minIndex][1])minIndex=j;
+      if(rows[j][1]>rows[maxIndex][1])maxIndex=j;
+     }
+     indices.add(minIndex);indices.add(maxIndex);
+    }
+    const selected=[...indices].sort((a,b)=>a-b);
     path.style.transition='none';path.style.strokeDasharray='none';path.style.strokeDashoffset='0';
-    path.setAttribute('d',rows.filter((_,i)=>i%stride===0||i===rows.length-1).map(([time,volume],i)=>(i?'L':'M')+(55+560*(time-minT)/duration).toFixed(2)+' '+(220-190*(volume-lo)/range).toFixed(2)).join(' '));
+    path.setAttribute('d',selected.map((index,i)=>{const [time,volume]=rows[index];return (i?'L':'M')+(55+560*(time-minT)/duration).toFixed(2)+' '+(220-190*(volume-lo)/range).toFixed(2)}).join(' '));
     const ns='http://www.w3.org/2000/svg';grid.replaceChildren();
     for(let i=0;i<=4;i++){
      const y=220-190*i/4,x=55+560*i/4;
