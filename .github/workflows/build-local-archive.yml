@@ -60,6 +60,7 @@ jobs:
           node test-brainstem-lecture-integration.mjs
           node test-lecture-chemoreceptor-cases.mjs
           node test-reflex-pathway-atlas.mjs
+          node test-respiratory-reflex-infographics.mjs
           node test-chemoreceptor-comparison.mjs
           node test-regulation-theory-chapters.mjs
           node test-chemoreceptor-practice.mjs
