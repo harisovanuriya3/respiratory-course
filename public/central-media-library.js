@@ -9,7 +9,7 @@ export function centralMediaLibrary(L,lang){
  const cards=modules.map(m=>{
  const id=m.id, title=m.title[L];
 
- const oxygenPreview=id===14?'/assets/oxyhemoglobin-p50-curves.svg':id===21?'/assets/altitude-alveolar-oxygen-comparison.svg':id===13?'/assets/vq-relationships-physiology.svg':id===11?'/images/respiratory-alveolus-exchange.svg':id===8?'/assets/alveolar-ventilation-patterns.svg':null;
+ const oxygenPreview=id===14?'/assets/oxyhemoglobin-p50-curves.svg':id===21?'/assets/altitude-alveolar-oxygen-comparison.svg':id===13?'/assets/vq-relationships-physiology.svg':id===11?'/images/respiratory-alveolus-exchange.svg':id===8?'/assets/alveolar-ventilation-patterns.svg':id===5?'/assets/lung-compliance-pressure-volume.svg':null;
  const previewSource=oxygenPreview||'/assets/clinical/'+mediaPreviewAssets[id]+'.webp';
  const previewAlt=title.replace(/"/g,'&quot;');
  // The same photograph is never presented as an allegedly module-specific scientific illustration.
