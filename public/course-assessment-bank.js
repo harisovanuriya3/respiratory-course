@@ -38,6 +38,14 @@ export function courseQuestions(mid,mode='tests'){
  const items=buildCourseQuestions(mid,mode);
  if(!['tests','cases'].includes(mode))return items;
  if(items.length!==20)throw Error('Module '+mid+' '+mode+': expected 20, received '+items.length);
+ const seenPrompts=[new Set(),new Set(),new Set()];
+ for(const [i,item] of items.entries()){
+  for(let L=0;L<3;L++){
+   const prompt=String(item.q?.[L]||'').normalize('NFKC').toLocaleLowerCase().replace(/\\s+/g,' ').trim();
+   if(seenPrompts[L].has(prompt))throw Error('Repeated question in module '+mid+' '+mode+' language '+L+' index '+i);
+   seenPrompts[L].add(prompt);
+  }
+ }
  for(const [i,item] of items.entries()){
   if(item.q?.length!==3||item.explain?.length!==3||item.options?.length!==4||
      !Number.isInteger(item.answer)||item.answer<0||item.answer>3||
