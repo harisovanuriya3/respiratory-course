@@ -22,7 +22,13 @@ export function courseQuestions(mid,mode='tests'){
   if(mid===17){const selected=[1,2,3,5,6,7,8,9,10,11];return [...selected.map((id,i)=>({...contextual(core[id],centralScenarios[i],i),q:core[id].q.map((text,L)=>centralScenarios[i][L]+' '+text)})),...Array.from({length:10},(_,i)=>modelProblem(mid,i+10,'cases'))];}
   return Array.from({length:20},(_,i)=>modelProblem(mid,i,'cases'));
  }
- const items=[...core];for(let i=0;items.length<20;i++)items.push(modelProblem(mid,i,'tests'));
- return items.slice(0,20);
+ const items=[...core],seen=new Set(items.map(q=>normal(q.q[0])));
+ for(let i=0;items.length<20&&i<300;i++){
+  const candidate=modelProblem(mid,i,'tests'),key=normal(candidate.q[0]);
+  if(seen.has(key))continue;
+  seen.add(key);items.push(candidate);
+ }
+ if(items.length!==20)throw Error('Insufficient unique test questions in module '+mid);
+ return items;
 }
 export function discussionItems(L){const data=moduleOneDiscussionBank[['RU','EN','KZ'][L]];return data.questions.map((q,i)=>({id:i,prompt:q[0],hints:q[1],explanation:q[2]}));}
