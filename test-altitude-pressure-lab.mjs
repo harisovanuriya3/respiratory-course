@@ -8,6 +8,9 @@ assert.throws(()=>inspiredOxygenPressure(40),RangeError);
 assert.throws(()=>inspiredOxygenPressure(760,1.2),RangeError);
 for(const [L,lang] of ['RU','EN','KZ'].entries()){
  assert.ok(altitudePressureLab(L).includes('data-altitude-slider'));
+ assert.ok(altitudePressureLab(L).includes('data-altitude-prediction'));
+ assert.ok(altitudePressureLab(L).includes('data-altitude-check'));
+ assert.ok(altitudePressureLab(L).includes('data-altitude-feedback'));
  assert.ok(specialBreathingChapter(21,L,lang).includes('data-altitude-pressure-lab'));
  for(const mid of [20,21,22,23,25])assert.ok(specialBreathingChapter(mid,L,lang).includes('special-breathing-anatomy'));
 }
